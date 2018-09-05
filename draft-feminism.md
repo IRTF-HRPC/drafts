@@ -1,92 +1,140 @@
 # Introduction
 
-Gender at work framework
-
-# Five layers of power
+ * Gender at work framework
+ * Feminism challenges power
+ * Intersectional feminism
+ * Five layers of power
 
 ## Structural (access and governance)
 
 ### Access to the internet
 
-A feminist internet starts with enabling more women and queer persons to enjoy universal, acceptable, affordable, unconditional, open, meaningful and equal access to the internet. 
+ * Digital gender divide and digital inequality
+ * Universal, acceptable, affordable, unconditional, open, meaningful and equal access.
 
 ### Access to information
 
-We support and protect unrestricted access to information relevant to women and queer persons, particularly information on sexual and reproductive health and rights, pleasure, safe abortion, access to justice, and LGBTIQ issues. This includes diversity in languages, abilities, interests and contexts.
+ * Access to information relevant to women and queer persons, particularly information on sexual and reproductive health and rights, pleasure, safe abortion, access to justice, and LGBTIQ issues.
+ * Censorship as it relates to women's issues.
 
 ### Usage of technology
 
-Women and queer persons have the right to code, design, adapt and critically and sustainably use ICTs and reclaim technology as a platform for creativity and expression, as well as to challenge the cultures of sexism and discrimination in all spaces.
+ * Reclaim technology: code, design, adapt and critically and sustainably use ICTs (can link to another draft on IETF and feminism)
+ * Challenge the cultures of sexism and discrimination in all spaces.
+ * Diversity in languages, abilities, interests, contexts.
 
 ### Internet governance
 
-We believe in challenging the patriarchal spaces and processes that control internet governance, as well as putting more feminists and queers at the decision-making tables. We want to democratise policy making affecting the internet as well as diffuse ownership of and power in global and local networks.
+ * Challenge processes and institutions that govern the internet
+ * Put more feminists and queers at the decision-making table
+ * Democratise policy making affecting the internet
+ * Diffuse ownership of and power in global and local networks
 
 ### Free and open source
 
-We are committed to creating and experim enting with technology, including digital safety and security, and using free/libre and open source software (FLOSS), tools, and platforms. Promoting, disseminating, and sharing knowledge about the use of FLOSS is central to our praxis.
+ * Terms upon which we create technology
+ * Terms upon which we experimenting with others' technology
+ * Promoting, disseminating, and sharing knowledge about technology.
 
 ## Discursive (expression)
 
 ### Resistance (protest)
 
-The internet is a space where social norms are negotiated, performed and imposed, often in an extension of other spaces shaped by patriarchy and heteronormativity. Our struggle for a feminist internet is one that forms part of a continuum of our resistance in other spaces, public, private and in-between.
+ * Protest
+ * Freedom of association
+ * Offline and online are linked
 
 ### Amplifying feminist discourse
 
-We claim the power of the internet to amplify women’s narratives and lived realities. There is a need to resist the state, the religious right and other extremist forces who monopolise discourses of morality, while silencing feminist voices and persecuting women’s human rights defenders.
+ * Amplify women’s narratives and lived realities
+ * Resistance to the state, the religious right and other extremist forces who monopolise discourse
+ * Persecution of feminist activists
 
 ### Freedom of expression
 
-We defend the right to sexual expression as a freedom of expression issue of no less importance than political or religious expression. We strongly object to the efforts of state and non-state actors to control, surveil, regulate and restrict feminist and queer expression on the internet through technology, legislation or violence. We recognise this as part of the larger political project of moral policing, censorship, and hierarchisation of citizenship and rights.
+ * Control
+ * Surveil
+ * Regulate and restrict
+ * Police
+ * Censor
+ * Hierarchisation
 
 ### Pornography and “harmful content”
 
-We recognise that the issue of pornography online has to do with agency, consent, power and labour. We reject simple causal linkages made between consumption of pornographic content and violence against women. We also reject the use of the umbrella term “harmful content” to label expression on female and transgender sexuality. We support reclaiming and creating alternative erotic content that resists the mainstream patriarchal gaze and locates women and queer persons’ desires at the centre.
+ * Links back to access to information
+ * Agency
+ * Labour
+ * Alternative erotic content
 
 ## Economic
 
-### Alternative economies
-
-We are committed to interrogating the capitalist logic that drives technology towards further privatisation, profit and corporate control. We work to create alternative forms of economic power that are grounded in principles of cooperation, solidarity, commons, environmental sustainability, and openness.
+ * Challenges capitalism
+ * Alternative models
+ * Cooperation
+ * Solidarity
+ * Commons
+ * Environmental sustainability
+ * Openness.
 
 ## Embodied (anonymity)
 
+### Online violence
+
+ * Security
+ * Privacy
+ * Online harassment and technology-related violence.
+ * Linkability and offline abuse.
+ * Consent to receive.
+
 ### Consent
 
-We call on the need to build an ethics and politics of consent into the culture, design, policies and terms of service of internet platforms. Women’s agency lies in their ability to make informed decisions on what aspects of their public or private lives to share online.
-
-### Privacy and data
-
-We support the right to privacy and to full control over personal data and information online at all levels. We reject practices by states and private companies to use data for profit and to manipulate behaviour online. Surveillance is the historical tool of patriarchy, used to control and restrict women’s bodies, speech and activism. We pay equal attention to surveillance practices by individuals, the private sector, the state and non-state actors.
-
-### Memory (rtbf)
-
-We have the right to exercise and retain control over our personal history and memory on the internet. This includes being able to access all our personal data and information online, and to be able to exercise control over this data, including knowing who has access to it and under what conditions, and the ability to delete it forever.
+ * Data protection
+ * Culture, design, policies and terms of service of internet platforms
+ * Agency lies in informed decisions
+ * Public versus private information
 
 ### Anonymity
 
-We defend the right to be anonymous and reject all claims to restrict anonymity online. Anonymity enables our freedom of expression online, particularly when it comes to breaking taboos of sexuality and heteronormativity, experimenting with gender identity, and enabling safety for women and queer persons affected by discrimination.
+ * Right to anonymity
+ * Enables other rights like freedom of expression
+ * Breaking social taboos and heteronormativity
+ * Safety from discrimination
 
-### Children and youth (?)
+### Privacy and data
 
-We call for the inclusion of the voices and experiences of young people in the decisions made about safety and security online and promote their safety, privacy, and access to information. We recognise children’s right to healthy emotional and sexual development, which includes the right to privacy and access to positive information about sex, gender and sexuality at critical times in their lives.
+ * Right to privacy
+ * Data protection
+ * Control
+ * Profit models
+ * Manipulate and mislead with data
+ * Surveillance and patriarchy by states, individuals, private sector, etc. Those that enable surveillance, eg spouseware.
 
-### Online violence (security)
+### Memory
 
-We call on all internet stakeholders, including internet users, policy makers and the private sector, to address the issue of online harassment and technology-related violence. The attacks, threats, intimidation and policing experienced by women and queers are real, harmful and alarming, and are part of the broader issue of gender-based violence. It is our collective responsibility to address and end this.
+ * Right to be forgotten
+ * Control over personal history and memory on the internet
+ * Access all our personal data and information online
+ * Delete forever
 
-## Networked (association).
+## Networked
 
-### Movement building (association)
-
-The internet is a transformative political space. It facilitates new forms of citizenship that enable individuals to claim, construct and express selves, genders and sexualities. This includes connecting across territories, demanding accountability and transparency, and creating opportunities for sustained feminist movement building.
+ * Freedom of assocation
+ * Connecting people across territories
+ * Creating opportunities for sustained feminist movement building
+ * Peering
+ * Choice, accountability and transparency
 
 # Resources
 
-http://genderatwork.org/analytical-framework
-https://www.genderit.org/articles/plain-sight-sexuality-rights-and-internet-india-nepal-and-sri-lanka
-https://feministinternet.org/en/principles
-https://pad.kefir.red/p/infraestucturas-feministas
-RFC 8280
-https://www.apc.org/sites/default/files/ISSUE_human_rights_2.pdf
+Gender At Work Framework http://genderatwork.org/analytical-framework
+In plain sight, on sexuality, rights and the internet in India, Nepal and Sri Lanka https://www.genderit.org/articles/plain-sight-sexuality-rights-and-internet-india-nepal-and-sri-lanka
+RFC 8280 https://datatracker.ietf.org/doc/rfc8280
+Human Rights and Internet Protocols: Comparing Processes and Principles https://www.apc.org/sites/default/files/ISSUE_human_rights_2.pdf
+Principles of Unity for Infraestructuras Feministas https://pad.kefir.red/p/infraestucturas-feministas
+Feminist Principles of the Internet https://feministinternet.org
+The UX Guide to Getting Consent https://iapp.org/resources/article/the-ux-guide-to-getting-consent
+From steel to skin https://fermentos.kefir.red/english/aco-pele
+Responsible Data https://responsibledata.io
+Impact for what and for whom? Digital technologies and feminist movement building internet https://www.genderit.org/feminist-talk/impact-what-and-whom-digital-technologies-and-feminist-movement-building
+Design Justice https://docs.google.com/presentation/d/1J3ZWBgxe0QFQ8OmUr-QzE6Be8k_sI7XF0VWu4wfMIVM/edit#slide=id.gcad8d6cb9_0_198
+Design Action Collective Points of Unity https://designaction.org/about/points-of-unity
