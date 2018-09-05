@@ -1,6 +1,6 @@
 # Introduction
 
- * Gender at work framework
+The aim of this document is to use a feminist framework to analyse the impacts of internet protocols on society. It assumes that values are inherent to technological design and specifies how those values can either support or create barriers for gender justice and equity for internet users. The Gender at Work framework provides a four-quadrant analysis along the axes of individual-systemic and informal-formal. This feminist discussion of internet protocols focusses in the various quadrants. Additionally 
  * Feminism challenges power
  * Intersectional feminism
  * Five layers of power
