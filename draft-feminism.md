@@ -1,14 +1,9 @@
-# Abstract
-
-[revisit]
-
 # Introduction
 
-The aim of this document is to use a feminist framework to analyse the impacts of internet protocols on society. It assumes that values are inherent to technological design and specifies how those values can either support or create barriers for gender justice and equity for internet users. The Gender at Work framework provides a four-quadrant analysis along the axes of individual-systemic and informal-formal. This feminist discussion of internet protocols focusses in the various quadrants: individual-informal, individual-formal, systemic-informal, systemic-formal [revisit: include examples of each quadrant wrt protocols]. By framework, we mean to include not simply feminist ideology, but also feminist voices, practice and movements as both examples and guidance.
-
-At its core, feminism challenges power dynamics. This document follows the classification of power by digital women's rights activist Jac sm Kee and is divided into sections that outline five layers of power: structural, discursive, economic, embodied and networked.
-
-Feminism as an ideology, like many ideologies, lacks a uniform definition. As a framework that exists to challenge power, the ideology that best achieves this is one of intersectional feminism, or simply, intersectionality. Intersectionality is a flavour of feminism that recognises the structures that exert power over people because of their gender are the same structures that exert power over people for other reasons, such as race, class, sexuality, religion, age and ability. Intersectionality recognises the complex identities of people, who may identify as more than one target, and, more importantly, that power operates best when it creates stratification and hierarchy among targets. Intersectional feminism, susequently referred to as "feminisim" in this document, is the basis for the analysis presented in the document.
+The aim of this document is to use a feminist framework to analyse the impacts of internet protocols on society. It assumes that values are inherent to technological design and specifies how those values can either support or create barriers for gender justice and equity for internet users. The Gender at Work framework provides a four-quadrant analysis along the axes of individual-systemic and informal-formal. This feminist discussion of internet protocols focusses in the various quadrants. Additionally 
+ * Feminism challenges power
+ * Intersectional feminism
+ * Five layers of power
 
 ## Structural (access and governance)
 
@@ -68,7 +63,7 @@ Feminism as an ideology, like many ideologies, lacks a uniform definition. As a 
 
  * Links back to access to information
  * Agency
- * Labour
+ * Labourhttps://act.accessnow.org/page/32148/tweet/1
  * Alternative erotic content
 
 ## Economic
@@ -83,26 +78,49 @@ Feminism as an ideology, like many ideologies, lacks a uniform definition. As a 
 
 ## Embodied (anonymity)
 
+As a starting point, recognize the digital gap. Who uses and who develops the Internet as we know it today? With the popularization of the internet around the world, it is neccesary to recognize that some of the terms that have been used in the IETF context have alternative meanings in the wide range social context. Is it enough to talk about ‘security’ as a technical issue only? Or adversary?
+
+Most of the threats women and non binary people face on line, occur in the user level, as they mostly use what apps offer, without exploring other possibilities on the network. Their adversaries are mostly other users who use the platform advanced -or not advanced- possibilities for threatening their expressions.
+
+While anonymity is never just about technical issues but users protection activities, it becomes more necessary to strenghten the design and functionality of networks, by default. 
+
 ### Online violence
 
  * Security
+        * Identity Theft
+        * Invasion/attack Attacks on system security
  * Privacy
- * Online harassment and technology-related violence.
- * Linkability and offline abuse.
+        * Control and manipulatio of information
+        * Extorsion
+ * Online harassment and technology-related violence
+        * Censorship: blocking posts, profiles and pages in after coordinated -or not- denounces. Some based on “real name” policy; Coercion to delete profiles; False accusations; Flamming
+        * Sexual abuse related technology
+ * Linkability and offline abuse
+        * Access or unauthorized control
+        * Omissions by actors with regulatory power
  * Consent to receive.
-
+        * Stalking, monitoring, harrassement
 ### Consent
 
  * Data protection
+        * Exposure of personal data
  * Culture, design, policies and terms of service of internet platforms
  * Agency lies in informed decisions
+        * Real name policies
  * Public versus private information
+        * Dissemination of personal or intimate information
+        * Exposure of intimacy
+        * Unauthorized use of photos
 
 ### Anonymity
 
  * Right to anonymity
  * Enables other rights like freedom of expression
+        * Censorship
+        * Defamation, descredit
+        * Affectations to expression channels
  * Breaking social taboos and heteronormativity
+        * Hate Speech,  discriminatory expressions
  * Safety from discrimination
 
 ### Privacy and data
@@ -124,6 +142,8 @@ Feminism as an ideology, like many ideologies, lacks a uniform definition. As a 
 ## Networked
 
  * Freedom of assocation
+        * Identity Theft
+        * Invasion/attack Attacks on system security
  * Connecting people across territories
  * Creating opportunities for sustained feminist movement building
  * Peering
@@ -131,28 +151,28 @@ Feminism as an ideology, like many ideologies, lacks a uniform definition. As a 
 
 # Resources
 
-Sandler, J. (2013). The online terrain for women’s rights. In Finlay, A. (Ed.), Global Information Society Watch 2013: Women’s rights, gender and ICTs. Association for Progressive Communications. https://www.giswatch.org/en/reportintroduction/online-terrain-women-s-rights#_ftn1
-
 Gender At Work Framework http://genderatwork.org/analytical-framework
-
 In plain sight, on sexuality, rights and the internet in India, Nepal and Sri Lanka https://www.genderit.org/articles/plain-sight-sexuality-rights-and-internet-india-nepal-and-sri-lanka
+RFC 8280 https://datatracker.ietf.org/doc/rfc8280
+Human Rights and Internet Protocols: Comparing Processes and Principles https://www.apc.org/sites/default/files/ISSUE_human_rights_2.pdf
+Principles of Unity for Infraestructuras Feministas https://pad.kefir.red/p/infraestucturas-feministas
+Feminist Principles of the Internet https://feministinternet.org
+The UX Guide to Getting Consent https://iapp.org/resources/article/the-ux-guide-to-getting-consent
+From steel to skin https://fermentos.kefir.red/english/aco-pele
+Responsible Data https://responsibledata.io
+Impact for what and for whom? Digital technologies and feminist movement building internet https://www.genderit.org/feminist-talk/impact-what-and-whom-digital-technologies-and-feminist-movement-building
+Design Justice https://docs.google.com/presentation/d/1J3ZWBgxe0QFQ8OmUr-QzE6Be8k_sI7XF0VWu4wfMIVM/edit#slide=id.gcad8d6cb9_0_198
+Design Action Collective Points of Unity https://designaction.org/about/points-of-unity
 
-[] RFC 8280 https://datatracker.ietf.org/doc/rfc8280
+# Other resources
 
-[] Human Rights and Internet Protocols: Comparing Processes and Principles https://www.apc.org/sites/default/files/ISSUE_human_rights_2.pdf
+CODING RIGHTS; INTERNETLAB. Violências de gênero na internet:
+diagnóstico, soluções e desafios. Contribuição conjunta do Brasil para a
+relatora especial da ONU sobre violência contra a mulher. São Paulo, 2017. https://www.codingrights.org/wp-content/uploads/2017/11/Relatorio_ViolenciaGenero_v061.pdf
 
-[] Principles of Unity for Infraestructuras Feministas https://pad.kefir.red/p/infraestucturas-feministas
+Barrera, L. y Rodríguez, C. La violencia en línea contra las mujeres en México. Informe para la Relatora sobre Violencia contra las Mujeres Ms. Dubravka Šimonović. 2017. https://luchadoras.mx/wp-content/uploads/2017/12/Informe_ViolenciaEnLineaMexico_InternetEsNuestra.pdf
 
-[] Feminist Principles of the Internet https://feministinternet.org
+Sephard, N. Big  Data and Sexual Surveillance. APC issue papers. 2016. https://www.apc.org/sites/default/files/BigDataSexualSurveillance_0_0.pdf
 
-[] The UX Guide to Getting Consent https://iapp.org/resources/article/the-ux-guide-to-getting-consent
 
-[] From steel to skin https://fermentos.kefir.red/english/aco-pele
 
-[] Responsible Data https://responsibledata.io
-
-[] Impact for what and for whom? Digital technologies and feminist movement building internet https://www.genderit.org/feminist-talk/impact-what-and-whom-digital-technologies-and-feminist-movement-building
-
-[] Design Justice https://docs.google.com/presentation/d/1J3ZWBgxe0QFQ8OmUr-QzE6Be8k_sI7XF0VWu4wfMIVM/edit#slide=id.gcad8d6cb9_0_198
-
-[] Design Action Collective Points of Unity https://designaction.org/about/points-of-unity
