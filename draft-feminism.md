@@ -131,11 +131,11 @@ Feminism as an ideology, like many ideologies, lacks a uniform definition. As a 
 
 # Resources
 
-[] Sandler, J. (2013). The online terrain for women’s rights. In Finlay, A. (Ed.), Global Information Society Watch 2013: Women’s rights, gender and ICTs. Association for Progressive Communications. https://www.giswatch.org/en/reportintroduction/online-terrain-women-s-rights#_ftn1
+Sandler, J. (2013). The online terrain for women’s rights. In Finlay, A. (Ed.), Global Information Society Watch 2013: Women’s rights, gender and ICTs. Association for Progressive Communications. https://www.giswatch.org/en/reportintroduction/online-terrain-women-s-rights#_ftn1
 
-[] Gender At Work Framework http://genderatwork.org/analytical-framework
+Gender At Work Framework http://genderatwork.org/analytical-framework
 
-[] In plain sight, on sexuality, rights and the internet in India, Nepal and Sri Lanka https://www.genderit.org/articles/plain-sight-sexuality-rights-and-internet-india-nepal-and-sri-lanka
+In plain sight, on sexuality, rights and the internet in India, Nepal and Sri Lanka https://www.genderit.org/articles/plain-sight-sexuality-rights-and-internet-india-nepal-and-sri-lanka
 
 [] RFC 8280 https://datatracker.ietf.org/doc/rfc8280
 
