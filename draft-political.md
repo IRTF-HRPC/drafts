@@ -284,7 +284,7 @@ informative:
 
 --- abstract
 
-The IETF cannot ordain which standards or protocols are to be used on network, but the standards developing process in the IETF has a normative effect. Among other things the standardisation work at the IETF has implications on what is perceived as technologically possible and useful where networking technologies are being deployed, and its standards output reflect was is considered by the technical community as feasible and good practice. Because it mediates many aspects of modern life, and therefore contributes to the ordering of societies and communities, the consideration of the politics and (potential) impact of protocols should be part of the standardization and development process.
+The IETF cannot ordain which standards or protocols are to be used on network, but the standards-developing process in the IETF has a normative effect. The standardization work at the IETF has implications on what is perceived as technically feasible and good practice. As protocols mediate many aspects of modern life, and therefore contribute to the ordering of societies and communities, the consideration of the politics and (potential) impact of protocols should be part of the standardization and development process.
 
 --- middle
 
@@ -301,17 +301,17 @@ Introduction
 
     "The Internet isn't value-neutral, and neither is the IETF."
 
-                                   -{{RFC3935}}
+                                   - {{RFC3935}}
 
-The design of the Internet through protocols and standards is a technical issue with great political and economic impacts {{RFC0613}}. The early Internet community already realized that it needed to make decisions on political issues such as Intellectual Property, Internationalization {{BramanI}}, diversity, access {{RFC0101}} privacy and security {{RFC0049}}, and the military {{RFC0164}} {{RFC0316}}, governmental {{RFC0144}} {{RFC0286}} {{RFC0313}} {{RFC0542}} {{RFC0549}} and non-governmental {{RFC0196}} uses, which has been clearly pointed out by Braman {{BramanII}}.
+The design of the Internet through protocols and standards is a technical exercise with great political and economic impacts {{RFC0613}}. The early Internet community realized that it needed to make decisions on political issues such as Intellectual Property, internationalization {{BramanI}}, diversity, access {{RFC0101}}, and privacy/security {{RFC0049}}. In addition, there was recognition of the political implications of the use of Internet protocols by the military {{RFC0164}} {{RFC0316}}, governmental {{RFC0144}} {{RFC0286}} {{RFC0313}} {{RFC0542}} {{RFC0549}} and non-governmental {{RFC0196}} entities.
 
-Recently there has been an increased discussion on the relation between Internet protocols and human rights {{RFC8280}} which spurred the discussion on the the value neutrality and political nature of standards. The network infrastructure is on the one hand designed, described, developed, standardized and implemented by the Internet community, but the Internet community and Internet users are also shaped by the affordances of the technology. Companies, citizens, governments, standards developing bodies, public opinion and public interest groups all play a part in these discussions. In this document we aim to outline different views on the relation between standards and politics and seek to answer the question whether standards are political, and if so, how.
+Recently there has been increased discussion on the relation between Internet protocols and human rights {{RFC8280}} which spurred the discussion on the the value-neutrality and political nature of standards. The network infrastructure is on the one hand designed, described, developed, standardized and implemented by the Internet community, but the Internet community and Internet users are also shaped by the affordances of the technology. Companies, citizens, governments, standards-developing bodies, public opinion and public interest groups all play a part in these discussions. In this document we aim to outline different views on the relation between standards and politics and seek to answer the question whether standards are political, and if so, how.
 
 Vocabulary Used
 ===============
 
 Politics
-: (from Greek: Politiká: Politika, definition "affairs of the commons") is the process of making decisions applying to all members of a diverse group with conflicting interests. More narrowly, it refers to achieving and exercising positions of governance or organized control over a community. Furthermore, politics is the study or practice of the distribution of power and resources within a given community as well as the interrelationship(s) between communities. (adapted from {{HagueHarrop}})
+: (from Greek: Politiká: Politika, definition "affairs of the commons") is the process of making decisions that apply to all members of a diverse group with conflicting interests. More narrowly, it refers to achieving and exercising positions of governance or organized control over a community. Furthermore, politics is the study or practice of the distribution of power and resources within a given community as well as the inter-relationship(s) between communities. (adapted from {{HagueHarrop}})).
 
 Affordances
 : The possibilities that are provided to an actors through the ordering of an environment by a technology.
@@ -326,14 +326,14 @@ Standards
 Research Question
 =================
 
-Are protocols political? If so, should the politics of protocols need to be taken into account in their development process?
+Are protocols political? If so, does the politics of protocols need to be taken into account in their development process?
 
 Technology and Politics: a review of literature and community positions
 =======================================================================
 
-In 1993 the Computer Professionals for Social Responsibility stated that 'the Internet should meet public interest objectives', similarly {{RFC3935}} states that 'The Internet isn't value-neutral, and neither is the IETF.'. Ethics and the Internet was already a topic of an RFC by the IAB in 1989 {{RFC1097}}. Nonetheless there has been a recent uptick in discussions around the impact of Internet protocols on human rights {{RFC8280}} in the IETF and more general about the impact of technology on society in the public debate.
+In 1993, the Computer Professionals for Social Responsibility stated that 'the Internet should meet public interest objectives'. Similarly, {{RFC3935}} states that the '... Internet isn't value-neutral, and neither is the IETF.' Ethics and the Internet was already a topic of an RFC by the Internet Architecture Board (IAB) in 1989 {{RFC1097}}. Nonetheless, there has been a recent uptick in discussions around the impact of Internet protocols on human rights {{RFC8280}} in the IETF and more generally about the impact of technology on society in the public debate.
 
-This document aims to provide an overview of the spectrum of different positions that have been observed in the IETF and IRTF community, during participatory observation, through 39 interviews with members of the community, the Human Rights Protocol Considerations Research Group mailinglist and during and after the Technical Plenary on Protocols and Human Rights during IETF98.
+This document aims to provide an overview of different positions that have been observed in the IETF and IRTF community, during participatory observation, through 39 interviews with members of the community, the Human Rights Protocol Considerations Research Group mailinglist and during and after the Technical Plenary on Protocols and Human Rights during IETF98.
 Without judging them on their internal or external consistency they are represented here, where possible we sought to engage with academic literature on this topic.
 
 ## Technology is value neutral
