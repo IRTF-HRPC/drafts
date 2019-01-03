@@ -1,7 +1,7 @@
 ---
 title: Freedom of Association on the Internet
 abbrev: FoA
-docname: draft-irtf-hrpc-association-00
+docname: draft-irtf-hrpc-association-01
 category: info
 
 ipr: trust200902
@@ -365,10 +365,19 @@ informative:
       - ins: Wikipedia
      target: https://en.wikipedia.org/wiki/Schengen_Routing
 
+  SeawrightGerring:
+     title: "Case Selection Techniques in Case Study Research: A Menu of Qualitative and Quantitative Options"
+     date: 2008
+     author:
+      - ins: J. Seawright
+      - ins: J. Gerring
+     target: https://journals.sagepub.com/doi/pdf/10.1177/1065912907313077
+     seriesinfo: "Political Research Quarterly, 61(2), 294–308."
+
 
 --- abstract
 
-This document scopes the relation between Internet protocols and the right to freedom of assembly and association. Increasingly, the Internet mediates our lives, our relationships and our ability to exercise our human rights. As a forum, the Internet provides a global public space even though it is built predominantly on private infrastructure. Since Internet protocols play a central role in the management, development and use of the Internet, the relation between protocols and the aforementioned rights should be documented and any adverse impacts of this relation should be mitigated.
+This document establishes the causal relation between the Internet architecture and the the ability of people to excercise their right to freedom of assembly and association. Increasingly, the Internet mediates our lives, our relationships and our ability to exercise our human rights. As a forum, the Internet provides a global public space even though it is built predominantly on private infrastructure. Since Internet protocols play a central role in the management, development and use of the Internet, the relation between protocols and the aforementioned rights should be documented and any adverse impacts of this relation should be mitigated.
 
 --- middle
 
@@ -433,8 +442,13 @@ Research questions
 Methodology
 ============
 
-In order to answer the research questions, first a number of cases have been collected to analyze where Internet infrastructure and protocols have either enabled or inhibited groups of people to collaborate, cooperate or communicate. This overview does not aim to cover all possible ways in which people can collectively organize or reach out to each other using Internet infrastructure and Internet protocols, but rather cover typical uses in an attempt at an an ethnography of infrastructure {{Star}}. Subsequently we analyze the cases with the theoretical framework provided in the literature review and provide recommendations based on the findings.
+The initial work on establishing the relationship between the Internet architecture, protocols, standards and human rights has been inductive and explorative in nature and sought to establish causal, or even deterministic, relationships. This relationship has been established in {{RFC8280}} through a series of case studies. From these observations propositions were deduced about more specific relationships between technical artifacts and specific rights.
 
+Subsequently the hypothesis generating research in {{RFC8280}}, which was based on process tracing, semi-structured interviews and quantiative and qualitative document analysis, has been validated through confirmatory research which has taken the form of Human Rights Protocol Reviews. These reviews have sought to confirm the causal relationship that have been proposed as an hypothesis in RFC8280, by using the proposed conceptual framework in a wide range of different cases.
+
+This research aims to deepen the understanding about the relationship between the Internet architecture, protocols, and standards on the one hand, and the human rights of freedom of assembly and association. In this sense this research continues the work proposed in {{RFC8280}} and follows the primary aim of the Human Rights Protocol Consideration Research Group, as laid out in its charter, where it states that the aim of the research is to 'to expose the relation between protocols and human rights, with a focus on the rights to freedom of expression and freedom of assembly'. The guidelines in {{RFC8280}} describe a relationship between the right to freedom of assembly and association and connectivity, security, censorship resistance, anonymity, pseudonymity, accessibility, decentralization, adaptability, and outcome transparency. This work aims to deepen the understanding of these relationships, without providing new guidelines. Nonetheless the conclusions of this work could inform the development of new guidelines such as is done in draft-irtf-hrpc-guidelines.
+
+The proposition that is researched here is the following: 'The Internet infrastructure has significant implications on the ability of people to excercise their human rights to freedom of association and assembly'. We will aim to test the causal relationship through a case-selection. In the selection of the cases we have adopted a purposive sampling approach, aimed at the typicality and paradigmatic nature of the cases {{SeawrightGerring}} and help us achieve an attempt at an an ethnography of infrastructure {{Star}}. Subsequently we analyze the cases with the theoretical framework provided in the literature review and provide recommendations based on the findings.
 
 Literature Review
 =================
@@ -451,7 +465,7 @@ Even if privacy and freedom of expression are the most discussed human rights wh
 
 The IETF itself, defined as a 'open global community' of network designers, operators, vendors, and researchers is also protected by freedom of assembly and association {{RFC3233}}. Discussions, comments and consensus around RFCs are possible because of the collective expression that freedom of association and assembly allow. The very word “protocol” found its way into the language of computer networking based on the need for collective agreement among network users {{HafnerandLyon}}.
 
-We are aware that some of these examples go beyond the use of Internet protocols and flow over into the applications layer or examples in the offline world whereas the purpose of the current document is to break down the relationship between Internet protocols and the right to freedom of assembly and association. Nonetheless, given that protocols are a part of the socio-technical ordering of reality, we do recognize that in some cases the line between them and applications, implementations, policies and offline realities are often blurred and hard -if not impossible- to differentiate.
+We are aware that some of the following examples go beyond the use of Internet protocols and flow over into the application layer or examples in the offline world whereas the purpose of the current document is to break down the relationship between Internet protocols and the right to freedom of assembly and association. Nonetheless, given that protocols are a part of the socio-technical ordering of reality, we do recognize that in some cases the line between them and applications, implementations, policies and offline realities are often blurred and hard -if not impossible- to differentiate.
 
 
 Cases and examples
