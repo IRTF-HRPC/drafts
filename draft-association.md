@@ -1,7 +1,7 @@
 ---
 title: Freedom of Association on the Internet
 abbrev: FoA
-docname: draft-irtf-hrpc-association-01
+docname: draft-irtf-hrpc-association-02
 category: info
 
 ipr: trust200902
@@ -63,6 +63,7 @@ informative:
   RFC7754:
   RFC7858:
   RFC8280:
+  RFC8484:
 
   UDHR:
     title: The Universal Declaration of Human Rights
@@ -488,7 +489,6 @@ This case relates to the following considerations in {{RFC8280}}:
 	- Censorship Resistance
 	- Open Standards
 	- Confidentiality
-## This feels a little like copy/paste, is there any wording that could make it more organic?
 
 ### Multi-party video conferencing
 
@@ -620,14 +620,16 @@ Whereas we established that the Internet infrastructure facilitates freedom of a
 
 These preliminary finding suggest that the properties and characteristic through which the Internet infrastructure enables and inhibits  freedom of assemblies and association should also be analyzed from a legal lens. The case studies have pointed out several caveats in implementations, that might not necessarily be understood by people while exercising their right to association of assembly, and which thus should either be mitigated, or at least, be communicated to the rights holders.
 
-Discussion: Protocols vs Platforms
-==================================
+Discussion: Protocols and Platforms
+===================================
 
-The Internet is increasingly becoming a vehicle for commercial, proprietary and non-interoperable platforms. Even though it has always allowed for closed-off networks, the current trend shows the rise of a small number of very large non-interoperable platforms. Chat has moved from XMPP and IRC to Facebook Messenger, Whatsapp and WeChat and there has been a strong rise of social media networks with large numbers of users, such as Facebook, Twitter and Instagram. A similar trend can be found among e-mail providers, with the significant difference that e-mail is interoperable.
+Whereas the Internet is a network of networks, and can therefore be understood as an assembly, applications on top of the Internet do not necessarily inherit the same structure. Quite the opposite, the Internet  increasingly becomes a vehicle for commercial, proprietary and non-interoperable platforms. This lack of interoperation is harming the ability of people to set or negotiate their own terms on which they would like to assemble or associate, or host their own interoperating services. 
+
+Even though the Internet has always allowed for (partially) closed-off networks, the current trend shows the rise of a small number of very large non-interoperable platforms. Chat has moved from XMPP and IRC to Facebook Messenger, Whatsapp and WeChat and there has been a strong rise of social media networks with large numbers of users, such as Facebook, Twitter and Instagram. A similar trend can be found among e-mail providers, with the significant difference that e-mail is interoperable.
 
 Often these non-interoperable platforms are built on open-protocols but do not allow for inter-operability or data-portability. In the case of large private platforms, this in turn leads to strong network externalities also know as a network effect; because the users are there, users will be there. Even though social-media platforms have enabled groups to associate, they have also led to a 'tactical freeze' because of the inability to change the platforms {{Tufekci}}. 
 
-Whereas these networks are a ready-to-hand networked public sphere, they do not allow their inhabitants to change or fully understand their workings. In a near future, this could potentially impact infrastructure itself and the distributed nature of the Internet {{RFC1287}}.
+Whereas these networks are a ready-to-hand networked public sphere, they do not allow their inhabitants to change or fully understand their workings. In a near future, this could potentially impact infrastructure itself and the distributed nature of the Internet {{RFC1287}}. 
 
 Conclusions
 ===========
@@ -636,18 +638,20 @@ Communities, collaboration and joint action lie at the heart of the Internet. Ev
 
 Given that the Internet itself was originally designed as a medium of communication for machines that share resources with each other as equals {{RFC0903}}, the Internet is now one of the most basic infrastructures for the right to freedom of assembly and association. Since Internet protocols and the Internet architecture play a central role in the management, development and use of the Internet, we established the relation between some protocols and the right to freedom of assembly and association.
 
-After reviewing several typical representative cases, we can conclude that the way in which infrastructure is designed and implemented impacts people's ability to exercise their freedom of assembly and association. This is because different technical designs come with different properties and characteristics. These properties and characteristics on the one hand enable people to assemble and associate, but on the other hand also adds limiting, or even potentially endangering, characteristics. These characteristic should be mitigated, or at least communicated to users of these technologies. 
+After reviewing several typical representative cases, we can conclude that the way in which infrastructure is designed and implemented impacts people's ability to exercise their freedom of assembly and association. This is because different technical designs come with different properties and characteristics. These properties and characteristics on the one hand enable people to assemble and associate, but on the other hand also adds limiting, or even potentially endangering, characteristics. More often than not, this depends on the context. A clearly identified group for open communications, where messages are sent in cleartext and where peoples persistent identities are viisble, can help to faciliate an assembly and build trust, but in other context the same configuration could pose a significant danger. Endangering characteristics should be mitigated, or at least clearly communicated to the users of these technologies. 
 
 Lastly, the increasing shift towards closed and non-interoperable platforms in chat and social media networks have a significant impact on the distributed and open nature of the Internet. Often these non-interoperable platforms are built on open-protocols but do not allow for inter-operability or data-portability. The use of social-media platforms has enabled groups to associate, but is has also rendered users unable to change platforms, therefore leading to a sort of "forced association" that inhibits people to fully exercise their freedom of assembly and association. 
 
 Acknowledgements
 ================
 
-- Fred Baker, Jefsey, and Andrew Sullivan for work on Internet definitions
+- Fred Baker, Jefsey, and Andrew Sullivan for work on Internet definitions.
 
-- Stephane Bortzmeyer for several concrete text suggestions that found their way in this document (such as the AS filtering example)
+- Stephane Bortzmeyer for several concrete text suggestions that found their way in this document (such as the AS filtering example).
 
-- Mark Perkins for finding a lot of typos
+- Mark Perkins and Gurshabad for finding a lot of typos.
+
+- Gurshabad Grover and an anonymous reviewer for a full review.
 
 - The hrpc mailinglist at large for a very constructive discussion on a hard topic.
 
