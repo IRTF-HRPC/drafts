@@ -67,21 +67,21 @@ Diversity (language, access, producers-users)
 ## Access
 Internet access is recognized as a human right [UNITED NATIONS], but its effective guarantee depends on different and unequal social, cultural, economic and political conditions. In 2018, barely half of the world's population has access to the internet and in 88% of countries, men have more access than women [ITU Statistics]. Geographical location, age, educational and income level, as well as gender, significantly determine how people access to the Internet [webFoundation].
 
-The [Feminist Principles of the Internet] enphasizes that access must be to a universal, acceptable, affordable, unconditional, open, meaningful and equal Internet, which guarantees rights rather than restricts them. As some bodies have always been subject to social and cultural surveillance and violence because of their gender and sexuallity, their access to Internet is not satisfied with connected devices, but with safety digital enviroments [Jac Sm Kee].
+The [Feminist Principles of the Internet] enphasizes that access must be to a universal, acceptable, affordable, unconditional, open, meaningful and equal Internet, which guarantees rights rather than restricts them. As some bodies have always been subject to social and cultural surveillance and violence because of their gender and sexuallity, their access to Internet is not satisfied with connected devices, but with safety and useful digital enviroments [Jac Sm Kee].
 
 In this sense, access must be considered in several dimensions, in addition to Internet access as a possibility of being connected:
 
 ### Access to information  
 Information in one's own language is the first condition, as pointed out with the cencept of 'Localization' [rfc8280], referred to the act of tailoring an application for a different language, script, or culture, and involves not only changing the language interaction but also other relevant changes, such as display of numbers, dates, currency, and so on.
 
-But it is also necessary to be able to access relevant information, related for example to sexual and reproductive health and rights, pleasure, safe abortion, access to justice, and LGBTIQ issues. Some goverments and block pages with this content or monitor online activity by sexual and gender related terminology.
+But it is also necessary to be able to access relevant information, related for example to sexual and reproductive health and rights, pleasure, safe abortion, access to justice, and LGBTIQ issues. Some goverments and ISPs block pages with this content or monitor online activity by sexual and gender related terminology.
 
 ### Usage of technology
-Beyond content, access reclaim the possibility to use, which means code, design, adapt and critically and sustainably use ICTs. As almost 75% of connected individuals are placed in the Global South [Sengupta and Bouterse], technology is developped mainly in rich countries [reference] where student quotas and jobs are filled mainly by men [reference]. 
+Beyond content, access implies the possibility to use, which means code, design, adapt and critically and sustainably use ICTs. As almost 75% of connected individuals are placed in the Global South [Sengupta and Bouterse], technology is developped mainly in rich countries [reference] where student quotas and jobs are filled mainly by men [reference]. 
 
 The concept of 'Internationalization' [rfc6365] refers to the practice of making protocols, standards, and implementations usable in different languages. This is a first step to democratize the development of technology, allowing its implementation in non-English-speaking countries.
 
-However, there is still a long way to go in terms of inclusion of more diverse populations in the spaces of technology development and definition of protocoles and standards for the Internet infrastructure [rfc7704].  The presence of gendered agents in the IETF's archive demonstrates stereotyped male and feminine roles. On the other hand, the generalized mention of agents - as universal subjects - in those documents, ignores the existence of other corporealities, which includes non binary identities or with a marked physical difference [reference]. 
+However, there is still a long way to go in terms of inclusion of more diverse populations in the spaces of technology development and definition of protocoles and standards for the Internet infrastructure [rfc7704].  The presence of gendered subjects in the IETF RFCs and drafts archive demonstrates stereotyped male and feminine roles. On the other hand, the generalized mention of agents - as universal subjects - in those documents, ignores the existence of other corporealities, which includes non binary identities or with a marked physical difference [reference]. 
  * Challenge the cultures of sexism and discrimination in all spaces.
 
 ##### Tech terms
