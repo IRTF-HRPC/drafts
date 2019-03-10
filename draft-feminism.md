@@ -2,9 +2,21 @@
 
 ** This document aims to describe how internet standrds and protocols and its implementatios have different effects on diverse groups and communities use. As well as some protocol can be enabler for a especific human right while possibly restricting another [rfc8280], any human rights enbler protocol may imply greater vulnerabilities for specific groups.
 
+** the experience and learnings of the feminist movement as a frame of reference to build a more just internet, and that recognizes differences
+
+it is neccesary to recognize that some of the terms that have been used in the IETF context have alternative meanings in the wide range social context. Is it enough to talk about ‘security’ as a technical issue only? Or adversary?
+
+** Debate about influence on internet in making a better society [rfc8280] that is not what we want, but visibilizing standards and protocols based threats and vulnerabilities for specific groups.
+
 ** What is the need inside the IETF? To recognize that every discourse, practice, decision with regard to internet infraestructure, standards and protocols, directly or indirectly may affect internet users rights around the world.
 
-** Why feminism and not gender? Because of the existance of Feminist Principles of the Internet [gender and sexual rights lens on critical internet-related rights // framework for women's movements to articulate and explore issues related to technology], which are built in a bottom up way by the feminist movement.
+** Why feminism and not gender? Because of the existance of Feminist Principles of the Internet [gender and sexual rights lens on critical internet-related rights // framework for women's movements to articulate and explore issues related to technology], which are built bottom up by the feminist movement.
+
+"people who are negatively discriminated against on the basis of their gender and/or their sexuality
+
+ "the specificity of the threats to women and queer people, whose bodies and manifestations are already under strong, albeit sometimes invisible, social, cultural and political surveillance.
+
+"The principles were not designed as a set of rules or recommendations, but as an articulation of key issues with feminist policies and approaches, in order to begin to investigate. They express the kind of internet that we would like to have, and with whose conformation we are going to collaborate. and imagination."
 
 ** Why feminism and not diversity? 
 
@@ -17,51 +29,31 @@ The aim of this document is to use a feminist framework to analyse the impacts o
  
 ## Expression as a framework of understanding
 
-Some documents have shown how the behaviour and languaje conventions within the IETF can favour or negatively affect the use of the Internet: 
-* [rfc7704] poses some questions about limitations of diversity in many engineering environments like IETF, and the hostile behaviour which is both a product and produces such limitations.  
-* Draft on Terminology, Power and Oppressive Language [Knodel and ten Oever] points out the possibe effects of terminology used in RFCs, that has been identified as oppressive, racist and sexist, given the importance of communication at the IETF, and soggests alternative terminology.
+With the popularization of the Internet, the freedom of expression of both women and other gender identities traditionally marginalized from public life and social acceptance (whom we will refer to as LGBTQ+) has been greatly enhanced. In contexts where women do not have their rights fully guaranteed, or where sexual and gender diversity are socially condemned, the world wide web has served to meet, organize and resist.
 
-With de popularizarion of internet, it has been clear that the designing of protocols has political inplications on diverse social groups around the world. For vulnerable and marginalized groups, Internet has been an enabler or mani values like protest, amplifying of voices, freedom of expresión, both verbal and physical an aesthetic, but its design imply some vulnerabilities for marginalized groups like women, people of color and indigenous people, sexual and gender diversities.
+By adding content in formats like text, audio and video, these groups have been able to connect with each other, as well as open spaces for discussion and visibility of topics that previously seemed vetoed. The web has become a space for activism, reclamation and protest against injustice and gender inequality. It has allowed the construction of international networks of solidarity, support and mobilization, and with this, the strengthening of feminism and other movements that fight for equal rights and for a fair recognition of difference.
 
-* Social, cultural, economic and political disparities.
+The political expression of gender has not been limited to voices, but has made use of the body and its representation. However, the use of body as a form of political expression on the Internet implies a series of risks and vulnerabilities for the people involved in these movements, especially if they do not understand how Internet technology works. In this sense, it is important to recognize that freedom of expression on the Internet, and in general its use, is determined by gender, along with other social, economic, political and cultural conditions.
 
+Where women and LGBTQ+ have traditionally been marginalized, their participation in the Internet is rejected through different forms of violence by other users, as well as institutions, platforms and governments. But the effects of these violences, which are nothing more than extensions of the traditional violence that these groups have had to face in social life, increase to the extent that there is not enough technical knowledge to neutralize them, and this is the case of most people who struggle for the recognition of their gender difference.
+
+These "use cases" must be known within the IETF, in order to join efforts for the elimination of online gender-based violence, which today seems to be a rule in digital environments. In order to identify ways and strategies to contribute to this purpose, we review below the ways in which both _gender_ and _security_ have been approached in IETF rfcs and drafts.
+
+### Security and Safety
+
+Safety.  To the greatest extent possible, members of the CoVis community will be protected from harassment or unwanted or unsolicited contact. Any community member who receives threatening or unwelcome communications should bring them to the attention of a system administrator or teacher. Users must, however, be aware that there are many services available on the Internet that could potentially be offensive to certain groups of users. The designers of the CoVis Network cannot eliminate access to all such services, nor could they even begin to identify them. Thus individual users must take responsibility for their own actions in navigating the network (rfc1746);
+ 
+The server may echo the password characters as stars or any other scrambled output for safety purpose [rfc2122]
+ 
+This document proposes a HTTP response header called Safe, which can be used to label the corresponding POST request as being safe. This labeling will allow user agents to present services which use safe POSTs in a more user-friendly way.  Improving the user-friendliness of safe POSTs is considered important, because web internationalization will depend for a large part on the use of safe POSTs [rfc2310].
+
+Basically, a mobile node (MN) roaming over the Internet SHOULD enjoy safe and persistent IP connectivity as much as this is permitted by the policies of its home and visiting subnets. Persistency of IP connectivity means that the connections should be handoff correctly and quickly so that the MN can maintain its TCP sessions when it changes its network attachment point. Safety means traffics to and from the MN should enjoy similar level of security (with respect to passive and active attacks) as it is on its home subnet [draft-ietf-mobileip-ipsec-use-00]
+
+### Men and women
+ 
 The discursive level in IETF documents. The unexpected influence of discourse in technical documents over internet users through implementations. 
 Gendered presence in drafts and RFCs (from entities to men and women) stereotyped roles
 Diversity (language, access, producers-users)
-
-
-
-"Legal restrictions were extended to the internet realm arbitrarily and involved lawsuits or arrests based on things like Facebook comments, registering domain names and blog posts." (erotics)
-
-"LGBT activists began their work online in chat rooms, websites and mailing lists by force because of their limited access to public spheres dominated by homophobia that could lead to socialstigma and/or imprisonment" (erotics)
-
-"With the rise in the power of user-generated online content, the blogosphere and citizen journalism, queer women chose to create their own e-media channels rather than rely on traditional journalism to address queer issues." (erotics)
-
-
-### Resistance (protest)
- 
- * Protest
- * Freedom of association
- * Offline and online are linked
-
-### Amplifying feminist discourse
- * Amplify women’s narratives and lived realities
- * Resistance to the state, the religious right and other extremist forces who monopolise discourse
- * Persecution of feminist activists
-
-### Freedom of expression
- * Control
- * Surveil
- * Regulate and restrict
- * Police
- * Censor
- * Hierarchisation
-
-### Pornography and “harmful content”
- * Links back to access to information
- * Agency
- * Labour
- * Alternative erotic content
 
 
 ## Access
@@ -84,20 +76,13 @@ The concept of 'Internationalization' [rfc6365] refers to the practice of making
 However, there is still a long way to go in terms of inclusion of more diverse populations in the spaces of technology development and definition of protocoles and standards for the Internet infrastructure [rfc7704].  The presence of gendered subjects in the IETF RFCs and drafts archive demonstrates stereotyped male and feminine roles. On the other hand, the generalized mention of agents - as universal subjects - in those documents, ignores the existence of other corporealities, which includes non binary identities or with a marked physical difference [reference]. 
  * Challenge the cultures of sexism and discrimination in all spaces.
 
-##### Tech terms
-
- * Accesibility [rfc4084] Related to people with disabilities
- * Connectivity [rfc1958]
- * Reliability (not sure)
-
 ### Free and open source
 The digital gender gap has relegated women and other marginalized groups to be internet users, adding content but usually not knowing how the platforms they access work. Promoting transparency [rfc 8280] and simplifying technical terminology is necessary to bridge the gap.
  * Terms upon which we create technology
  * Terms upon which we experimenting with others' technology
  * Promoting, disseminating, and sharing knowledge about technology.
  
-#### Tech terms
- * Open standards [rfc2026]
+ Freedom is not freedom for everyone, always. It is important to identify different dimensions of freedom and how it is expressed in different contexts. 
 
 ### Internet governance
 While there is no agreement regarding the ability of the Internet to negatively or positively impact on social behaviors, or shape desirable practices [rfc8280], while more women and diverse population participate in technical development spaces, as well as decision-making spaces, there will be greater possibilities for ICTs to reflect greater inclusiveness and enable less risky and harmful interactions [rfc7704].
@@ -107,38 +92,18 @@ While there is no agreement regarding the ability of the Internet to negatively 
  * Democratise policy making affecting the internet
  * Diffuse ownership of and power in global and local networks
 
-
-## Economic
-
- * Challenges capitalism
- * Alternative models
- * Cooperation
- * Solidarity
- * Commons
- * Environmental sustainability
- * Openness.
- 
-#### Tech terms
-
- * Content agnosticism. Treating network traffic identicaly regardless of content. (Not sure. It may be in expression or incorporated, but I want it to remain here thinking about technopolitics, creating for example a webpage or an app which is blocked or nos easyly accessed because of traffic controls).
- * Descentralized. Implementation or deployment of standards, protocols or systems without one single point of control.
- * Federation. Connecting without a central authority.
-
 ## Embodied (anonymity)
 
-As a starting point, recognize the digital gap. Who uses and who develops the Internet as we know it today? With the popularization of the internet around the world, it is neccesary to recognize that some of the terms that have been used in the IETF context have alternative meanings in the wide range social context. Is it enough to talk about ‘security’ as a technical issue only? Or adversary?
 
-Most of the threats women and non binary people face on line, occur in the user level, as they mostly use what apps offer, without exploring other possibilities on the network. Their adversaries are mostly other users who use the platform advanced -or not advanced- possibilities for threatening their expressions.
+Most of the threats women and non binary people face on line, occur in the user level. Most of their adversaries are other users, who also act at the user level, with advanced -or not advanced- possibilities for threatening their expressions, but also include institutions, platforms and governments.
+
+"About autonomy, When to be visible? Machinery decision making
+data-driven and increasingly automated decision making has many dimensions,
+systemic bias that is structural to data collection and algorithms that reproduce and amplify discrimination and exclusion"
+
+"governance and accountability, given that a large proportion of data sets are privately owned by large multinational corporations. How to develop data policies and practices based on the principles of autonomy, consent, bodily integrity and dignity?"
 
 While anonymity is never just about technical issues but users protection activities, it becomes more necessary to strenghten the design and functionality of networks, by default. 
-
-#### Tech Terms
- * Strong Encryption
- * Anonymity [rfc4949]
- * Anonymous [rfc6973]
- * Privacy [rfc6973] [rfc7258]
- * Integrity [rfc4949]
- 
  
 ### Online violence
 
@@ -205,11 +170,6 @@ While anonymity is never just about technical issues but users protection activi
  * Creating opportunities for sustained feminist movement building
  * Peering
  * Choice, accountability and transparency
- 
-#### Tech terms
- * Authenticity [rfc4949]
- * Confidentiality [rfc1958] [rfc4084]
- * Filtering [rfc 7754] 
 
 # Resources
 
