@@ -165,7 +165,7 @@ losing control over such information. Much more, considering that each platform 
 other groups marginalized by race or gender, these risks are greater.
 
 Just as the Internet connection can be considered an extension of the body, social problems such as discrimination and exclusion have been projected into the digital environment -sometimes intensified, 
-sometimes reconfigured. And once again, women, LGBTQ+, racialized people are the most vulnerable. Most of the threats they face on line, occur in the user level. Most of their "adversaries" are other 
+sometimes reconfigured. And once again, women, queers, racialized people are the most vulnerable. Most of the threats they face on line, occur in the user level. Most of their "adversaries" are other 
 users, who also act at the user level, with advanced -or not advanced- technical skills for threatening their expressions. But also include institutions, platforms and governments.
 
 At this point, what level of autonomy do these people have as internet users?
