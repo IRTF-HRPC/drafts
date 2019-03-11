@@ -1,26 +1,17 @@
---- title: Feminism and protocols
-abbrev: Feminism
-docname: draft-guerra-feminism-00
-date: 2019-03-11
-category: info
+--- title: Feminism and protocols abbrev: Feminism docname: draft-guerra-feminism-00 date: 2019-03-11 category: info
 
-ipr: trust200902
-area: HRPC
-keyword: Internet-Draft
-stand_alone: yes
-pi:
-rfcedstyle: yes
-toc: yes
-tocindent: yes
-sortrefs: yes
-symrefs: yes
-strict: yes
-comments: yes
-inline: yes
-text-list-symbols: -o*+
+ipr: trust200902 area: irtf keyword: Internet-Draft stand_alone: yes pi:
+  rfcedstyle: yes
+  toc: yes
+  tocindent: yes
+  sortrefs: yes
+  symrefs: yes
+  strict: yes
+  comments: yes
+  inline: yes
+  text-list-symbols: -o*+
 
-author:
--
+author: -
        ins: J. Guerra
        name: Juliana Guerra
        organization: Derechos Digitales
@@ -50,7 +41,16 @@ informative:
 
    RFC3694:
 
+   RFC6365:
+
+   RFC7704:
+
    Comninos:
+      title: "A cyber security Agenda for civil society: What is at stake?"
+      author:
+         - ins: Alex Comninos
+      date: 2013
+      target: https://www.apc.org/sites/default/files/PRINT_ISSUE_Cyberseguridad_EN.pdf
 
    Tao:
       title: "The Tao of the IETF."
@@ -66,15 +66,50 @@ informative:
       target: https://documents-dds-ny.un.org/doc/UNDOC/LTD/G12/147/10/PDF/G1214710.pdf?OpenElement
 
    ITU:
+      title: "Statisctics. Global, Regional and Country ICT Data."
+      author:
+         - org: International Telecommunications Union (ITU)
+      date: 2018
+      target: https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx
 
    WebFoundation:
+      title: "Advancing Women's Rights Online: Gaps and Opportunities in Policy and Research."
+      author:
+         - org: Web Foundation
+      date: 2018
+      target: http://webfoundation.org/docs/2018/08/Advancing-Womens-Rights-Online_Gaps-and-Opportunities-in-Policy-and-Research.pdf
 
    FPI:
+      title: "The Feminist Principles of the Internet"
+      author:
+         - org: Association for Progressive Communications
+      target: https://feministinternet.org
+
+   SmKee:
+      title: "Imagine a Feminist Internet."
+      author:
+         - ins: Jac Sm Kee
+      date: 2018
+      target: http://link.springer.com/10.1057/s41301-017-0137-2
+
+   WhoseKnowledge:
+      title: "Decolonizing the Internet, Summary Report.!
+      author:
+         - org: Whose Knowledge
+      date: 2018
+      target: https://whoseknowledge.org/wp-content/uploads/2018/10/DTI-2018-Summary-Report.pdf
+
+   Arkko:
+      title: " Considerations on Internet Consolidation and the Internet Architecture."
+      author:
+         - ins: J. Arkko
+      date: 2018
+      target: https://datatracker.ietf.org/doc/draft-arkko-iab-internet-consolidation
 
 --- abstract
 
-This document aims to describe how internet standrds and protocols and its implementations may impact diverse groups and communities. The research on how some protocol can be enabler for specific human
-rights while possibly restricting others has been documented in {{RFC8280}}. Similar to how RFC 8280 has taken a human rights lens through which to view engineering and design choices by internet
+This document aims to describe how internet standrds and protocols and its implementations may impact diverse groups and communities. The research on how some protocol can be enabler for specific human 
+rights while possibly restricting others has been documented in {{RFC8280}}. Similar to how RFC 8280 has taken a human rights lens through which to view engineering and design choices by internet 
 standardisation, this document addreses the opportunities and vulnerabilities embedded within internet protocols for specific, traditionally maginalised groups.
 
 --- middle
@@ -147,16 +182,16 @@ environments without being the target of attacks such as trolling, harassment, s
 _security_, their participation is recognized as users at the most surface level, not as administrators, developers or generators of computer knowledge. In recent years, feminist infrastructure projects 
 have begun to appear while the inclusion of women in developers communities has been promoted. However, today there is still a huge gender gap in the technical and political development of the internet.
 
-In {{RFC4949}} _safety_ is defined as "the property of a system being free from risk of causing harm (especially physical harm) to its system entities", which is compared to _security_ as the 
-"system condition in which system resources are free from unauthorized access and from unauthorized or accidental change, destruction, or loss". But _safety_ has traditionally, especially in the early 
-years of the IETF, been referred to human activities {{RFC1244}}, {{RFC2122}}, {{RFC2310}} and human rights {{RFC1746}}, {{RFC1941}}, {{RFC3694}}.
+In {{RFC4949}} _safety_ is defined as "the property of a system being free from risk of causing harm (especially physical harm) to its system entities", which is compared to _security_ as the "system 
+condition in which system resources are free from unauthorized access and from unauthorized or accidental change, destruction, or loss". But _safety_ has traditionally, especially in the early years of 
+the IETF, been referred to human activities {{RFC1244}}, {{RFC2122}}, {{RFC2310}} and human rights {{RFC1746}}, {{RFC1941}}, {{RFC3694}}.
 
 ### 2.2. Gender
 
-As IETF is centered on "identifying, and proposing solutions to, pressing operational and technical problems in the Internet" and as according to the Tao of the IETF, "we believe in rough consensus and running 
-code", it is not supposed to concentrate on the particular characteristics of internet users, but on the proper functioning of the systems {{Tao}}. In addition, due to the characteristics of the type of 
-technologies that are designed in the IETF, many times the the "use cases" or implementations refer to the way in which companies arrange the infrastructure for their clients, not necessarily to the way 
-internet users interact with that infrastructure.
+As IETF is centered on "identifying, and proposing solutions to, pressing operational and technical problems in the Internet" and as according to the Tao of the IETF, "we believe in rough consensus and 
+running code", it is not supposed to concentrate on the particular characteristics of internet users, but on the proper functioning of the systems {{Tao}}. In addition, due to the characteristics of the 
+type of technologies that are designed in the IETF, many times the the "use cases" or implementations refer to the way in which companies arrange the infrastructure for their clients, not necessarily to 
+the way internet users interact with that infrastructure.
 
 In this sense, it seems not within the mandate of the IETF to imagine the particular needs of users' gender, race or ethnicity. However, in the drafts and RFCs archive there appear subjects with gender 
 as well as supposedly universal entities that sometimes represent concrete functions of the systems, and other times the voluntary actions of the operators. As a first step in imagining possible gender 
@@ -165,20 +200,20 @@ and added to the search for entities with cultural and phenotypic characteristic
 
 ## 3. Access
 
-Internet access is recognized as a human right {{UNGA}}, but its effective guarantee depends on different and unequal social, cultural, economic and political conditions. In 2018, barely half of 
-the world's population has access to the internet and in 88% of countries, men have more access than women {{ITU}}. Geographical location, age, educational and income level, as well as gender, 
-significantly determine how people access to the Internet {{WebFoundation}}.
+Internet access is recognized as a human right {{UNGA}}, but its effective guarantee depends on different and unequal social, cultural, economic and political conditions. In 2018, barely half of the 
+world's population has access to the internet and in 88% of countries, men have more access than women {{ITU}}. Geographical location, age, educational and income level, as well as gender, significantly 
+determine how people access to the Internet {{WebFoundation}}.
 
-The Feminist Principles of the Internet {{FPI}} enphasizes that access must be to a universal, acceptable, affordable, unconditional, open, meaningful and equal Internet, 
-which guarantees rights rather than restricts them. As some bodies have always been subject to social and cultural surveillance and violence because of their gender and sexuallity, their access to 
-Internet is not satisfied with connected devices, but with safety and useful digital enviroments [Jac Sm Kee].
+The Feminist Principles of the Internet {{FPI}} enphasizes that access must be to a universal, acceptable, affordable, unconditional, open, meaningful and equal Internet, which guarantees rights rather 
+than restricts them. As some bodies have always been subject to social and cultural surveillance and violence because of their gender and sexuallity, their access to Internet is not satisfied with 
+connected devices, but with safety and useful digital enviroments {{SmKee}}.
 
 In this sense, access must be considered in several dimensions, in addition to Internet access as a possibility of being connected:
 
 ### 3.1. Access to information
 
-Information in one's own language is the first condition, as pointed out with the cencept of 'Localization' [rfc8280], referred to the act of tailoring an application for a different language, script, or 
-culture, and involves not only changing the language interaction but also other relevant changes, such as display of numbers, dates, currency, and so on.
+Information in one's own language is the first condition, as pointed out with the cencept of 'Localization' {{RFC8280}}, referred to the act of tailoring an application for a different language, script, 
+or culture, and involves not only changing the language interaction but also other relevant changes, such as display of numbers, dates, currency, and so on.
 
 But it is also necessary to be able to access relevant information, related for example to sexual and reproductive health and rights, pleasure, safe abortion, access to justice, and LGBTIQ issues. Some 
 goverments and ISPs block pages with this content or monitor online activity by sexual and gender related terminology. Therefore the considerations for anticensorship internet infrastructure technologies 
@@ -187,33 +222,49 @@ also consider, and can possibly alleviate, a gendered component to using the int
 ### 3.2. Usage of technology
 
 Beyond content, access implies the possibility to use, which means code, design, adapt and critically and sustainably use ICTs. As almost 75% of connected individuals are placed in the Global South 
-[Whose Knowledge?], technology is developped mainly in rich countries where student quotas and jobs are filled mainly by men.
+{{WhoseKnowledge}}, technology is developped mainly in rich countries where student quotas and jobs are filled mainly by men.
 
-The concept of 'Internationalization' [rfc6365] refers to the practice of making protocols, standards, and implementations usable in different languages. This is a first step to democratize the 
+The concept of 'Internationalization' {{rfc6365}} refers to the practice of making protocols, standards, and implementations usable in different languages. This is a first step to democratize the 
 development of technology, allowing its implementation in non-English-speaking countries.
 
 However, there is still a long way to go in terms of inclusion of more diverse populations in the spaces of technology development and definition of protocoles and standards for the Internet 
-infrastructure [rfc7704].  The presence of gendered subjects in the IETF RFCs and drafts archive demonstrates stereotyped male and feminine roles. On the other hand, the generalized mention of agents - 
+infrastructure {{rfc7704}}.  The presence of gendered subjects in the IETF RFCs and drafts archive demonstrates stereotyped male and feminine roles. On the other hand, the generalized mention of agents - 
 as universal subjects - in those documents, ignores the existence of other corporealities, which includes non binary identities or with a marked physical difference.
 
 Building and engineering critical internet technology is a component of 'usage'. There are challenge the cultures of sexism and discrimination in all spaces, some of which can be found in existing RFCs 
 [draft-terminology, others].
 
-### 3.3. Free and open source
+## 4. Economy
 
-The digital gender gap has relegated women and other marginalized groups to be internet users, adding content but usually not knowing how these platforms work. Promoting transparency [rfc 8280] and 
-simplifying technical terminology is necessary to bridge the gap.
- * Terms upon which we create technology
- * Terms upon which we experimenting with others' technology
- * Promoting, disseminating, and sharing knowledge about technology.
+### 4.1. Free and open source
+
+The digital gender gap has relegated women and other marginalized groups to be internet users, adding content for the benefit of the platform itself but without a deep understanding of how these 
+platforms work. Promoting transparency {{RFC8280}} and simplifying technical terminology is necessary to bridge this gap. This requires shared terminology upon which technology is created to enable 
+experimentation and values exchange. Not only that, but documenting, promoting, disseminating, and sharing knowledge about technology is at the heart of the long-standing free software community's ethos. 
+This aligns with a feminist approach to technology.
  
- Freedom is not freedom for everyone, always. It is important to identify different dimensions of freedom and how it is expressed in different contexts.
+Given the established community of "free software", it is important to note that freedom is not freedom for everyone, always. It is important to identify different dimensions of freedom and how it is 
+expressed in different contexts.
  
-* Add Economic here.
+### 4.2. Power and centralisation
 
-### 3.4. Internet governance
+A feminist approach to technology requires a strong critique of capitalist power, centralisation of services and the logic of vertical integration while holding nuance for the tensions between trust, 
+reliability and diversity. Centralisation of services is a current discussion in the IETF that should be informed by feminist critique of capitalist structures {{Arkko}}.
 
-While there is no agreement regarding the ability of the Internet to negatively or positively impact on social behaviors, or shape desirable practices [rfc8280], while more women and diverse population 
+## 5. Networked
+
+### 5.1. Freedom of assocation
+
+        * Identity Theft
+        * Invasion/attack Attacks on system security
+ * Connecting people across territories
+ * Creating opportunities for sustained feminist movement building
+ * Peering
+ * Choice, accountability and transparency
+
+### 5.2. Internet governance
+
+While there is no agreement regarding the ability of the internet to negatively or positively impact on social behaviors, or shape desirable practices [rfc8280], while more women and diverse population 
 participate in technical development spaces, as well as decision-making spaces, there will be greater possibilities for ICTs to reflect greater inclusiveness and enable less risky and harmful 
 interactions [rfc7704].
 
@@ -222,10 +273,10 @@ interactions [rfc7704].
  * Democratise policy making affecting the internet
  * Diffuse ownership of and power in global and local networks
 
-## 4. Embodiment
+## 6. Embodiment
 
-Most of the threats women and non binary people face on line, occur in the user level. Most of their adversaries are other users, who also act at the user level, with advanced -or not 
-advanced- possibilities for threatening their expressions, but also include institutions, platforms and governments.
+Most of the threats women and non binary people face on line, occur in the user level. Most of their adversaries are other users, who also act at the user level, with advanced -or not advanced- 
+possibilities for threatening their expressions, but also include institutions, platforms and governments.
 
 For a long time, perhaps since the Internet became popular, its use ceased to be a functional matter and became emotional. The access to chat rooms to connected with people at huge distances, the 
 possibility of having personal e-mails, the appearance of social networks to share music, photos and then video, determined not only the social use of a new tool but also the configuration of digital 
@@ -245,7 +296,7 @@ users, who also act at the user level, with advanced -or not advanced- technical
 
 At this point, what level of autonomy do these people have as internet users?
  
-### 4.1. Online violence
+### 6.1. Online violence
 
  * Security
         * Identity Theft
@@ -262,7 +313,7 @@ At this point, what level of autonomy do these people have as internet users?
  * Consent to receive.
         * Stalking, monitoring, harrassement
 
-### 4.2. Consent
+### 6.2. Consent
 
  * Data protection
         * Exposure of personal data
@@ -274,7 +325,7 @@ At this point, what level of autonomy do these people have as internet users?
         * Exposure of intimacy
         * Unauthorized use of photos
 
-### 4.3. Anonymity
+### 6.3. Anonymity
 
 While anonymity is never just about technical issues but users protection activities, it becomes more necessary to strenghten the design and functionality of networks, by default.
 
@@ -287,7 +338,7 @@ While anonymity is never just about technical issues but users protection activi
         * Hate Speech, discriminatory expressions
  * Safety from discrimination
 
-### 4.4. Privacy and data
+### 6.4. Privacy and data
 
  * Right to privacy
  * Data protection
@@ -296,24 +347,14 @@ While anonymity is never just about technical issues but users protection activi
  * Manipulate and mislead with data
  * Surveillance and patriarchy by states, individuals, private sector, etc. Those that enable surveillance, eg spouseware.
 
-### 4.5 Memory
+### 6.5. Memory
 
  * Right to be forgotten
  * Control over personal history and memory on the internet
  * Access all our personal data and information online
  * Delete forever
 
-## 5. Networked
-
- * Freedom of assocation
-        * Identity Theft
-        * Invasion/attack Attacks on system security
- * Connecting people across territories
- * Creating opportunities for sustained feminist movement building
- * Peering
- * Choice, accountability and transparency
-
-# Resources
+# References not yet referenced
 
 In plain sight, on sexuality, rights and the internet in India, Nepal and Sri Lanka https://www.genderit.org/articles/plain-sight-sexuality-rights-and-internet-india-nepal-and-sri-lanka
 
@@ -339,17 +380,6 @@ https://luchadoras.mx/wp-content/uploads/2017/12/Informe_ViolenciaEnLineaMexico_
 
 Sephard, N. Big Data and Sexual Surveillance. APC issue papers. 2016. https://www.apc.org/sites/default/files/BigDataSexualSurveillance_0_0.pdf
 
-Comninos, A. A cyber security Agenda for civil society: What is at stake? APC issue papers. 2013. https://www.apc.org/sites/default/files/PRINT_ISSUE_Cyberseguridad_EN.pdf
-
-Web Foundation. Advancing Women's Rights Online: Gaps and Opportunities in Policy and Research. 2018. http://webfoundation.org/docs/2018/08/Advancing-Womens-Rights-Online_Gaps-and-Opportunities-in-Policy-and-Research.pdf
-
-International Telecommunication Union (ITU). Statisctics. Global, Regional and Country ICT Data. 2018.https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx
-
-Sm Kee. J. Imagine a Feminist Internet. 2018. http://link.springer.com/10.1057/s41301-017-0137-2
-
-Whose Knowledge. Decolonizing the Internet, Summary Report. 2018. https://whoseknowledge.org/wp-content/uploads/2018/10/DTI-2018-Summary-Report.pdf 
-
-
 # Security Considerations
 
 As this document concerns a research document, there are no security considerations.
@@ -357,4 +387,3 @@ As this document concerns a research document, there are no security considerati
 # IANA Considerations
 
 This document has no actions for IANA.
-
