@@ -187,14 +187,14 @@ also consider, and can possibly alleviate, a gendered component to using the int
 ### 3.2. Usage of technology
 
 Beyond content, access implies the possibility to use, which means code, design, adapt and critically and sustainably use ICTs. As almost 75% of connected individuals are placed in the Global South 
-[Sengupta and Bouterse], technology is developped mainly in rich countries [reference] where student quotas and jobs are filled mainly by men [reference].
+[Whose Knowledge?], technology is developped mainly in rich countries where student quotas and jobs are filled mainly by men.
 
 The concept of 'Internationalization' [rfc6365] refers to the practice of making protocols, standards, and implementations usable in different languages. This is a first step to democratize the 
 development of technology, allowing its implementation in non-English-speaking countries.
 
 However, there is still a long way to go in terms of inclusion of more diverse populations in the spaces of technology development and definition of protocoles and standards for the Internet 
 infrastructure [rfc7704].  The presence of gendered subjects in the IETF RFCs and drafts archive demonstrates stereotyped male and feminine roles. On the other hand, the generalized mention of agents - 
-as universal subjects - in those documents, ignores the existence of other corporealities, which includes non binary identities or with a marked physical difference [reference].
+as universal subjects - in those documents, ignores the existence of other corporealities, which includes non binary identities or with a marked physical difference.
 
 Building and engineering critical internet technology is a component of 'usage'. There are challenge the cultures of sexism and discrimination in all spaces, some of which can be found in existing RFCs 
 [draft-terminology, others].
@@ -338,6 +338,17 @@ Barrera, L. y Rodríguez, C. La violencia en línea contra las mujeres en Méxic
 https://luchadoras.mx/wp-content/uploads/2017/12/Informe_ViolenciaEnLineaMexico_InternetEsNuestra.pdf
 
 Sephard, N. Big Data and Sexual Surveillance. APC issue papers. 2016. https://www.apc.org/sites/default/files/BigDataSexualSurveillance_0_0.pdf
+
+Comninos, A. A cyber security Agenda for civil society: What is at stake? APC issue papers. 2013. https://www.apc.org/sites/default/files/PRINT_ISSUE_Cyberseguridad_EN.pdf
+
+Web Foundation. Advancing Women's Rights Online: Gaps and Opportunities in Policy and Research. 2018. http://webfoundation.org/docs/2018/08/Advancing-Womens-Rights-Online_Gaps-and-Opportunities-in-Policy-and-Research.pdf
+
+International Telecommunication Union (ITU). Statisctics. Global, Regional and Country ICT Data. 2018.https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx
+
+Sm Kee. J. Imagine a Feminist Internet. 2018. http://link.springer.com/10.1057/s41301-017-0137-2
+
+Whose Knowledge. Decolonizing the Internet, Summary Report. 2018. https://whoseknowledge.org/wp-content/uploads/2018/10/DTI-2018-Summary-Report.pdf 
+
 
 # Security Considerations
 
