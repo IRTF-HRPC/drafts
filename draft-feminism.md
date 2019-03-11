@@ -1,12 +1,87 @@
-# Abstract
+--- title: Feminism and protocols
+abbrev: Feminism
+docname: draft-guerra-feminism-00
+date: 2019-03-11
+category: info
 
-asdf
+ipr: trust200902
+area: HRPC
+keyword: Internet-Draft
+stand_alone: yes
+pi:
+rfcedstyle: yes
+toc: yes
+tocindent: yes
+sortrefs: yes
+symrefs: yes
+strict: yes
+comments: yes
+inline: yes
+text-list-symbols: -o*+
 
-# Introduction
+author:
+-
+       ins: J. Guerra
+       name: Juliana Guerra
+       organization: Derechos Digitales
+       email: juliana@derechosdigitales.org
 
-This document aims to describe how internet standrds and protocols and its implementations may impact diverse groups and communities. The research on how some protocol can be enabler for specific human 
-rights while possibly restricting others has been documented in RFC 8280 [rfc8280]. Similar to how RFC 8280 has taken a human rights lens through which to view engineering and design choices by internet 
+-
+       ins: M. Knodel
+       name: Mallory Knodel
+       organization: ARTICLE 19
+       email: mallory@article19.org
+
+informative:
+
+   RFC8280:
+
+   RFC4949:
+
+   RFC1244:
+
+   RFC2122:
+
+   RFC2310:
+
+   RFC1746:
+
+   RFC1941:
+
+   RFC3694:
+
+   Comninos:
+
+   Tao:
+      title: "The Tao of the IETF."
+      author:
+         - org: Internet Engineering Task Force
+      target: https://www.ietf.org/about/participate/tao
+
+   UNGA:
+      title: "The promotion, protection and enjoyment of human rights on the Internet."
+      author:
+         - org: United Nations General Assembly
+      date: 2012
+      target: https://documents-dds-ny.un.org/doc/UNDOC/LTD/G12/147/10/PDF/G1214710.pdf?OpenElement
+
+   ITU:
+
+   WebFoundation:
+
+   FPI:
+
+--- abstract
+
+This document aims to describe how internet standrds and protocols and its implementations may impact diverse groups and communities. The research on how some protocol can be enabler for specific human
+rights while possibly restricting others has been documented in {{RFC8280}}. Similar to how RFC 8280 has taken a human rights lens through which to view engineering and design choices by internet
 standardisation, this document addreses the opportunities and vulnerabilities embedded within internet protocols for specific, traditionally maginalised groups.
+
+--- middle
+
+# Feminism and protocols
+
+## 1. Introduction
 
 The experiences and learnings of the feminist movement in the digital age have extrapolated feminist discourse towards building a more just world to invisioning a more just internet, namely one that 
 recognizes differences across a variety of lived experience and identity. The framework that is used to analyse and research internet protocols and standards through a feminist lens is a document called 
@@ -35,7 +110,7 @@ equity for internet users.
 It is significant to highlight the ways in which feminists have understood, used and mobilised on the internet. Given myriad expressions of feminism online and feminist movement building online, one 
 thread is perhaps instructive to this exercise. More about the nature of the complex community that created the Feminist Principles of the Internet can be found at feministinternet.org.
  
-# 2. Expression as a framework of understanding
+## 2. Expression as a framework of understanding
 
 With the popularization of the internet, the freedom of expression of both women and other gender identities traditionally marginalized from public life and social acceptance (whom we will refer to as 
 queer) has been greatly enhanced. In contexts where women do not have their rights fully guaranteed, or where sexual and gender diversity are socially condemned, the Web has served to meet, organize and 
@@ -63,7 +138,7 @@ or if they are part of a technical explanation, and if they are normally accompa
 ### 2.1. Safety
 
 For the last years, there has been criticism of the way in which digital security accompaniments, advice and training are developed for people who are not directly involved in the development of 
-information technology. It is worth mentioning that digital security, unlike cybersecurity, is more geared towards internet users [A. Comninos]. Some of these criticisms refer to the fact that the 
+information technology. It is worth mentioning that digital security, unlike cybersecurity, is more geared towards internet users {{Comninos}}. Some of these criticisms refer to the fact that the 
 approach to digital security is centred on tools and not on usage practices, and "attacks", "adversaries" or "enemies" in a generic way, without recognising the specific contexts in which different 
 information protection needs are generated.
 
@@ -72,14 +147,14 @@ environments without being the target of attacks such as trolling, harassment, s
 _security_, their participation is recognized as users at the most surface level, not as administrators, developers or generators of computer knowledge. In recent years, feminist infrastructure projects 
 have begun to appear while the inclusion of women in developers communities has been promoted. However, today there is still a huge gender gap in the technical and political development of the internet.
 
-In RFC 4949 [rfc4949] _safety_ is defined as "the property of a system being free from risk of causing harm (especially physical harm) to its system entities", which is compared to _security_ as the 
+In {{RFC4949}} _safety_ is defined as "the property of a system being free from risk of causing harm (especially physical harm) to its system entities", which is compared to _security_ as the 
 "system condition in which system resources are free from unauthorized access and from unauthorized or accidental change, destruction, or loss". But _safety_ has traditionally, especially in the early 
-years of the IETF, been referred to human activities [rfc1244; rfc2122; rfc2310] and human rights [rfc1746; rfc1941; rfc3694].
+years of the IETF, been referred to human activities {{RFC1244}}, {{RFC2122}}, {{RFC2310}} and human rights {{RFC1746}}, {{RFC1941}}, {{RFC3694}}.
 
 ### 2.2. Gender
 
-As IETF is centered on "identifying, and proposing solutions to, pressing operational and technical problems in the Internet" and as according to the [Tao] "we believe in rough consensus and running 
-code", it is not supposed to concentrate on the particular characteristics of internet users, but on the proper functioning of the systems. In addition, due to the characteristics of the type of 
+As IETF is centered on "identifying, and proposing solutions to, pressing operational and technical problems in the Internet" and as according to the Tao of the IETF, "we believe in rough consensus and running 
+code", it is not supposed to concentrate on the particular characteristics of internet users, but on the proper functioning of the systems {{Tao}}. In addition, due to the characteristics of the type of 
 technologies that are designed in the IETF, many times the the "use cases" or implementations refer to the way in which companies arrange the infrastructure for their clients, not necessarily to the way 
 internet users interact with that infrastructure.
 
@@ -90,11 +165,11 @@ and added to the search for entities with cultural and phenotypic characteristic
 
 ## 3. Access
 
-Internet access is recognized as a human right [UNITED NATIONS], but its effective guarantee depends on different and unequal social, cultural, economic and political conditions. In 2018, barely half of 
-the world's population has access to the internet and in 88% of countries, men have more access than women [ITU Statistics]. Geographical location, age, educational and income level, as well as gender, 
-significantly determine how people access to the Internet [webFoundation].
+Internet access is recognized as a human right {{UNGA}}, but its effective guarantee depends on different and unequal social, cultural, economic and political conditions. In 2018, barely half of 
+the world's population has access to the internet and in 88% of countries, men have more access than women {{ITU}}. Geographical location, age, educational and income level, as well as gender, 
+significantly determine how people access to the Internet {{WebFoundation}}.
 
-The Feminist Principles of the Internet [Feminist Principles of the Internet] enphasizes that access must be to a universal, acceptable, affordable, unconditional, open, meaningful and equal Internet, 
+The Feminist Principles of the Internet {{FPI}} enphasizes that access must be to a universal, acceptable, affordable, unconditional, open, meaningful and equal Internet, 
 which guarantees rights rather than restricts them. As some bodies have always been subject to social and cultural surveillance and violence because of their gender and sexuallity, their access to 
 Internet is not satisfied with connected devices, but with safety and useful digital enviroments [Jac Sm Kee].
 
@@ -242,8 +317,6 @@ While anonymity is never just about technical issues but users protection activi
 
 In plain sight, on sexuality, rights and the internet in India, Nepal and Sri Lanka https://www.genderit.org/articles/plain-sight-sexuality-rights-and-internet-india-nepal-and-sri-lanka
 
-RFC 8280 https://datatracker.ietf.org/doc/rfc8280
-
 Human Rights and Internet Protocols: Comparing Processes and Principles https://www.apc.org/sites/default/files/ISSUE_human_rights_2.pdf
 
 Principles of Unity for Infraestructuras Feministas https://pad.kefir.red/p/infraestucturas-feministas Feminist
@@ -265,3 +338,12 @@ Barrera, L. y Rodríguez, C. La violencia en línea contra las mujeres en Méxic
 https://luchadoras.mx/wp-content/uploads/2017/12/Informe_ViolenciaEnLineaMexico_InternetEsNuestra.pdf
 
 Sephard, N. Big Data and Sexual Surveillance. APC issue papers. 2016. https://www.apc.org/sites/default/files/BigDataSexualSurveillance_0_0.pdf
+
+# Security Considerations
+
+As this document concerns a research document, there are no security considerations.
+
+# IANA Considerations
+
+This document has no actions for IANA.
+
