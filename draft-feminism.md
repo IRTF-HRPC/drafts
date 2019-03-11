@@ -1,4 +1,4 @@
-# Introduction
+# 1. Introduction
 
 ** This document aims to describe how internet standrds and protocols and its implementatios have different effects on diverse groups and communities use. As well as some protocol can be enabler for a especific human right while possibly restricting another [rfc8280], any human rights enbler protocol may imply greater vulnerabilities for specific groups.
 
@@ -27,7 +27,7 @@ The aim of this document is to use a feminist framework to analyse the impacts o
  
  ** How does intersectional feminism refer to diversity?
  
-# Expression as a framework of understanding
+# 2. Expression as a framework of understanding
 With the popularization of the Internet, the freedom of expression of both women and other gender identities traditionally marginalized from public life and social acceptance (whom we will refer to as LGBTQ+) has been greatly enhanced. In contexts where women do not have their rights fully guaranteed, or where sexual and gender diversity are socially condemned, the world wide web has served to meet, organize and resist.
 
 By adding content in formats like text, audio and video, these groups have been able to connect with each other, as well as open spaces for discussion and visibility of topics that previously seemed vetoed. The web has become a space for activism, reclamation and protest against injustice and gender inequality. It has allowed the construction of international networks of solidarity, support and mobilization, and with this, the strengthening of feminism and other movements that fight for equal rights and for a fair recognition of difference.
@@ -40,31 +40,31 @@ These "use cases" must be known within the IETF, in order to join efforts for th
 
 By filtering from specific terms, the analysis consists of identifying patterns and regularities in the contexts in which these terms are used. For example, if they are used as an example in "use cases" or if they are part of a technical explanation, and if they are normally accompanied by other terms. The analysis presented is only an initial revision that must be completed and synthesized.
 
-### Safety
+### 2.1. Safety
 For the last years, there has been criticism of the way in which digital security accompaniments, advice and training are developed for people who are not directly related to the field of information technology. It is worth mentioning that digital security, unlike cybersecurity, is more geared towards Internet users [A. Comninos]. Some of these criticisms refer to the fact that the approach to digital security is centred on tools and not on usage practices, and "attacks", "adversaries" or "enemies" in a generic way, without recognising the specific contexts in which different information protection needs are generated.
 
 Given the common incidents suffered by women and LGBTQ+ people, from a gender perspective it has been preferred to use the term _safety_ to recognize their main need to be able to inhabit digital environments without being the target of attacks such as trolling, harassment, stalking, threats, non-consensual dissemination of intimate images, among others. When speaking of _safety_ rather than _security_, their participation is recognized as users at the most surface level, not as administrators, developers or generators of computer knowledge. In recent years, feminist infrastructure projects have begun to appear while the inclusion of women in Internet developers communities has been promoted, as will be seen in section X.X.X. However, today there is still a huge gender gap in the technical and political development of the internet.
 
 In [rfc4949] _safety_ is defined as "the property of a system being free from risk of causing harm (especially physical harm) to its system entities", which is compared to _security_ as the "system condition in which system resources are free from unauthorized access and from unauthorized or accidental change, destruction, or loss". But _safety_ has traditionally, especially in the early years of the IETF, been referred to human activities [rfc1244; rfc2122; rfc2310] and human rights [rfc1746; rfc1941; rfc3694]. 
-### Gender
+### 2.2. Gender
 As IETF is centered on "identifying, and proposing solutions to, pressing operational and technical problems in the Internet" and as according to the [Tao] "we believe in rough consensus and running code", it is not supposed to concentrate on the particular characteristics of Internet users, but on the proper functioning of the systems. In addition, due to the characteristics of the type of technologies that are designed in the IETF, many times the the "use cases" or implementations refer to the way in which companies arrange the infrastructure for their clients, not necessarily to the way Internet users interact with that infrastructure.
 
 In this sense, it seems no to be so urgent to imagine the particular needs of users, given their gender, race or ethnicity. However, in the drafts and rfcs archive there appear subjects with gender as well as supposedly universal entities that sometimes represent concrete functions of the systems, and other times the voluntary actions of the operators. As a first step in imagining possible gender considerations when designing interner protocols, below is a very brief description of how gender appears in IETF documents. This is also a very preliminary analysis, which could later be complimented and added to the search for entities with cultural and phenotypic characteristics that could make them vulnerable on the Internet.
 
 
-## Access
+## 3. Access
 Internet access is recognized as a human right [UNITED NATIONS], but its effective guarantee depends on different and unequal social, cultural, economic and political conditions. In 2018, barely half of the world's population has access to the internet and in 88% of countries, men have more access than women [ITU Statistics]. Geographical location, age, educational and income level, as well as gender, significantly determine how people access to the Internet [webFoundation].
 
 The [Feminist Principles of the Internet] enphasizes that access must be to a universal, acceptable, affordable, unconditional, open, meaningful and equal Internet, which guarantees rights rather than restricts them. As some bodies have always been subject to social and cultural surveillance and violence because of their gender and sexuallity, their access to Internet is not satisfied with connected devices, but with safety and useful digital enviroments [Jac Sm Kee].
 
 In this sense, access must be considered in several dimensions, in addition to Internet access as a possibility of being connected:
 
-### Access to information  
+### 3.1. Access to information  
 Information in one's own language is the first condition, as pointed out with the cencept of 'Localization' [rfc8280], referred to the act of tailoring an application for a different language, script, or culture, and involves not only changing the language interaction but also other relevant changes, such as display of numbers, dates, currency, and so on.
 
 But it is also necessary to be able to access relevant information, related for example to sexual and reproductive health and rights, pleasure, safe abortion, access to justice, and LGBTIQ issues. Some goverments and ISPs block pages with this content or monitor online activity by sexual and gender related terminology.
 
-### Usage of technology
+### 3.2. Usage of technology
 Beyond content, access implies the possibility to use, which means code, design, adapt and critically and sustainably use ICTs. As almost 75% of connected individuals are placed in the Global South [Sengupta and Bouterse], technology is developped mainly in rich countries [reference] where student quotas and jobs are filled mainly by men [reference]. 
 
 The concept of 'Internationalization' [rfc6365] refers to the practice of making protocols, standards, and implementations usable in different languages. This is a first step to democratize the development of technology, allowing its implementation in non-English-speaking countries.
@@ -72,15 +72,17 @@ The concept of 'Internationalization' [rfc6365] refers to the practice of making
 However, there is still a long way to go in terms of inclusion of more diverse populations in the spaces of technology development and definition of protocoles and standards for the Internet infrastructure [rfc7704].  The presence of gendered subjects in the IETF RFCs and drafts archive demonstrates stereotyped male and feminine roles. On the other hand, the generalized mention of agents - as universal subjects - in those documents, ignores the existence of other corporealities, which includes non binary identities or with a marked physical difference [reference]. 
  * Challenge the cultures of sexism and discrimination in all spaces.
 
-### Free and open source
+### 3.3. Free and open source
 The digital gender gap has relegated women and other marginalized groups to be internet users, adding content but usually not knowing how the platforms they access work. Promoting transparency [rfc 8280] and simplifying technical terminology is necessary to bridge the gap.
  * Terms upon which we create technology
  * Terms upon which we experimenting with others' technology
  * Promoting, disseminating, and sharing knowledge about technology.
  
  Freedom is not freedom for everyone, always. It is important to identify different dimensions of freedom and how it is expressed in different contexts. 
+ 
+* Add Economic here.
 
-### Internet governance
+### 3.4. Internet governance
 While there is no agreement regarding the ability of the Internet to negatively or positively impact on social behaviors, or shape desirable practices [rfc8280], while more women and diverse population participate in technical development spaces, as well as decision-making spaces, there will be greater possibilities for ICTs to reflect greater inclusiveness and enable less risky and harmful interactions [rfc7704].
 
  * Challenge processes and institutions that govern the internet
@@ -88,7 +90,7 @@ While there is no agreement regarding the ability of the Internet to negatively 
  * Democratise policy making affecting the internet
  * Diffuse ownership of and power in global and local networks
 
-## Embodied (anonymity)
+## 4. Embodiment
 
 
 Most of the threats women and non binary people face on line, occur in the user level. Most of their adversaries are other users, who also act at the user level, with advanced -or not advanced- possibilities for threatening their expressions, but also include institutions, platforms and governments.
@@ -101,7 +103,7 @@ systemic bias that is structural to data collection and algorithms that reproduc
 
 While anonymity is never just about technical issues but users protection activities, it becomes more necessary to strenghten the design and functionality of networks, by default. 
  
-### Online violence
+### 4.1. Online violence
 
  * Security
         * Identity Theft
@@ -118,7 +120,7 @@ While anonymity is never just about technical issues but users protection activi
  * Consent to receive.
         * Stalking, monitoring, harrassement
 
-### Consent
+### 4.2. Consent
 
  * Data protection
         * Exposure of personal data
@@ -130,7 +132,7 @@ While anonymity is never just about technical issues but users protection activi
         * Exposure of intimacy
         * Unauthorized use of photos
 
-### Anonymity
+### 4.3. Anonymity
 
  * Right to anonymity
  * Enables other rights like freedom of expression
@@ -141,7 +143,7 @@ While anonymity is never just about technical issues but users protection activi
         * Hate Speech,  discriminatory expressions
  * Safety from discrimination
 
-### Privacy and data
+### 4.4. Privacy and data
 
  * Right to privacy
  * Data protection
@@ -150,14 +152,14 @@ While anonymity is never just about technical issues but users protection activi
  * Manipulate and mislead with data
  * Surveillance and patriarchy by states, individuals, private sector, etc. Those that enable surveillance, eg spouseware.
 
-### Memory
+### 4.5 Memory
 
  * Right to be forgotten
  * Control over personal history and memory on the internet
  * Access all our personal data and information online
  * Delete forever
 
-## Networked
+## 5. Networked
 
  * Freedom of assocation
         * Identity Theft
