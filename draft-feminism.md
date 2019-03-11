@@ -93,15 +93,18 @@ While there is no agreement regarding the ability of the Internet to negatively 
 ## 4. Embodiment
 
 
-Most of the threats women and non binary people face on line, occur in the user level. Most of their adversaries are other users, who also act at the user level, with advanced -or not advanced- possibilities for threatening their expressions, but also include institutions, platforms and governments.
+## Embodiment
+For a long time, perhaps since the Internet became popular, its use ceased to be a functional matter and became emotional. The access to chat rooms to connected with people at huge distances, the possibility of having personal e-mails, the appearance of social networks to share music, photos and then video, determined not only the social use of a new tool but also the configuration of digital sensitivities, understood by some as sensory extensions of the body.
 
-"About autonomy, When to be visible? Machinery decision making
-data-driven and increasingly automated decision making has many dimensions,
-systemic bias that is structural to data collection and algorithms that reproduce and amplify discrimination and exclusion"
+The Internet connections embedded have also meant a radical transformation in the way people access the Internet. Much more, considering that today most Internet connections, especially in the global south, are mobile connections. People build their own public digital identities, use private communications to disseminate information, explore their sexuality in text, image and video, share their initmity with others. In internet-connected devices, it has become much easier for leisure and work to mix, which implies different risks for users.
 
-"governance and accountability, given that a large proportion of data sets are privately owned by large multinational corporations. How to develop data policies and practices based on the principles of autonomy, consent, bodily integrity and dignity?"
+Sharing personal information, and often sensitive data, through platforms that are synchronized with email accounts and other platforms where information considered non-sensitive is published, implies losing control over such information. Much more, considering that each platform hosts the information of its users according to their own terms and conditions in the treatment of data. For women and other groups marginalized by race or gender, these risks are greater.
 
-While anonymity is never just about technical issues but users protection activities, it becomes more necessary to strenghten the design and functionality of networks, by default. 
+Just as the Internet connection can be considered an extension of the body, social problems such as discrimination and exclusion have been projected into the digital environment -sometimes intensified, sometimes reconfigured. And once again, women, LGBTQ+, racialized people are the most vulnerable. Most of the threats they face on line, occur in the user level. Most of their "adversaries" are other users, who also act at the user level, with advanced -or not advanced- technical skills for threatening their expressions. But also include institutions, platforms and governments.
+
+At this point, what level of autonomy do these people have as internet users? 
+
+
  
 ### 4.1. Online violence
 
@@ -133,6 +136,7 @@ While anonymity is never just about technical issues but users protection activi
         * Unauthorized use of photos
 
 ### 4.3. Anonymity
+While anonymity is never just about technical issues but users protection activities, it becomes more necessary to strenghten the design and functionality of networks, by default. 
 
  * Right to anonymity
  * Enables other rights like freedom of expression
