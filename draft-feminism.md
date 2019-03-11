@@ -27,8 +27,7 @@ The aim of this document is to use a feminist framework to analyse the impacts o
  
  ** How does intersectional feminism refer to diversity?
  
-## Expression as a framework of understanding
-
+# Expression as a framework of understanding
 With the popularization of the Internet, the freedom of expression of both women and other gender identities traditionally marginalized from public life and social acceptance (whom we will refer to as LGBTQ+) has been greatly enhanced. In contexts where women do not have their rights fully guaranteed, or where sexual and gender diversity are socially condemned, the world wide web has served to meet, organize and resist.
 
 By adding content in formats like text, audio and video, these groups have been able to connect with each other, as well as open spaces for discussion and visibility of topics that previously seemed vetoed. The web has become a space for activism, reclamation and protest against injustice and gender inequality. It has allowed the construction of international networks of solidarity, support and mobilization, and with this, the strengthening of feminism and other movements that fight for equal rights and for a fair recognition of difference.
@@ -37,23 +36,20 @@ The political expression of gender has not been limited to voices, but has made 
 
 Where women and LGBTQ+ have traditionally been marginalized, their participation in the Internet is rejected through different forms of violence by other users, as well as institutions, platforms and governments. But the effects of these violences, which are nothing more than extensions of the traditional violence that these groups have had to face in social life, increase to the extent that there is not enough technical knowledge to neutralize them, and this is the case of most people who struggle for the recognition of their gender difference.
 
-These "use cases" must be known within the IETF, in order to join efforts for the elimination of online gender-based violence, which today seems to be a rule in digital environments. In order to identify ways and strategies to contribute to this purpose, we review below the ways in which both _gender_ and _security_ have been approached in IETF rfcs and drafts.
+These "use cases" must be known within the IETF, in order to join efforts for the elimination of online gender-based violence, which today seems to be a rule in digital environments. In order to identify ways and strategies to contribute to this purpose, we review below the ways in which both _safety_ and _gender_ have been approached in IETF rfcs and drafts. The following sections consist of a preliminary analysis of the terms used in the IETF drafts and rfcs archive.
 
-### Security and Safety
+By filtering from specific terms, the analysis consists of identifying patterns and regularities in the contexts in which these terms are used. For example, if they are used as an example in "use cases" or if they are part of a technical explanation, and if they are normally accompanied by other terms. The analysis presented is only an initial revision that must be completed and synthesized.
 
-Safety.  To the greatest extent possible, members of the CoVis community will be protected from harassment or unwanted or unsolicited contact. Any community member who receives threatening or unwelcome communications should bring them to the attention of a system administrator or teacher. Users must, however, be aware that there are many services available on the Internet that could potentially be offensive to certain groups of users. The designers of the CoVis Network cannot eliminate access to all such services, nor could they even begin to identify them. Thus individual users must take responsibility for their own actions in navigating the network (rfc1746);
- 
-The server may echo the password characters as stars or any other scrambled output for safety purpose [rfc2122]
- 
-This document proposes a HTTP response header called Safe, which can be used to label the corresponding POST request as being safe. This labeling will allow user agents to present services which use safe POSTs in a more user-friendly way.  Improving the user-friendliness of safe POSTs is considered important, because web internationalization will depend for a large part on the use of safe POSTs [rfc2310].
+### Safety
+For the last years, there has been criticism of the way in which digital security accompaniments, advice and training are developed for people who are not directly related to the field of information technology. It is worth mentioning that digital security, unlike cybersecurity, is more geared towards Internet users [A. Comninos]. Some of these criticisms refer to the fact that the approach to digital security is centred on tools and not on usage practices, and "attacks", "adversaries" or "enemies" in a generic way, without recognising the specific contexts in which different information protection needs are generated.
 
-Basically, a mobile node (MN) roaming over the Internet SHOULD enjoy safe and persistent IP connectivity as much as this is permitted by the policies of its home and visiting subnets. Persistency of IP connectivity means that the connections should be handoff correctly and quickly so that the MN can maintain its TCP sessions when it changes its network attachment point. Safety means traffics to and from the MN should enjoy similar level of security (with respect to passive and active attacks) as it is on its home subnet [draft-ietf-mobileip-ipsec-use-00]
+Given the common incidents suffered by women and LGBTQ+ people, from a gender perspective it has been preferred to use the term _safety_ to recognize their main need to be able to inhabit digital environments without being the target of attacks such as trolling, harassment, stalking, threats, non-consensual dissemination of intimate images, among others. When speaking of _safety_ rather than _security_, their participation is recognized as users at the most surface level, not as administrators, developers or generators of computer knowledge. In recent years, feminist infrastructure projects have begun to appear while the inclusion of women in Internet developers communities has been promoted, as will be seen in section X.X.X. However, today there is still a huge gender gap in the technical and political development of the internet.
 
-### Men and women
- 
-The discursive level in IETF documents. The unexpected influence of discourse in technical documents over internet users through implementations. 
-Gendered presence in drafts and RFCs (from entities to men and women) stereotyped roles
-Diversity (language, access, producers-users)
+In [rfc4949] _safety_ is defined as "the property of a system being free from risk of causing harm (especially physical harm) to its system entities", which is compared to _security_ as the "system condition in which system resources are free from unauthorized access and from unauthorized or accidental change, destruction, or loss". But _safety_ has traditionally, especially in the early years of the IETF, been referred to human activities [rfc1244; rfc2122; rfc2310] and human rights [rfc1746; rfc1941; rfc3694]. 
+### Gender
+As IETF is centered on "identifying, and proposing solutions to, pressing operational and technical problems in the Internet" and as according to the [Tao] "we believe in rough consensus and running code", it is not supposed to concentrate on the particular characteristics of Internet users, but on the proper functioning of the systems. In addition, due to the characteristics of the type of technologies that are designed in the IETF, many times the the "use cases" or implementations refer to the way in which companies arrange the infrastructure for their clients, not necessarily to the way Internet users interact with that infrastructure.
+
+In this sense, it seems no to be so urgent to imagine the particular needs of users, given their gender, race or ethnicity. However, in the drafts and rfcs archive there appear subjects with gender as well as supposedly universal entities that sometimes represent concrete functions of the systems, and other times the voluntary actions of the operators. As a first step in imagining possible gender considerations when designing interner protocols, below is a very brief description of how gender appears in IETF documents. This is also a very preliminary analysis, which could later be complimented and added to the search for entities with cultural and phenotypic characteristics that could make them vulnerable on the Internet.
 
 
 ## Access
