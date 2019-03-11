@@ -202,13 +202,13 @@ and added to the search for entities with cultural and phenotypic characteristic
 
 Internet access is recognized as a human right {{UNGA}}, but its effective guarantee depends on different and unequal social, cultural, economic and political conditions. In 2018, barely half of the 
 world's population has access to the internet and in 88% of countries, men have more access than women {{ITU}}. Geographical location, age, educational and income level, as well as gender, significantly 
-determine how people access to the Internet {{WebFoundation}}.
+determine how people access to the internet {{WebFoundation}}.
 
-The Feminist Principles of the Internet {{FPI}} enphasizes that access must be to a universal, acceptable, affordable, unconditional, open, meaningful and equal Internet, which guarantees rights rather 
-than restricts them. As some bodies have always been subject to social and cultural surveillance and violence because of their gender and sexuallity, their access to Internet is not satisfied with 
+The Feminist Principles of the Internet {{FPI}} enphasizes that access must be to a universal, acceptable, affordable, unconditional, open, meaningful and equal internet, which guarantees rights rather 
+than restricts them. As some bodies have always been subject to social and cultural surveillance and violence because of their gender and sexuallity, their access to internet is not satisfied with 
 connected devices, but with safety and useful digital enviroments {{SmKee}}.
 
-In this sense, access must be considered in several dimensions, in addition to Internet access as a possibility of being connected:
+In this sense, access must be considered in several dimensions, in addition to internet access as a possibility of being connected:
 
 ### 3.1. Access to information
 
@@ -227,7 +227,7 @@ Beyond content, access implies the possibility to use, which means code, design,
 The concept of 'Internationalization' {{rfc6365}} refers to the practice of making protocols, standards, and implementations usable in different languages. This is a first step to democratize the 
 development of technology, allowing its implementation in non-English-speaking countries.
 
-However, there is still a long way to go in terms of inclusion of more diverse populations in the spaces of technology development and definition of protocoles and standards for the Internet 
+However, there is still a long way to go in terms of inclusion of more diverse populations in the spaces of technology development and definition of protocoles and standards for the internet 
 infrastructure {{rfc7704}}.  The presence of gendered subjects in the IETF RFCs and drafts archive demonstrates stereotyped male and feminine roles. On the other hand, the generalized mention of agents - 
 as universal subjects - in those documents, ignores the existence of other corporealities, which includes non binary identities or with a marked physical difference.
 
@@ -278,11 +278,11 @@ interactions [rfc7704].
 Most of the threats women and non binary people face on line, occur in the user level. Most of their adversaries are other users, who also act at the user level, with advanced -or not advanced- 
 possibilities for threatening their expressions, but also include institutions, platforms and governments.
 
-For a long time, perhaps since the Internet became popular, its use ceased to be a functional matter and became emotional. The access to chat rooms to connected with people at huge distances, the 
+For a long time, perhaps since the internet became popular, its use ceased to be a functional matter and became emotional. The access to chat rooms to connected with people at huge distances, the 
 possibility of having personal e-mails, the appearance of social networks to share music, photos and then video, determined not only the social use of a new tool but also the configuration of digital 
 sensitivities, understood by some as sensory extensions of the body.
 
-The Internet connections embedded have also meant a radical transformation in the way people access the Internet. Much more, considering that today most Internet connections, especially in the global 
+The internet connections embedded have also meant a radical transformation in the way people access the internet. Much more, considering that today most internet connections, especially in the global 
 south, are mobile connections. People build their own public digital identities, use private communications to disseminate information, explore their sexuality in text, image and video, share their 
 initmity with others. In internet-connected devices, it has become much easier for leisure and work to mix, which implies different risks for users.
 
@@ -290,7 +290,7 @@ Sharing personal information, and often sensitive data, through platforms that a
 losing control over such information. Much more, considering that each platform hosts the information of its users according to their own terms and conditions in the treatment of data. For women and 
 other groups marginalized by race or gender, these risks are greater.
 
-Just as the Internet connection can be considered an extension of the body, social problems such as discrimination and exclusion have been projected into the digital environment -sometimes intensified, 
+Just as the internet connection can be considered an extension of the body, social problems such as discrimination and exclusion have been projected into the digital environment -sometimes intensified, 
 sometimes reconfigured. And once again, women, queers, racialized people are the most vulnerable. Most of the threats they face on line, occur in the user level. Most of their "adversaries" are other 
 users, who also act at the user level, with advanced -or not advanced- technical skills for threatening their expressions. But also include institutions, platforms and governments.
 
