@@ -25,7 +25,7 @@ articulate and explore issues related to technology], which are built bottom up 
 "The principles were not designed as a set of rules or recommendations, but as an articulation of key issues with feminist policies and approaches, in order to begin to investigate. They express the kind 
 of internet that we would like to have, and with whose conformation we are going to collaborate. and imagination."
 
-** Why feminism and not diversity?
+## Intersectional feminism and diversity
 
 The aim of this document is to use a feminist framework to analyse the impacts of internet protocols on society. It assumes that values are inherent to technological design and specifies how those values 
 can either support or create barriers for gender justice and equity for internet users. The Gender at Work framework provides a four-quadrant analysis along the axes of individual-systemic and 
@@ -34,9 +34,8 @@ informal-formal. This feminist discussion of internet protocols focusses in the 
  * Intersectional feminism
  * Five layers of power
  
- ** How does intersectional feminism refer to diversity?
- 
 # 2. Expression as a framework of understanding
+
 With the popularization of the Internet, the freedom of expression of both women and other gender identities traditionally marginalized from public life and social acceptance (whom we will refer to as 
 LGBTQ+) has been greatly enhanced. In contexts where women do not have their rights fully guaranteed, or where sexual and gender diversity are socially condemned, the world wide web has served to meet, 
 organize and resist.
@@ -61,6 +60,7 @@ By filtering from specific terms, the analysis consists of identifying patterns 
 or if they are part of a technical explanation, and if they are normally accompanied by other terms. The analysis presented is only an initial revision that must be completed and synthesized.
 
 ### 2.1. Safety
+
 For the last years, there has been criticism of the way in which digital security accompaniments, advice and training are developed for people who are not directly related to the field of information 
 technology. It is worth mentioning that digital security, unlike cybersecurity, is more geared towards Internet users [A. Comninos]. Some of these criticisms refer to the fact that the approach to 
 digital security is centred on tools and not on usage practices, and "attacks", "adversaries" or "enemies" in a generic way, without recognising the specific contexts in which different information 
@@ -228,7 +228,7 @@ https://fermentos.kefir.red/english/aco-pele Responsible Data https://responsibl
 https://www.genderit.org/feminist-talk/impact-what-and-whom-digital-technologies-and-feminist-movement-building Design Justice 
 https://docs.google.com/presentation/d/1J3ZWBgxe0QFQ8OmUr-QzE6Be8k_sI7XF0VWu4wfMIVM/edit#slide=id.gcad8d6cb9_0_198 Design Action Collective Points of Unity https://designaction.org/about/points-of-unity
 
-# Other resources
+# Resources not cited
 
 CODING RIGHTS; INTERNETLAB. Violências de gênero na internet: diagnóstico, soluções e desafios. Contribuição conjunta do Brasil para a relatora especial da ONU sobre violência contra a mulher. São Paulo, 
 2017. https://www.codingrights.org/wp-content/uploads/2017/11/Relatorio_ViolenciaGenero_v061.pdf
@@ -237,6 +237,3 @@ Barrera, L. y Rodríguez, C. La violencia en línea contra las mujeres en Méxic
 https://luchadoras.mx/wp-content/uploads/2017/12/Informe_ViolenciaEnLineaMexico_InternetEsNuestra.pdf
 
 Sephard, N. Big Data and Sexual Surveillance. APC issue papers. 2016. https://www.apc.org/sites/default/files/BigDataSexualSurveillance_0_0.pdf
-
-
-
