@@ -1,15 +1,24 @@
---- title: Terminology, Power and Offensive Language abbrev: Terminology docname: draft-knodel-terminology-00 category: bcp
+---
+title: Terminology, Power and Offensive Language
+abbrev: Terminology
+docname: draft-knodel-terminology-01
+date: 2019-03-11
+category: bcp
 
-ipr: trust200902 area: IETF keyword: Internet-Draft stand_alone: yes pi:
-  rfcedstyle: yes
-  toc: yes
-  tocindent: yes
-  sortrefs: yes
-  symrefs: yes
-  strict: yes
-  comments: yes
-  inline: yes
-  text-list-symbols: -o*+
+ipr: trust200902
+area: IETF
+keyword: Internet-Draft
+stand_alone: yes
+pi:
+rfcedstyle: yes
+toc: yes
+tocindent: yes
+sortrefs: yes
+symrefs: yes
+strict: yes
+comments: yes
+inline: yes
+text-list-symbols: -o*+
 
 author:
 
@@ -49,7 +58,7 @@ informative:
          - ins: Ron Eglash
       date: 2007
       seriesinfo: "Technology and Culture, vol. 48 no. 2, 2007, pp. 360-369."
-      target: "doi:10.1353/tech.2007.0066"
+      target: https://doi.org/10.1353/tech.2007.0066
 
    Kurfess:
       title: "Robotics and Automation Handbook"
@@ -71,7 +80,7 @@ informative:
        author:
           - ins: Sally Wyatt
        date: 2004
-       seriesinfo: "Science, Technology, & Human Values, Volume: 29 issue: 2, page(s): 242-261"
+       seriesinfo: "Science, Technology, and Human Values, Volume: 29 issue: 2, page(s): 242-261"
 
    Lakoff:
        title: Metaphors We Live By
@@ -114,7 +123,7 @@ informative:
       target: https://www.drupal.org/project/project_issue_file_review/issues/343414#comment-1164514
      
    Python:
-      title: "‘master-slave’ Terminology Was Removed from Python Programming Language"
+      title: "'master-slave' Terminology Was Removed from Python Programming Language"
       date: 2018
       author:
          - ins: Daniel Oberhaus
