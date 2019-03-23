@@ -1,0 +1,6 @@
+draft-*.html
+draft-*.xml
+draft-*.txt
+*~
+*.staging.xml
+.refcache/

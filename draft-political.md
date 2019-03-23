@@ -1,7 +1,7 @@
 ---
-title: On Value Neutrality and the Politics of Standards
+title: Notes on networking standards and politics
 abbrev: politix
-docname: draft-tenoever-hrpc-political-06
+docname: draft-irtf-hrpc-political-01
 category: info
 
 ipr: trust200902
@@ -284,7 +284,7 @@ informative:
 
 --- abstract
 
-The IETF cannot ordain which standards or protocols are to be used on network, but the standards developing process in the IETF has a normative effect. Among other things the standardisation work at the IETF has implications on what is perceived as technologically possible and useful where networking technologies are being deployed, and its standards output reflect was is considered by the technical community as feasible and good practice. Because it mediates many aspects of modern life, and therefore contributes to the ordering of societies and communities, the consideration of the politics and (potential) impact of protocols should be part of the standardization and development process.
+The IETF cannot ordain which standards or protocols are to be used on network, but the standards developing process in the IETF has a normative effect. Among other things the standardisation work at the IETF has implications on what is perceived as technologically possible and useful where networking technologies are being deployed, and its standards output reflect was is considered by the technical community as feasible and good practice. Because it mediates many aspects of modern life, and therefore contributes to the ordering of societies and communities, the consideration of the politics and (potential) impact of protocols should be part of the standardization and development process. If the technical community refuses to take up this responsibility, it should accept that others, such as governments, will take up this role. 
 
 --- middle
 
@@ -374,9 +374,9 @@ IETF: Protocols as Standards
 
 In the previous section we gave an overview of the different existing positions of the impact of Internet protocols in the Internet community. In the following section we will consider the standards setting process and its consequences for the politics of protocols.
 
-Standards enabling interoperating networks, what we think of today as the Internet, were created as open, formal and voluntary standards. A platform for internet standardisation, the Internet Engineering Task Force (IETF), was created in 1992 to enable the continuation of such standardisation work. The IETF has sought to make the standards process transparent (by ensuring everyone can access standards, mailing-lists and meetings), predictable (by having clear procedures and reviews) and of high quality (by having draft documents reviewed by members from its own epistemic community). This is all aimed at increasing the accountability of the process and the quality of the standard.
+Standards enabling interoperating networks, what we think of today as the Internet, were created as open, formal and voluntary standards. A platform for internet standardisation, the Internet Engineering Task Force (IETF), was created in 1986 to enable the continuation of such standardisation work. The IETF has sought to make the standards process transparent (by ensuring everyone can access standards, mailing-lists and meetings), predictable (by having clear procedures and reviews) and of high quality (by having draft documents reviewed by members from its own epistemic community). This is all aimed at increasing the accountability of the process and the quality of the standard.
 
-The IETF implements what has been referred to as an "informal ex ante disclosure policy" for patents {{Contreras}}, which includes the possibility for participants to disclose the existence of a patent relevant for the standard, royalty-terms which would apply to the implementors of that standard should it enter into effect, as well as other licensing terms that may be interesting for implementors to know. The community ethos in the IETF seems to lead to 100% royalty-free disclosures of prior patents which is a record number, even among other comparable standard organisations {{Contreras}}.
+The IETF implements what has been referred to as an "informal ex ante disclosure policy" for patents {{Contreras}}, which includes the possibility for participants to disclose the existence of a patent relevant for the standard, royalty-terms which would apply to the implementors of that standard should it enter into effect, as well as other licensing terms that may be interesting for implementors to know. The community ethos in the IETF seems to lead to 100% royalty-free disclosures of prior patents which is a record number, even among other comparable standard organisations {{Contreras}}. In the following paragraph we will describe inherent tensions in the standards process.
 
 ## Competition and collaboration
 
@@ -392,7 +392,7 @@ The development of formal standards faces a number of economic and organisationa
 
 ## IETF standards setting externalities
 
-In spite of a strong community ethos and transparent procedures, the IETF is not immune to externalities.
+In the specific case of the IETF there is a strong community ethos and transparent procedures, which are documented in RFCs. Nonetheless, the IETF is not immune to externalities. We will describe several of these externalities underneath.
 
 ### Finance
 Sponsorship to the IETF is varied, but is also of the nature that ongoing projects that are in the specific interest of one or some group of corporations may be given more funding than other projects (see {{draft-finance-thoughts}}). The IETF has faced three periods of decreased commitment from participants in funding its meetings in the past ten years, leading, naturally, to self-scrutiny, see for instance {{IAOC69}}, {{IAOC77}}, {{IAOC99}}.
@@ -426,7 +426,7 @@ This does not mean the IETF does not have a position on particular political iss
 Conclusion
 ==========
 
-Economics, competition, collaboration, openness, and political impact have been an inherent part of the work of the IETF since its early beginnings, by its nature as standards developing organization, through the contributions of the members of the Internet community, and because the ordering effect the Internet has on society. Whereas there might not be agreement in the Internet community on what the specific political nature is of technological development, it is undisputed that standards and protocols are both product of a political process, and they can also be used for political means. Therefore protocols and standards are not value neutral. Whereas there is no need for a unified philosophy of Internet protocols, it is in the benefit of the IETF, the Internet and arguably society at large to take this into account in the standards development process.
+Economics, competition, collaboration, openness, and political impact have been an inherent part of the work of the IETF since its early beginnings, by its nature as standards developing organization, through the contributions of the members of the Internet community, and because the ordering effect the Internet has on society. Whereas there might not be agreement in the Internet community on what the specific political nature is of technological development, it is undisputed that standards and protocols are both product of a political process, and they can also be used for political means. Therefore protocols and standards are not value neutral. Whereas there is no need for a unified philosophy of Internet protocols, it is in the benefit of the IETF, the Internet and arguably society at large to take this into account in the standards development process. It can be expected that if the IETF will not take these issues into account, this might lead to interventions in the form of policies and regulations for instance through governmental or intergovernmental bodies, which could hamper the work of the IETF. 
 
 The way forward
 ===============
@@ -435,13 +435,12 @@ There are instruments that can help the IETF develop an approach to address the 
 
 Since 'de facto standardization is reliant on market forces' {{Hanseth}} we need to live with the fact standards bodies have a political nature {{Webster}} and are not value neutral. This does not need to be problematic as long as there are sufficient accountability and transparency mechanisms in place. The importance of these mechanisms increases with the importance of the standards and their implementations. The complexity of the work inscribes a requirement of competence in the work in the IETF, which forms an inherent barrier for end-user involvement. Even though this might not be intentional, it is a result of the interplay between the characteristics of the epistemic community in the IETF and the nature of the standard setting process.
 
-Instead of splitting hairs about whether 'standards are political' {{Winner}} {{Woolgar}} we argue that we need to look at the politics of individual standards and invite document authors and reviewers to take these dynamics into account.
+Instead of splitting hairs about whether 'standards are political' {{Winner}} {{Woolgar}} we argue that we need to look at the politics of individual standards and invite document authors and reviewers to take these dynamics into account. If the Internet community fails to do so, this could undermine the current regime of Internet governance and standard setting.
 
 Security Considerations
 =======================
 
 As this draft concerns a research document, there are no security considerations as described in {{RFC3552}}, which does not mean that not addressing the issues brought up in this draft will not impact the security of end-users or operators.
-
 
 IANA Considerations
 ===================
