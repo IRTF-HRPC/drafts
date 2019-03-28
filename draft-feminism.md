@@ -255,28 +255,28 @@ reliability and diversity. Centralisation of services is a current discussion in
 
 ### 5.1. Freedom of assocation
 
-        * Identity Theft
-        * Invasion/attack Attacks on system security
- * Connecting people across territories
- * Creating opportunities for sustained feminist movement building
- * Peering
- * Choice, accountability and transparency
+Given the shrinking of civic space offline, the internet provides a global public space, albeit one that relies on private infrastructure {{tenOever}}. For social causes that push for equality, it is 
+therefore critical that the internet be maintained as a space for alignment, protest, dissent and escape. In the scope of this document, this is a call to maintain and enable the creation of spaces for 
+sustained feminist movement building. Elements of freedom of assocation as explained in the UDHR {{}} include individual and collective rights to privacy and anonymity, as discussed in more detail below. 
+At the same time, the internet provides new and novel ways for communities to come together across borders and without limits of geolocation. However this positive aspect of internet communications is 
+threatened by centralised systems of control and cooptation, specifically surveillance and other online repression.
+
+Association of system architectures is a concept that overlaps neatly with the ideals of real-world associations of organisations and communities. "The ultimate model of P2P is a completely decentralized 
+system, which is more resistant to speech regulation, immune to single points of failure and have a higher performance and scalability {{tenOever}}."
 
 ### 5.2. Internet governance
 
-While there is no agreement regarding the ability of the internet to negatively or positively impact on social behaviors, or shape desirable practices [rfc8280], while more women and diverse population 
-participate in technical development spaces, as well as decision-making spaces, there will be greater possibilities for ICTs to reflect greater inclusiveness and enable less risky and harmful 
-interactions [rfc7704].
+While there is no agreement regarding the ability of the internet to negatively or positively impact on social behaviors, or shape desirable practices {{RFC8280}}, more women and diverse populations' 
+participation in technical development and decision-making spaces will lead to greater possibilities for ICTs to reflect greater inclusiveness and enable less risky and harmful interactions {{RFC7704}}.
 
- * Challenge processes and institutions that govern the internet
- * Put more feminists and queers at the decision-making table
- * Democratise policy making affecting the internet
- * Diffuse ownership of and power in global and local networks
+It is critical for groups who represent civil society interests, social change and the larger public interest to challenge processes and institutions that govern the internet. This requires the inclusion 
+of more feminists and queers at the decision-making table, which can be achieved through democratic policy making. Greater effect will be possible through diffuse ownership of and power in global and 
+local networks.
 
 ## 6. Embodiment
 
-Most of the threats women and non binary people face on line, occur in the user level. Most of their adversaries are other users, who also act at the user level, with advanced -or not advanced- 
-possibilities for threatening their expressions, but also include institutions, platforms and governments.
+Most of the threats women and non binary people face on line, occur on the user levels of application and content. Most adversaries are other users, but also include institutions, platforms and 
+governments.
 
 For a long time, perhaps since the internet became popular, its use ceased to be a functional matter and became emotional. The access to chat rooms to connected with people at huge distances, the 
 possibility of having personal e-mails, the appearance of social networks to share music, photos and then video, determined not only the social use of a new tool but also the configuration of digital 
@@ -290,30 +290,30 @@ Sharing personal information, and often sensitive data, through platforms that a
 losing control over such information. Much more, considering that each platform hosts the information of its users according to their own terms and conditions in the treatment of data. For women and 
 other groups marginalized by race or gender, these risks are greater.
 
-Just as the internet connection can be considered an extension of the body, social problems such as discrimination and exclusion have been projected into the digital environment -sometimes intensified, 
+Just as the internet connection can be considered an extension of the body, social problems such as discrimination and exclusion have been projected into the digital environment-- sometimes intensified, 
 sometimes reconfigured. And once again, women, queers, racialized people are the most vulnerable. Most of the threats they face on line, occur in the user level. Most of their "adversaries" are other 
-users, who also act at the user level, with advanced -or not advanced- technical skills for threatening their expressions. But also include institutions, platforms and governments.
+users, who also act at the user level, with technical or social skills that threaten participation and expressions. Institutions, platforms and governments who are adversarial have great advantage.
 
 At this point, what level of autonomy do these people have as internet users?
  
 ### 6.1. Online violence
 
- * Security
-        * Identity Theft
-        * Invasion/attack Attacks on system security
- * Privacy
-        * Control and manipulatio of information
-        * Extorsion
- * Online harassment and technology-related violence
-        * Censorship: blocking posts, profiles and pages in after coordinated -or not- denounces. Some based on “real name” policy; Coercion to delete profiles; False accusations; Flamming
-        * Sexual abuse related technology
- * Linkability and offline abuse
-        * Access or unauthorized control
-        * Omissions by actors with regulatory power
- * Consent to receive.
-        * Stalking, monitoring, harrassement
+The security considerations to counter online violence are critical. There is opportunity in a connected world for those who would perpetuate violence against women and other marginalised groups through 
+the use of internet-enabled technologies, from the home to the prison.
+
+Privacy is a critical component of security for populations at risk. The control of information is linked to privacy. Where some would like privacy in order to live privately, others need privacy in 
+order to access information and circumvent censorship and surveillance. The protection of privacy is critical for those at risk to prevent vicimisation through extortion, doxxing, and myriad other 
+threats. Lack of privacy leads to risks such as stalking, monitoring and persistent harrassment.
+
+While making public otherwise private details about a person can consitute a form of abuse, the converse is also a risk: Being erased from society or having one's online identity controlled by another is 
+a form of control and manipulation. Censorship, misinformation and coersion may consitute violence online. Other forms of non-consensual manipulation of online content includes platform "real name 
+policies", sharing of intimate images and sexual abuse, spreading false accusations, flamming and other tactics.
+
+Key to mitigating these threats is the element of consent.
 
 ### 6.2. Consent
+
+Some elements of consent online include but are not limited to the following list of issues, which should be elaborated on:
 
  * Data protection
         * Exposure of personal data
@@ -327,7 +327,7 @@ At this point, what level of autonomy do these people have as internet users?
 
 ### 6.3. Anonymity
 
-While anonymity is never just about technical issues but users protection activities, it becomes more necessary to strenghten the design and functionality of networks, by default.
+While anonymity is never just about technical issues but users protection activities, it becomes more necessary to strenghten the design and functionality of networks, by default. There are several considerations for internet infrastructure related to enabling anonymity for online users. This is particularly important for marginalised groups and can be ennumerated, and expanded upon, thusly:
 
  * Right to anonymity
  * Enables other rights like freedom of expression
@@ -336,18 +336,20 @@ While anonymity is never just about technical issues but users protection activi
         * Affectations to expression channels
  * Breaking social taboos and heteronormativity
         * Hate Speech, discriminatory expressions
- * Safety from discrimination
+ * Discrimination and safety from discrimination
 
 ### 6.4. Privacy and data
 
+While mentioned at the intersection of previous issues outlined above, this section is particularly critical for women, queers and marginalised populations who are already at greater risk of control and surveillance:
+
  * Right to privacy
  * Data protection
- * Control
  * Profit models
- * Manipulate and mislead with data
  * Surveillance and patriarchy by states, individuals, private sector, etc. Those that enable surveillance, eg spouseware.
 
 ### 6.5. Memory
+
+One's consent and control of the information that is available to them and about them online is a key aspect of being a fully empowered individual and community in the digital age. There are several considerations that deserve deeper inspection, such as:
 
  * Right to be forgotten
  * Control over personal history and memory on the internet
