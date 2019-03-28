@@ -394,7 +394,7 @@ The Internet is constantly shaping modern information societies by providing a s
 
 Infrastructure therefore is mostly known by an epistemic community of experts {{Haas}} and only gets recognized by the larger public when it fails. As the Internet grows, decisions made about its architecture are become more important. {{RFC8280}} established the relationship between human rights and Internet protocols. Following the same methodology, we now seek to uncover the relation between the right to assembly, association and the Internet infrastructure.
 
-One one hand, the right to freedom of assembly and association protects collective expression. Likewise, systems and protocols that enable communal interactions between people and servers allow this right to prosper given that the Internet itself was originally designed as "a medium of communication for machines that share resources with each other as equals" {{NelsonHedlun}}.
+One one hand, the right to freedom of assembly and association protects collective expression. Likewise, systems and protocols that enable communal interactions between people and servers enable this right given that the Internet itself was originally designed as "a medium of communication for machines that share resources with each other as equals" {{NelsonHedlun}}.
 
 The current draft continues the work started in {{RFC8280}} by investigating the exact impact of Internet protocols on specific human rights, namely the right to freedom of assembly and association, in order to mitigate potential negative impacts.
 
