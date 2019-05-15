@@ -1,7 +1,7 @@
 ---
 title: Notes on networking standards and politics
 abbrev: politix
-docname: draft-irtf-hrpc-political-01
+docname: draft-irtf-hrpc-political-02
 category: info
 
 ipr: trust200902
@@ -26,11 +26,6 @@ author:
        name: Niels ten Oever
        organization: University of Amsterdam
        email: mail@nielstenoever.net
--
-       ins: A. Andersdotter
-       name: Amelia Andersdotter
-       organization: ARTICLE 19
-       email: amelia@article19.org
 
 normative:
 
@@ -456,7 +451,7 @@ This document has no actions for IANA.
 Acknowledgements
 ================
 
-Thanks to Andrew Sullivan, Brian Carpenter, Mark Perkins and all contributors and reviewers on the hrpc mailinglist. Special thanks to Gisela Perez de Acha for some thorough editing rounds.
+Thanks to Michael Rogers, Andrew Sullivan, Brian Carpenter, Mark Perkins and all contributors and reviewers on the hrpc mailinglist. Special thanks to Gisela Perez de Acha for some thorough editing rounds.
 
 Research Group Information
 ==========================
