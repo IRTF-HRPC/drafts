@@ -368,7 +368,7 @@ This position further holds that protocols can never be understood without their
 IETF: Protocols as Standards
 ============================
 
-In the previous section we gave an overview of the different existing positions of the impact of Internet protocols in the Internet community. In the following section we will consider the standards setting process and its consequences for the politics of protocols.
+In the previous section we gave an overview of the different existing positions of the impact of Internet protocols in the Internet protocol community. In the following section we will review the standards setting process and its consequences for the politics of protocols, through the lens of existing literature on standards setting.
 
 Standards enabling interoperating networks, what we think of today as the Internet, were created as open, formal and voluntary standards. A platform for Internet standardization, the Internet Engineering Task Force (IETF), was created in 1986 to enable the continuation of such standardization work. The IETF has sought to make the standards process transparent (by ensuring everyone can access standards, mailing-lists and meetings), predictable (by having clear procedures and reviews) and of high quality (by having draft documents reviewed by members from its own epistemic community). This is all aimed at increasing the accountability of the process and the quality of the standard.
 
@@ -386,56 +386,22 @@ Even in international law, the World Trade Organization (WTO) uses standards, al
 
 The development of formal standards faces a number of economic and organizational challenges. Mainly, the cost and difficulty of organizing many entities around a mutual goal, as well as the cost of research and development leading up to a mutually beneficial technological platform. In addition, deciding what the mutual goal is can also be a problem. These challenges may be described as inter-organizational costs. Even after a goal is decided upon, coordination of multiple entities requires time and money. One needs communication platforms, processes and a commitment to mutual investment in a higher good. They are not simple tasks, and the more different communities are affected by a particular standardization process, the more difficult the organizational challenges become.
 
-## IETF standards setting externalities
-
-In the specific case of the IETF there is a strong community ethos and transparent procedures, which are documented in RFCs. Nonetheless, the IETF is not immune to externalities. We will describe several of these externalities below.
-
-### Finance
-Sponsorship to the IETF is varied, but is also of the nature that ongoing projects that are in the specific interest of one or some group of corporations may be given more funding than other projects (see {{draft-finance-thoughts}}). The IETF has faced three periods of decreased commitment from participants in funding its meetings in the past ten years, leading, naturally, to self-scrutiny, see for instance {{IAOC69}}, {{IAOC77}}, {{IAOC99}}.
-
-### Interoperability and backward compatability
-The need for interoperability and backward compatability makes engineering work harder. And once a standard is designed, it does not automatically follow that it will be broadly adopted at a fast pace. Examples of this are IPv6, DNSSEC, DKIM, etc. The need for interoperability means that a new protocol needs to take into account a much more diverse environment than early protocols, and also be amenable to different needs: protocols need to relate and negotiate in a busy agora, as do the protocol developers. This means that some might get priority, whereas others get dropped.
-
-### Competition between layers
-There is a competition between layers, and even contestation about what the borders of different layers are. This leads to competition between layers and different solutions for similar problems on different layers, which in its turn leads to further ossification, which leads to more contestation.
-
 ## How voluntary are open standards?
 
 Coordinating transnational stakeholders in a process of negotiation and agreement through the development of common rules is a form of global governance {{Nadvi}}. Standards are among the mechanisms by which this governance is achieved. Conformance to certain standards is often a basic condition of participation in international trade and communication, so there are strong economic and political incentives to conform, even in the absence of legal requirements {{Russell}}. {{RogersEden}} argue:
 
    "As unequal participants compete to define standards, technological compromises emerge, which add complexity to standards. For instance, when working group participants propose competing solutions, it may be easier for them to agree on a standard that combines all the proposals rather than choosing any single proposal. This shifts the responsibility for selecting a solution onto those who implement the standard, which can lead to complex implementations that may not be interoperable. On its face this appears to be a failure of the standardization process, but this outcome may benefit certain participants -- for example, by allowing an implementer with large market share to establish a _de facto_ standard within the scope of the documented standard."
 
-
-The need for a positioning
-==========================
-
-It is indisputable that the Internet plays an increasingly important role in the lives of individuals.  The community that produces standards for the Internet therefore also has an impact on society, which has been recognized in a number of previously adopted documents {{RFC1958}}.
-
-The IETF cannot ordain which standards are to be used on the networks, and it specifically does not determine the laws of regions or countries where networks are being used, but it does set open standards for interoperability on the Internet, and has done so since the inception of the Internet. Because a standard is the blue-print for how to accomplish a particular task in a similar way to others, the standards adopted have a normative effect. The standardization work at the IETF will have implications on what is perceived as technologically possible and useful where networking technologies are being deployed, and its standards reflect what is considered by the technical community as feasible and good practice.
-
-This calls for providing a methodology in the IETF community to evaluate which routes forward should indeed be feasible, what constitutes the "good" in "good practice" and what trade-offs between different feasible features of technologies are useful and should therefore be made possible. Such an analysis should take societal implication into account.
-
-The risk of not doing this is threefold: (1) the IETF might make decisions which have a political impact that was not intended by the community, (2) other bodies or entities might make the decisions for the IETF because the IETF does not have an explicit stance, (3) other bodies that do take these issues into account might increase in importance to the detriment of the influence of the IETF.
-
-This does not mean the IETF does not have a position on particular political issues. The policies for open and diverse participation {{RFC7704}}, the anti-harassment policy {{RFC7776}}, as well as the Guidelines for Privacy Considerations {{RFC6973}} are proof of this. Nonetheless, these are all examples of positions about the IETF's work processes or product. What is absent is a way for IETF participants to evaluate their role with respect to the wider implications of that IETF work.
-
 Conclusion
 ==========
 
-Economics, competition, collaboration, openness, and political impact have been an inherent part of the work of the IETF since its early beginnings, by its nature as a standards development organization, through the contributions of the members of the Internet community, and because of the ordering effect the Internet has on society.
+Economics, competition, collaboration, openness, and political impact have been an inherent part of the work of the IETF since its early beginnings, by its nature as a standards development organization, through the contributions of the members of the Internet community, and because of the ordering effect the Internet has on society. The IETF cannot ordain which standards are to be used on the networks, and it specifically does not determine the laws of regions or countries where networks are being used, but it does set open standards for interoperability on the Internet, and has done so since the inception of the Internet. Because a standard is the blue-print for how to accomplish a particular task in a similar way to others, the standards adopted have a normative effect. The standardization work at the IETF will have implications on what is perceived as technologically possible and useful where networking technologies are being deployed, and its standards reflect what is considered by the technical community as feasible and good practice.
 
-Whereas there might not be agreement in the Internet community on what the specific political nature is of technological development, it is undisputed that standards and protocols are both products of a political process, and they can also be used for political means. Therefore protocols and standards are not value neutral. Whereas there is no need for a unified philosophy of Internet protocols, it is to the benefit of the IETF, the Internet and arguably society at large to take this into account in the standards development process.
+Whereas there might not be agreement among the Internet protocol community on what the specific political nature is of technological development, it is undisputed that standards and protocols are both products of a political process, and they can also be used for political means. Therefore protocols and standards are 'value-neutral, and neither is the IETF' {{RFC3935}}. Whereas there is no need for a unified philosophy of Internet protocols, it is to the benefit of the IETF, the Internet, and arguably society at large to take this into account in the standards development process.
 
 It can be expected that if the IETF will not take these issues into account, this might lead to interventions in the form of policies and regulations, for instance through governmental or intergovernmental bodies, which could hamper the work of the IETF. 
 
-The way forward
-===============
-
-There are instruments that can help the IETF develop an approach to address the politics of standards. Part of this can be found in {{RFC8280}} as well as the United National Guiding Principles for Business and Human Rights {{UNGP}}. But there is not a one-size-fits-all solution. The IETF is a particular organization, with a particular mandate, and even if a policy is in place, its success depends on the implementation of the policy by the community.
-
-Since "de facto standardization is reliant on market forces" {{Hanseth}} we need to live with the fact that standards bodies have a political nature {{Webster}} and are not value neutral. This does not need to be problematic as long as there are adequate accountability and transparency mechanisms in place. The importance of these mechanisms increases with the importance of the standards and their implementations. The complexity of the work inscribes a requirement of competence in the work of the IETF, which forms an inherent barrier for end-user involvement. Even though this might not be intentional, it is a result of the interplay between the characteristics of the epistemic community in the IETF and the nature of the standards setting process.
-
-Instead of splitting hairs about whether "standards are political" {{Winner}} {{Woolgar}} we argue that we need to look at the politics of individual standards and invite document authors and reviewers to take these dynamics into account. If the Internet community fails to do so, this could undermine the current regime of Internet governance and standards setting.
+The IETF has already shown that it can develop consensus positions on particular political issues, such as policies for open and diverse participation {{RFC7704}}, the anti-harassment policy {{RFC7776}}, as well as the Guidelines for Privacy Considerations {{RFC6973}}. These are all examples of positions about the IETF's work processes or product. What is absent is a way for IETF participants to evaluate their role with respect to the wider implications of that IETF work.
 
 Security Considerations
 =======================
@@ -451,7 +417,7 @@ This document has no actions for IANA.
 Acknowledgements
 ================
 
-Thanks to Michael Rogers, Andrew Sullivan, Brian Carpenter, Mark Perkins and all contributors and reviewers on the hrpc mailinglist. Special thanks to Gisela Perez de Acha for some thorough editing rounds.
+Thanks to Michael Rogers, Andrew Sullivan, Brian Carpenter, Mark Perkins and all contributors and reviewers on the hrpc mailinglist. Special thanks to Gisela Perez de Acha for some thorough editing rounds, and Amelia Andersdotter for significant text contributions.
 
 Research Group Information
 ==========================
