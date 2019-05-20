@@ -1,7 +1,7 @@
 ---
 title: Notes on networking standards and politics
 abbrev: politix
-docname: draft-irtf-hrpc-political-02
+docname: draft-irtf-hrpc-political-03
 category: info
 
 ipr: trust200902
@@ -42,16 +42,13 @@ informative:
    RFC0542:
    RFC0549:
    RFC0613:
-   RFC1097:
-   RFC1958:
-   RFC2026:
+   RFC1087:
    RFC2804:
+   RFC3271:
    RFC3552:
    RFC3935:
    RFC5218:
    RFC6973:
-   RFC7704:
-   RFC7776:
    RFC8280:
 
    BramanI:
@@ -114,14 +111,6 @@ informative:
          - ins: L. Winner
      target: iwcenglish1.typepad.com/iwc_media_ecology/Documents/Who_will_we_be_in_cyberspace.doc
 
-   UNGP:
-     title: United Nations Guiding Principles for Business and Human Rights
-     date: 2011
-     author:
-        - ins: J. Ruggie
-        - org: United Nations
-     target: http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf
-
    Abbate:
       title: Inventing the Internet
       date: 2000
@@ -178,35 +167,6 @@ informative:
       target: "http://curia.europa.eu/juris/liste.jsf?num=T-201/04"
       seriesinfo: "Cambridge, UK: Cambridge University Press"
 
-   draft-finance-thoughts:
-      title: "Thoughts on IETF Finance Arrangements"
-      date: 2017
-      author:
-        - ins: J. Arkko
-      target: "https://datatracker.ietf.org/doc/html/draft-arkko-ietf-finance-thoughts"
-
-   IAOC69:
-      title: "IAOC Report Chicago"
-      date: 2007
-      author:
-        - ins: IAOC
-      target: "https://iaoc.ietf.org/documents/IAOC-Report-Chicago-69.pdf"
-
-   IAOC77:
-      title: "IAOC Report Anaheim"
-      date: 2010
-      author:
-        - ins: IAOC
-      target: "https://iaoc.ietf.org/documents/IAOC-Report-Anaheim-77.pdf"
-
-   IAOC99:
-      title: "IAOC Report Prague"
-      date: 2017
-      author:
-        - ins: IAOC
-      target: "https://iaoc.ietf.org/documents/IAOCReportinAdvanceofIETF99.pdf"
-
-
    Ahlborn:
       title: "Implications of the Proposed Framework and Antitrust Rules for Dynamically Competitive Industries"
       date: 2006
@@ -218,41 +178,12 @@ informative:
       target: "http://curia.europa.eu/juris/liste.jsf?num=T-201/04"
       seriesinfo: "DG Comp’s Discussion Paper on Article 82, DG COMP, European Commission"
 
-   Hanseth:
-      title: Insribing Behaviour in Information Infrastructure Standards
-      date: 1997
-      author:
-        - ins: O. Hanseth
-        - ins: E. Monteiro
-      seriesinfo: Accounting, Management and Infomation Technology 7 (14) p.183-211
-
-   Woolgar:
-      title: "Configuring the user: the case of usability trials"
-      date: 1991
-      author:
-         - ins: S. Woolgar
-      seriesinfo: "A sociology of monsters. Essays on power, technology and dominatior, ed: J. Law, Routeledge p. 57-102."
-
    Winner:
       title: "Upon opening the black box and finding it empty: Social constructivism and the philosophy of technology"
       date: 1993
       author:
         - ins: L. Winner
       seriesinfo: Science, Technology, and Human Values 18 (3) p. 362-378
-
-   Webster:
-      title: Networks of Collaboration or Conflict? The Development of EDI
-      date: 1995
-      author:
-        - ins: J. Webster
-      seriesinfo: "The social shaping of inter-organizational IT systems and data interchange, eds: I. McLougling &amp; D. Mason, European Commission PICT/COST A4"
-
-   Sisson:
-     title: Standards and Protocols
-     date: 2000
-     author:
-       - ins: D. Sisson
-     target: https://philosophe.com/design/standards/
 
    HagueHarrop:
      title: "Comparative Government and Politics: An Introduction"
@@ -279,7 +210,7 @@ informative:
 
 --- abstract
 
-The IETF cannot ordain what standards or protocols are to be used on networks, but the standards development process in the IETF has a normative effect. Among other things, the IETF's work affects what is perceived as technologically possible and useful where networking technologies are being deployed, and its standards reflect what is considered by the technical community to be feasible and good practice. Because the IETF's protocols mediate many aspects of modern life, and therefore contribute to the ordering of societies and communities, the consideration of the potential social impact of protocols should be part of the standardization and development process.
+The IETF cannot ordain what standards or protocols are to be used on networks, but the standards development process in the IETF does have an impact on society through its normative standards setting process. Among other things, the IETF's work affects what is perceived as technologically possible and useful where networking technologies are being deployed, and its standards reflect what is considered by the technical community to be feasible and good practice. Whereas there might not be agreement among the Internet protocol community on the specific political nature of the technological development process and its outputs, it is undisputed that standards and protocols are both products of a political process, and they can also be used for political means.
 
 --- middle
 
@@ -298,9 +229,9 @@ Introduction
 
                                    -{{RFC3935}}
 
-The design of the Internet through protocols and standards is a technical issue with great political and economic impacts {{RFC0613}}. The early Internet community already realized that it needed to make decisions on political issues such as intellectual property; internationalization {{BramanI}}; diversity; access {{RFC0101}}; privacy and security {{RFC0049}}; and the military {{RFC0164}} {{RFC0316}}, governmental {{RFC0144}} {{RFC0286}} {{RFC0313}} {{RFC0542}} {{RFC0549}} and non-governmental {{RFC0196}} uses of the network. This has been clearly pointed out by Braman {{BramanII}}.
+The design of the Internet through protocols and standards is a technical issue with great political and economic impacts {{RFC0613}} {{RFC3271}}. The early Internet community already realized that it needed to make decisions on political issues such as intellectual property; internationalization {{BramanI}}; diversity; access {{RFC0101}}; privacy and security {{RFC0049}}; and the military {{RFC0164}} {{RFC0316}}, governmental {{RFC0144}} {{RFC0286}} {{RFC0313}} {{RFC0542}} {{RFC0549}} and non-governmental {{RFC0196}} uses of the network. This has been clearly pointed out by Braman {{BramanII}}.
 
-Recently there has been increased discussion of the relation between Internet protocols and human rights {{RFC8280}}, which spurred discussion of the value neutrality and political nature of standards. The network infrastructure is on the one hand designed, described, developed, standardized and implemented by the Internet community, while on the other hand the Internet community and Internet users are also shaped by the affordances of the technology. Companies, citizens, governments, standards development bodies, public opinion and public interest groups all play a part in these discussions. In this document we aim to outline different views on the relation between standards and politics, and seek to answer the question of whether standards are political, and if so, how.
+Recently there has been increased discussion in the IRTF and IETF on the relation between Internet protocols and human rights {{RFC8280}}, which spurred discussion of the value neutrality and political nature of standards. The network infrastructure is on the one hand designed, described, developed, standardized and implemented by the Internet community, while on the other hand the Internet community and Internet users are also shaped by the affordances of the technology. Companies, citizens, governments, standards development bodies, public opinion and public interest groups all play a part in these discussions. In this document we aim to outline different views on the relation between standards and politics, and seek to answer the question of whether standards are political, and if so, how.
 
 Vocabulary Used
 ===============
@@ -309,26 +240,19 @@ Politics
 : (from Greek: Politiká: Politika, definition "affairs of the commons") is the process of making decisions applying to all members of a diverse group with conflicting interests. More narrowly, it refers to achieving and exercising positions of governance or organized control over a community. Furthermore, politics is the study or practice of the distribution of power and resources within a given community as well as the interrelationship(s) between communities. (adapted from {{HagueHarrop}})
 
 Affordances
-: The possibilities that are provided to an actor through the ordering of an environment by a technology.
-
-Protocols
-: 'Protocols are rules governing communication between devices or applications, and the creation or manipulation of any logical or communicative artifacts concomitant with such communication.' {{Sisson}}
-
-Standards
-: 'An Internet Standard is a specification that is stable and well-understood, is technically competent, has multiple, independent, and interoperable implementations with substantial operational experience, enjoys significant public support, and is recognizably useful in some or all parts of the Internet.' {{RFC2026}}
-
+: The possibilities that are provided to an actor through the ordering of an environment by a technology. This means that a technology does not determine what is possible, but that it that invites specific kinds of behavior, and in that process shapes it.
 
 Research Question
 =================
 
-Are protocols political? If so, should the politics of protocols be taken into account in their development process?
+Are protocols political? 
 
 Technology and Politics: a review of literature and community positions
 =======================================================================
 
-In 1993 the Computer Professionals for Social Responsibility stated that 'the Internet should meet public interest objectives'. Similarly, {{RFC3935}} states that 'The Internet isn't value-neutral, and neither is the IETF.'. Ethics and the Internet was already a topic of an RFC by the IAB in 1989 {{RFC1097}}. Nonetheless there has been a recent uptick in discussions within the IETF about the impact of Internet protocols on human rights {{RFC8280}}, and more generally in public debate about the impact of technology on society.
+In 1993 the Computer Professionals for Social Responsibility stated that 'the Internet should meet public interest objectives'. Similarly, {{RFC3935}} states that 'The Internet isn't value-neutral, and neither is the IETF.'. Ethics and the Internet was already a topic of an RFC by the IAB in 1989 {{RFC1087}}. Nonetheless there has been a recent uptick in discussions within the IETF and IRTF about the impact of Internet protocols on human rights {{RFC8280}}, and more generally in public debate about the impact of technology on society.
 
-This document aims to provide an overview of the spectrum of different positions that have been observed in the IETF and IRTF community. These positions were observed during participatory observation, through 39 interviews with members of the community, the Human Rights Protocol Considerations Research Group mailing list, and during and after the Technical Plenary on Protocols and Human Rights during IETF98.
+This document aims to provide an overview of the spectrum of different positions that have been observed in the IETF and IRTF community, and have been observed during interviews, mailinglist exchanges, and during research group sessions. These positions were observed during participatory observation, through 39 interviews with members of the community, the Human Rights Protocol Considerations Research Group mailing list, and during and after the Technical Plenary on Protocols and Human Rights during IETF98.
 
 Without judging them on their internal or external consistency they are represented here. Where possible we also sought to engage with the academic literature on this topic.
 
@@ -356,21 +280,25 @@ In this position it is not necessarily clear where the 'social' ends and the 'te
 This position argues the opposite of 'technological neutrality'. This position is illustrated by Postman when he writes: "the uses made of technology are largely determined by the structure of the technology itself" {{Postman}}. He states that the medium itself "contains an ideological bias". He continues to argue that technology is non-neutral:
 
 (1) because of the symbolic forms in which information is encoded, different media have different intellectual and emotional biases;
+
 (2) because of the accessibility and speed of their information, different media have different political biases;
+
 (3) because of their physical form, different media have different sensory biases;
+
 (4) because of the conditions in which we attend to them, different media have different social biases;
+
 (5) because of their technical and economic structure, different media have different content biases.
 
 Recent scholars of Internet infrastructure and governance have also pointed out that Internet processes and standards have become part and parcel of political processes and public policies. Several concrete examples are found within this approach, for instance, the IANA transition or global innovation policy {{DeNardis}}. The Raven process in which the IETF refused to standardize wiretapping -- which resulted in {{RFC2804}} -- was an instance where an international governance body took a position that was largely political, although driven by a technical argument. The process that led to {{RFC6973}} is similar: the Snowden disclosures, which occured in the political space, engendered the IETF to act. This is summarized in {{Abbate}} who says: "protocols are politics by other means," emphasizing the interests that are at play in the process of designing standards.
 
-This position further holds that protocols can never be understood without their contextual embeddedness: protocols do not exist solely by themselves but always are to be understood in a more complex context -- the stack, hardware, or nation-state interests and their impact on civil rights. Finally, this view is that protocols are political because they affect or sometimes effect the socio-technical ordering of reality. The latter observation leads Winner to conclude that the reality of technological progress has too often been a scenario where innovation has dictated change for society. Those who had the power to introduce a new technology also had the power to create a consumer class to use the technology "with new practices, relationships, and identities supplanting the old, --- and those who had the wherewithal to implement new technologies often molded society to match the needs of emerging technologies and organizations." {{Winner}}.
+This position further holds that protocols can never be understood without their contextual embeddedness: protocols do not exist solely by themselves but always are to be understood in a more complex context -- the stack, hardware, or nation-state interests and their impact on civil rights. Finally, this view is that protocols are political because they influence the socio-technical workings of reality and society. The latter observation leads Winner to conclude that the reality of technological progress has too often been a scenario where innovation has dictated change for society. Those who had the power to introduce a new technology also had the power to create a consumer class to use the technology "with new practices, relationships, and identities supplanting the old, --- and those who had the wherewithal to implement new technologies often molded society to match the needs of emerging technologies and organizations." {{Winner}}.
 
 IETF: Protocols as Standards
 ============================
 
 In the previous section we gave an overview of the different existing positions of the impact of Internet protocols in the Internet protocol community. In the following section we will review the standards setting process and its consequences for the politics of protocols, through the lens of existing literature on standards setting.
 
-Standards enabling interoperating networks, what we think of today as the Internet, were created as open, formal and voluntary standards. A platform for Internet standardization, the Internet Engineering Task Force (IETF), was created in 1986 to enable the continuation of such standardization work. The IETF has sought to make the standards process transparent (by ensuring everyone can access standards, mailing-lists and meetings), predictable (by having clear procedures and reviews) and of high quality (by having draft documents reviewed by members from its own epistemic community). This is all aimed at increasing the accountability of the process and the quality of the standard.
+Standards enabling interoperating networks, what we think of today as the Internet, were created as open, formal and voluntary standards. A platform for Internet standardization, the Internet Engineering Task Force (IETF), was created in 1986 to enable the continuation of such standardization work. The IETF has sought to make the standards process transparent (by ensuring everyone can access standards, mailing-lists and meetings), predictable (by having clear procedures and reviews) and of high quality (by having draft documents reviewed by experts from its own community). This is all aimed at increasing the accountability of the process and the quality of the standard.
 
 The IETF implements what has been referred to as an "informal ex ante disclosure policy" for patents {{Contreras}}, which includes the possibility for participants to disclose the existence of a patent relevant for the standard, royalty-terms which would apply to the implementers of that standard should it enter into effect, as well as other licensing terms that may be interesting for implementers to know. The community ethos in the IETF seems to lead to 100% royalty-free disclosures of prior patents which is a record number, even among other comparable standard organizations {{Contreras}}. In the following paragraph we will describe inherent tensions in the standards process.
 
@@ -395,13 +323,11 @@ Coordinating transnational stakeholders in a process of negotiation and agreemen
 Conclusion
 ==========
 
-Economics, competition, collaboration, openness, and political impact have been an inherent part of the work of the IETF since its early beginnings, by its nature as a standards development organization, through the contributions of the members of the Internet community, and because of the ordering effect the Internet has on society. The IETF cannot ordain which standards are to be used on the networks, and it specifically does not determine the laws of regions or countries where networks are being used, but it does set open standards for interoperability on the Internet, and has done so since the inception of the Internet. Because a standard is the blue-print for how to accomplish a particular task in a similar way to others, the standards adopted have a normative effect. The standardization work at the IETF will have implications on what is perceived as technologically possible and useful where networking technologies are being deployed, and its standards reflect what is considered by the technical community as feasible and good practice.
+Economics, competition, collaboration, openness, and political impact have been an inherent part of the work of the IETF since its early beginnings. The IETF cannot ordain which standards are to be used on the networks, and it specifically does not determine the laws of regions or countries where networks are being used, but it does set open standards for interoperability on the Internet, and has done so since the inception of the Internet. Because a standard is the blue-print for how to accomplish a particular task, the adopted standards have a normative effect. The standardization work at the IETF has direct implications on what is perceived as technologically possible and useful where networking technologies are being deployed, and thus its standards reflect what is considered by the technical community as feasible and good practice. 
 
-Whereas there might not be agreement among the Internet protocol community on what the specific political nature is of technological development, it is undisputed that standards and protocols are both products of a political process, and they can also be used for political means. Therefore protocols and standards are 'value-neutral, and neither is the IETF' {{RFC3935}}. Whereas there is no need for a unified philosophy of Internet protocols, it is to the benefit of the IETF, the Internet, and arguably society at large to take this into account in the standards development process.
+Whereas there might not be agreement among the Internet protocol community on the specific political nature of the technological development process and its outputs, it is undisputed that standards and protocols are both products of a political process, and they can also be used for political means. Therefore protocols and standards are not 'value-neutral, and neither is the IETF' {{RFC3935}}. Thus we can answer the research question 'are protocols political' in affirmative fashion.
 
-It can be expected that if the IETF will not take these issues into account, this might lead to interventions in the form of policies and regulations, for instance through governmental or intergovernmental bodies, which could hamper the work of the IETF. 
-
-The IETF has already shown that it can develop consensus positions on particular political issues, such as policies for open and diverse participation {{RFC7704}}, the anti-harassment policy {{RFC7776}}, as well as the Guidelines for Privacy Considerations {{RFC6973}}. These are all examples of positions about the IETF's work processes or product. What is absent is a way for IETF participants to evaluate their role with respect to the wider implications of that IETF work.
+Further research could explore how the political nature of protocols can be taken into account in the standards development process in order to (1) to minimize negative unintended social consequences, (2) ensure clear understanding of the intended consequences, (3) maintain importance of the IETF as open standards body that facilitates global interoperability.
 
 Security Considerations
 =======================
@@ -417,7 +343,7 @@ This document has no actions for IANA.
 Acknowledgements
 ================
 
-Thanks to Michael Rogers, Andrew Sullivan, Brian Carpenter, Mark Perkins and all contributors and reviewers on the hrpc mailinglist. Special thanks to Gisela Perez de Acha for some thorough editing rounds, and Amelia Andersdotter for significant text contributions.
+Thanks to Michael Rogers, Joe Hall, Andrew Sullivan, Brian Carpenter, Mark Perkins, S Moonesamy and all contributors and reviewers on the hrpc mailinglist. Special thanks to Gisela Perez de Acha for some thorough editing rounds, and Amelia Andersdotter for text contributions.
 
 Research Group Information
 ==========================
