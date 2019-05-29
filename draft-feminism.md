@@ -114,9 +114,23 @@ standardisation, this document addreses the opportunities and vulnerabilities em
 
 --- middle
 
-# Feminism and protocols
+# Introduction
 
-## 1. Introduction
+*** New ***
+
+This document aims to use a feminist framework to analyse the impacts 
+of internet protocols on society. It is based on a document called The Feminist Principles of the Internet, a series of 17 statements with a "gender and sexual rights lens on critical internet-related rights" for the purpose of enabling women's rights movements to explore issues related to internet technology.
+
+These Principles, as well as most of the experiences and learnings of the feminist movement in the digital age, have focused on invisioning a more just internet as a necessary action in building a more just society, namely one that recognizes differences across a variety of lived experience and identity.
+
+This document must not be understood as a set of rules or recommendations, but as an articulation of key issues with feminist policies and approaches, in order to begin to investigate. That is why this document has two main goals: to identify terminology, both in technical and feminist communities, that can be shared in order to start a dialogue; and to analyze the Feminist Principles based on some of the technical discussions that have been taken into account in the development of protocols. 
+
+In the first instance, this document highlights where gender and security related terminology occurs in both technical standards and feminist discourse and distinguish between the two in a meaningful way, in order to find a common understanding of concepts, which allows both the technical and feminist communities to recognize and discuss together how the technical decisions with regard to internet infraestructure, standards and protocols, directly or indirectly may affect internet users around the world.
+
+In the second part, the concepts of internet access and embodiment will be analyzed, in the way they have been comprehensively addressed in the Principles and in relation to some technical concepts such as data minimization, localization, internationalization and transparency, among others. In this part some use cases are collected, focused on the experience of the end users, to understand how the protocols can affect the full participation in the internet of some people, because of their gender, race or class.
+
+
+*** Before ***
 
 The experiences and learnings of the feminist movement in the digital age have extrapolated feminist discourse towards building a more just world to invisioning a more just internet, namely one that 
 recognizes differences across a variety of lived experience and identity. The framework that is used to analyse and research internet protocols and standards through a feminist lens is a document called 
@@ -132,7 +146,20 @@ directly or indirectly may affect internet users around the world.
 The Principles, like this document, are not designed as a set of rules or recommendations, but as an articulation of key issues with feminist policies and approaches, in order to begin to investigate. 
 They express the kind of internet that feminists would like to have, and with whom to collaborate and imagine.
 
-## Intersectional feminism and diversity
+## An intersectional perspective
+
+capturing both the structural and dynamic (e.g., active) aspects of multiple discrimination,
+
+Feminism as a truly inclusive and libratory movement must reach the multiply oppressed and learn from them about the complexity of their circumstances.
+
+overlapping oppressions
+
+
+this document addreses the opportunities and vulnerabilities embedded within internet protocols for specific, traditionally maginalised groups
+
+ assumes that values are inherent to technological design. What follows are specifics of how those values can either support or create barriers for gender justice and 
+equity for internet users.
+
 
 Why feminism and not gender? The gender and sexual rights lens on critical internet-related rights has been built bottom up by the feminist movement. Feminism treats most prominently people who are 
 negatively discriminated against on the basis of their gender and sexuality, but not exclusively. Because the threats to women and queer people, whose bodies and manifestations are already under strong, 
@@ -140,12 +167,14 @@ albeit sometimes invisible, social, cultural and political surveillance, a criti
 of internet protocols on society assumes that values are inherent to technological design. What follows are specifics of how those values can either support or create barriers for gender justice and 
 equity for internet users.
 
+advocacy and policy development that addresses multiple discriminations and helps us understand how different sets of identities impact access to rights and opportunities
+
 ## Brief history of feminism and the internet
 
 It is significant to highlight the ways in which feminists have understood, used and mobilised on the internet. Given myriad expressions of feminism online and feminist movement building online, one 
 thread is perhaps instructive to this exercise. More about the nature of the complex community that created the Feminist Principles of the Internet can be found at feministinternet.org.
  
-## 2. Expression as a framework of understanding
+# Expression as a framework of understanding
 
 With the popularization of the internet, the freedom of expression of both women and other gender identities traditionally marginalized from public life and social acceptance (whom we will refer to as 
 queer) has been greatly enhanced. In contexts where women do not have their rights fully guaranteed, or where sexual and gender diversity are socially condemned, the Web has served to meet, organize and 
@@ -170,7 +199,7 @@ preliminary analysis of the terms used in the IETF drafts and RFCs archive.
 By filtering from specific terms, the analysis consists of identifying patterns and regularities in the contexts in which these terms are used. For example, if they are used as an example in "use cases" 
 or if they are part of a technical explanation, and if they are normally accompanied by other terms. The analysis presented is only an initial revision that must be completed and synthesized.
 
-### 2.1. Safety
+## Safety
 
 For the last years, there has been criticism of the way in which digital security accompaniments, advice and training are developed for people who are not directly involved in the development of 
 information technology. It is worth mentioning that digital security, unlike cybersecurity, is more geared towards internet users {{Comninos}}. Some of these criticisms refer to the fact that the 
@@ -186,7 +215,7 @@ In {{RFC4949}} _safety_ is defined as "the property of a system being free from 
 condition in which system resources are free from unauthorized access and from unauthorized or accidental change, destruction, or loss". But _safety_ has traditionally, especially in the early years of 
 the IETF, been referred to human activities {{RFC1244}}, {{RFC2122}}, {{RFC2310}} and human rights {{RFC1746}}, {{RFC1941}}, {{RFC3694}}.
 
-### 2.2. Gender
+## Gender
 
 As IETF is centered on "identifying, and proposing solutions to, pressing operational and technical problems in the Internet" and as according to the Tao of the IETF, "we believe in rough consensus and 
 running code", it is not supposed to concentrate on the particular characteristics of internet users, but on the proper functioning of the systems {{Tao}}. In addition, due to the characteristics of the 
@@ -198,7 +227,7 @@ as well as supposedly universal entities that sometimes represent concrete funct
 considerations when designing internet protocols, below is a very brief description of how gender appears in IETF documents. This is also a very preliminary analysis, which could later be complimented 
 and added to the search for entities with cultural and phenotypic characteristics that could make them vulnerable on the internet.
 
-## 3. Access
+# Access
 
 Internet access is recognized as a human right {{UNGA}}, but its effective guarantee depends on different and unequal social, cultural, economic and political conditions. In 2018, barely half of the 
 world's population has access to the internet and in 88% of countries, men have more access than women {{ITU}}. Geographical location, age, educational and income level, as well as gender, significantly 
@@ -210,7 +239,7 @@ connected devices, but with safety and useful digital enviroments {{SmKee}}.
 
 In this sense, access must be considered in several dimensions, in addition to internet access as a possibility of being connected:
 
-### 3.1. Access to information
+## Access to information
 
 Information in one's own language is the first condition, as pointed out with the cencept of 'Localization' {{RFC8280}}, referred to the act of tailoring an application for a different language, script, 
 or culture, and involves not only changing the language interaction but also other relevant changes, such as display of numbers, dates, currency, and so on.
@@ -219,7 +248,7 @@ But it is also necessary to be able to access relevant information, related for 
 goverments and ISPs block pages with this content or monitor online activity by sexual and gender related terminology. Therefore the considerations for anticensorship internet infrastructure technologies 
 also consider, and can possibly alleviate, a gendered component to using the internet.
 
-### 3.2. Usage of technology
+## Usage of technology
 
 Beyond content, access implies the possibility to use, which means code, design, adapt and critically and sustainably use ICTs. As almost 75% of connected individuals are placed in the Global South 
 {{WhoseKnowledge}}, technology is developped mainly in rich countries where student quotas and jobs are filled mainly by men.
@@ -234,9 +263,9 @@ as universal subjects - in those documents, ignores the existence of other corpo
 Building and engineering critical internet technology is a component of 'usage'. There are challenge the cultures of sexism and discrimination in all spaces, some of which can be found in existing RFCs 
 [draft-terminology, others].
 
-## 4. Economy
+# Economy
 
-### 4.1. Free and open source
+## Free and open source
 
 The digital gender gap has relegated women and other marginalized groups to be internet users, adding content for the benefit of the platform itself but without a deep understanding of how these 
 platforms work. Promoting transparency {{RFC8280}} and simplifying technical terminology is necessary to bridge this gap. This requires shared terminology upon which technology is created to enable 
@@ -246,14 +275,14 @@ This aligns with a feminist approach to technology.
 Given the established community of "free software", it is important to note that freedom is not freedom for everyone, always. It is important to identify different dimensions of freedom and how it is 
 expressed in different contexts.
  
-### 4.2. Power and centralisation
+## Power and centralisation
 
 A feminist approach to technology requires a strong critique of capitalist power, centralisation of services and the logic of vertical integration while holding nuance for the tensions between trust, 
 reliability and diversity. Centralisation of services is a current discussion in the IETF that should be informed by feminist critique of capitalist structures {{Arkko}}.
 
-## 5. Networked
+# Networked
 
-### 5.1. Freedom of assocation
+## Freedom of assocation
 
 Given the shrinking of civic space offline, the internet provides a global public space, albeit one that relies on private infrastructure {{tenOever}}. For social causes that push for equality, it is 
 therefore critical that the internet be maintained as a space for alignment, protest, dissent and escape. In the scope of this document, this is a call to maintain and enable the creation of spaces for 
@@ -264,7 +293,7 @@ threatened by centralised systems of control and cooptation, specifically survei
 Association of system architectures is a concept that overlaps neatly with the ideals of real-world associations of organisations and communities. "The ultimate model of P2P is a completely decentralized 
 system, which is more resistant to speech regulation, immune to single points of failure and have a higher performance and scalability {{tenOever}}."
 
-### 5.2. Internet governance
+## Internet governance
 
 While there is no agreement regarding the ability of the internet to negatively or positively impact on social behaviors, or shape desirable practices {{RFC8280}}, more women and diverse populations' 
 participation in technical development and decision-making spaces will lead to greater possibilities for ICTs to reflect greater inclusiveness and enable less risky and harmful interactions {{RFC7704}}.
@@ -273,7 +302,7 @@ It is critical for groups who represent civil society interests, social change a
 of more feminists and queers at the decision-making table, which can be achieved through democratic policy making. Greater effect will be possible through diffuse ownership of and power in global and 
 local networks.
 
-## 6. Embodiment
+# Embodiment
 
 Most of the threats women and non binary people face on line, occur on the user levels of application and content. Most adversaries are other users, but also include institutions, platforms and 
 governments.
@@ -296,7 +325,7 @@ users, who also act at the user level, with technical or social skills that thre
 
 At this point, what level of autonomy do these people have as internet users?
  
-### 6.1. Online violence
+## Online violence
 
 The security considerations to counter online violence are critical. There is opportunity in a connected world for those who would perpetuate violence against women and other marginalised groups through 
 the use of internet-enabled technologies, from the home to the prison.
@@ -311,7 +340,7 @@ policies", sharing of intimate images and sexual abuse, spreading false accusati
 
 Key to mitigating these threats is the element of consent.
 
-### 6.2. Consent
+## Consent
 
 Some elements of consent online include but are not limited to the following list of issues, which should be elaborated on:
 
@@ -325,7 +354,7 @@ Some elements of consent online include but are not limited to the following lis
         * Exposure of intimacy
         * Unauthorized use of photos
 
-### 6.3. Anonymity
+## Anonymity
 
 While anonymity is never just about technical issues but users protection activities, it becomes more necessary to strenghten the design and functionality of networks, by default. There are several considerations for internet infrastructure related to enabling anonymity for online users. This is particularly important for marginalised groups and can be ennumerated, and expanded upon, thusly:
 
@@ -338,7 +367,7 @@ While anonymity is never just about technical issues but users protection activi
         * Hate Speech, discriminatory expressions
  * Discrimination and safety from discrimination
 
-### 6.4. Privacy and data
+## Privacy and data
 
 While mentioned at the intersection of previous issues outlined above, this section is particularly critical for women, queers and marginalised populations who are already at greater risk of control and surveillance:
 
@@ -347,7 +376,7 @@ While mentioned at the intersection of previous issues outlined above, this sect
  * Profit models
  * Surveillance and patriarchy by states, individuals, private sector, etc. Those that enable surveillance, eg spouseware.
 
-### 6.5. Memory
+## Memory
 
 One's consent and control of the information that is available to them and about them online is a key aspect of being a fully empowered individual and community in the digital age. There are several considerations that deserve deeper inspection, such as:
 
