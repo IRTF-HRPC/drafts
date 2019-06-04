@@ -1,7 +1,7 @@
 ---
 title: Notes on networking standards and politics
 abbrev: politix
-docname: draft-irtf-hrpc-political-03
+docname: draft-irtf-hrpc-political-04
 category: info
 
 ipr: trust200902
