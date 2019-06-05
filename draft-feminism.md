@@ -148,7 +148,29 @@ They express the kind of internet that feminists would like to have, and with wh
 
 ## An intersectional perspective
 
-capturing both the structural and dynamic (e.g., active) aspects of multiple discrimination,
+The gender and sexual rights lens on critical internet-related rights has been built bottom up by the feminist movement, which treats most prominently people who are negatively discriminated against on the basis of their gender and sexuality, but not exclusively. Because the threats to women and queer people, whose bodies and manifestations are already under strong, albeit sometimes invisible, social, cultural and political surveillance, an intersectional feminist analysis makes it possible to recognize how multiple discriminations affect the ways people access, use and participate on the internet.
+
+- concept of intersectionality from black feminism theory
+In feminist theory, intersectionality refers to how multiple discriminations overlap. "Intersectional  paradigms  remind  us  that  oppression  cannot  be  reduced to one fundamental type, and that oppressions work together in producing injustice".
+
+Is not related to the way any groups organize around race, class or gender but how racialized and poor people, women and other groups ""discriminated against see little hope for group-based advancement", which constitutes a social injustice (Hill-Collins)
+
+
+- Exeperience, history in the internet intersections
+
+How access to internet is just a possiblity, a condition. 
+Black women’s vulnerability to assaults in the workplace, on the street, at home, and in media representations has been one factor fostering this legacy of struggle.
+
+How does internet shape and reinforce oppression (protocols).
+
+
+In  a context of intersecting oppressions, Black feminism requires searching for justice not only for U.S. Black women, but for everyone
+
+Aiming to use a feminist framework to analyse the impacts 
+of internet protocols on society assumes that values are inherent to technological design. What follows are specifics of how those values can either support or create barriers for gender justice and 
+equity for internet users.
+
+ both the structural and dynamic aspects of multiple discriminations
 
 Feminism as a truly inclusive and libratory movement must reach the multiply oppressed and learn from them about the complexity of their circumstances.
 
@@ -157,15 +179,12 @@ overlapping oppressions
 
 this document addreses the opportunities and vulnerabilities embedded within internet protocols for specific, traditionally maginalised groups
 
- assumes that values are inherent to technological design. What follows are specifics of how those values can either support or create barriers for gender justice and 
+
+What follows are specifics of how those values can either support or create barriers for gender justice and 
 equity for internet users.
 
 
-Why feminism and not gender? The gender and sexual rights lens on critical internet-related rights has been built bottom up by the feminist movement. Feminism treats most prominently people who are 
-negatively discriminated against on the basis of their gender and sexuality, but not exclusively. Because the threats to women and queer people, whose bodies and manifestations are already under strong, 
-albeit sometimes invisible, social, cultural and political surveillance, a critical feminist analysis also applies to other marginalised groups. Aiming to use a feminist framework to analyse the impacts 
-of internet protocols on society assumes that values are inherent to technological design. What follows are specifics of how those values can either support or create barriers for gender justice and 
-equity for internet users.
+Why feminism and not gender? 
 
 advocacy and policy development that addresses multiple discriminations and helps us understand how different sets of identities impact access to rights and opportunities
 
