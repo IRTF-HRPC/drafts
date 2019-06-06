@@ -116,8 +116,6 @@ standardisation, this document addreses the opportunities and vulnerabilities em
 
 # Introduction
 
-*** New ***
-
 This document aims to use a feminist framework to analyse the impacts 
 of internet protocols on society. It is based on a document called The Feminist Principles of the Internet, a series of 17 statements with a "gender and sexual rights lens on critical internet-related rights" for the purpose of enabling women's rights movements to explore issues related to internet technology.
 
@@ -129,64 +127,64 @@ In the first instance, this document highlights where gender and security relate
 
 In the second part, the concepts of internet access and embodiment will be analyzed, in the way they have been comprehensively addressed in the Principles and in relation to some technical concepts such as data minimization, localization, internationalization and transparency, among others. In this part some use cases are collected, focused on the experience of the end users, to understand how the protocols can affect the full participation in the internet of some people, because of their gender, race or class.
 
-
-*** Before ***
-
-The experiences and learnings of the feminist movement in the digital age have extrapolated feminist discourse towards building a more just world to invisioning a more just internet, namely one that 
-recognizes differences across a variety of lived experience and identity. The framework that is used to analyse and research internet protocols and standards through a feminist lens is a document called 
-The Feminist Principles of the Internet. In a series of 17 statements, drafted, redrafted and revised by hundreds of activists, the Principles offer a "gender and sexual rights lens on critical 
-internet-related rights" for the purpose of enabling women's rights movements to explore issues related to internet technology. Likewise, this is an attempt to bring a conversation on the intersection of 
-feminism and internet technology into the technical community.
-
-Attempts have been made to highlight where terminology occurs in both technical standards and feminist discourse and distinguish between the two in a meaningful way. A concept like 'security', for 
-example, has differing contextual meanings in internet engineering and feminism. Coming to a shared understanding of concepts and terminology is one goal of this document. With a better understanding of 
-concepts and terms, together the technical and feminist communities can attempt to recognize and discuss how the technical decisions with regard to internet infraestructure, standards and protocols, 
-directly or indirectly may affect internet users around the world.
-
-The Principles, like this document, are not designed as a set of rules or recommendations, but as an articulation of key issues with feminist policies and approaches, in order to begin to investigate. 
-They express the kind of internet that feminists would like to have, and with whom to collaborate and imagine.
-
 ## An intersectional perspective
 
-The gender and sexual rights lens on critical internet-related rights has been built bottom up by the feminist movement, which treats most prominently people who are negatively discriminated against on the basis of their gender and sexuality, but not exclusively. Because the threats to women and queer people, whose bodies and manifestations are already under strong, albeit sometimes invisible, social, cultural and political surveillance, an intersectional feminist analysis makes it possible to recognize how multiple discriminations affect the ways people access, use and participate on the internet.
+
+### What is intersectionality?
+A framework "as a way forward to better understand how gender influences behavior and experiences" (Hankivsky)
+To understand human differences, in addition to understanding similaritiesacross groups that can be overlooked
+recognize the difference across lived experience and identity
+Dynamic interaction between individual and institutional factors
+Is not about one specific group or identity
+Oppressions are interlinked and cannot be solved alone
 
 - concept of intersectionality from black feminism theory
-In feminist theory, intersectionality refers to how multiple discriminations overlap. "Intersectional  paradigms  remind  us  that  oppression  cannot  be  reduced to one fundamental type, and that oppressions work together in producing injustice".
+In feminist theory, intersectionality refers to how multiple discriminations overlap. "Intersectional  paradigms  remind  us  that  oppression  cannot  be  reduced to one fundamental type, and that oppressions work together in producing injustice" (Hill-Collins)).
 
 Is not related to the way any groups organize around race, class or gender but how racialized and poor people, women and other groups ""discriminated against see little hope for group-based advancement", which constitutes a social injustice (Hill-Collins)
 
+Aiming to use a feminist framework to analyse the impacts of internet protocols on society assumes that values are inherent to technological design. What follows are specifics of how those values can either support or create barriers for gender justice and equity for internet users.
+
+both the structural and dynamic aspects of multiple discriminations
+
+The gender and sexual rights lens on critical internet-related rights has been built bottom up by the feminist movement, which treats most prominently people who are negatively discriminated against on the basis of their gender and sexuality, but not exclusively. Because the threats to women and queer people, whose bodies and manifestations are already under strong, albeit sometimes invisible, social, cultural and political surveillance, an intersectional feminist analysis makes it possible to recognize how multiple discriminations affect the ways people access, use and participate on the internet.
+
+
+### Why on the internet?
+Recognize different social locations, powe relations and experiences. Does not focus on group status but social dynamics opperating together
+About the possibility to access, use and participate on the internet
+How internet shape oppressions or reinforce them (shape or reinforce discrimination)
+
+"Not only does intersectionality leads to multi-level analysis of intersecting factors, processes and structures impacting [internet] experiences, but its principles lead to questions regarding how [internet] problems are framed and understood" (Hankivsky)
 
 - Exeperience, history in the internet intersections
 
 How access to internet is just a possiblity, a condition. 
 Black women’s vulnerability to assaults in the workplace, on the street, at home, and in media representations has been one factor fostering this legacy of struggle.
 
-How does internet shape and reinforce oppression (protocols).
-
-
-In  a context of intersecting oppressions, Black feminism requires searching for justice not only for U.S. Black women, but for everyone
-
-Aiming to use a feminist framework to analyse the impacts 
-of internet protocols on society assumes that values are inherent to technological design. What follows are specifics of how those values can either support or create barriers for gender justice and 
-equity for internet users.
-
- both the structural and dynamic aspects of multiple discriminations
-
-Feminism as a truly inclusive and libratory movement must reach the multiply oppressed and learn from them about the complexity of their circumstances.
-
-overlapping oppressions
-
-
 this document addreses the opportunities and vulnerabilities embedded within internet protocols for specific, traditionally maginalised groups
 
-
-What follows are specifics of how those values can either support or create barriers for gender justice and 
-equity for internet users.
-
-
-Why feminism and not gender? 
-
 advocacy and policy development that addresses multiple discriminations and helps us understand how different sets of identities impact access to rights and opportunities
+
+### How related to protocols
+
+How protocols may affect directly or indirectly different internet users
+Multilevel analysis, the possibility to link individual experiences to broader structures and systems. Because **end user**
+Sel identified needs of affected communities (feminist internet movement)
+
+How does internet shape and reinforce oppression (protocols).
+
+### What about intersectional impact of protocols on society?
+How oppressions are overlapped. Users with different capacities, conditions, characteristics
+How protocols can affect the full participatoins on the internet of some people, because of their gender, race or class
+### Intersectionality approach to protocols design
+Consider our own social position, role and power when taking an intersectional approach
+effective interventions will require a findamental restructuring of power structures
+
+### Work enviroment as a necessary medium to a better protocol design
+**may be another ID for promoting diversity and intersectionality inside iETF**
+
+
 
 ## Brief history of feminism and the internet
 
