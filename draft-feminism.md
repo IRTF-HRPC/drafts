@@ -116,8 +116,7 @@ standardisation, this document addreses the opportunities and vulnerabilities em
 
 # Introduction
 
-This document aims to use a feminist framework to analyse the impacts 
-of internet protocols on society. It is based on a document called The Feminist Principles of the Internet, a series of 17 statements with a "gender and sexual rights lens on critical internet-related rights" for the purpose of enabling women's rights movements to explore issues related to internet technology.
+This document aims to use a feminist framework to analyse the impacts of internet protocols on society. It is based on a document called The Feminist Principles of the Internet, a series of 17 statements with a "gender and sexual rights lens on critical internet-related rights" for the purpose of enabling women's rights movements to explore issues related to internet technology.
 
 These Principles, as well as most of the experiences and learnings of the feminist movement in the digital age, have focused on invisioning a more just internet as a necessary action in building a more just society, namely one that recognizes differences across a variety of lived experience and identity.
 
@@ -129,62 +128,25 @@ In the second part, the concepts of internet access and embodiment will be analy
 
 ## An intersectional perspective
 
+Imagine a highway that connects two big cities, one capable of withstanding heavy traffic at high speeds. Driving there takes experience and expertise, and just a few streets intersect it so as not to hinder traffic. Imagine this highway as a robust body of rights and those who travel along it as people who have traditionally enjoyed these rights.
 
-### What is intersectionality?
-A framework "as a way forward to better understand how gender influences behavior and experiences" (Hankivsky)
-To understand human differences, in addition to understanding similaritiesacross groups that can be overlooked
-recognize the difference across lived experience and identity
-Dynamic interaction between individual and institutional factors
-Is not about one specific group or identity
-Oppressions are interlinked and cannot be solved alone
+If someone without enough experience is driving down a road that intersects the highway and wants to get there, that person will be at greater risk of crashing or having an accident. In addition, without a valid license the person will also run the risk of being fined by the traffic authorities. In terms of rights, those intersecting roads are not robust and the risks of accident are forms of discrimination experienced by those who drive on them. What if many small streets intersect at the same point on the highway?
 
-- concept of intersectionality from black feminism theory
-In feminist theory, intersectionality refers to how multiple discriminations overlap. "Intersectional  paradigms  remind  us  that  oppression  cannot  be  reduced to one fundamental type, and that oppressions work together in producing injustice" (Hill-Collins)).
+Arised in black feminist theory, the concept of intersectionality serves to understand how multiple forms of discrimination overlap [Hill-Collins]. As first pointed by [Crenshaw] in the United States, "Black women can experience discrimination in ways that are both similar to and different from those experienced by white women and Black men", so an intersectional approach should be able to recognize this type of discrimination by transcending the one-way perspective with which the justice system, as well as feminist and anti-racist movements, had traditionally operated.
 
-Is not related to the way any groups organize around race, class or gender but how racialized and poor people, women and other groups ""discriminated against see little hope for group-based advancement", which constitutes a social injustice (Hill-Collins)
+From this proposal, the concept has meant a paradigm shift both in feminist thinking [Hill-Collins] and movements [Lorde; Davis], and more recently in the design and implementation of public policies [Mason; Hankivsky]. The intersectional approach is not focused on the problem of equality but on difference; discrimination is not analyzed in terms of effective access to rights, but the conditions and capacities that people have to access those rights.
 
-Aiming to use a feminist framework to analyse the impacts of internet protocols on society assumes that values are inherent to technological design. What follows are specifics of how those values can either support or create barriers for gender justice and equity for internet users.
+Therefore, an intersectional feminist perspective focuses on social location, the multiple layered identities people live, derived from social relations, history and structures of power through which people can experience both oppression and privilege. These oppressions can be structural and dynamic, determined by gender, race or skin color, class, sexuality, ethnicity, age, language, geographic location, abilities or health conditions, among other factors [Symington].
 
-both the structural and dynamic aspects of multiple discriminations
+ The concept _matrix of domination_, introduced by [Hill-Collins] as complementary to _intersectionality_, refers to the way in which the powers that produce and reproduce intersecting oppression are organized. In summary, the concept _intersectionality_ has served to recognize people's different experiences and social locations and with this, the need of a bottom up understanding of discrimination and oppression; in addition, the concept _matrix of domination_ turns the gaze on the context of power -institutional, political, economic and symbolic- in which intersecting oppressions operate.
 
-The gender and sexual rights lens on critical internet-related rights has been built bottom up by the feminist movement, which treats most prominently people who are negatively discriminated against on the basis of their gender and sexuality, but not exclusively. Because the threats to women and queer people, whose bodies and manifestations are already under strong, albeit sometimes invisible, social, cultural and political surveillance, an intersectional feminist analysis makes it possible to recognize how multiple discriminations affect the ways people access, use and participate on the internet.
+### Internet as a matrix of domination
 
+The gender and sexual rights lens on critical internet-related rights contained in the [Feminist Principles of the Internet] has been built bottom up by the feminist movement, which treats most prominently people who are negatively discriminated against on the basis of their gender and sexuality, but not exclusively. Because the threats to women and queer people, whose bodies and manifestations are already under strong, albeit sometimes invisible, social, cultural and political surveillance, an intersectional feminist analysis makes it possible to recognize how multiple oppressions affect the ways people access, use and participate on the internet.
 
-### Why on the internet?
-Recognize different social locations, powe relations and experiences. Does not focus on group status but social dynamics opperating together
-About the possibility to access, use and participate on the internet
-How internet shape oppressions or reinforce them (shape or reinforce discrimination)
+From now on, some of these experiences will be used to identify how the Internet can enable or restrict the possibility of justice and equity among its users. For this purpose, it is useful to understand the internet as a _matrix of domination_ in the sense pointed by [Hill-Collins]: as an institutional, political, symbolic and cultural context where different intersecting oppressions are shaped and reinforced.
 
-"Not only does intersectionality leads to multi-level analysis of intersecting factors, processes and structures impacting [internet] experiences, but its principles lead to questions regarding how [internet] problems are framed and understood" (Hankivsky)
-
-- Exeperience, history in the internet intersections
-
-How access to internet is just a possiblity, a condition. 
-Black women’s vulnerability to assaults in the workplace, on the street, at home, and in media representations has been one factor fostering this legacy of struggle.
-
-this document addreses the opportunities and vulnerabilities embedded within internet protocols for specific, traditionally maginalised groups
-
-advocacy and policy development that addresses multiple discriminations and helps us understand how different sets of identities impact access to rights and opportunities
-
-### How related to protocols
-
-How protocols may affect directly or indirectly different internet users
-Multilevel analysis, the possibility to link individual experiences to broader structures and systems. Because **end user**
-Sel identified needs of affected communities (feminist internet movement)
-
-How does internet shape and reinforce oppression (protocols).
-
-### What about intersectional impact of protocols on society?
-How oppressions are overlapped. Users with different capacities, conditions, characteristics
-How protocols can affect the full participatoins on the internet of some people, because of their gender, race or class
-### Intersectionality approach to protocols design
-Consider our own social position, role and power when taking an intersectional approach
-effective interventions will require a findamental restructuring of power structures
-
-### Work enviroment as a necessary medium to a better protocol design
-**may be another ID for promoting diversity and intersectionality inside iETF**
-
-
+This document addresses the opportunities and vulnerabilities incorporated into Internet protocols for specific, traditionally discriminated groups, on the assumption that these values are inherent in technological design. Through the proposed intersectional perspective, a multilevel description of the factors, processes and social structures that affect different experiences on the Internet is presented below and, based on specific cases, an analysis will be made of how the different protocols intervene in the shaping and reinforcement of intersecting oppressions faced by users on different social locations.
 
 ## Brief history of feminism and the internet
 
@@ -193,9 +155,7 @@ thread is perhaps instructive to this exercise. More about the nature of the com
  
 # Expression as a framework of understanding
 
-With the popularization of the internet, the freedom of expression of both women and other gender identities traditionally marginalized from public life and social acceptance (whom we will refer to as 
-queer) has been greatly enhanced. In contexts where women do not have their rights fully guaranteed, or where sexual and gender diversity are socially condemned, the Web has served to meet, organize and 
-resist.
+With the popularization of the internet, the freedom of expression of both women and other gender identities traditionally marginalized from public life and social acceptance (whom we refer to as queer) has been greatly enhanced. In contexts where women do not have their rights fully guaranteed, or where sexual and gender diversity are socially condemned, the Web has served to meet, organize and resist.
 
 By adding content in formats like text, audio and video, these groups have been able to connect with each other, as well as open spaces for discussion and visibility of topics that previously seemed 
 vetoed. The web has become a space for activism, reclamation and protest against injustice and gender inequality. It has allowed the construction of international networks of solidarity, support and 
@@ -435,3 +395,19 @@ As this document concerns a research document, there are no security considerati
 # IANA Considerations
 
 This document has no actions for IANA.
+
+
+**
+
+Collins, P. H. (2000). Black Feminist Thought: Knowledge, consciousness and the politics of empowerment. Second Edition (2nd ed.). New York, London: Routledge.
+
+Crenshaw, K. (2018). Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory, and Antiracist Politics [1989]. In K. T. Bartlett & R. Kennedy (Eds.), Feminist Legal Theory (1st ed., pp. 57–80; By K. Bartlett). https://doi.org/10.4324/9780429500480-5
+
+Hankivsky, O. (2014). Intersectionality 101. The Institute for Intersectionality Research & Policy, SFU. Retrieved from http://vawforum-cwr.ca/sites/default/files/attachments/intersectionallity_101.pdf
+
+Mason, C. N. (2010). Leading at the Intersections: An Introduction to the Intersectional Approach Model for Policy & Social Change. Women of Color Policy Network.
+
+Symington, A. (2004). Intersectionality: a Tool for Gender and Economic Justice. Retrieved from https://www.awid.org/sites/default/files/atoms/files/intersectionality_a_tool_for_gender_and_economic_justice.pdf
+
+ 
+
