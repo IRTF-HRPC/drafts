@@ -124,7 +124,7 @@ This document must not be understood as a set of rules or recommendations, but a
 
 In the first instance, this document highlights where gender and security related terminology occurs in both technical standards and feminist discourse and distinguish between the two in a meaningful way, in order to find a common understanding of concepts, which allows both the technical and feminist communities to recognize and discuss together how the technical decisions with regard to internet infraestructure, standards and protocols, directly or indirectly may affect internet users around the world.
 
-In the second part, the concepts of internet access and embodiment will be analyzed, in the way they have been comprehensively addressed in the Principles and in relation to some technical concepts such as data minimization, localization, internationalization and transparency, among others. In this part some use cases are collected, focused on the experience of the end users, to understand how the protocols can affect the full participation in the internet of some people, because of their gender, race or class.
+In the second part, the concepts of internet access and embodiment will be analyzed, in the way they have been comprehensively addressed in the Principles and in relation to some technical concepts such as data minimization, localization, internationalization and transparency, among others. In this part some use cases are collected, focused on the experience of the end users, to understand how the protocols can affect the full participation in the internet of some people, because of their social location.
 
 ## An intersectional perspective
 
@@ -138,7 +138,7 @@ From this proposal, the concept has meant a paradigm shift both in feminist thin
 
 Therefore, an intersectional feminist perspective focuses on social location, the multiple layered identities people live, derived from social relations, history and structures of power through which people can experience both oppression and privilege. These oppressions can be structural and dynamic, determined by gender, race or skin color, class, sexuality, ethnicity, age, language, geographic location, abilities or health conditions, among other factors [Symington].
 
- The concept _matrix of domination_, introduced by [Hill-Collins] as complementary to _intersectionality_, refers to the way in which the powers that produce and reproduce intersecting oppression are organized. In summary, the concept _intersectionality_ has served to recognize people's different experiences and social locations and with this, the need of a bottom up understanding of discrimination and oppression; in addition, the concept _matrix of domination_ turns the gaze on the context of power -institutional, political, economic and symbolic- in which intersecting oppressions operate.
+The concept _matrix of domination_, introduced by [Hill-Collins] as complementary to _intersectionality_, refers to the way in which the powers that produce and reproduce intersecting oppression are organized. In summary, the concept _intersectionality_ has served to recognize people's different experiences and social locations and with this, the need of a bottom up understanding of discrimination and oppression; in addition, the concept _matrix of domination_ turns the gaze on the context of power -institutional, political, economic and symbolic- in which intersecting oppressions operate.
 
 ### Internet as a matrix of domination
 
@@ -178,64 +178,53 @@ or if they are part of a technical explanation, and if they are normally accompa
 
 ## Safety
 
-For the last years, there has been criticism of the way in which digital security accompaniments, advice and training are developed for people who are not directly involved in the development of 
-information technology. It is worth mentioning that digital security, unlike cybersecurity, is more geared towards internet users {{Comninos}}. Some of these criticisms refer to the fact that the 
-approach to digital security is centred on tools and not on usage practices, and "attacks", "adversaries" or "enemies" in a generic way, without recognising the specific contexts in which different 
+For the last years, there has been criticism of the way digital security accompaniments, advice and training are developed for people who are not directly involved in the development of information technology. It is worth mentioning that digital security, unlike cybersecurity, is more geared towards internet users {{Comninos}}. Some of these criticisms refer to the fact that the approach to digital security is centred on tools and not on usage practices, and "attacks", "adversaries" or "enemies" in a generic way, without recognising the specific contexts in which different 
 information protection needs are generated.
 
-Given the common incidents suffered by women and queer people, from a gender perspective it has been preferred to use the term _safety_ to recognize their main need to be able to inhabit digital 
-environments without being the target of attacks such as trolling, harassment, stalking, threats, non-consensual dissemination of intimate images, among others. When speaking of _safety_ rather than 
-_security_, their participation is recognized as users at the most surface level, not as administrators, developers or generators of computer knowledge. In recent years, feminist infrastructure projects 
-have begun to appear while the inclusion of women in developers communities has been promoted. However, today there is still a huge gender gap in the technical and political development of the internet.
+Given the common incidents suffered by women and queer people, from a gender perspective it has been preferred to use the term _safety_ to recognize their main need to be able to inhabit digital environments without being the target of attacks such as trolling, harassment, stalking, threats, non-consensual dissemination of intimate images, among others. When speaking of _safety_ rather than _security_, their participation is recognized as users at the most surface level, not as administrators, developers or generators of computer knowledge. In recent years, feminist infrastructure projects have begun to appear while the inclusion of women in developers communities has been promoted. However, today there is still a huge gender gap in the technical and political development of the internet.
 
 In {{RFC4949}} _safety_ is defined as "the property of a system being free from risk of causing harm (especially physical harm) to its system entities", which is compared to _security_ as the "system 
-condition in which system resources are free from unauthorized access and from unauthorized or accidental change, destruction, or loss". But _safety_ has traditionally, especially in the early years of 
-the IETF, been referred to human activities {{RFC1244}}, {{RFC2122}}, {{RFC2310}} and human rights {{RFC1746}}, {{RFC1941}}, {{RFC3694}}.
+condition in which system resources are free from unauthorized access and from unauthorized or accidental change, destruction, or loss". But _safety_ has traditionally, especially in the early years of the IETF, been referred to human activities {{RFC1244}}, {{RFC2122}}, {{RFC2310}} and human rights {{RFC1746}}, {{RFC1941}}, {{RFC3694}}.
 
 ## Gender
 
-As IETF is centered on "identifying, and proposing solutions to, pressing operational and technical problems in the Internet" and as according to the Tao of the IETF, "we believe in rough consensus and 
-running code", it is not supposed to concentrate on the particular characteristics of internet users, but on the proper functioning of the systems {{Tao}}. In addition, due to the characteristics of the 
-type of technologies that are designed in the IETF, many times the the "use cases" or implementations refer to the way in which companies arrange the infrastructure for their clients, not necessarily to 
-the way internet users interact with that infrastructure.
+As IETF is centered on "identifying, and proposing solutions to, pressing operational and technical problems in the Internet" and as according to the Tao of the IETF, "we believe in rough consensus and running code", it is not supposed to concentrate on the particular characteristics of internet users, but on the proper functioning of the systems {{Tao}}. In addition, due to the characteristics of the type of technologies that are designed in the IETF, many times the "use cases" or implementations refer to the way in which companies arrange the infrastructure for their clients, not necessarily to the way internet users interact with that infrastructure.
 
-In this sense, it seems not within the mandate of the IETF to imagine the particular needs of users' gender, race or ethnicity. However, in the drafts and RFCs archive there appear subjects with gender 
-as well as supposedly universal entities that sometimes represent concrete functions of the systems, and other times the voluntary actions of the operators. As a first step in imagining possible gender 
-considerations when designing internet protocols, below is a very brief description of how gender appears in IETF documents. This is also a very preliminary analysis, which could later be complimented 
-and added to the search for entities with cultural and phenotypic characteristics that could make them vulnerable on the internet.
+In this sense, it seems not within the mandate of the IETF to imagine the particular needs of users' gender, race or ethnicity. However, in the IDs and RFCs archive there appear subjects with gender as well as supposedly universal entities that sometimes represent concrete functions of the systems, and other times the voluntary actions of the operators. As a first step in imagining possible gender considerations when designing internet protocols, below is a very brief description of how gender appears in IETF documents. This is also a very preliminary analysis, which could later be complimented and added to the search for entities with cultural and phenotypic characteristics that could make them vulnerable on the internet.
+TODO
 
 # Access
 
-Internet access is recognized as a human right {{UNGA}}, but its effective guarantee depends on different and unequal social, cultural, economic and political conditions. In 2018, barely half of the 
-world's population has access to the internet and in 88% of countries, men have more access than women {{ITU}}. Geographical location, age, educational and income level, as well as gender, significantly 
-determine how people access to the internet {{WebFoundation}}.
+Internet access is recognized as a human right {{UNGA}}, but its effective guarantee depends on different and unequal social, cultural, economic and political conditions. In 2018, barely half of the world's population has access to the internet and in 88% of countries, men have more access than women {{ITU}}. Geographical location, age, educational and income level, as well as gender, significantly determine how people access to the internet {{WebFoundation}}.
 
 The Feminist Principles of the Internet {{FPI}} enphasizes that access must be to a universal, acceptable, affordable, unconditional, open, meaningful and equal internet, which guarantees rights rather 
-than restricts them. As some bodies have always been subject to social and cultural surveillance and violence because of their gender and sexuallity, their access to internet is not satisfied with 
-connected devices, but with safety and useful digital enviroments {{SmKee}}.
+than restricts them. As some bodies have always been subject to social and cultural surveillance and violence because of their gender and sexuallity, their access to internet is not satisfied with connected devices, but with safety and useful digital enviroments {{SmKee}}.
 
 In this sense, access must be considered in several dimensions, in addition to internet access as a possibility of being connected:
 
 ## Access to information
 
-Information in one's own language is the first condition, as pointed out with the cencept of 'Localization' {{RFC8280}}, referred to the act of tailoring an application for a different language, script, 
-or culture, and involves not only changing the language interaction but also other relevant changes, such as display of numbers, dates, currency, and so on.
+Information in one's own language is the first condition, as pointed out with the cencept of 'Localization' {{RFC8280}}, referred to the act of tailoring an application for a different language, script, or culture, and involves not only changing the language interaction but also other relevant changes, such as display of numbers, dates, currency, and so on.
 
 But it is also necessary to be able to access relevant information, related for example to sexual and reproductive health and rights, pleasure, safe abortion, access to justice, and LGBTIQ issues. Some 
 goverments and ISPs block pages with this content or monitor online activity by sexual and gender related terminology. Therefore the considerations for anticensorship internet infrastructure technologies 
 also consider, and can possibly alleviate, a gendered component to using the internet.
+--
+
+- Legal grey zone in access to sexual and reproductive righst information.
+(as those righst are not guaranteed)
+
+- Technologies to block info? (restrict women's rights)
+
 
 ## Usage of technology
 
 Beyond content, access implies the possibility to use, which means code, design, adapt and critically and sustainably use ICTs. As almost 75% of connected individuals are placed in the Global South 
 {{WhoseKnowledge}}, technology is developped mainly in rich countries where student quotas and jobs are filled mainly by men.
 
-The concept of 'Internationalization' {{rfc6365}} refers to the practice of making protocols, standards, and implementations usable in different languages. This is a first step to democratize the 
-development of technology, allowing its implementation in non-English-speaking countries.
+The concept of 'Internationalization' {{rfc6365}} refers to the practice of making protocols, standards, and implementations usable in different languages. This is a first step to democratize the development of technology, allowing its implementation in non-English-speaking countries.
 
-However, there is still a long way to go in terms of inclusion of more diverse populations in the spaces of technology development and definition of protocoles and standards for the internet 
-infrastructure {{rfc7704}}.  The presence of gendered subjects in the IETF RFCs and drafts archive demonstrates stereotyped male and feminine roles. On the other hand, the generalized mention of agents - 
-as universal subjects - in those documents, ignores the existence of other corporealities, which includes non binary identities or with a marked physical difference.
+However, there is still a long way to go in terms of inclusion of more diverse populations in the spaces of technology development and definition of protocoles and standards for the internet infrastructure {{rfc7704}}.  The presence of gendered subjects in the IETF RFCs and drafts archive demonstrates stereotyped male and feminine roles. On the other hand, the generalized mention of agents - as universal subjects - in those documents, ignores the existence of other corporealities, which includes non binary identities or with a marked physical difference.
 
 Building and engineering critical internet technology is a component of 'usage'. There are challenge the cultures of sexism and discrimination in all spaces, some of which can be found in existing RFCs 
 [draft-terminology, others].
@@ -270,6 +259,8 @@ threatened by centralised systems of control and cooptation, specifically survei
 Association of system architectures is a concept that overlaps neatly with the ideals of real-world associations of organisations and communities. "The ultimate model of P2P is a completely decentralized 
 system, which is more resistant to speech regulation, immune to single points of failure and have a higher performance and scalability {{tenOever}}."
 
+- Is can be descussed in terms of intersectionailty and what we mentioned about 'different dimensions of freedom'. Maybe the 'solution' is not only P2P because it doesn't take into account different distances from and capacities related to this technology, maybe mixed with another feature?
+
 ## Internet governance
 
 While there is no agreement regarding the ability of the internet to negatively or positively impact on social behaviors, or shape desirable practices {{RFC8280}}, more women and diverse populations' 
@@ -284,21 +275,15 @@ local networks.
 Most of the threats women and non binary people face on line, occur on the user levels of application and content. Most adversaries are other users, but also include institutions, platforms and 
 governments.
 
-For a long time, perhaps since the internet became popular, its use ceased to be a functional matter and became emotional. The access to chat rooms to connected with people at huge distances, the 
-possibility of having personal e-mails, the appearance of social networks to share music, photos and then video, determined not only the social use of a new tool but also the configuration of digital 
-sensitivities, understood by some as sensory extensions of the body.
+For a long time, perhaps since the internet became popular, its use ceased to be a functional matter and became emotional. The access to chat rooms to connect with people at huge distances, the possibility of having personal e-mails, the appearance of social networks to share music, photos and then video, determined not only the social use of a new tool but also the configuration of digital sensitivities, understood by some as sensory extensions of the body [ref].
 
 The internet connections embedded have also meant a radical transformation in the way people access the internet. Much more, considering that today most internet connections, especially in the global 
-south, are mobile connections. People build their own public digital identities, use private communications to disseminate information, explore their sexuality in text, image and video, share their 
-initmity with others. In internet-connected devices, it has become much easier for leisure and work to mix, which implies different risks for users.
+south, are mobile connections. People build their own public digital identities, use private communications to disseminate information, explore their sexuality in text, image and video, share their initmity with others. In internet-connected devices, it has become much easier for leisure and work to mix, which implies different risks for users.
 
-Sharing personal information, and often sensitive data, through platforms that are synchronized with email accounts and other platforms where information considered non-sensitive is published, implies 
-losing control over such information. Much more, considering that each platform hosts the information of its users according to their own terms and conditions in the treatment of data. For women and 
-other groups marginalized by race or gender, these risks are greater.
+Sharing personal information, and often sensitive data, through platforms that are synchronized with email accounts and other platforms where information considered non-sensitive is published, implies losing control over such information. Much more, considering that each platform hosts the information of its users according to their own terms and conditions in the treatment of data. For women and other groups marginalized by race or gender, these risks are greater.
 
 Just as the internet connection can be considered an extension of the body, social problems such as discrimination and exclusion have been projected into the digital environment-- sometimes intensified, 
-sometimes reconfigured. And once again, women, queers, racialized people are the most vulnerable. Most of the threats they face on line, occur in the user level. Most of their "adversaries" are other 
-users, who also act at the user level, with technical or social skills that threaten participation and expressions. Institutions, platforms and governments who are adversarial have great advantage.
+sometimes reconfigured. And once again, women, queers, racialized people are the most vulnerable. Most of the threats they face on line, occur in the user level. Most of their "adversaries" are other users, who also act at the user level, with technical or social skills that threaten participation and expressions. Institutions, platforms and governments who are adversarial have great advantage.
 
 At this point, what level of autonomy do these people have as internet users?
  
@@ -307,13 +292,9 @@ At this point, what level of autonomy do these people have as internet users?
 The security considerations to counter online violence are critical. There is opportunity in a connected world for those who would perpetuate violence against women and other marginalised groups through 
 the use of internet-enabled technologies, from the home to the prison.
 
-Privacy is a critical component of security for populations at risk. The control of information is linked to privacy. Where some would like privacy in order to live privately, others need privacy in 
-order to access information and circumvent censorship and surveillance. The protection of privacy is critical for those at risk to prevent vicimisation through extortion, doxxing, and myriad other 
-threats. Lack of privacy leads to risks such as stalking, monitoring and persistent harrassment.
+Privacy is a critical component of security for populations at risk. The control of information is linked to privacy. Where some would like privacy in order to live privately, others need privacy in order to access information and circumvent censorship and surveillance. The protection of privacy is critical for those at risk to prevent vicimisation through extortion, doxxing, and myriad other threats. Lack of privacy leads to risks such as stalking, monitoring and persistent harrassment.
 
-While making public otherwise private details about a person can consitute a form of abuse, the converse is also a risk: Being erased from society or having one's online identity controlled by another is 
-a form of control and manipulation. Censorship, misinformation and coersion may consitute violence online. Other forms of non-consensual manipulation of online content includes platform "real name 
-policies", sharing of intimate images and sexual abuse, spreading false accusations, flamming and other tactics.
+While making public otherwise private details about a person can consitute a form of abuse, the converse is also a risk: Being erased from society or having one's online identity controlled by another is a form of control and manipulation. Censorship, misinformation and coersion may consitute violence online. Other forms of non-consensual manipulation of online content includes platform "real name policies", sharing of intimate images and sexual abuse, spreading false accusations, flamming and other tactics.
 
 Key to mitigating these threats is the element of consent.
 
