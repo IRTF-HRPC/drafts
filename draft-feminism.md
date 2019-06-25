@@ -150,9 +150,18 @@ This document addresses the opportunities and vulnerabilities incorporated into 
 
 ## Brief history of feminism and the internet
 
-It is significant to highlight the ways in which feminists have understood, used and mobilised on the internet. Given myriad expressions of feminism online and feminist movement building online, one 
-thread is perhaps instructive to this exercise. More about the nature of the complex community that created the Feminist Principles of the Internet can be found at feministinternet.org.
- 
+The ways in which feminists have understood, used and mobilised on the internet is significant for a baseline understanding of how internet protocols and feminism intersect. Intersectional feminist action and anaysis can be collected into two strategies: addressing the status quo and creating alternatives. Feminists on the early internet embodied both.
+
+It is important to note here that there has always existed a gender gap in access to the internet, which is exacerbated by global wealth inequality.
+
+Since the 1980s, feminist movements have used the internet to challenge power. Globalisation. Development. Cyberfeminism. Internet governance. There is a deeper connection to the internet and social justice struggles in which communication becomes the primary strategy to address inequality. Indeed, in "A History Of Feminist Engagement With Development And Digital Technologies" Anita Gurumurthy writes, "the history of the right to communicate reveals the contestation between powerful status quoist forces and those who seek transformative, global change for justice and equality."
+
+At the same time, feminists were using the internet to create feminist space.
+
+Author Feminista Jones argues in "Reclaiming Our Space: How Black Feminists Are Changing the World from the Tweets to the Streets" that the feminist alternative spaces have become mainstream and are leading analysis and critique of the status quo, a merging and strengthening of the two strategies that emerge from this particular historical framing.
+
+Given these myriad expressions of feminism online and feminist movement building online, one thread is perhaps most instructive to this exercise, which we use as the basis for this document: Feminist Principles of the Internet. More about the nature of the complex community that created the Feminist Principles of the Internet can be found at feministinternet.org. The principles, drafted and revised by hundreds of feminists mostly in the global south, highlight historical feminist themes for the digital age in its main categories: access, movements, economy, expression and embodiment.
+
 # Expression as a framework of understanding
 
 With the popularization of the internet, the freedom of expression of both women and other gender identities traditionally marginalized from public life and social acceptance (whom we refer to as queer) has been greatly enhanced. In contexts where women do not have their rights fully guaranteed, or where sexual and gender diversity are socially condemned, the Web has served to meet, organize and resist.
