@@ -1,6 +1,16 @@
---- title: Feminism and protocols abbrev: Feminism docname: draft-guerra-feminism-00 date: 2019-03-11 category: info
+---
+title: Feminism and protocols
+abbrev: Feminism
+docname: draft-guerra-feminism-01
+date: 2019-07-08
+category: info
 
-ipr: trust200902 area: irtf keyword: Internet-Draft stand_alone: yes pi:
+ipr: trust200902
+area: IRTF
+workgroup: Human Rights Protocol Considerations Research Group
+keyword: Internet-Draft
+stand_alone: yes
+pi:
   rfcedstyle: yes
   toc: yes
   tocindent: yes
@@ -11,7 +21,8 @@ ipr: trust200902 area: irtf keyword: Internet-Draft stand_alone: yes pi:
   inline: yes
   text-list-symbols: -o*+
 
-author: -
+author:
+-
        ins: J. Guerra
        name: Juliana Guerra
        organization: Derechos Digitales
@@ -44,6 +55,19 @@ informative:
    RFC6365:
 
    RFC7704:
+
+   RFC3675:
+
+   RFC1984:
+
+   RFC5646:
+
+   BCP72:
+     title: Guidelines for Writing RFC Text on Security Considerations
+     date: 2003
+     author:
+        - org: IETF
+     target: https://datatracker.ietf.org/doc/bcp72/
 
    Comninos:
       title: "A cyber security Agenda for civil society: What is at stake?"
@@ -93,7 +117,7 @@ informative:
       target: http://link.springer.com/10.1057/s41301-017-0137-2
 
    WhoseKnowledge:
-      title: "Decolonizing the Internet, Summary Report.!
+      title: "Decolonizing the Internet, Summary Report."
       author:
          - org: Whose Knowledge
       date: 2018
@@ -106,6 +130,71 @@ informative:
       date: 2018
       target: https://datatracker.ietf.org/doc/draft-arkko-iab-internet-consolidation
 
+   FPI:
+      title: "The Feminist Principles of the Internet."
+      date: 2015
+      target: https://feministinternet.org
+
+   Collins:
+      title: "Black Feminist Thought: Knowledge, consciousness and the politics of empowerment."
+      author:
+         - ins: P. H. Collins
+      date: 2000
+
+   Crenshaw:
+      title: "Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory, and Antiracist Politics."
+      author:
+         - ins: K. Crenshaw
+      date: 1989
+      target: https://doi.org/10.4324/9780429500480-5
+
+   Lorde:
+      title: "unknown."
+      author:
+         - ins: Lorde
+      target:
+
+   Davis:
+      title: "unknown."
+      author:
+         - ins: Davis
+      target:
+
+   Hankivsky:
+      title: "Intersectionality 101."
+      author:
+         - ins: O. Hankivsky
+      date: 2014
+      target: http://vawforum-cwr.ca/sites/default/files/attachments/intersectionallity_101.pdf
+
+   Mason:
+      title: "Leading at the Intersections: An Introduction to the Intersectional Approach Model for Policy and Social Change."
+      author:
+         - ins: C. N. Mason
+      date: 2010
+
+   Symington:
+      title: "Intersectionality: a Tool for Gender and Economic Justice."
+      author:
+         - ins: A. Symington
+      date: 2004
+      target: https://www.awid.org/sites/default/files/atoms/files/intersectionality_a_tool_for_gender_and_economic_justice.pdf
+
+   tenOever:
+      title: "Freedom of Association on the Internet."
+      author:
+         - ins: N. ten Oever
+      date: 2017
+      target: https://datatracker.ietf.org/doc/html/draft-irtf-hrpc-association
+
+   Knodel:
+      title: "Terminology, Power and Offensive Language."
+      author:
+         - ins: M. Knodel
+         - ins: N. ten Oever
+      date: 2018
+      target: https://datatracker.ietf.org/doc/draft-knodel-terminology
+
 --- abstract
 
 This document aims to describe how internet standards, protocols and its implementations may impact diverse groups and communities. The research on how some protocol can be enabler for specific human rights while possibly restricting others has been documented in {{RFC8280}}. Similar to how RFC 8280 has taken a human rights lens through which to view engineering and design choices by internet standardisation, this document addresgses the opportunities and vulnerabilities embedded within internet protocols for specific, traditionally maginalised groups.
@@ -114,7 +203,7 @@ This document aims to describe how internet standards, protocols and its impleme
 
 # Introduction
 
-This document aims to use a feminist framework to analyse the impacts of internet protocols on society. It is based on a document called The {{Feminist Principles of the Internet}}, a series of 17 statements with a "gender and sexual rights lens on critical internet-related rights" for the purpose of enabling women's rights movements to explore issues related to internet technology.
+This document aims to use a feminist framework to analyse the impacts of internet protocols on society. It is based on a document called The The Feminist Principles of the Internet {{FPI}}, a series of 17 statements with a "gender and sexual rights lens on critical internet-related rights" for the purpose of enabling women's rights movements to explore issues related to internet technology.
 
 These Principles, as well as most of the experiences and learnings of the feminist movement in the digital age, have focused on invisioning a more just internet as a necessary action in building a more just society, namely one that recognizes differences across a variety of lived experience and identity.
 
@@ -130,19 +219,19 @@ Imagine a highway that connects two big cities, one capable of withstanding heav
 
 If someone without enough experience is driving down a road that intersects the highway and wants to get there, that person will be at greater risk of crashing or having an accident. In addition, without a valid license the person will also run the risk of being fined by the traffic authorities. In terms of rights, those intersecting roads are not robust and the risks of accident are forms of discrimination experienced by those who drive on them. What if many small streets intersect at the same point on the highway?
 
-Arised in black feminist theory, the concept of intersectionality serves to understand how multiple forms of discrimination overlap [Hill-Collins]. As first pointed by [Crenshaw] in the United States, "Black women can experience discrimination in ways that are both similar to and different from those experienced by white women and Black men", so an intersectional approach should be able to recognize this type of discrimination by transcending the one-way perspective with which the justice system, as well as feminist and anti-racist movements, had traditionally operated.
+Arised in black feminist theory, the concept of intersectionality serves to understand how multiple forms of discrimination overlap {{Collins}}. As first pointed by {{Crenshaw}} in the United States, "Black women can experience discrimination in ways that are both similar to and different from those experienced by white women and Black men", so an intersectional approach should be able to recognize this type of discrimination by transcending the one-way perspective with which the justice system, as well as feminist and anti-racist movements, had traditionally operated.
 
-From this proposal, the concept has meant a paradigm shift both in feminist thinking [Hill-Collins] and movements [Lorde; Davis], and more recently in the design and implementation of public policies [Mason; Hankivsky]. The intersectional approach is not focused on the problem of equality but on difference; discrimination is not analyzed in terms of effective access to rights, but the conditions and capacities that people have to access those rights.
+From this proposal, the concept has meant a paradigm shift both in feminist thinking {{Collins}} and movements {{Lorde}}{{Davis}}, and more recently in the design and implementation of public policies {{Mason}}{{Hankivsky}}. The intersectional approach is not focused on the problem of equality but on difference; discrimination is not analyzed in terms of effective access to rights, but the conditions and capacities that people have to access those rights.
 
-Therefore, an intersectional feminist perspective focuses on social location, the multiple layered identities people live, derived from social relations, history and structures of power through which people can experience both oppression and privilege. These oppressions can be structural and dynamic, determined by gender, race or skin color, class, sexuality, ethnicity, age, language, geographic location, abilities or health conditions, among other factors [Symington].
+Therefore, an intersectional feminist perspective focuses on social location, the multiple layered identities people live, derived from social relations, history and structures of power through which people can experience both oppression and privilege. These oppressions can be structural and dynamic, determined by gender, race or skin color, class, sexuality, ethnicity, age, language, geographic location, abilities or health conditions, among other factors {{Symington}}.
 
-The concept _matrix of domination_, introduced by [Hill-Collins] as complementary to _intersectionality_, refers to the way in which the powers that produce and reproduce intersecting oppression are organized. In summary, the concept _intersectionality_ has served to recognize people's different experiences and social locations and with this, the need of a bottom up understanding of discrimination and oppression; in addition, the concept _matrix of domination_ turns the gaze on the context of power -institutional, political, economic and symbolic- in which intersecting oppressions operate.
+The concept _matrix of domination_, introduced by {{Collins}} as complementary to _intersectionality_, refers to the way in which the powers that produce and reproduce intersecting oppression are organized. In summary, the concept _intersectionality_ has served to recognize people's different experiences and social locations and with this, the need of a bottom up understanding of discrimination and oppression; in addition, the concept _matrix of domination_ turns the gaze on the context of power -institutional, political, economic and symbolic- in which intersecting oppressions operate.
 
 ### Internet as a matrix of domination
 
-The gender and sexual rights lens on critical internet-related rights contained in the [Feminist Principles of the Internet] has been built bottom up by the feminist movement, which treats most prominently people who are negatively discriminated against on the basis of their gender and sexuality, but not exclusively. Because the threats to women and queer people, whose bodies and manifestations are already under strong, albeit sometimes invisible, social, cultural and political surveillance, an intersectional feminist analysis makes it possible to recognize how multiple oppressions affect the ways people access, use and participate on the internet.
+The gender and sexual rights lens on critical internet-related rights contained in the Feminist Principles of the Internet has been built bottom up by the feminist movement {{FPI}}, which treats most prominently people who are negatively discriminated against on the basis of their gender and sexuality, but not exclusively. Because the threats to women and queer people, whose bodies and manifestations are already under strong, albeit sometimes invisible, social, cultural and political surveillance, an intersectional feminist analysis makes it possible to recognize how multiple oppressions affect the ways people access, use and participate on the internet.
 
-From now on, some of these experiences will be used to identify how the Internet can enable or restrict the possibility of justice and equity among its users. For this purpose, it is useful to understand the internet as a _matrix of domination_ in the sense pointed by [Hill-Collins]: as an institutional, political, symbolic and cultural context where different intersecting oppressions are shaped and reinforced.
+From now on, some of these experiences will be used to identify how the Internet can enable or restrict the possibility of justice and equity among its users. For this purpose, it is useful to understand the internet as a _matrix of domination_ in the sense pointed by {{Collins}}: as an institutional, political, symbolic and cultural context where different intersecting oppressions are shaped and reinforced.
 
 This document addresses the opportunities and vulnerabilities incorporated into Internet protocols for specific, traditionally discriminated groups, on the assumption that these values are inherent in technological design. Through the proposed intersectional perspective, a multilevel description of the factors, processes and social structures that affect different experiences on the Internet is presented below and, based on specific cases, an analysis will be made of how the different protocols intervene in the shaping and reinforcement of intersecting oppressions faced by users on different social locations.
 
@@ -205,13 +294,13 @@ Related rights: FoE, FoA, Right to political participation, Right to participate
 Beyond content, access implies the possibility to use, which means code, design, adapt and critically and sustainably use ICTs. Even though almost 75% of connected individuals are placed in the Global South 
 {{WhoseKnowledge}}, technology is developped mainly in rich countries where student quotas and jobs are filled mainly by men.
 
-However, there is still a long way to go in terms of inclusion of more diverse populations in the spaces of technology development and definition of protocoles and standards for the internet infrastructure {{rfc7704}}. Building and engineering critical internet technology is a component of 'usage' {{Knodel}}, one which chllenges challenge the cultures of sexism and discrimination.
+However, there is still a long way to go in terms of inclusion of more diverse populations in the spaces of technology development and definition of protocoles and standards for the internet infrastructure {{RFC7704}}. Building and engineering critical internet technology is a component of 'usage' {{Knodel}}, one which chllenges challenge the cultures of sexism and discrimination.
 
 Harms: Gender and race bian in algorithms, digital gender gap. Necessary to know the charset, gap. The presence of gendered subjects in the IETF RFCs and drafts archive demonstrates stereotyped male and feminine roles.
 
-Related protocols: The concept of 'Internationalization' {{rfc6365}} refers to the practice of making protocols, standards, and implementations usable in different languages. This is a first step to democratize the development of technology, allowing its implementation in non-English-speaking countries.
+Related protocols: The concept of 'Internationalization' {{RFC6365}} refers to the practice of making protocols, standards, and implementations usable in different languages. This is a first step to democratize the development of technology, allowing its implementation in non-English-speaking countries.
 
-TODO. {{rfc5646}} descentralization, reliability. Adaptability (permissionless innovation).
+TODO. {{RFC5646}} descentralization, reliability. Adaptability (permissionless innovation).
 
 Related rights: Right to participate in cultural life, arts and science
 
@@ -242,7 +331,7 @@ threatened by centralised systems of control and cooptation, specifically survei
 
 Related protocols: Association of system architectures is a concept that overlaps neatly with the ideals of real-world associations of organisations and communities. "The ultimate model of P2P is a completely decentralized system, which is more resistant to speech regulation, immune to single points of failure and have a higher performance and scalability {{tenOever}}." It can be descussed in terms of intersectionailty and what we mentioned about 'different dimensions of freedom'. Maybe the 'solution' is not only P2P because it doesn't take into account different distances from and capacities related to this technology, maybe mixed with another feature?. Integrity. 
 
-Related rights: Elements of freedom of assocation as explained in the UDHR {{}} include individual and collective rights to privacy and anonymity, as discussed in more detail below.
+Related rights: Elements of freedom of assocation as explained in the UDHR include individual and collective rights to privacy and anonymity, as discussed in more detail below.
 
 ### Internet governance
 
@@ -315,7 +404,7 @@ Users build their own public digital identities while using private communicatio
 
 Harms: In internet-connected devices, it has become much easier to mix leisure and work, which implies different risks for users.
 
-Related protocols: {{rfc3675}}
+Related protocols: {{RFC3675}}
 
 Related rights: Freedom of expression
 
@@ -323,7 +412,7 @@ Related rights: Freedom of expression
 
 Most of the threats women and queer people face on line, occur on the user levels of application and content. Most adversaries are other users, but also include institutions, platforms and governments.
 
-For a long time, perhaps since the internet became popular, its use ceased to be a functional matter and became emotional. The access to chat rooms to connect with people at huge distances, the possibility of having personal e-mails, the appearance of social networks to share music, photos and then video, determined not only the social use of a new tool but also the configuration of digital sensitivities, understood by some as sensory extensions of the body [ref].
+For a long time, perhaps since the internet became popular, its use ceased to be a functional matter and became emotional. The access to chat rooms to connect with people at huge distances, the possibility of having personal e-mails, the appearance of social networks to share music, photos and then video, determined not only the social use of a new tool but also the configuration of digital sensitivities, understood by some as sensory extensions of the body.
 
 The internet connections embedded have also meant a radical transformation in the way people access the internet. Much more, considering that today most internet connections, especially in the global south, are mobile connections. 
 
@@ -470,17 +559,5 @@ As this document concerns a research document, there are no security considerati
 This document has no actions for IANA.
 
 
-**
-
-Collins, P. H. (2000). Black Feminist Thought: Knowledge, consciousness and the politics of empowerment. Second Edition (2nd ed.). New York, London: Routledge.
-
 Crenshaw, K. (2018). Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory, and Antiracist Politics [1989]. In K. T. Bartlett & R. Kennedy (Eds.), Feminist Legal Theory (1st ed., pp. 57–80; By K. Bartlett). https://doi.org/10.4324/9780429500480-5
-
-Hankivsky, O. (2014). Intersectionality 101. The Institute for Intersectionality Research & Policy, SFU. Retrieved from http://vawforum-cwr.ca/sites/default/files/attachments/intersectionallity_101.pdf
-
-Mason, C. N. (2010). Leading at the Intersections: An Introduction to the Intersectional Approach Model for Policy & Social Change. Women of Color Policy Network.
-
-Symington, A. (2004). Intersectionality: a Tool for Gender and Economic Justice. Retrieved from https://www.awid.org/sites/default/files/atoms/files/intersectionality_a_tool_for_gender_and_economic_justice.pdf
-
-https://tools.ietf.org/html/rfc3675
 
