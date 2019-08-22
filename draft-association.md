@@ -391,7 +391,7 @@ informative:
 
 --- abstract
 
-This document establishes the causal link between the Internet
+This document establishes the link between the Internet
 architecture and the ability of people to exercise their right to
 freedom of assembly and association online. The Internet increasingly
 mediates our lives, our relationships and our ability to exercise our
@@ -519,15 +519,15 @@ The point of departure of the present work is {{RFC8280}} - an initial
 effort to establish the relationship between human rights and the
 Internet architecture, specifically protocols and standards. As such,
 {{RFC8280}} was inductive and explorative in nature, and it ultimately
-established either causal or deterministic relationships between
+established relationships between
 aforementioned concepts through a series of case studies.
 
 The methodology was based on process tracing, semi-structured
 interviews and quantitative and qualitative document analysis which
 has been further validated through confirmatory research in the form
-of Human Rights Protocol Reviews. The causal relationship, proposed as
+of Human Rights Protocol Reviews. The relationship, proposed as
 a hypothesis in {{RFC8280}} says that there is an inherent
-relationship between protocols, the Internet architecture, and human
+relation between protocols, the Internet architecture, and human
 rights. The guidelines in {{RFC8280}} describe a relationship between
 the right to freedom of assembly and association and connectivity,
 security, censorship resistance, anonymity, pseudonymity,
@@ -550,7 +550,7 @@ done in draft-irtf-hrpc-guidelines.
 Given that our current research proposition is that "the Internet
 infrastructure significantly impacts the ability of people to exercise
 the human rights to freedom of association and assembly', we therefore
-aim to test the causal relationship through a case-selection method,
+aim to test the relationship between protocols and association through a case-selection method,
 where we have adopted a purposive sampling approach, aimed at the
 typicality and paradigmatic nature of the cases {{SeawrightGerring}}
 to help us achieve an attempt at an an ethnography of infrastructure
