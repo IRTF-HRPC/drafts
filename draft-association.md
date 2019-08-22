@@ -1,7 +1,7 @@
 ---
 title: Freedom of Association on the Internet
 abbrev: FoA
-docname: draft-irtf-hrpc-association-02
+docname: draft-irtf-hrpc-association-03
 category: info
 
 ipr: trust200902
