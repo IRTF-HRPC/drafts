@@ -23,6 +23,18 @@ pi:
 author:
 
 -
+       ins: S. Couture
+       name: Stephane Couture
+       organization: University of Montreal
+       email: steph@stephcouture.info
+
+-
+       ins: J.L. Hall
+       name: Joseph Lorenzo Hall
+       organization: CDT
+       email: joe@cdt.org
+
+-
        ins: N. ten Oever
        name: Niels ten Oever
        organization: University of Amsterdam
