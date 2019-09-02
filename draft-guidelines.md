@@ -47,7 +47,7 @@ informative:
    RFC3365:
    RFC3724:
    RFC3935:
-   RFC3979:
+   RFC8179:
    RFC4033:
    RFC4101:
    RFC4941:
@@ -396,7 +396,7 @@ Impacts:
 ### Open Standards
 
 Question(s):
-Is your protocol fully documented in a way that it could be easily implemented, improved, built upon and/or further developed? Do you depend on proprietary code for the implementation, running or further development of your protocol? Does your protocol favor a particular proprietary specification over technically-equivalent competing specification(s), for instance by making any incorporated vendor specification  "required" or "recommended" {{RFC2026}}? Do you normatively reference another standard that is not available without cost (and could you do without it)? Are you aware of any patents that would prevent your standard from being fully implemented {{RFC3979}} {{RFC6701}}?
+Is your protocol fully documented in a way that it could be easily implemented, improved, built upon and/or further developed? Do you depend on proprietary code for the implementation, running or further development of your protocol? Does your protocol favor a particular proprietary specification over technically-equivalent competing specification(s), for instance by making any incorporated vendor specification  "required" or "recommended" {{RFC2026}}? Do you normatively reference another standard that is not available without cost (and could you do without it)? Are you aware of any patents that would prevent your standard from being fully implemented {{RFC8179}} {{RFC6701}}?
 
 Explanation:
 The Internet was able to be developed into the global network of networks because of the existence of open, non-proprietary standards {{Zittrain}}. They are crucial for enabling interoperability. Yet, open standards are not explicitly defined within the IETF. On the subject, {{RFC2026}} states: "Various national and international standards bodies, such as ANSI, ISO, IEEE, and ITU-T, develop a variety of protocol and service specifications that are similar to Technical Specifications defined at the IETF. National and international groups also publish "implementors' agreements" that are analogous to Applicability Statements, capturing a body of implementation-specific detail concerned with the practical application of their standards.  All of these are considered to be "open external standards" for the purposes of the Internet Standards Process." Similarly, {{RFC3935}} does not define open standards but does emphasize the importance of an "open process", i.e. "any interested person can participate in the work, know what is being decided, and make his or her voice heard on the issue."
@@ -657,7 +657,7 @@ Thanks to:
 
 - Corinne Cath for work on {{RFC8280}}. 
 - Theresa Engelhard, Joe Hall, Avri Doria and the hrpc list for reviews and suggestions.
-- The Human Rights Review Team for implementing the guidelines and helping them improve.
+- The Human Rights Review Team for implementing and improving the guidelines.
 
 Security Considerations
 =======================
