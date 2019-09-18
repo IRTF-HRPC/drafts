@@ -1,7 +1,7 @@
 ---
 title: Notes on networking standards and politics
 abbrev: politix
-docname: draft-irtf-hrpc-political-04
+docname: draft-irtf-hrpc-political-05
 category: info
 
 ipr: trust200902
@@ -43,6 +43,7 @@ informative:
    RFC0549:
    RFC0613:
    RFC1087:
+   RFC2026:
    RFC2804:
    RFC3271:
    RFC3552:
@@ -183,30 +184,39 @@ informative:
       date: 1993
       author:
         - ins: L. Winner
-      seriesinfo: Science, Technology, and Human Values 18 (3) p. 362-378
+      seriesinfo: "Science, Technology, and Human Values 18 (3) p. 362-378"
 
    HagueHarrop:
      title: "Comparative Government and Politics: An Introduction"
      date: 2013
      author:
-      - ins: R. Hague
-      - ins: M. Harrop
+        - ins: R. Hague
+        - ins: M. Harrop
      seriesinfo: "Macmillan International Higher Education. pp. 1–. ISBN 978-1-137-31786-5."
 
    BijkerLaw:
      title: "Shaping Technology/ Building Society: Studies in Sociotechnical Change"
      date: 1992
      author:
-      - ins: W. Bijker
-      - ins: J. Law
+        - ins: W. Bijker
+        - ins: J. Law
      seriesinfo: "Cambridge, MA: MIT Press"
 
    Bloor:
      title: Knowledge and Social Imagery
      date: 1976
      author:
-      - ins: D. Bloor
+        - ins: D. Bloor
      seriesinfo: "London: Routeledge & Kegan Paul"
+
+   Sisson:
+     title: Standards and Protocols 
+     date: 2000 
+     author: 
+        - ins: D. Sisson 
+     target: https://philosophe.com/design/standards/
+
+
 
 --- abstract
 
@@ -229,9 +239,21 @@ Introduction
 
                                    -{{RFC3935}}
 
-The design of the Internet through protocols and standards is a technical issue with great political and economic impacts {{RFC0613}} {{RFC3271}}. The early Internet community already realized that it needed to make decisions on political issues such as intellectual property; internationalization {{BramanI}}; diversity; access {{RFC0101}}; privacy; and security {{RFC0049}}; and the military {{RFC0164}} {{RFC0316}}, governmental {{RFC0144}} {{RFC0286}} {{RFC0313}} {{RFC0542}} {{RFC0549}} and non-governmental {{RFC0196}} uses of the network. This has been clearly pointed out by Braman {{BramanII}}.
+Recently there has been increased discussion in the IRTF and IETF on the relation between Internet protocols and human rights {{RFC8280}}, which spurred discussion of the value neutrality and political nature of standards. The network infrastructure is on the one hand designed, described, developed, standardized and implemented by the Internet community, while on the other hand the Internet community and Internet users are also shaped by the affordances of the technology. Companies, citizens, governments, standards development bodies, public opinion and public interest groups all play a part in these discussions. This document outlines different views on the relation between politics, standards, and protocols, and seeks to answer the question of whether standards and protocols are political, and if so, how.
 
-Recently there has been increased discussion in the IRTF and IETF on the relation between Internet protocols and human rights {{RFC8280}}, which spurred discussion of the value neutrality and political nature of standards. The network infrastructure is on the one hand designed, described, developed, standardized and implemented by the Internet community, while on the other hand the Internet community and Internet users are also shaped by the affordances of the technology. Companies, citizens, governments, standards development bodies, public opinion and public interest groups all play a part in these discussions. In this document we aim to outline different views on the relation between standards and politics, and seek to answer the question of whether standards are political, and if so, how.
+This question in not necessarily a new one. The design of the Internet through protocols and standards is a technical issue with great political and economic impacts, as is described in {{RFC0613}} and {{RFC3271}}. The early Internet community already realized that it needed to make decisions on political issues such as: 
+
+* internationalization {{BramanI}}; 
+* access {{RFC0101}}; 
+* security {{RFC0049}}; 
+
+as well as use of the network by different groups with different needs and requirements, such as:
+
+* the military {{RFC0164}} {{RFC0316}}, 
+* governments {{RFC0144}} {{RFC0286}} {{RFC0313}} {{RFC0542}} {{RFC0549}} 
+* and non-governmental entities {{RFC0196}}.
+
+This has been clearly shown in the work done by Sandra Braman {{BramanII}}. This documents builds on that research and seeks to increase unstanding about what this means in the context of Internet protocols and the entities that design, develop, and standardize them. 
 
 Vocabulary Used
 ===============
@@ -242,10 +264,21 @@ Politics
 Affordances
 : The possibilities that are provided to an actor through the ordering of an environment by a technology. This means that a technology does not determine what is possible, but that it that invites specific kinds of behavior, and in that process shapes it.
 
+Protocols  
+: 'Protocols are rules governing communication between devices or applications, and the creation or manipulation of any logical or communicative artifacts concomitant with such communication.' {{Sisson}}
+
+Standard
+: 'A standard is an agreed-upon way of doing something or measuring something.' {{Sisson}}
+
+Internet Standards  
+: 'An Internet Standard is a specification that is stable and well-understood, is technically competent, has multiple, independent, and interoperable implementations with substantial operational experience, enjoys significant public support, and is recognizably useful in some or all parts of the Internet.' {{RFC2026}}
+
+
 Research Question
 =================
 
-Are protocols political? 
+To bring about a better understanding on the political nature of standards and protocols, this documents asks the questions: If, and if so how, are protocols, standards, and politics interrelated? Answering this question aims to inform discussions in the IETF, IRTF, and the wider Internet infrastructure and architecture community.
+
 
 Technology and Politics: a review of literature and community positions
 =======================================================================
@@ -323,11 +356,13 @@ Coordinating transnational stakeholders in a process of negotiation and agreemen
 Conclusion
 ==========
 
-Economics, competition, collaboration, openness, and political impact have been an inherent part of the work of the IETF since its early beginnings. The IETF cannot ordain which standards are to be used on the networks, and it specifically does not determine the laws of regions or countries where networks are being used, but it does set open standards for interoperability on the Internet, and has done so since the inception of the Internet. Because a standard is the blue-print for how to accomplish a particular task, the adopted standards have a normative effect. The standardization work at the IETF has direct implications on what is perceived as technologically possible and useful where networking technologies are being deployed, and thus its standards reflect what is considered by the technical community as feasible and good practice. 
+Economics, competition, collaboration, openness, and political impact have been an inherent part of the work of the IETF since its early beginnings {{Russell}} {{BramanII}} {{Abbate}}. The IETF cannot ordain which standards are to be used on the networks, and it specifically does not determine the laws of regions or countries where networks are being used, but it does set open standards for interoperability on the Internet, and has done so for many of the Internet's formative years. Because a standard is the blue-print for how to accomplish a particular task, the adopted standards have a normative effect. The standardization work at the IETF has direct implications on what is perceived as technologically possible and useful where networking technologies are being deployed, and thus its standards reflect what is considered by the technical community as feasible and good practice. 
 
-Whereas there might not be agreement among the Internet protocol community on the specific political nature of the technological development process and its outputs, it is undisputed that standards and protocols are both products of a political process, and they can also be used for political means. Therefore protocols and standards are not 'value-neutral, and neither is the IETF' {{RFC3935}}. Thus we can answer the research question 'are protocols political' in affirmative fashion.
+Whereas there might not be agreement among the Internet protocol community on the specific political nature of the technological development process and its outputs, it is undisputed that standards and protocols are both products of a political process, and they can also be used for political means. Therefore protocols and standards are not 'value-neutral, and neither is the IETF' {{RFC3935}}. 
 
-Further research could explore how the political nature of protocols can be taken into account in the standards development process in order to (1) to minimize negative unintended social consequences, (2) ensure clear understanding of the intended consequences, (3) maintain importance of the IETF as open standards body that facilitates global interoperability.
+While 'standards emerge from contested contexts, they immediatly function as a means of control within the political and economic order' {{Russell}}, protocols and standards as abstract isolated artefacts might not be political, but their design, development, deployment, and implementation is. Therefore we might need to give a qualified answer to the research question, in the sense that protocols can never be understood outside of their actual shaping, use, and function, which is inherently political. 
+
+Further research could explore how the political nature of the design, development, standardization, and deployment of protocols can be taken into account in the standards development process in order to (1) to minimize negative unintended social consequences, (2) ensure clear understanding of the intended consequences, (3) maintain importance of the IETF as open standards body that facilitates global interoperability.
 
 Security Considerations
 =======================
