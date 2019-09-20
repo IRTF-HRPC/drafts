@@ -337,14 +337,15 @@ Recent scholars of Internet infrastructure and governance have also pointed out 
 
 This position further holds that protocols can never be understood without their contextual embeddedness: protocols do not exist solely by themselves but always are to be understood in a more complex context -- the stack, hardware, or nation-state interests and their impact on civil rights. Finally, this view is that protocols are political because they influence the socio-technical workings of reality and society. The latter observation leads Winner to conclude that the reality of technological progress has too often been a scenario where innovation has dictated change for society. Those who had the power to introduce a new technology also had the power to largely frame the uses of the technology "with new practices, relationships, and identities supplanting the old, --- and those who had the wherewithal to implement new technologies often molded society to match the needs of emerging technologies and organizations." {{Winner}}.
 
-
-
-Conclusion
+Discussion
 ==========
 
 Economics, competition, collaboration, openness, and political impact have been an inherent part of the work of the IETF since its early beginnings {{Russell}} {{BramanII}} {{Abbate}}. The IETF cannot ordain which standards are to be used on the networks, and it specifically does not determine the laws of regions or countries where networks are being used, but it does set open standards for interoperability on the Internet, and has done so for many of the Internet's formative years. Because a standard is the blue-print for how to accomplish a particular task, the adopted standards have a normative effect. The standardization work at the IETF has direct implications on what is perceived as technologically possible and useful where networking technologies are being deployed, and thus its standards reflect what is considered by the technical community as feasible and good practice. 
 
 Whereas there might not be agreement among the Internet protocol community on the specific political nature of the technological development process and its outputs, it is generally agreed that standards and protocols are both products of a political process, and they can also be used for political means. Therefore protocols and standards are not 'value-neutral, and neither is the IETF' {{RFC3935}}. 
+
+Conclusion
+==========
 
 While understanding that 'standards emerge from contested contexts, they immediatly function as a means of control within the political and economic order' {{Russell}}, protocols and standards as abstract isolated artefacts might not be political, but their design, development, deployment, and implementation often is. Therefore we might need to give a qualified answer to the research question, in the sense that protocols can only be understood in part outside of their actual shaping, use, and applied function, which is political. 
 
