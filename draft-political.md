@@ -31,7 +31,6 @@ normative:
 
 informative:
 
-   RFC0049:
    RFC0101:
    RFC0144:
    RFC0164:
@@ -50,7 +49,10 @@ informative:
    RFC3935:
    RFC5218:
    RFC7258:
+   RFC7858:
+   RFC8226:
    RFC8280:
+   RFC8404:
 
    BramanI:
      title: "Internationalization of the Internet by design: The first decade"
@@ -71,18 +73,10 @@ informative:
    BramanIII:
      title: "Privacy by design: Networked computing, 1969-1979"
      date: 2011
+     author:
         - ins: S. Braman
      target: http://people.tamu.edu/~Braman/bramanpdfs/59_privacybydesign.pdf
      seriesinfo: "New Media & Society, 14(5), 798-814, 2011."
-   
-
-   Contreras:
-     title:  "Technical Standards and Ex Ante Disclosure: Results and Analysis of an Empirical Study"
-     date: 2013
-     author:
-        - ins: J.L. Contreras
-     target:
-     seriesinfo: "Jurimetrics: The Journal of Law, Science &amp; Technology, vol. 53, p. 163-211"
 
    Feenberg:
      title: Critical Theory of Technology
@@ -151,42 +145,6 @@ informative:
         - ins: A.M. Russell
       seriesinfo: "Cambridge, UK: Cambridge University Press"
 
-   RogersEden:
-      title: "The Snowden Disclosures, Technical Standards, and the Making of Surveillance Infrastructures"
-      date: 2017
-      author:
-        - ins: M. Rogers
-        - ins: G. Eden
-      seriesinfo: "International Journal of Communication 11(2017), 802-823"
-      target: "http://ijoc.org/index.php/ijoc/article/view/5525/1941"
-
-   CJEU2004:
-      title: "ECLI:EU:C:2004:257, C-418/01 IMS Health"
-      date: 2004
-      author:
-        - ins: Court of Justice of the European Union
-      target: "http://curia.europa.eu/juris/liste.jsf?num=C-418/01"
-      seriesinfo: "Cambridge, UK: Cambridge University Press"
-
-   CJEU2007:
-      title: "ECLI:EU:T:2007:289, T-201/04 Microsoft Corp."
-      date: 2007
-      author:
-        - ins: Court of Justice of the European Union
-      target: "http://curia.europa.eu/juris/liste.jsf?num=T-201/04"
-      seriesinfo: "Cambridge, UK: Cambridge University Press"
-
-   Ahlborn:
-      title: "Implications of the Proposed Framework and Antitrust Rules for Dynamically Competitive Industries"
-      date: 2006
-      author:
-        - ins: C. Ahlborn
-        - ins: V. Denicoló
-        - ins: D. Geradin
-        - ins: A.J. Padilla
-      target: "http://curia.europa.eu/juris/liste.jsf?num=T-201/04"
-      seriesinfo: "DG Comp’s Discussion Paper on Article 82, DG COMP, European Commission"
-
    Winner:
       title: "Upon opening the black box and finding it empty: Social constructivism and the philosophy of technology"
       date: 1993
@@ -239,7 +197,9 @@ Introduction
 
                                    - Lawrence Busch
 
-    "As standards emerge from contested contexts, thet immediately function as a means of control within the political and economic order."
+    "As standards emerge from contested contexts, that 
+       immediately function as a means of control within the 
+            political and economic order."
 
                                    - Andrew L. Russell
 
