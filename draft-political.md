@@ -223,7 +223,7 @@ as well as use of the network by different groups with different needs and requi
 
 Sandra Braman has foregrounded these political consideration in historical RFC in her extensively analysis of these documents {{BramanII}}. This document seeks to understand how this is relevant for current day Internet standardization and protocol design. The coordinating of transnational stakeholders in a process of negotiation and agreement through the development of common rules is a form of global governance {{Nadvi}}. Standards are among the mechanisms by which this governance is achieved, although this process is not exclusively undertaken by transnational corporations. Conformance to certain standards is often a basic condition of participation so there are strong economic and political incentives to conform, even in the absence of legal requirements {{Russell}}.
 
-This documents builds on that research and seeks to increase unstanding about what this means in the context of Internet protocols and the entities that design, develop, and standardize them. 
+This documents builds on that research and seeks to increase understanding about what this means in the context of Internet protocols and the entities that design, develop, and standardize them. 
 
 
 Vocabulary Used
@@ -322,7 +322,7 @@ IANA Considerations
 This document has no actions for IANA.
 
 
-Acknowledgements
+Acknowledgments
 ================
 
 Thanks to Michael Rogers, Joe Hall, Andrew Sullivan, Brian Carpenter, Mark Perkins, S Moonesamy, Stephen Farrell, Amelia Andersdotter, and all contributors and reviewers on the hrpc mailinglist. Special thanks to Gisela Perez de Acha for some thorough editing rounds.
