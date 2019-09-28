@@ -1,7 +1,7 @@
 ---
 title: Notes on networking standards and politics
 abbrev: politix
-docname: draft-irtf-hrpc-political-06
+docname: draft-irtf-hrpc-political-07
 category: info
 
 ipr: trust200902
@@ -182,6 +182,13 @@ informative:
         - ins: D. Sisson 
      target: https://philosophe.com/design/standards/
 
+   Barney:
+     title: One nation under google
+     date: 2007
+     author:
+        - ins: D. Barney
+     target: http://darinbarneyresearch.mcgill.ca/Work/One_Nation_Under_Google.pdf
+     seriesinfo: Hart House Lecture 2007
 
 
 --- abstract
@@ -302,12 +309,18 @@ Discussion
 
 Economics, competition, collaboration, openness, and political impact have been an inherent part of the work of the IETF since its early beginnings {{Russell}} {{BramanII}} {{Abbate}}. The IETF cannot ordain which standards are to be used on the networks, and it specifically does not determine the laws of regions or countries where networks are being used, but it does set open standards for interoperability on the Internet, and has done so for many of the Internet's formative years. Because a standard is the blue-print for how to accomplish a particular task, the adopted standards have a normative effect. The standardization work at the IETF has direct implications on what is perceived as technologically possible and useful where networking technologies are being deployed, and thus its standards reflect what is considered by the technical community as feasible and good practice. 
 
-Whereas there might not be agreement among the Internet protocol community on the specific political nature of the technological development process and its outputs, it is generally agreed that standards and protocols are both products of a political process, and they can also be used for political means. Therefore protocols and standards are not 'value-neutral, and neither is the IETF' {{RFC3935}}. 
+Whereas there might not be agreement among the Internet protocol community on the specific political nature of the technological development process and its outputs, there is a general consensus among scholars in the fields of Science and Technology Studies and Philosopht of Technology, that technology in general, and standards in specific can be:
+
+* a mean for political activity (for instance by using a tool (or protocol) to suppress freedom of expression or enhance citizenship participation), 
+* an object of political activity or deliberation (this can be foregrounded by asking who is making the decision about protocols? Is it democratic and legitimate? Who is excluded in these spaces of decision about protocols/standards? Who should be included, why, and how?), ans as
+* the setting of political activity (this is analyzing by asking what are the constraints and possibilities of our particular technological culture? How is the history of this technological culture affecting our choices today? {{Barney}} 
+
+This opinion is not widely shared with the IRTF and IETF. There it is generally agreed that standards and protocols can be products of a political process, and they can be used for political means, but that this is not always the case. 
 
 Conclusion
 ==========
 
-While understanding that 'standards emerge from contested contexts, they immediately function as a means of control within the political and economic order' {{Russell}}, protocols and standards as abstract isolated artefacts might not be political, but their design, development, deployment, and implementation often is. Therefore we might need to give a qualified answer to the research question, in the sense that protocols can only be understood in part outside of their actual shaping, use, and applied function, which is political. 
+While understanding that 'standards emerge from contested contexts, they immediately function as a means of control within the political and economic order' {{Russell}}, protocols and standards as abstract isolated artefacts might not be political, but their design, development, deployment, and implementation often is. Therefore we might need to give a qualified answer to the research question, in the sense that protocols can only be understood in part outside of their actual shaping, use, and applied function, which is political. There is no consensus with the Human Rights Protocol Consideration Research Group whether this is always the case, or only in specific cases. 
 
 Further research could explore how the political nature of the design, development, standardization, and deployment of protocols can be taken into account in the standards development process in order to (1) to minimize negative unintended social consequences, (2) ensure clear understanding of the intended consequences, (3) maintain importance of the IETF as open standards body that facilitates global interoperability.
 
@@ -325,7 +338,7 @@ This document has no actions for IANA.
 Acknowledgments
 ================
 
-Thanks to Michael Rogers, Joe Hall, Andrew Sullivan, Brian Carpenter, Mark Perkins, S Moonesamy, Stephen Farrell, Amelia Andersdotter, and all contributors and reviewers on the hrpc mailinglist. Special thanks to Gisela Perez de Acha for some thorough editing rounds.
+Thanks to Michael Rogers, Joe Hall, Andrew Sullivan, Brian Carpenter, Mark Perkins, S Moonesamy, Stephen Farrell, Amelia Andersdotter, Stephane Couture, and all contributors and reviewers on the hrpc mailinglist. Special thanks to Gisela Perez de Acha for some thorough editing rounds.
 
 Research Group Information
 ==========================
