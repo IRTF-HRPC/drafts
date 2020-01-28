@@ -417,7 +417,7 @@ arrangements {{StarRuhleder}}. Such ordering is not always apparent
 because infrastructure is often taken for granted by those using
 it. It tends to hide itself in the societal woodwork {{Mosco}}, or put
 otherwise: ‘The most profound technologies are those that disappear'
-{{Weiser}}. Essai
+{{Weiser}}.
 
 Infrastructure therefore is mostly known by an epistemic community of
 experts {{Haas}} and only gets recognized by the larger public when it
