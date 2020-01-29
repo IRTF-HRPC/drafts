@@ -391,7 +391,7 @@ informative:
 
 --- abstract
 
-This document establishes the link between the Internet
+This document discuss the relationships between the Internet
 architecture and the ability of people to exercise their right to
 freedom of assembly and association online. The Internet increasingly
 mediates our lives, our relationships and our ability to exercise our
