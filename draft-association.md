@@ -23,28 +23,27 @@ pi:
 author:
 
 -
-       ins: S. Couture
-       name: Stéphane Couture
-       organization: University of Montreal
-       email: steph@stephcouture.info
-
--
-       ins: J.L. Hall
-       name: Joseph Lorenzo Hall
-       organization: CDT
-       email: joe@cdt.org
-
--
        ins: N. ten Oever
        name: Niels ten Oever
        organization: University of Amsterdam
        email: mail@nielstenoever.net
-
 -
        ins: G. Perez de Acha
        name: Gisela Perez de Acha
        organization: Derechos Digitales
        email: gisela@derechosdigitales.org
+-
+       ins: S. Couture
+       name: Stéphane Couture
+       organization: University de Montreal
+       email: stephane.couture@umontreal.ca
+-
+       ins: J.L. Hall
+       name: Joseph Lorenzo Hall
+       organization: ISOC
+       email: joe@isoc.org
+
+
 
 normative:
 
