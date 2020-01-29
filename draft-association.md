@@ -558,12 +558,16 @@ recommendations based on the findings.
 Literature Review
 =================
 
-The right to freedom of assembly and association protects and enables
-collective action and expression {{UDHR}} {{ICCPR}}. It's purpose is
-to ensure that everyone in a society has the opportunity to express
-opinions they hold in common with others. As such, it is a tool that
-facilitates dialogue among citizens, as well as with political leaders
-or governments {{OSCE}}. In a democracy, causes and opinions are more
+Freedom of association and assembly refers both to the individual right
+to join or leave a group and to the collective right of a group to engage
+in a collective group and to organize itself. Freedom of association and
+assembly is garanteed by many national law and international treaty, such 
+as article 20 and 23 of the Universal Declaration of Human Rights {{UDHR}}
+and article 22 of International Covenant on Civil and Political Rights
+{{ICCPR}}. It's purpose is to ensure that everyone in a society has the 
+opportunity to express opinions they hold in common with others. As such, 
+it is a tool that facilitates dialogue among citizens, as well as with political
+leaders or governments {{OSCE}}. In a democracy, causes and opinions are more
 widely heard when a group of people come together behind the same
 cause or issue {{Tocqueville}}.
 
