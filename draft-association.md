@@ -550,11 +550,9 @@ done in draft-irtf-hrpc-guidelines.
 Given that our current research proposition is that "the Internet
 infrastructure significantly impacts the ability of people to exercise
 the human rights to freedom of association and assembly', we therefore
-aim to test the relationship between protocols and association through a case-selection method,
-where we have adopted a purposive sampling approach, aimed at the
-typicality and paradigmatic nature of the cases {{SeawrightGerring}}
-to help us achieve an attempt at an an ethnography of infrastructure
-{{Star}}. Subsequently we analyze the cases through the theoretical
+aim to discuss the relationship between protocols and association by analyzing
+some protocols that we consider to have been built to enable association in groups. 
+Subsequently we analyze the cases through the theoretical
 framework provided in the literature review and based on that provide
 recommendations based on the findings.
 
