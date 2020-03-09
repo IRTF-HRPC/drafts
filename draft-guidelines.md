@@ -1,6 +1,6 @@
 ---
 title: Guidelines for Human Rights Protocol and Architecture Considerations
-abbrev: hrpcr
+abbrev: Guidelines for HRPC
 docname: draft-irtf-hrpc-guidelines-03
 category: info
 updates: 8280
@@ -20,19 +20,17 @@ pi:
   comments: yes
   inline: yes
   text-list-symbols: -o*+
-
 author:
--
-       ins: N. ten Oever (editor)
-       name: Niels ten Oever
-       organization: University of Amsterdam
-       email: mail@nielstenoever.net
-
 -
        ins: G. Grover (editor)
        name: Gurshabad Grover
        organization: Centre for Internet and Society
        email: gurshabad@cis-india.org
+-
+       ins: N. ten Oever (editor)
+       name: Niels ten Oever
+       organization: University of Amsterdam
+       email: mail@nielstenoever.net
 
 normative:
 
@@ -162,6 +160,14 @@ informative:
         - org: IETF
      target: https://datatracker.ietf.org/doc/bcp72/
 
+   BCP9:
+     title: The Internet Standards Process -- Revision 3
+     date: 1996
+     author: 
+        - ins: S. Bradner
+        - org: IETF
+     target: https://datatracker.ietf.org/doc/rfc2026/
+
    patentpolicy:
      title: W3C Patent Policy
      date: 2004
@@ -175,6 +181,17 @@ informative:
      author:
         - ins: J. Pouwelse, Ed.
      target: https://tools.ietf.org/html/draft-pouwelse-censorfree-scenarios
+
+   draft-irtf-pearg-censorship:
+     title: A Survey of Worldwide Censorship Techniques
+     date: 2020
+     author:
+        - ins: J. Hall
+        - ins: M. Aaron
+        - ins: S. Adams
+        - ins: B. Jones
+        - ins: N. Feamster
+     target: https://tools.ietf.org/html/draft-irtf-pearg-censorship
 
    HTML5:
      title: HTML5
@@ -228,7 +245,7 @@ Introduction
 
 This document outlines a set of human rights protocol considerations for protocol developers. It provides questions engineers should ask themselves when developing or improving protocols if they want to understand their potential human rights impact. It should however be noted that the impact of a protocol cannot solely be deduced from its design, but its usage and implementation should also be studied to form a full protocol human rights impact assessment. 
 
-The questions are based on the research performed by the hrpc research group which has been documented before these considerations. The research establishes that human rights relate to standards and protocols, and offers a common vocabulary of technical concepts that impact human rights and how these technical concepts can be combined to ensure that the Internet remains an enabling environment for human rights. With this, the contours of a model for developing human rights protocol considerations has taken shape.
+The questions are based on the research performed by the Human Rights Protocol Considerations (hrpc) research group which has been documented before these considerations. The research establishes that human rights relate to standards and protocols, and offers a common vocabulary of technical concepts that impact human rights and how these technical concepts can be combined to ensure that the Internet remains an enabling environment for human rights. With this, the contours of a model for developing human rights protocol considerations has taken shape.
 
 This document is a further iteration of the guidelines that can be found in {{RFC8280}}. The methods for conducting human rights reviews (Section 3.2), and guidelines for human rights considerations (Section 3.3) in this document are being tested for relevance, accuracy and validity.
 
@@ -271,11 +288,13 @@ When an Internet Draft is describing running code that has already been implemen
 ## Guidelines for human rights considerations
 This section provides guidance for document authors in the form of a questionnaire about protocols and their (potential) impact. The questionnaire may be useful at any point in the design process, particularly after document authors have developed a high-level protocol model as described in {{RFC4101}}. These guidelines do not seek to replace any existing referenced specifications, but rather contribute to them and look at the design process from a human rights perspective. 
 
-Protocols and Internet Standard might benefit from a documented discussion of potential human rights risks arising from potential misapplications of the protocol or technology described in the RFC. This might be coupled with an Applicability Statement for that RFC. 
+Protocols and Internet Standards might benefit from a documented discussion of potential human rights risks arising from potential misapplications of the protocol or technology described in the RFC. This might be coupled with an Applicability Statement for that RFC. 
 
 Note that the guidance provided in this section does not recommend specific practices. The range of protocols developed in the IETF is too broad to make recommendations about particular uses of data or how human rights might be balanced against other design goals.  However, by carefully considering the answers to the following questions, document authors should be able to produce a comprehensive analysis that can serve as the basis for discussion on whether the protocol adequately takes specific human rights threats into account. This guidance is meant to help the thought process of a human rights analysis; it does not provide specific directions for how to write a human rights considerations section (following the example set in {{RFC6973}}).
 
 In considering these questions, authors will need to be aware of the potential of technical advances or the passage of time to undermine protections. In general, considerations of rights are likely to be more effective if they are considered given a purpose and specific use cases, rather than as abstract absolute goals.
+
+Also note that while the section uses the word, 'protocol', the principles identified in these questions may be applicable to other types of solutions (extensions to existing protocols, architecture for solutions to specific problems, etc.).
 
 
 ### Connectivity
@@ -285,7 +304,9 @@ Does your protocol add application-specific functions to intermediary nodes? Cou
 
 
 Explanation:
-The end-to-end principle {{Saltzer}} holds that 'the intelligence is end to end rather than hidden in the network' {{RFC1958}}. The end-to-end principle is important for the robustness of the network and innovation. Such robustness of the network is crucial to enabling human rights like freedom of expression.
+The end-to-end principle {{Saltzer}} holds that 'the intelligence is end to end rather than hidden in the network' {{RFC1958}}. Using the end-to-end principle in protocol design is important to ensure the reliability and security of data transmissions.
+
+Considering the fact that network quality and conditions vary across geography and time, it is also important to design protocols such that they are reliable even on low bandwidth and high latency connections. [add examples]
 
 Example:
 Middleboxes (which can be Content Delivery Networks, Firewalls, NATs or other intermediary nodes that provide 'services' besides routing) serve many legitimate purposes. However, protocols relying on middleboxes can create potential for abuse, and intentional and unintentional censoring, thereby influencing individuals' ability to communicate online freely and privately.
@@ -379,7 +400,7 @@ Question(s):
 Does your protocol make it apparent or transparent when access to a resource it restricted? Can your protocol contribute to filtering in a way it could be implemented to censor data or services? Could this be designed to ensure this doesn't happen? Does your protocol introduce new identifiers or reuse existing identifiers (e.g. MAC addresses) that might be associated with persons or content?
 
 Explanation:
-Censorship resistance refers to the methods and measures to prevent Internet censorship. 
+Censorship resistance refers to the methods and measures to prevent Internet censorship. See {{draft-irtf-pearg-censorship}} for a survey of censorship techniques employed across the world, which lays out protocol properties that have been exploited to censor access to information.
 
 Example:
 In the development of the IPv6 protocol, it was discussed to embed a Media Access Control (MAC) address into unique IP addresses. This would make it possible for 'eavesdroppers and other information collectors to identify when different addresses used in different transactions actually correspond to the same node. This is why Privacy Extensions for Stateless Address Autoconfiguration in IPv6 have been introduced. {{RFC4941}} 
@@ -644,6 +665,12 @@ Impacts:
 - Right to freedom of assembly and association
 - Right to security
 
+### Misc. considerations
+
+Question(s): Is your document
+
+Explanation: Publication of a particular RFC under a certain status has consequences. Publication as an Internet Standard as part of the Standards Track may signal to implementers that the specification has a certain level of maturity, operational experience, and consensus. Similarly, publication of a specification an experimental document as part of the non-standards track would signal to the community that the document “may be intended for eventual standardization but [may] not yet [be] ready” for wide deployment. The extent of the deployment, and consequently its overall impact on end-users, may depend on the document status presented in the RFC. See {{BCP9}} and updates to it for a fuller explanation.
+
 
 Document Status
 ===============
@@ -657,7 +684,7 @@ Thanks to:
 
 - Corinne Cath for work on {{RFC8280}}. 
 - Theresa Engelhard, Joe Hall, Avri Doria and the hrpc list for reviews and suggestions.
-- The Human Rights Review Team for implementing and improving the guidelines.
+- Individuals who conducted human rights reviews for their work and feedback: Amelia Andersdotter, Beatrice Martini, Karan Saini and Shivan Kaul Sahib.
 
 Security Considerations
 =======================
