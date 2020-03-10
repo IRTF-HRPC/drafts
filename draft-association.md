@@ -23,28 +23,27 @@ pi:
 author:
 
 -
-       ins: S. Couture
-       name: Stéphane Couture
-       organization: University of Montreal
-       email: steph@stephcouture.info
-
--
-       ins: J.L. Hall
-       name: Joseph Lorenzo Hall
-       organization: CDT
-       email: joe@cdt.org
-
--
        ins: N. ten Oever
        name: Niels ten Oever
        organization: University of Amsterdam
        email: mail@nielstenoever.net
-
 -
        ins: G. Perez de Acha
        name: Gisela Perez de Acha
        organization: Derechos Digitales
        email: gisela@derechosdigitales.org
+-
+       ins: S. Couture
+       name: Stéphane Couture
+       organization: University de Montreal
+       email: stephane.couture@umontreal.ca
+-
+       ins: J.L. Hall
+       name: Joseph Lorenzo Hall
+       organization: ISOC
+       email: joe@isoc.org
+
+
 
 normative:
 
@@ -391,7 +390,7 @@ informative:
 
 --- abstract
 
-This document establishes the link between the Internet
+This document discuss the relationships between the Internet
 architecture and the ability of people to exercise their right to
 freedom of assembly and association online. The Internet increasingly
 mediates our lives, our relationships and our ability to exercise our
@@ -550,23 +549,25 @@ done in draft-irtf-hrpc-guidelines.
 Given that our current research proposition is that "the Internet
 infrastructure significantly impacts the ability of people to exercise
 the human rights to freedom of association and assembly', we therefore
-aim to test the relationship between protocols and association through a case-selection method,
-where we have adopted a purposive sampling approach, aimed at the
-typicality and paradigmatic nature of the cases {{SeawrightGerring}}
-to help us achieve an attempt at an an ethnography of infrastructure
-{{Star}}. Subsequently we analyze the cases through the theoretical
+aim to discuss the relationship between protocols and association by analyzing
+some protocols that we consider to have been built to enable association in groups. 
+Subsequently we analyze the cases through the theoretical
 framework provided in the literature review and based on that provide
 recommendations based on the findings.
 
 Literature Review
 =================
 
-The right to freedom of assembly and association protects and enables
-collective action and expression {{UDHR}} {{ICCPR}}. It's purpose is
-to ensure that everyone in a society has the opportunity to express
-opinions they hold in common with others. As such, it is a tool that
-facilitates dialogue among citizens, as well as with political leaders
-or governments {{OSCE}}. In a democracy, causes and opinions are more
+Freedom of association and assembly refers both to the individual right
+to join or leave a group and to the collective right of a group to engage
+in a collective group and to organize itself. Freedom of association and
+assembly is garanteed by many national law and international treaty, such 
+as article 20 and 23 of the Universal Declaration of Human Rights {{UDHR}}
+and article 22 of International Covenant on Civil and Political Rights
+{{ICCPR}}. It's purpose is to ensure that everyone in a society has the 
+opportunity to express opinions they hold in common with others. As such, 
+it is a tool that facilitates dialogue among citizens, as well as with political
+leaders or governments {{OSCE}}. In a democracy, causes and opinions are more
 widely heard when a group of people come together behind the same
 cause or issue {{Tocqueville}}.
 
