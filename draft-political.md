@@ -212,7 +212,7 @@ Introduction
 
     "The Internet isn't value-neutral, and neither is the IETF."
 
-                                   -{{RFC3935}}
+                                   - {{RFC3935}}
 
 Recently there has been increased discussion in the IRTF and IETF on the relation between Internet protocols and human rights {{RFC8280}}, which spurred discussion of the value neutrality and political nature of standards. The network infrastructure is on the one hand designed, described, developed, standardized and implemented by the Internet community, while on the other hand the Internet community and Internet users are affected by the technology. Companies, citizens, governments, standards development bodies, public opinion and public interest groups all play a part in these discussions. This document outlines different views on the relation between politics, standards, and protocols, and seeks explore the question whether standards and protocols are political, and if so, how.
 
@@ -327,7 +327,7 @@ Further research could explore how the political nature of the design, developme
 Security Considerations
 =======================
 
-As this draft concerns a research document, there are no security considerations as described in {{RFC3552}}, which does not mean that not addressing the issues brought up in this draft will not impact the security of end-users or operators.
+As this draft concerns a research document, there are no security considerations as described in {{RFC3552}}; however, the issues brought up in this document have an impact on the security of end-users or operators.
 
 IANA Considerations
 ===================
