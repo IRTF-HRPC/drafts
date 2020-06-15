@@ -25,8 +25,8 @@ author:
 -
        ins: M. Knodel
        name: Mallory Knodel
-       organization: ARTICLE 19
-       email: mallory@article19.org
+       organization: Center for Democracy & Technology
+       email: mknodel@cdt.org
 
 -
        ins: N. ten Oever
@@ -42,7 +42,7 @@ informative:
 
    RFC7322:
 
-   RFC7719:
+   RFC78499:
  
    Burgest:
       title: “Racism in Everyday Speech and Social Work Jargon.”
@@ -260,7 +260,7 @@ master-slave relationship. Several options are suggested here and should be chos
 Since the use of master-slave is becoming less common in other technical communities, it is best to simply duplicate the metaphor being used by comparable or interoperable technologies. Likewise, the 
 IETF can show positive leadership in the technical community by setting standards without using offensive metaphors.
 
-For the DNS, RFC 7719 defines the current best practise for DNS terminology and uses the term pair 'primary' and 'secondary'.
+For the DNS, RFC 8499 defines the current best practise for DNS terminology and uses the term pair 'primary' and 'secondary' [RFC].
 
 ## Blacklist-whitelist
 
