@@ -170,6 +170,13 @@ informative:
       author:
          - ins: socketwench
       target: https://deninet.com/blog/2018/09/09/even-tech-words-matter
+      
+   ISC:
+      title: "@ISCdotORG reply tweet"
+      date: 2017
+      author:
+         - ins: Internet Systems Consortium
+      target: https://twitter.com/ISCdotORG/status/943152507211071489
 
 --- abstract
 
@@ -233,7 +240,7 @@ been the only black persons in their classes, what impact might it have on black
 
 Aside from the arguably most important reason outlined above, these terms are becoming less used and therefore increasingly less compatible as more communities move away from its use (eg {{Python}}, 
 {{Drupal}}, and {{Django}}. The usage of 'master' and 'slave' in hardware and software has been halted by the Los Angeles County Office of Affirmative Action, the Django community, the Python community 
-and several other programming languages. This was done because the language is offensive and hurts people in the community {{Django2}}. It is also no longer in use at the IEEE.
+and several other programming languages. This was done because the language is offensive and hurts people in the community {{Django2}}. Root operator Internet Systems Consortium stopped using the terms because they were asked to {{ISC}}.
 
 In addition to being inappropriate and arcane, the master-slave metaphor is both technically and historically inaccurate. For instance, in DNS the 'slave' is able to refuse zone transfers on the ground 
 that it is malformed. The metaphor is incorrect historically given the most recent centuries during which "the role of the master was to abdicate and the role of the slave was to revolt" {{McClelland}}. 
@@ -260,7 +267,7 @@ master-slave relationship. Several options are suggested here and should be chos
 Since the use of master-slave is becoming less common in other technical communities, it is best to simply duplicate the metaphor being used by comparable or interoperable technologies. Likewise, the 
 IETF can show positive leadership in the technical community by setting standards without using offensive metaphors.
 
-For the DNS, RFC 8499 defines the current best practise for DNS terminology and uses the term pair 'primary' and 'secondary' [RFC].
+For the DNS, RFC 8499 defines the current best practise for DNS terminology and uses the term pair 'primary' and 'secondary' {{RFC8499}}.
 
 ## Blacklist-whitelist
 
