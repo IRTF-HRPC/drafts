@@ -250,9 +250,9 @@ There are also many other relationships that can be used as metaphors, Eglash's 
 master-slave relationship. Several options are suggested here and should be chosen based on the pairing that is most clear in context:
 
  * Primary-secondary
+ * Primary-replica
  * Leader-follower
  * Active-standby
- * Primary-replica
  * Writer-reader
  * Coordinator-worker
  * Parent-helper
@@ -286,6 +286,8 @@ There are alternatives to this terminology set that vastly improve clarity becau
 what they mean:
 
  * Blocklist-allowlist
+ * Droplist-accesslist
+ * Drop-permit
  * Block-permit
 
 ## Other considerations
@@ -317,7 +319,7 @@ Authors SHOULD:
  * Use the neutral "they" as the singular pronoun and
  * Consider rolling back technical hard coding of their standards implementations with the documented knowledge available online {{socketwench}}.
 
-RFC Editor and Reviewers SHOULD:
+RFC Editor and Reviewers MUST:
  * Offer alternatives for offensive terminology as an important act of correcting larger editorial issues and clarifying technical concepts and
  * Suggest to Authors that even when referencing other specifications that have not replaced offensive terminology they could provide another term with a note that the term is original and not being 
 suggested by the Author.
