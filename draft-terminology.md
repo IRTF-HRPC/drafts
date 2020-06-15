@@ -1,8 +1,8 @@
 ---
-title: Terminology, Power and Inclusive Language
+title: Terminology, Power and Offensive Language
 abbrev: Terminology
-docname: draft-knodel-terminology-01
-date: 2019-03-11
+docname: draft-knodel-terminology-02
+date: 2020-06-15
 category: bcp
 
 ipr: trust200902
@@ -173,27 +173,23 @@ informative:
 
 --- abstract
 
-This document argues for moving away from specific language conventions used by RFC authors and RFC Editors in order to encourage inclusive terminology in the ongoing RFC 
-series. The document also provides examples of inclusive terminology as precise alternatives for these conventions. 
+This document argues for and describes alternatives that shift specific language conventions used by RFC Authors and RFC Editors to avoid offensive terminology in the technical documentation of the RFC 
+series. Specifically, this document details two sets of terms that are normalised on the technical level but offensive on a societal level. First, arguments are presented for why any offensive terms 
+should be avoided by the IETF/IRTF. Second, problem statements for both sets of terms are presented and alternatives are referenced and proposed. There is a third section on additional considerations and 
+general action points to address the RFC series, past and future. Lastly, a summary of recommendations is presented.
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in {{RFC2119}}.
 
 --- middle
 
-# Introduction
-
-The primary function of the IETF is to publish documents that are "readable, clear, consistent, and reasonably uniform" and one function of the RFC Editor is to "[c]orrect larger content/clarity issues; 
-flag any unclear passages for author review {{RFC7322}}. Given the importance of communication at the IETF, it is worth considering the effects of terminology that has been identified as exclusionary. This document argues that certain obviously exclusionary terms should be avoided and replaced with alternatives.
-
-First, arguments are presented for why exclusionary terms 
-should be avoided by the IETF/IRTF in general. Second, problem statements for two sets of terms are presented and alternatives are referenced and proposed. There is a third section on additional considerations and 
-general action points to address the RFC series, past and future. Lastly, a summary of recommendations is presented.
-
-The sets of terms discussed in this document are "master-slave" and "whitelist-blacklist".
 
 
 # Terminology and power at the IETF
 
+The primary function of the IETF is to publish documents that are "readable, clear, consistent, and reasonably uniform" and one function of the RFC Editor is to "[c]orrect larger content/clarity issues; 
+flag any unclear passages for author review {{RFC7322}}. Given the importance of communication at the IETF, it is worth considering the effects of terminology that has been identified as offensive, 
+racist and sexist. Furthermore, this document argues that certain obviously offensive terms be avoided and replaced with alternatives. These sets of terms are "master-slave" and "white-blacklist" for 
+their racist and race-based meanings.
 
 According to the work of scholar Heather Brodie Graves from 1993, "one goal of the application of rhetorical theory in the technical communication classroom is to assess the appropriateness of particular 
 terms and to evaluate whether these terms will facilitate or hinder the readers’ understanding of the technical material" {{BrodieGravesGraves}}. This implies that in order to effectively communicate the 
@@ -231,7 +227,7 @@ Master-slave is an offensive metaphor that will and should never become fully de
 interviewed for his research. He asks: "If the master-slave metaphor affected these tough-minded engineers who had the gumption to make it through a technical career back in the days when they may have 
 been the only black persons in their classes, what impact might it have on black students who are debating whether or not to enter science and technology careers at all?" {{Eglash}}
 
-Aside from the arguably most important reason outlined above, these terms are becoming less used and therefore increasingly less compatible as more communities move away from its use (eg {{Python}}, 
+Aside from the arguably most important reason outlined above, the term set is becoming less used and therefore increasingly less compatible as more communities move away from its use (eg {{Python}}, 
 {{Drupal}}, and {{Django}}. The usage of 'master' and 'slave' in hardware and software has been halted by the Los Angeles County Office of Affirmative Action, the Django community, the Python community 
 and several other programming languages. This was done because the language is offensive and hurts people in the community {{Django2}}. It is also no longer in use at the IEEE.
 
@@ -321,6 +317,16 @@ RFC Editor and Reviewers SHOULD:
  * Offer alternatives for offensive terminology as an important act of correcting larger editorial issues and clarifying technical concepts and
  * Suggest to Authors that even when referencing other specifications that have not replaced offensive terminology they could provide another term with a note that the term is original and not being 
 suggested by the Author.
+
+# Quick Reference - Suggested Alternatives
+
+These alternatives are non-exclusive suggestions:
+
+| Old | master-slave      | blacklist-whitelist |
+|-----|-------------------|---------------------|
+| New | primary-secondary | blocklist-allowlist |
+| New | primary-replica   | droplist-accesslist |
+| New | active-standby    | drop-permit         |
 
 # Additional references not cited above
 
