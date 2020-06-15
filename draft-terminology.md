@@ -286,6 +286,7 @@ There are alternatives to this terminology set that vastly improve clarity becau
 what they mean:
 
  * Blocklist-allowlist
+ * Deny-allow
  * Droplist-accesslist
  * Drop-permit
  * Block-permit
