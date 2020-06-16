@@ -41,8 +41,7 @@ normative:
 informative:
 
    RFC7322:
-
-   RFC78499:
+   RFC8499:
  
    Burgest:
       title: “Racism in Everyday Speech and Social Work Jargon.”
@@ -178,7 +177,7 @@ informative:
          - ins: Internet Systems Consortium
       target: https://twitter.com/ISCdotORG/status/943152507211071489
       
-   Github
+   Github:
        title: "Github to Remove 'Master/Slave' Terminology From its Platform"
        date: June 2020
        author:
