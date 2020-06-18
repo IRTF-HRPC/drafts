@@ -1,5 +1,5 @@
 ---
-title: Terminology, Power and Inclusive Language
+title: Terminology, Power, and Inclusive Language
 abbrev: Terminology
 docname: draft-knodel-terminology-02
 date: 2020-06-16
@@ -37,12 +37,16 @@ author:
 normative:
 
    RFC2119:
+   RFC8174:
 
 informative:
 
    RFC7322:
    RFC8499:
- 
+   RFC8782:
+   RFC8783:
+   RFC8612:
+
    Burgest:
       title: “Racism in Everyday Speech and Social Work Jargon.”
       author:
@@ -187,9 +191,7 @@ informative:
 
 --- abstract
 
-This document argues for moving away from specific language conventions used by RFC authors and RFC Editors in order to encourage inclusive terminology in the ongoing RFC series. The document also provides examples of inclusive terminology as precise alternatives for these conventions. 
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in {{RFC2119}}.
+This document argues for moving away from specific language conventions used by RFC authors and the RFC Editor in order to encourage inclusive terminology in the various RFC series. The document also provides examples of inclusive terminology as precise alternatives for these conventions. 
 
 --- middle
 
@@ -201,8 +203,11 @@ First, arguments are presented for why exclusionary terms should be avoided by t
 
 The sets of terms discussed in this document are "master-slave" and "whitelist-blacklist".
 
+# Terminology
 
-# Terminology and power at the IETF
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in BCP 14 {{RFC2119}}{{RFC8174}} when, and only when, they appear in all capitals, as shown here.
+
+# Terminology and Power at the IETF
 
 
 According to the work of scholar Heather Brodie Graves from 1993, "one goal of the application of rhetorical theory in the technical communication classroom is to assess the appropriateness of particular terms and to evaluate whether these terms will facilitate or hinder the readers’ understanding of the technical material" {{BrodieGravesGraves}}. This implies that in order to effectively communicate the content of RFCs to all readers, it is important for Authors to consider the kinds of terms or language conventions that may inadvertently get in the way of effective communication. She continues, "complex and subtle configurations of sexist, racist, or ethnocentric language use in technical documents can derail or interfere with readers’ ability and desire to comprehend and follow important information."
@@ -223,7 +228,7 @@ requests from black and brown engineers and from women and gender-non-conforming
 
 This document does not try to prescribe terminology shifts for any and all language that could be deemed offensive. Instead what follow are specific alternative suggestions to "master-slave" and "white-blacklist" and the rationale for the use of the alternatives. Additional considerations are presented in a subsequent section.
 
-## Master-slave
+## Master-Slave
 
 Master-slave is an offensive metaphor that will and should never become fully detached from history. Aside from being unprofessional and offensive it stifled the participation of students whom Eglash interviewed for his research. He asks: "If the master-slave metaphor affected these tough-minded engineers who had the gumption to make it through a technical career back in the days when they may have been the only black persons in their classes, what impact might it have on black students who are debating whether or not to enter science and technology careers at all?" {{Eglash}}
 
@@ -233,7 +238,7 @@ In addition to being inappropriate and arcane, the master-slave metaphor is both
 
 Lastly, we present not an additional rationale against their use, but an indicator of actual racism in the community that has been surfaced as a result of this larger debate among technologists, "I don't believe in PC (political correctness), mostly because the minorities constantly use it to get away with anything" {{Jansens}}. This illustrates the need to, as Graves is cited above as saying, continue to raise awareness within our community for eventual, lasting change on the continued front of struggle against the racists amongst us.
 
-### Suggested alternatives
+### Suggested Alternatives
 
 There are also many other relationships that can be used as metaphors, Eglash's research calls into question the accuracy of the master-slave metaphor. Fortunately, there are ample alternatives for the master-slave relationship. Several options are suggested here and should be chosen based on the pairing that is most clear in context:
 
@@ -249,7 +254,7 @@ Since the use of master-slave is becoming less common in other technical communi
 
 For the DNS, RFC 8499 defines the current best practise for DNS terminology and uses the term pair 'primary' and 'secondary' {{RFC8499}}.
 
-## Blacklist-whitelist
+## Blacklist-Whitelist
 
 The metaphorical use of white-black to connote good-evil is offensive. While master-slave might seem like a more egregious example of racism, white-black is arguably worse because it is more pervasive and therefore more insidious. While recent headlines have decried the technical community's use of master-slave, there is far less discussion about white-black despite its importance. There is even a name for this pervasive language pitfall: the association of white with good and black with evil is known as the "bad is black effect" {{Grewal}}.
 
@@ -259,17 +264,18 @@ In the case of blacklist-whitelist in the technical documentation of the IETF/IR
 
 As with master-slave, we save our technical argument for last, referencing and presenting first the reasons for the use of non-offensive, alternative terminology for the sake of our humanity. Indeed, our technical argument is incredibly succinct: Why use a metaphor when a direct description is both succinct and clear? There can be absolutely no ambiguity if one uses the terms, as suggested below, allow-block rather than white-black.
 
-### Suggested alternatives
+### Suggested Alternatives
 
-There are alternatives to this terminology set that vastly improve clarity because they are not even metaphors without adding a single additional character. The alternatives proposed here say exactly what they mean:
+There are alternatives to this terminology set that vastly improve clarity because they are not even metaphors without adding a single additional character. The alternatives proposed here say exactly what they mean. Examples of specifications that use these alternative terms are also provided for illustration purposes.
 
+ * Accept-list and Drop-list (see for examle {{RFC8612}}, {{RFC8782}}, and {{RFC8783}})
  * Blocklist-allowlist
  * Deny-allow
  * Droplist-accesslist
  * Drop-permit
  * Block-permit
 
-## Other considerations
+## Other Considerations
 
 As we have seen, the language used in technical documentation, like all written text, creates and reinforces expectations and stereotypes. We propose nothing more than additional care in the choice of language just as care is taken in defining standards and protocols themselves. The above two examples are not exhaustive, nor are they mere examples and require action. However, we use this section to broaden the context of other offensive terminologies to encompass additional concerns.
 
@@ -279,23 +285,23 @@ Up until recently, strict English grammatists like Orwell decried the use of the
 
 Militarised metaphors are also a pervasive problem in language, perhaps even more so in technical communities because of the historical and actual relationship between technology and war. We welcome additional examples of terminology that might be avoided through more awareness and thoughtfulness.
 
-# Summary of recommendations
+# Summary of Recommendations
 
-To summarise this document, we have bulleted some very concrete action points that can be taken by Editors, reviewers and Authors, both present and future.
+To summarise, we have bulleted some very concrete action points that can be taken by Editors, reviewers and Authors, both present and future.
 
 Authors SHOULD:
  * Replace the offensive term "master-slave" with more accurate alternatives, for instance from the list of <xref target="master-slave"/>.
  * Replace the offensive term "blacklist-whitelist" with more accurate alternative, for instance from the list of suggested alternatives at <xref target="blacklist-whitelist"/>.
  * Reflect on their use of metaphors generally
- * Use the neutral "they" as the singular pronoun and
+ * Use the neutral "they" as the singular pronoun, and
  * Consider rolling back technical hard coding of their standards implementations with the documented knowledge available online {{socketwench}}.
 
-RFC Editor and Reviewers MUST:
+RFC Editor MUST:
  * Offer alternatives for offensive terminology as an important act of correcting larger editorial issues and clarifying technical concepts and
  * Suggest to Authors that even when referencing other specifications that have not replaced offensive terminology they could provide another term with a note that the term is original and not being 
 suggested by the Author.
 
-# Additional references not cited above
+# Additional References Not Cited Above
 
 '‘Anyone can edit’, not everyone does: Wikipedia and the gender gap' by Ford, Heather and Wajcman, Judy (2017) Social Studies of Science. ISSN 0306-3127
 
