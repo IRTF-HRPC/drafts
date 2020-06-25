@@ -281,7 +281,7 @@ Militarised metaphors are also a pervasive problem in language, perhaps even mor
 
 # Summary of Recommendations
 
-To summarise, we have bulleted some very concrete action points that can be taken by Editors, reviewers and Authors, both present and future.
+To summarise, we have bulleted some very concrete action points that can be taken by IETF participants present and future.
 
 Authors SHOULD:
  * Replace the offensive term "master-slave" with more accurate alternatives, for instance from the list of <xref target="master-slave"/>.
@@ -294,6 +294,9 @@ RFC Editor MUST:
  * Offer alternatives for offensive terminology as an important act of correcting larger editorial issues and clarifying technical concepts and
  * Suggest to Authors that even when referencing other specifications that have not replaced offensive terminology they could provide another term with a note that the term is original and not being 
 suggested by the Author.
+
+The IETF SHOULD:
+ * Submit liaisons recommending a change of offensive terminology to organizations whose documents are normatively referenced by IETF documents in cases where offensive terminology is "inherited by reference".
 
 # Additional References Not Cited Above
 
