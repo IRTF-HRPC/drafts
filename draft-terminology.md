@@ -31,7 +31,7 @@ author:
 -
        ins: N. ten Oever
        name: Niels ten Oever
-       organization: Texas A&M University and University of Amsterdam
+       organization: Texas A&M University
        email: mail@nielstenoever.net
 
 normative:
@@ -176,12 +176,20 @@ informative:
       target: https://twitter.com/ISCdotORG/status/943152507211071489
       
    Github:
-       title: "Github to Remove 'Master/Slave' Terminology From its Platform"
-       date: June 2020
-       author:
+      title: "Github to Remove 'Master/Slave' Terminology From its Platform"
+      date: June 2020
+      author:
          - ins: Kevin Truong 
          - org: VICE
-       target: https://www.vice.com/en_us/article/k7qbyv/github-to-remove-masterslave-terminology-from-its-platform
+      target: https://www.vice.com/en_us/article/k7qbyv/github-to-remove-masterslave-terminology-from-its-platform
+       
+   NIST:
+      title: "Agency to end use of technology terms such as 'master' and 'slave' over racist associations"
+      date: June 2020
+      author:
+         - ins: Eric Geller
+         - org: Politico
+      target: https://www.politico.com/news/2020/06/25/agency-ends-use-technology-terms-racist-associations-339880
 
 --- abstract
 
@@ -225,7 +233,7 @@ This document does not try to prescribe terminology shifts for any and all langu
 
 Master-slave is an offensive and exclusive metaphor that will and should never become fully detached from history. Aside from being unprofessional and exclusive it stifled the participation of students whom Eglash interviewed for his research. He asks: "If the master-slave metaphor affected these tough-minded engineers who had the gumption to make it through a technical career back in the days when they may have been the only black persons in their classes, what impact might it have on black students who are debating whether or not to enter science and technology careers at all?" {{Eglash}}
 
-Aside from the arguably most important reason outlined above, these terms are becoming less used and therefore increasingly less compatible as more communities move away from its use (eg {{Python}}, {{Drupal}}, {{Github}} and {{Django}}. The usage of 'master' and 'slave' in hardware and software has been halted by the Los Angeles County Office of Affirmative Action, the Django community, the Python community and several other programming languages. This was done because the language is offensive and hurts people in the community {{Django2}}. Root operator Internet Systems Consortium stopped using the terms because they were asked to {{ISC}}.
+Aside from the arguably most important reason outlined above, these terms are becoming less used and therefore increasingly less compatible as more communities move away from its use (eg {{NIST}}, {{Python}}, {{Drupal}}, {{Github}} and {{Django}}. The usage of 'master' and 'slave' in hardware and software has been halted by the Los Angeles County Office of Affirmative Action, the Django community, the Python community and several other programming languages. This was done because the language is offensive and hurts people in the community {{Django2}}. Root operator Internet Systems Consortium stopped using the terms because they were asked to {{ISC}}.
 
 In addition to being inappropriate and arcane, the master-slave metaphor is both technically and historically inaccurate. For instance, in DNS the 'slave' is able to refuse zone transfers on the ground that it is malformed. The metaphor is incorrect historically given the most recent centuries during which "the role of the master was to abdicate and the role of the slave was to revolt" {{McClelland}}. Yet in another sense slavery is also not 'just an historic term', whereas freedom from slavery is a human-rights issue {{UDHR}}, it continues to exist in the present {{Wikipedia}}. Furthermore, this term set wasn't revived until recently, after WWII, and after many of the technologies that adopted it were already in use with different terminology {{Eglash}}.
 
