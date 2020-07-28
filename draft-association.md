@@ -1,7 +1,7 @@
 ---
 title: Freedom of Association on the Internet
 abbrev: FoA
-docname: draft-irtf-hrpc-association-03
+docname: draft-irtf-hrpc-association-06
 category: info
 
 ipr: trust200902
@@ -23,28 +23,24 @@ pi:
 author:
 
 -
-       ins: S. Couture
-       name: Stéphane Couture
-       organization: University of Montreal
-       email: steph@stephcouture.info
-
--
-       ins: J.L. Hall
-       name: Joseph Lorenzo Hall
-       organization: CDT
-       email: joe@cdt.org
-
--
        ins: N. ten Oever
        name: Niels ten Oever
-       organization: University of Amsterdam
+       organization: Texas A&M University
        email: mail@nielstenoever.net
+
+-
+       ins: S. Couture
+       name: Stéphane Couture
+       organization: University de Montreal
+       email: stephane.couture@umontreal.ca
 
 -
        ins: G. Perez de Acha
        name: Gisela Perez de Acha
        organization: Derechos Digitales
        email: gisela@derechosdigitales.org
+
+
 
 normative:
 
@@ -387,19 +383,75 @@ informative:
       - ins: J. Gerring
      target: https://journals.sagepub.com/doi/pdf/10.1177/1065912907313077
      seriesinfo: "Political Research Quarterly, 61(2), 294–308."
+     
+  Australia: 
+     title: Right to freedom of assembly and association
+     date: 2020
+     author:
+      - org: "Australian Government, Attorney-General's Department"
+     target: https://www.ag.gov.au/rights-and-protections/human-rights-and-anti-discrimination/human-rights-scrutiny/public-sector-guidance-sheets/right-freedom-assembly-and-association#topofpage
+     
+  CRC:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: Sit.amet
 
+  MSI-INT:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: Sit.amet
+       
+  APC2:
+     title: Freedom of assembly and association online in India, Malaysia and Pakistan. Trends, challenges and recommendations.
+     date: 2016
+     author:
+      - ins: Gayathry Venkiteswaran
+      - org: Association for Progressive Communications
+     target: https://www.apc.org/es/system/files/FOAA_online_IndiaMalaysiaPakistan.pdf
+
+  Sauter:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: Sit.amet
+
+  CERD:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: Sit.amet
+
+  hrpc-charter:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: Sit.amet
+
+  Undertake:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: Sit.amet
+
+  CRPD:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: Sit.amet
+     
 
 --- abstract
 
-This document establishes the link between the Internet
-architecture and the ability of people to exercise their right to
-freedom of assembly and association online. The Internet increasingly
-mediates our lives, our relationships and our ability to exercise our
-human rights. As a forum, it provides a global public space despite
-being built on predominantly private infrastructure. Since Internet
-protocols play a central role in the management, development and use
-of the Internet, the relation between protocols and the aforementioned
-rights should be analyzed and any adverse impacts should be mitigated.
+This document discusses the relationships between the Internet architecture and the ability of people to exercise their right to freedom of assembly and association online. The Internet increasingly mediates our lives, our relationships and our ability to exercise our human rights. As a global forum, the Internet provides a public space, yet it is predominantly built on private infrastructure. Since Internet protocols play a central role in the management, development and use of the Internet, we analyse the relationship between protocols and the rights to assemble and associate in order to mitigate infringements upon those rights.
 
 --- middle
 
@@ -407,38 +459,15 @@ rights should be analyzed and any adverse impacts should be mitigated.
 Introduction
 ============
 
+   “In the digital age, the exercise of the rights of peaceful assembly and association has become largely dependent on business enterprises, whose legal obligations, policies, technical standards, financial models and algorithms can affect these freedoms”.
+
+         - Annual Report to the UN Human Rights Council by the Special Rapporteur on the rights to freedom of peaceful assembly and of association (2019).
+
+
     We shape our tools and, thereafter, our tools shape us. 
          - John Culkin (1967)
-
-The Internet is constantly shaping modern information societies by
-providing a socio-technical ordering. In other words, the Internet
-infrastructure and architecture consist of social and technological
-arrangements {{StarRuhleder}}. Such ordering is not always apparent
-because infrastructure is often taken for granted by those using
-it. It tends to hide itself in the societal woodwork {{Mosco}}, or put
-otherwise: ‘The most profound technologies are those that disappear'
-{{Weiser}}.
-
-Infrastructure therefore is mostly known by an epistemic community of
-experts {{Haas}} and only gets recognized by the larger public when it
-fails. As the Internet grows, decisions made about its architecture
-are become more important. {{RFC8280}} established the relationship
-between human rights and Internet protocols. Following the same
-methodology, we now seek to uncover the relation between the right to
-assembly, association and the Internet infrastructure.
-
-One one hand, the right to freedom of assembly and association
-protects collective expression. Likewise, systems and protocols that
-enable communal interactions between people and servers enable this
-right given that the Internet itself was originally designed as "a
-medium of communication for machines that share resources with each
-other as equals" {{NelsonHedlun}}.
-
-The current draft continues the work started in {{RFC8280}} by
-investigating the exact impact of Internet protocols on specific human
-rights, namely the right to freedom of assembly and association, in
-order to mitigate potential negative impacts.
-
+         
+The current draft continues the work started in “Research into Human Rights Protocol Considerations” {{RFC8280}} by investigating the impact of Internet protocols on a specific set of human rights, namely the right to freedom of assembly and association. Taking into consideration the international human rights framework regarding  freedom of assembly and association, the present document seeks to deepen the relationship between this human right and Internet architecture, protocols, and standards. In that way, we continue the work of the Human Rights Protocol Consideration Research Group, as laid out in its charter, where one of the research aims is “to expose the relation between protocols and human rights, with a focus on the rights to freedom of expression and freedom of assembly” {{hrpc-charter}}. The conclusions may inform the development of new guidelines for protocol developers. 
 
 Vocabulary used
 ===============
@@ -509,127 +538,78 @@ at IETF.
 Research question
 =================
 
-How does the architecture of the internet enable and/or inhibit the
-right to freedom of assembly and association?
+The research question of this document is: what are the considerations of the right to freedom of assembly and association for protocol development?
 
 Methodology
 ============
 
-The point of departure of the present work is {{RFC8280}} - an initial
-effort to establish the relationship between human rights and the
-Internet architecture, specifically protocols and standards. As such,
-{{RFC8280}} was inductive and explorative in nature, and it ultimately
-established relationships between
-aforementioned concepts through a series of case studies.
+The point of departure of the present work {{RFC8280}} is an initial effort to expose the relationship between human rights and the Internet architecture, specifically protocols and standards. As such, {{RFC8280}} was inductive and exploratory in nature. The methodology in this previous work was based on discourse analysis of RFCs, interviews with Members of the IETF community and participant observation in IETF working groups, with the goal of identifying technical concepts related to human rights. This work resulted in the proposal of guidelines to describe a relationship between the right to freedom of assembly and association, and connectivity, security, censorship resistance, anonymity, pseudonymity, accessibility, decentralization, adaptability, and outcome transparency.
 
-The methodology was based on process tracing, semi-structured
-interviews and quantitative and qualitative document analysis which
-has been further validated through confirmatory research in the form
-of Human Rights Protocol Reviews. The relationship, proposed as
-a hypothesis in {{RFC8280}} says that there is an inherent
-relation between protocols, the Internet architecture, and human
-rights. The guidelines in {{RFC8280}} describe a relationship between
-the right to freedom of assembly and association and connectivity,
-security, censorship resistance, anonymity, pseudonymity,
-accessibility, decentralization, adaptability, and outcome
-transparency.
-
-Taking into consideration the international human rights framework
-regarding freedom of assembly and association, the present document
-seeks to deepen the relationship between the Internet architecture,
-protocols, and standards without creating new guidelines. In that way,
-we continue the work proposed in {{RFC8280}} and follow the primary
-aim of the Human Rights Protocol Consideration Research Group, as laid
-out in its charter where one of the research aims is 'to expose the
-relation between protocols and human rights, with a focus on the
-rights to freedom of expression and freedom of assembly'. Even though
-the present work does not seek to create new guidelines, the
-conclusions could inform the development of new guidelines such as is
-done in draft-irtf-hrpc-guidelines.
-
-Given that our current research proposition is that "the Internet
-infrastructure significantly impacts the ability of people to exercise
-the human rights to freedom of association and assembly', we therefore
-aim to test the relationship between protocols and association through a case-selection method,
-where we have adopted a purposive sampling approach, aimed at the
-typicality and paradigmatic nature of the cases {{SeawrightGerring}}
-to help us achieve an attempt at an an ethnography of infrastructure
-{{Star}}. Subsequently we analyze the cases through the theoretical
-framework provided in the literature review and based on that provide
-recommendations based on the findings.
+In this document we deepen our exploration of human rights and protocols by assessing one specific set of human rights: freedom of association and assembly, abbreviated as FAA. Our methodology for doing so is the following: first we provide a brief twofold literature review addressing the philosophical and legal definitions of FAA and how this right has already been interpreted or analysed in relation to the digital. This literature review is not exhaustive nor systematic but aims at providing some lines of questioning that could later be used for protocol development. The second part of our methodology looks at some cases of Internet protocols that are relevant to the sub-questions highlighted in the literature review, and analyses how these protocols facilitate and inhibit the right to assembly and association.
 
 Literature Review
 =================
 
-The right to freedom of assembly and association protects and enables
-collective action and expression {{UDHR}} {{ICCPR}}. It's purpose is
-to ensure that everyone in a society has the opportunity to express
-opinions they hold in common with others. As such, it is a tool that
-facilitates dialogue among citizens, as well as with political leaders
-or governments {{OSCE}}. In a democracy, causes and opinions are more
-widely heard when a group of people come together behind the same
-cause or issue {{Tocqueville}}.
+## FAA definition and core treaties
 
-In international law, the right to freedom of assembly and association
-protects any collective, gathered either permanently or temporarily
-for "peaceful" purposes. It is important to underline the property of
-"freedom" because the right to freedom of association and assembly is
-voluntary and uncoerced: anyone can join or leave a group of choice,
-which in turn means one should not be forced to either join, stay or
-leave. What constitutes a definition of "peaceful" is outside the
-scope of the present document.
+The rights to freedom of association and assembly are defined and guaranteed by many national laws and international treaties. Article 20 of the Universal Declaration of Human Rights {{UDHR}} states for instance that “Everyone has the right to freedom of peaceful assembly and association” and that “No one may be compelled to belong to an association”. Article 23 further guarantees that “Everyone has the right to form and to join trade unions for the protection of his interests”. In the International Covenant on Civil and Political Rights [ICCPR], article 21 stipulates that “The right of peaceful assembly shall be recognised” and that “No restrictions may be placed on the exercise of this right other than those imposed in conformity with the law and which are necessary in a democratic society in the interests of national security or public safety, public order (ordre public), the protection of public health or morals or the protection of the rights and freedoms of others” while article 22 states that “Everyone shall have the right to freedom of association with others, including the right to form and join trade unions”. Other treaties are sometimes cited as the source and framework to the right to freedom of association and assembly. The Australian government {{Australia}} refers for instance to Article 5 of the Convention on the Elimination of All Forms of Racial Discrimination {{CERD}} which stipulates that freedom of peaceful assembly and association should be guaranteed “without discrimination as to race, colour, national or ethnic origin”; Article 15 of the Convention on the Rights of the Child {{CRC}} which recognises the right to child pending the restrictions cited above; and Article 21 of the Convention on the Rights of Persons with Disabilities {{CRPD}} which insists on usable and accessible formats and technologies appropriate for persons with different kinds of disabilities.
 
-The difference between freedom of assembly and freedom of association
-is merely a gradual one: the former tends to have an informal and
-ephemeral nature, whereas the latter refers to established and
-permanent bodies with specific objectives. Nonetheless, both are
-protected to the same degree.
+In a more philosophical perspective, Brownlee and Jenkins make some interesting distinctions in regard to the concepts of association, assembly and interaction. On one hand, “interaction” refers to any kind of interpersonal and often incidental engagements in daily life, like encountering strangers on a bus. Interaction is seen as a “prerequisite” for association. “Assembly”, on the other hand, has a more political connotation and is often used to refer to activists, protesters, or members of a group in a deliberating event. In between the two, “association” refers to more “persistent connections” that are not necessarily political in nature. The authors thus distinguish between intimate associations, like friendship, love or family, and collective associations like trade union, commercial business, or “expressive associations” like civil rights organizations or lgbtqia associations. For Brownlee and Jenkins, the right to association is linked to different relative freedoms: permission (to association or dissociate), claim-right (to oppose others interfering with our conduct), power (to alter the status of our association), and immunity (from other people interfering in our right). Freedom of association and assembly thus refers both to the individual right to join or leave a group and to the collective right to form or dissolve a group and to organize itself.
 
-Where an assembly is an intentional and temporary gathering of a
-collective in a private or public space for a specific purpose:
-demonstrations, indoor meetings, strikes, processions, rallies or even
-sits-in {{UNHRC}}; association has a more formal and established
-nature. It refers to a group of individuals or legal entities brought
-together in order to collectively act, express, pursue or defend a
-field of common interests {{UNGA}}. Think about civil society
-organizations, clubs, cooperatives, NGOs, religious associations,
-political parties, trade unions or foundations.
+In international law, the right to freedom of assembly and association protects any collective, gathered either permanently or temporarily for “peaceful” purposes. It is important to highlight the dimension of “freedom” because the right to freedom of association and assembly is voluntary and uncoerced: anyone can join or leave a group by choice, which in turn means one should not be forced to either join, stay or leave. The difference between freedom of assembly and freedom of association is merely one of degree: the former tends to have an informal and ephemeral nature, whereas the latter refers to established and permanent bodies with specific objectives. Nonetheless, both are protected in the same way. Where an assembly is an intentional and temporary gathering of a collective in a private or public space for a specific purpose: demonstrations, indoor meetings, strikes, processions, rallies or even sits-in [UNHRC]; association has a more formal and established nature. It refers to a group of individuals or legal entities brought together in order to collectively act, express, pursue or defend a field of common interests {{UNGA}}. Think of civil society organizations, clubs, cooperatives, NGOs, religious associations, political parties, trade unions or foundations.
 
-Even if privacy and freedom of expression are the most discussed human
-rights when it comes to the online world, the right to freedom of
-assembly and association is quintessential for the Internet. Online
-association and assembly are the starting point of group to
-mobilization in modern democracies, and even more so where physical
-gatherings have been impossible or dangerous {{APC}}. Throughout the
-world -from the Arab Spring to Latin American student movements and
-the #WomensMarch- the Internet has played a crucial role by providing
-means for the fast dissemination of information otherwise mediated by
-the press, or even forbidden by the government {{Pensado}}. According
-to Hussain and Howard the Internet helped to "build solidarity
-networks and identification of collective identities and goals, extend
-the range of local coverage to international broadcast networks" and
-as platform for contestation for "the future of civil society and
-information infrastructure" {{HussainHoward}}.
+Brownlee and Jenkins also more explicitly address the right to exclude someone from an association, and the right to leave an association. In all this, they insist that freedom of association and assembly is never absolute. Parents, for instance, have limited rights to exclude their underage children from the family household. Excluding someone from an association based on their sex, race or other individual characteristic is also often contentious if not illegal. (Might go on to discuss other legitimate limits of FAA).
 
-The IETF itself, defined as a 'open global community' of network
-designers, operators, vendors, and researchers is also protected by
-freedom of assembly and association {{RFC3233}}. Discussions, comments
-and consensus around RFCs are possible because of the collective
-expression that freedom of association and assembly allow. The very
-word “protocol” found its way into the language of computer networking
-based on the need for collective agreement among network users
-{{HafnerandLyon}}.
+## FAA in the digital era
 
-We are aware that some of the following examples go beyond the use of
-Internet protocols and flow over into the application layer or
-examples in the offline world whereas the purpose of the current
-document is to break down the relationship between Internet protocols
-and the right to freedom of assembly and association. Nonetheless,
-given that protocols are a part of the socio-technical ordering of
-reality, we do recognize that in some cases the line between them and
-applications, implementations, policies and offline realities are
-often blurred and hard -if not impossible- to differentiate.
+The right to freedom of assembly and association is the subject of increasing discussions and analysis. In 2016, the Council of Europe published a report, “Report by the Committee of experts on cross-border flow of Internet traffic and Internet freedom on Freedom of assembly and association on the Internet” {{MSI-INT}}, which notes that while the Internet and technologies are not explicitly mentioned in international treaties, these treaties nevertheless apply to “the online environment”. The report argues that the “Internet is the public sphere of the 21st century”, something demonstrated by the fact that informal associations can be gathered at scale in a matter of hours on the Internet, and that digital communication tools often serve to facilitate, publicize and otherwise enable presential associations or assemblies, like protests or demonstrations. The report also notes the negative ways in which the Internet can also be used to promote or facilitate terrorism, urban violence and hate speech, thus insisting on the “extremely important and urgent” need to fight online terrorist activities such as recruitment or mobilization, while at the same time respecting the right to peaceful assembly and association of other users. The report mentions the following cases that could help further our reflection: 
 
+ * Instances of network shutdowns in the Arab Spring, to prevent people from organising or assembling
+ * California’s Bay Area Rapid Transit (BART) shutdown of mobile phone service, to avoid protester violence and disruption of service
+ * The wholesale blocking of Google as a violation of freedom of expression
+ * Telus, a telecom company which blocked customers’ access to websites critical of Telus during a Telecommunications Workers Union strike against it
+ * The targeting of social media users who call for or organise protests though the Internet in Turkey’s Gezi Park protests
+ * Mass surveillance or other interferences with privacy in the context of law enforcement and national security
+ * Use of VPNs (Virtual Private Networks) to the TOR network to ensure anonymity
+ * Distributed Denial of Service attacks (DDoS) as civil disobedience.
+
+More recently, the 2019 Annual Report addressed to the UN Human Rights Council by the Special Rapporteur on the rights to freedom of peaceful assembly and of association, also notes the opportunities and challenges posed by digital networks to the rights to freedom of peaceful assembly and of association. The report recommends that international human rights norms and principles should also be used as a framework “that guides digital technology companies’ design, control and governance of digital technologies”. The report states that “technical standards” in particular can affect the freedom of association and assembly, and makes some recommendations of which the following could be relevant to our discussion:
+
+ * “{{Undertake}} human rights impact assessments which incorporate the rights to freedom of peaceful assembly and of association when developing or modifying their products and services,”
+ * “increase the quality of participation in and implementation of existing multi-stakeholder initiatives,”
+ * “collaborate with governments and civil society to develop technology that promotes and strengthens human rights,”
+ * “support the research and development of appropriate technological solutions to online harassment, disinformation and propaganda, including tools to detect and identify State-linked accounts and bots,” and
+ * “adopt monitoring indicators that include specific concerns related to freedom of peaceful assembly and association.”
+(Possible gap looking at FAA and interoperability)
+In one of their “training kits”, the Association of Progressive Communications (APC) addressed different impacts of the Internet on association and assembly and raised three particular issues worthy of note:
+
+ 1. Organisation of protests. Internet and social media is an enabler of protests, such as was seen in the “Arab Spring”. Some of these protests – such as online petitions and campaigns - are similar to offline association and assembly, but other forms of protest are inherent to the Internet like hacking andDDoS, and are subject to controversy within the Internet community, some people finding it legitimate, and others not.
+ 2. Surveillance. While the Internet facilitates association, association in turn leaves of a lot of traces which can be used by law enforcement but also for repressing political dissent. As APC notes, even the threat of surveillance can deter association.
+ 3. Anonymity and pseudonymity can be useful protection mechanisms for those who would like to attend legitimate associations without facing retribution. On the other hand, anonymity can be used to harm society, such as in online fraud or sexual predation.  [APC1]
+
+(TBD) {{Sauter}}
+
+Online association and assembly are the starting point of group mobilization in modern democracies, and even more so where physical gatherings have been impossible or dangerous {{APC2}}. Throughout the world - from the Arab Spring to Latin American student movements and the #WomensMarch - the Internet has played a crucial role by providing means for the fast dissemination of information otherwise mediated by the press, or even forbidden by the government {{Pensado}}. According to Hussain and Howard, the Internet helped to “build solidarity networks and identification of collective identities and goals, extend the range of local coverage to international broadcast networks” and served as a platform for contestation for “the future of civil society and information infrastructure” {{HussainHoward}}. The IETF itself, defined as a ‘open global community’ of network designers, operators, vendors, and researchers {{RFC3233}}, is also protected by freedom of assembly and association. Discussions, comments and consensus around RFCs are possible because of the collective expression that freedom of association and assembly allows. The very word “protocol” found its way into the language of computer networking based on the need for collective agreement among network users {{HafnerandLyon}}.
+
+RFC8280 is a paper on Internet protocols and human rights and in turn discusses issues of FAA, specifically:
+
+ * The expansion of DNS for generic namespace as enabler of association for minorities. 
+ * The difficulty to compare DDoS with offline protestation as not everyone participates willingly in DDoS.  It is in particular suggested that IETF “should try to ensure that their protocols cannot be used for DDoS attacks”
+ * Freedom of association can be threatened by the denial of access of certain services, or by surveillance.
+ * Connectivity can impact freedom of assembly and association (6.2.2)
+ * “Open, secure, and reliable connectivity is necessary (although not sufficient) to exercise human rights such as freedom of expression and freedom of association”
+ 
+## Specific questions raised from the literature review
+
+Here are some questions raised from the literature review that can have implications for protocol design:
+
+ 1. As a  general matter, what are the features of protocols that enable freedom of association and assembly? Can protocols facilitate agency of membership in associations, assemblies and interactions? Where in the stack do we care for FAA?
+ 2. Does protocol development sufficiently consider the enabling of freedom of association without discrimination as to race, colour, national, ethnic origin?
+ 3. Does protocol development sufficiently consider usable and accessible formats and technologies appropriate for persons with different kinds of disabilities?
+ 4. Is it possible to distinguish “peaceful” and “non-peaceful” association from the perspective of protocol development? If yes, can and should protocols be designed to limit “non-peaceful” association?
+ 5. In particular, should protocols be designed to enable legitimate limitations on association in the interests of “national security or public safety, public order, the protection of public health or morals or the protection of the rights and freedoms of others”, as stated in the ICCPR article 21?   
+ 6. Can a protocol be designed to legitimately exclude someone from an association?
+ 7. In general, what kind of human rights impact assessments should be made to incorporate the rights to freedom of peaceful assembly and of association when developing protocols? 
 
 Cases and examples
 ==================
