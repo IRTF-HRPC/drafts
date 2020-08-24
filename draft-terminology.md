@@ -1,8 +1,8 @@
 ---
 title: Terminology, Power, and Inclusive Language in Internet-Drafts and RFCs
 abbrev: Terminology
-docname: draft-knodel-terminology-03
-date: 2020-06-16
+docname: draft-knodel-terminology-04
+date: 2020-08-24
 category: bcp
 
 ipr: trust200902
@@ -190,10 +190,17 @@ informative:
          - ins: Eric Geller
          - org: Politico
       target: https://www.politico.com/news/2020/06/25/agency-ends-use-technology-terms-racist-associations-339880
+   
+   terminology:
+      title: "Inclusive terminology in IETF Documents"
+      date: August 2020
+      author:
+         - org: IETF
+      target: https://github.com/ietf/terminology
 
 --- abstract
 
-This document argues for moving away from certain specific language conventions sometimes used by RFC authors and the RFC Production Centre in order to encourage the use of more inclusive terminology in Internet-Drafts that are work in progress, and in new RFCs that may be published in any of the RFC series. The document also provides examples of inclusive terminology as precise alternatives for these conventions.
+This document argues for more inclusive language conventions sometimes used by RFC authors and the RFC Production Centre in Internet-Drafts that are work in progress, and in new RFCs that may be published in any of the RFC series, in order to foster greater knowledge transfer and improve diversity of participation in the IETF.
 
 --- middle
 
@@ -203,7 +210,7 @@ According to {{RFC7322}}, "The ultimate goal of the RFC publication process is t
  
 Given the importance of communication between people developing RFCs, Internet-Drafts (I-D's), and related documents, it is worth considering the effects of terminology that has been identified as exclusionary. This document argues that certain obviously exclusionary terms should be avoided and replaced with alternatives. We propose nothing more than additional care in the choice of language just as care is taken in defining standards and protocols themselves.
  
-This document presents arguments for why exclusionary terms should be avoided in Internet-Drafts and RFCs, describes the problems introduced by some specific terms, and proposes alternative language. The terms discussed in this document include "master-slave" and "whitelist-blacklist". There is a final section on additional considerations and general action points to address future RFCs and I-D's. Lastly, a summary of recommendations is presented.
+This document presents arguments for why exclusionary terms should be avoided in Internet-Drafts and RFCs and as an exercise describes the problems introduced by some specific terms and why their proposed alternatives improve technical documentation. The example terms discussed in this document include "master-slave" and "whitelist-blacklist". There is a final section on additional considerations and general action points to address future RFCs and I-D's. Lastly, a summary of recommendations is presented.
 
 # Terminology
 
@@ -217,40 +224,31 @@ Indeed, problems of language are problems of everyday speech. Racist and sexist 
 
 However as noted in the research by Ron Eglash, this seemingly entrenched technical terminology is relatively recent. It is not too late for these terms to be replaced with alternative metaphors that are more accurate, clearer, less distracting, and that do not offend their readers. Language matters and metaphors matter. Indeed, metaphors can be incredibly useful devices to make more human the complex technical concepts presented in RFCs. Metaphors should not be avoided, but rather taken seriously. Renowned linguist George Lakoff argued in 1980 that the ubiquitous use of metaphors in our everyday speech indicates a fundamental instinct to "structure our most basic understandings of experience" {{Lakoff}}. Metaphors structure relationships, and they frame possibilities and impossibilities {{Wyatt}}.
 
-Like Graves, this document recognises the monumental challenge of addressing linguistics and power, and attempts to "promote awareness that may lead to eventual wide-spread change" {{BrodieGravesGraves}} and suggests first steps for actions that may remedy the inadvertent use of undesirable terms'. To that end, the list below is a tersely written set of IETF-specific arguments as to why the RFC Editor should be encouraged to correct other content and clarity issues with respect to excluding language and metaphors:
+Like Graves, this document recognises the monumental challenge of addressing linguistics and power, and attempts to "promote awareness that may lead to eventual wide-spread change" {{BrodieGravesGraves}} and suggests first steps for actions that may remedy the inadvertent use of undesirable terms'. To that end, the list below is a tersely written set of IETF-specific arguments as to why the RFC Editor should be encouraged to correct other content and clarity issues with respect to exclusionary language and metaphors:
 
- * The RFC series is intended to remain online in perpetuity. Societal attitudes to offensive and excluding language shift over time in the direction of more empathy, not less.
- * That excluding terms in RFCs are largely hidden from the larger public, or read only by engineers, is no excuse to ignore social-level reactions to the terms. If the terms would be a poor choice for 
-user-facing application features, the terms should be avoided in technical documentation and specifications, too.
- * At the time of this drafting, the digital technology community has a problem with monoculture. And because the diversity of the technical community is already a problem, a key strategy to breaking 
-monoculture is to ensure that technical documentation is addressed to a wide audience and multiplicity of readers.
- * And yet the technical community already includes members who take offense to these terms. Eradicating the use of excluding terminology in official RFCs recognises the presence of and acknowledges the 
-requests from black and brown engineers and from women and gender-non-conforming engineers to avoid the use of exclusive terminology.
+ 1. The RFC series is intended to remain online in perpetuity. Societal attitudes to offensive and exclusionary language shift over time in the direction of more empathy, not less.
+ 2. That exclusionary terms in RFCs are largely hidden from the larger public, or read only by engineers, is no excuse to ignore social-level reactions to the terms. If the terms would be a poor choice for user-facing application features, the terms should be avoided in technical documentation and specifications, too.
+ 3. At the time of this drafting, the digital technology community has a problem with monoculture. And because the diversity of the technical community is already a problem, a key strategy to breaking monoculture is to ensure that technical documentation is addressed to a wider audience and greater multiplicity of readers.
+ 4. And yet the technical community already includes members who take offense to these terms. Eradicating the use of exclusionary terminology in official RFCs recognises the presence of and acknowledges the requests from black and brown engineers and from women and gender-non-conforming engineers to avoid the use of exclusionary terminology.
 
-This document does not try to prescribe terminology shifts for any and all language that could be deemed exclusive. Instead what follow are specific alternative suggestions to "master-slave" and "white-blacklist" and the rationale for the use of the alternatives. Additional considerations are presented in a subsequent section.
+This document does not try to prescribe terminology shifts for any and all language that could be deemed exclusionary. Instead what follow are two examples of specific alternative suggestions to "master-slave" and "white-blacklist" and the rationale for the use of the alternatives. Suggested actions for handling additional considerations are presented in a subsequent section.
 
 ## Master-Slave
 
-Master-slave is an offensive and exclusive metaphor that will and should never become fully detached from history. Aside from being unprofessional and exclusive it stifled the participation of students whom Eglash interviewed for his research. He asks: "If the master-slave metaphor affected these tough-minded engineers who had the gumption to make it through a technical career back in the days when they may have been the only black persons in their classes, what impact might it have on black students who are debating whether or not to enter science and technology careers at all?" {{Eglash}}
+Master-slave is an offensive and exclusionary metaphor that will and should never become fully detached from history. Aside from being unprofessional and exclusionary it stifled the participation of students whom Eglash interviewed for his research. He asks: "If the master-slave metaphor affected these tough-minded engineers who had the gumption to make it through a technical career back in the days when they may have been the only black persons in their classes, what impact might it have on black students who are debating whether or not to enter science and technology careers at all?" {{Eglash}}
 
 Aside from the arguably most important reason outlined above, these terms are becoming less used and therefore increasingly less compatible as more communities move away from its use (eg {{NIST}}, {{Python}}, {{Drupal}}, {{Github}} and {{Django}}. The usage of 'master' and 'slave' in hardware and software has been halted by the Los Angeles County Office of Affirmative Action, the Django community, the Python community and several other programming languages. This was done because the language is offensive and hurts people in the community {{Django2}}. Root operator Internet Systems Consortium stopped using the terms because they were asked to {{ISC}}.
 
 In addition to being inappropriate and arcane, the master-slave metaphor is both technically and historically inaccurate. For instance, in DNS the 'slave' is able to refuse zone transfers on the ground that it is malformed. The metaphor is incorrect historically given the most recent centuries during which "the role of the master was to abdicate and the role of the slave was to revolt" {{McClelland}}. Yet in another sense slavery is also not 'just an historic term', whereas freedom from slavery is a human-rights issue {{UDHR}}, it continues to exist in the present {{Wikipedia}}. Furthermore, this term set wasn't revived until recently, after WWII, and after many of the technologies that adopted it were already in use with different terminology {{Eglash}}.
 
-Lastly, we present not an additional rationale against their use, but an indicator of actual racism in the community that has been surfaced as a result of this larger debate among technologists, "I don't believe in PC (political correctness), mostly because the minorities constantly use it to get away with anything" {{Jansens}}. This illustrates the need to, as Graves is cited above as saying, continue to raise awareness within our community for eventual, lasting change on the continued front of struggle against the racists amongst us.
+Ultimately master-slave is a poor choice since it is 1) being used less frequently already 2) in a variety of applications 3) to correct perceived exclusionary effects 4) at the request of concerned members of the technical community.
 
-### Suggested Alternatives
+To find alternatives to master-slave, one can look to myriad existing implementations. There are also many other relationships that can be used as metaphors, Eglash's research calls into question the accuracy of the master-slave metaphor. An alternative should be chosen based on the pairing that is most clear in context:
 
-There are also many other relationships that can be used as metaphors, Eglash's research calls into question the accuracy of the master-slave metaphor. Fortunately, there are ample alternatives for the master-slave relationship. Several options are suggested here and should be chosen based on the pairing that is most clear in context:
-
- * Primary-secondary
- * Primary-replica
- * Active-standby
- * Writer-reader
-
-Since the use of master-slave is becoming less common in other technical communities, it is best to simply duplicate the metaphor being used by comparable or interoperable technologies. The IETF can show positive leadership in the technical community by setting standards without using offensive and exclusive metaphors.
-
-For the DNS, RFC 8499 defines the current best practise for DNS terminology and uses the term pair 'primary' and 'secondary' {{RFC8499}}.
+ * Primary-secondary based on authority. See for example {{RFC8499}}.
+ * Primary-replica based originality.
+ * Active-standby based on state.
+ * Writer-reader based on function.
 
 ## Blacklist-Whitelist
 
@@ -262,44 +260,41 @@ In the case of blacklist-whitelist in the technical documentation of I-Ds and RF
 
 As with master-slave, we save our technical argument for last, referencing and presenting first the reasons for the use of non-offensive, alternative terminology for the sake of our humanity. Indeed, our technical argument is incredibly succinct: Why use a metaphor when a direct description is both succinct and clear? There can be absolutely no ambiguity if one uses the terms, as suggested below, allow-block rather than white-black.
 
-### Suggested Alternatives
+There are alternatives to this terminology set that vastly improve clarity because they are not even metaphors, they're descriptions. The alternatives proposed here say exactly what they mean.
 
-There are alternatives to this terminology set that vastly improve clarity because they are not even metaphors without adding a single additional character. The alternatives proposed here say exactly what they mean. Examples of specifications that use these alternative terms are also provided for illustration purposes.
-
- * Accept-list and Drop-list (see for examle {{RFC8612}}, {{RFC8782}}, and {{RFC8783}})
- * Blocklist-allowlist
- * Deny-allow
- * Droplist-accesslist
- * Drop-permit
- * Block-permit
+ * Accept-list and Drop-list for threat signaling. See for examle {{RFC8612}}, {{RFC8782}}, and {{RFC8783}}).
+ * Blocklist-allowlist, deny-allow or block-permit for permissions.
 
 ## Other Considerations
 
-As described in the preceding sections, the language used in technical documentation, like all written text, creates and reinforces expectations and stereotypes. We propose nothing more than additional care in the choice of language just as care is taken in defining standards and protocols themselves. The two examples provided above are not the only cases of offensive language to be avoided, and many more can be collected. However, these two examples are particularly significant and require immediate action. We use this section to broaden the context of other offensive and excludig terminologies to encompass additional concerns.
+As described in the preceding sections, the language used in technical documentation, like all written text, creates and reinforces expectations and stereotypes. We propose nothing more than additional care in the choice of language just as care is taken in defining standards and protocols themselves. The two examples provided above are not the only cases of exclusionary language to be avoided, and many more can be collected. We use this section to broaden the context of other offensive and exclusionary terminologies to encompass additional concerns, why spotting and eradicating problematic terminologies is a valid endeavour for authors and editors of technical documentaion and how this might be systematised.
 
-There are many other metaphors present in technical documentation that are "terms of art" but that have no technical basis whatsoever. 
+There are many other metaphors present in technical documentation that are "terms of art" but that have no technical basis whatsoever. If any of these metaphors is offensive there is no excuse for its continued use. A term like "man-in-the-middle" is not technically useful. It is not a standard term, not as clear as its alternative "on-path attacker", and should therefore be avoided. When presented with the opportunity to employ the use of metaphors or to unthinkingly repeat terms of art that connote gender or race, Authors should simply find a better way to explain themselves. A fun read on the politics of colloquial speech by George Orwell should dissuade any clever Author from using tired explanatory metaphors {{Orwell}}.
 
-If any of  these metaphors is offensive there is no excuse for its continued use. A term like "man-in-the-middle" is not technically useful. It is not a standard term, not as clear as its alternative "on-path attacker", and should therefore be avoided. When presented with the opportunity to employ the use of metaphors or to unthinkingly repeat terms of art that connote gender or race, Authors should simply find a better way to explain themselves. A fun read on the politics of colloquial speech by George Orwell should dissuade any clever Author from using tired explanatory metaphors {{Orwell}}.
+Gendered pronouns and sexism are common place but easy to spot and replace. Up until recently, strict English grammatists like Orwell decried the use of the neutral pronoun "they". Without a neutral singular pronoun, "he" is assumed as the default singular pronoun when the gender of the person is unknown or ambiguous. However, that has changed, and it is now widely accepted that "they" can be used as a neutral singular pronoun. Since it is unlikely that all implementers and infrastructure operators are of any particular gender, "he" should never be used to refer to a person in I-Ds and RFCs. An Author who uses male examples sets male-ness as a standard.
 
-Up until recently, strict English grammatists like Orwell decried the use of the neutral pronoun "they". Without a neutral singular pronoun, "he" is assumed as the default singular pronoun when the gender of the person is unknown or ambiguous. However, that has changed, and it is now widely accepted that "they" can be used as a neutral singular pronoun. Since it is unlikely that all implementers and infrastructure operators are of any particular gender, "he" should never be used to refer to a person in I-Ds and RFCs. An Author who uses male examples sets male-ness as a standard.
+Besides race and gender, our world is full of metaphors rooted in oppression. Abelism . Colonialism . Militarised metaphors are also a pervasive problem in language, perhaps even more so in technical communities because of the historical and actual relationship between technology and war.
 
-Militarised metaphors are also a pervasive problem in language, perhaps even more so in technical communities because of the historical and actual relationship between technology and war. We welcome additional examples of terminology that might be avoided through more awareness and thoughtfulness.
+While it is not our intention to be exhaustive we hope to have made a persuasive case for authors and editors to pay attention to the finer details of metaphor, and the ways power is replicated in technical documentation unless detailed attention is paid. The example terms above "master-slave" and "blacklist-whitelist" are already less common. If the IETF community has learned anything from the deabte over the use of these terms, and this document, it is that language matters to us deeply as members of society and as engineers. And because language, and society, change over time, we must approach future concerns with some degree of dispassion when the arguments presented in the first section can be clearly applied.
+
+There is harm in protracted discussion about the validity IETF participants and their experiences with exclusionary terminology. The racism in the community that has been surfaced as a result of this larger debate among technologists pushed away participants and observers. This illustrates the need to, as Graves is cited above as saying, continue to raise awareness within our community for eventual, lasting change on the continued front of struggle against the racists amongst us. Yet we recommend a living stylesheet, rather than repeated RFCs, be used as a mechanism for monitoring exclusionary language in IETF documents {{{terminology}}}.
+
+It is there that we welcome additional examples of terminology that might be avoided through more awareness and thoughtfulness.
 
 # Summary of Recommendations
 
 To summarise, we have bulleted some very concrete action points that can be taken by Editors, reviewers and Authors, both present and future as they develop and publish Internet-Drafts and new RFCs.
 
 Authors SHOULD:
- * Replace the excluding term "master-slave" with more accurate alternatives, for instance from the list of <xref target="master-slave"/>.
- * Replace the excluding term "blacklist-whitelist" with more accurate alternative, for instance from the list of suggested alternatives at <xref target="blacklist-whitelist"/>.
- * Reflect on their use of metaphors generally
- * Use the neutral "they" as the singular pronoun, and
- * Consider changing existing exclusive language in current (reference) implementations {{socketwench}}
+ * Replace the exclusionary terms "master-slave" and "blacklist-whitelist" with more accurate alternatives.
+ * Read and reflect upon the repository of exclusionary terminology {{{terminology}}}.
+ * Reflect on their use of metaphors generally.
+ * Consider changing existing exclusionary language in current (reference) implementations {{socketwench}}.
  * Consult the style sheet maintained by the RFC editor.
 
 RFC Editor MUST:
- * Offer alternatives for excluding terminology as an important act of correcting larger editorial issues and clarifying technical concepts and
- * Maintain a style sheet that collects all terms that have been considered and indicate wheter they are deemed acceptable, and if not what terms Authors should consider instead 
+ * Offer alternatives for exclusionary terminology as an important act of correcting larger editorial issues and clarifying technical concepts and
+ * Maintain the IETF repository that collects all terms that have been considered and indicate wheter they are deemed acceptable, and if not what terms Authors should consider instead.
  * Suggest to Authors that even when referencing other specifications that have not replaced offensive terminology, the Authors could use another term in their document and include a note to say that they have used the new term as a replacement for the term used in the referenced document.
 
 # Further reading
