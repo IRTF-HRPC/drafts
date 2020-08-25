@@ -273,7 +273,7 @@ There are many other metaphors present in technical documentation that are "term
 
 Gendered pronouns and sexism are common place but easy to spot and replace. Up until recently, strict English grammatists like Orwell decried the use of the neutral pronoun "they". Without a neutral singular pronoun, "he" is assumed as the default singular pronoun when the gender of the person is unknown or ambiguous. However, that has changed, and it is now widely accepted that "they" can be used as a neutral singular pronoun. Since it is unlikely that all implementers and infrastructure operators are of any particular gender, "he" should never be used to refer to a person in I-Ds and RFCs. An Author who uses male examples sets male-ness as a standard.
 
-Besides race and gender, our world is full of metaphors rooted in oppression. Abelism . Colonialism . Militarised metaphors are also a pervasive problem in language, perhaps even more so in technical communities because of the historical and actual relationship between technology and war.
+Besides race and gender, our world is full of metaphors rooted in oppression, ableism, and colonialism. Militarised metaphors are also a pervasive problem in language, perhaps even more so in technical communities because of the historical and actual relationship between technology and war.
 
 While it is not our intention to be exhaustive we hope to have made a persuasive case for authors and editors to pay attention to the finer details of metaphor, and the ways power is replicated in technical documentation unless detailed attention is paid. The example terms above "master-slave" and "blacklist-whitelist" are already less common. If the IETF community has learned anything from the deabte over the use of these terms, and this document, it is that language matters to us deeply as members of society and as engineers. And because language, and society, change over time, we must approach future concerns with some degree of dispassion when the arguments presented in the first section can be clearly applied.
 
@@ -290,7 +290,7 @@ Authors SHOULD:
  * Read and reflect upon the repository of exclusionary terminology {{{terminology}}}.
  * Reflect on their use of metaphors generally.
  * Consider changing existing exclusionary language in current (reference) implementations {{socketwench}}.
- * Consult the style sheet maintained by the RFC editor.
+ * Consult the RFC style sheet maintained by the RFC editor and the community that can be found at https://github.com/ietf/terminology .
 
 RFC Editor MUST:
  * Offer alternatives for exclusionary terminology as an important act of correcting larger editorial issues and clarifying technical concepts and
