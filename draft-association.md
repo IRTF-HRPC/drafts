@@ -25,9 +25,15 @@ author:
 -
        ins: N. ten Oever
        name: Niels ten Oever
-       organization: Texas A&M University
+       organization: Univeristy of Amsterdam & Texas A&M University
        email: mail@nielstenoever.net
 
+-
+       ins: G. Perez de Acha
+       name: Gisela Perez de Acha
+       organization: Derechos Digitales
+       email: gisela@derechosdigitales.org
+       
 -
        ins: S. Couture
        name: Stéphane Couture
@@ -35,12 +41,10 @@ author:
        email: stephane.couture@umontreal.ca
 
 -
-       ins: G. Perez de Acha
-       name: Gisela Perez de Acha
-       organization: Derechos Digitales
-       email: gisela@derechosdigitales.org
-
-
+       ins: M. Knodel
+       name: Mallory Knodel
+       organization: Center for Democracy & Technology
+       email: mknodel@cdt.org
 
 normative:
 
@@ -48,30 +52,24 @@ informative:
 
   RFC0001:
   RFC0155:
-  RFC0791:
   RFC0903:
   RFC1211:
-  RFC1287:
   RFC1771:
   RFC1930:
+  RFC2277:
   RFC2810:
   RFC2812:
   RFC3233:
   RFC1958:
-  RFC4033:
   RFC4084:
   RFC4271:
   RFC4880:
-  RFC5246:
   RFC5694:
   RFC5751:
   RFC6176:
   RFC7118:
   RFC7194:
-  RFC7754:
-  RFC7858:
   RFC8280:
-  RFC8484:
 
   UDHR:
     title: The Universal Declaration of Human Rights
@@ -86,13 +84,6 @@ informative:
     author:
       - org: United Nations General Assembly
     target: http://www.ohchr.org/EN/ProfessionalInterest/Pages/CCPR.aspx
-
-  Tocqueville:
-    title: Democracy in America
-    date: 1840
-    author:
-      - ins: A. de Tocqueville
-    target: http://classiques.uqac.ca/classiques/De_tocqueville_alexis/democracy_in_america_historical_critical_ed/democracy_in_america_vol_2.pdf p. 304
 
   HussainHoward:
     title: "What Best Explains Successful Protest Cascades? ICTs and the Fuzzy Causes of the Arab Spring"
@@ -160,13 +151,6 @@ informative:
     target: https://mitpress.mit.edu/books/inventing-internet
     seriesinfo: "Cambridge: MIT Press (2013): 11."
 
-  Melucci:
-    title: The Process of Collective Identity
-    date: 1995
-    author:
-      - ins: A. Melucci
-    seriesinfo: Temple University Press, Philadelphia
-
   AckermannKargerZhang:
     title: "Mailing Lists: Why Are They Still Here, What’s Wrong With Them, and How Can We Fix Them?"
     date: 2017
@@ -193,14 +177,6 @@ informative:
       - ins: C. Guarnieri
     target: https://iranthreats.github.io/resources/webrtc-deanonymization/
 
-  OSCE:
-    title: Guidelines on Freedom of Peaceful Assembly
-    date: 2010
-    author:
-      - org: OSCE Office for Democratic Institutions and Human Rights
-    target: https://www.osce.org/odihr/73405?download=true
-    seriesinfo: page 24
-
   NelsonHedlun:
     title: "A Network of Peers: Models Through the History of the Internet"
     date: 2001
@@ -219,14 +195,6 @@ informative:
       - ins: Ooi, Beng Chin
     target: "https://www.springer.com/cn/book/9783642035135"
 
-  Star:
-    title: The Ethnography of Infrastructure
-    date: 1999
-    author:
-      - ins: S.L. Star
-    target: http://journals.sagepub.com/doi/abs/10.1177/00027649921955326
-    seriesinfo: American Behavioral Scientist, Volume 43 (3), 377-391.
-
   Schleuder:
     title: Schleuder - A gpg-enabled mailinglist with remailing-capabilities.
     date: 2017
@@ -241,29 +209,6 @@ informative:
       - ins: D. Crawford
     target: https://www.bestvpn.com/the-webrtc-vpn-bug-and-how-to-fix-it/
 
-  RPZ:
-    title: DNS Response Policy Zones (RPZ)
-    date: 2017
-    author:
-       - ins: P. Vixie
-       - ins: V. Schyver
-    target: https://tools.ietf.org/html/draft-ietf-dnsop-dns-rpz-00
-
-  Wugh:
-    title: Using Third Party Services for IETF Work
-    date: 2017
-    author:
-       - ins: M. Nottingham
-    target: https://datatracker.ietf.org/doc/draft-nottingham-wugh-services/
-
-  GithubIETF:
-    title: Using GitHub at the IETF
-    date: 2017
-    author:
-       - ins: M. Thomson
-       - ins: A. Atlas
-    target:
-
   Troncosoetal:
     title: "Systematizing Decentralization and Privacy: Lessons from 15 Years of Research and Deployments"
     date: 2017
@@ -274,21 +219,6 @@ informative:
        - ins: H. Halpin
     seriesinfo: "Proceedings on Privacy Enhancing Technologies ; 2017 (4):307–329"
     target: https://www.petsymposium.org/2017/papers/issue4/paper87-2017-4-source.pdf
-
-  StarRuhleder:
-    title: "Steps toward an ecology of infrastructure: Design and access for large information spaces"
-    date: 1996
-    author:
-       - ins: S.L. Star
-       - ins: K. Ruhleder
-    seriesinfo: "Information Systems Research 7 (1) (1996) 111–134."
-
-  Haas:
-    title: "Introduction: epistemic communities and international policy coordination"
-    date: 1992
-    author:
-       - ins: P.M. Haas
-    seriesinfo:  "International Organization, special issue: Knowledge, Power, and International Policy Coordination, Cambridge Journals. 46 (1): 1–35."
 
   Mainwaringetal:
     title: "Infrastructures and Their Discontents: Implications for Ubicomp"
@@ -324,66 +254,6 @@ informative:
        - ins: W. Wolf
     seriesinfo: "Journal of the Association for Information Systems (10) 5, pp. 306-332"
 
-  Anderson:
-    title: "The political voice of young citizens Educational conditions for political conversation – school and social media"
-    date: 2012
-    author:
-      - ins: E. Andersson
-    seriesinfo: "Utbildning &amp; Demokrati: Tidskrift för Didaktik och Utbildningspolitik, Volume 21, Number 1, 2012, pp. 97-119(23)"
-    target: http://www.ingentaconnect.com/content/doaj/11026472/2012/00000021/00000001/art00006
-
-  Tufekci:
-    title: "Twitter and Tear Gas: The Power and Fragility of Networked Protest"
-    date: 2017
-    author:
-      - ins: Z. Tufekci
-    target: https://www.twitterandteargas.org/
-
-  Weiser:
-    title: The Computer for the 21st Century
-    date: 1991
-    author:
-      - ins: L M. Weiser
-    seriesinfo: Scientific American Ubicomp Paper after Sci Am editing
-    target: https://web.archive.org/web/20141022035044/http://www.ubiq.com/hypertext/weiser/SciAmDraft3.html
-
-  Sink:
-    title: Version Control by Example
-    date: 2011
-    author:
-      - ins: E. Sink
-    target: http://ericsink.com/vcbe/
-
-  Mosco:
-     title: "The Digital Sublime: Myth, Power, and Cyberspace"
-     date: 2005
-     author:
-      - ins: V. Mosco
-     target: https://mitpress.mit.edu/books/digital-sublime
-
-  FiveEyes:
-     title: "Five Eyes"
-     date: 2018
-     author:
-      - ins: Wikipedia
-     target: https://en.wikipedia.org/wiki/Five_Eyes
-
-  SchengenRouting:
-     title: "Schengen Routing"
-     date: 2018
-     author:
-      - ins: Wikipedia
-     target: https://en.wikipedia.org/wiki/Schengen_Routing
-
-  SeawrightGerring:
-     title: "Case Selection Techniques in Case Study Research: A Menu of Qualitative and Quantitative Options"
-     date: 2008
-     author:
-      - ins: J. Seawright
-      - ins: J. Gerring
-     target: https://journals.sagepub.com/doi/pdf/10.1177/1065912907313077
-     seriesinfo: "Political Research Quarterly, 61(2), 294–308."
-     
   Australia: 
      title: Right to freedom of assembly and association
      date: 2020
@@ -397,22 +267,7 @@ informative:
      author:
       - ins: Wikipedia
      target: Sit.amet
-
-  MSI-INT:
-     title: Lorum
-     date: 2000
-     author:
-      - ins: Wikipedia
-     target: Sit.amet
-       
-  APC2:
-     title: Freedom of assembly and association online in India, Malaysia and Pakistan. Trends, challenges and recommendations.
-     date: 2016
-     author:
-      - ins: Gayathry Venkiteswaran
-      - org: Association for Progressive Communications
-     target: https://www.apc.org/es/system/files/FOAA_online_IndiaMalaysiaPakistan.pdf
-
+     
   Sauter:
      title: Lorum
      date: 2000
@@ -427,7 +282,7 @@ informative:
       - ins: Wikipedia
      target: Sit.amet
 
-  hrpc-charter:
+  HRPC-charter:
      title: Lorum
      date: 2000
      author:
@@ -448,10 +303,129 @@ informative:
       - ins: Wikipedia
      target: Sit.amet
      
+  Mburu:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://repository.gchumanrights.org/bitstream/handle/20.500.11825/1582/3.Global%20article%20HRDA_2_2019.pdf?sequence=4&isAllowed=y
+
+  Stanford:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://plato.stanford.edu/entries/freedom-association/
+
+  ViennaDeclaration:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://www.ohchr.org/en/professionalinterest/pages/vienna.aspx 
+
+  Loi:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://link.springer.com/article/10.1007/s13347-019-00351-0
+
+  Glasius:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://academic.oup.com/isq/article/64/2/453/5823498
+     
+  CoE:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://mk0rofifiqa2w3u89nud.kinstacdn.com/wp-content/uploads/COE-report-on-FOAA-rights-on-the-internet-.pdf
+     
+  APCtraining:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: http://itrainonline.org/itrainonline/mmtk/APC_IRHRCurriculum_FOA_Handout.pdf
+     
+  UN44-24:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://www.ohchr.org/EN/HRBodies/HRC/RegularSessions/Session44/Documents/A_HRC_44_24_AEV.docx
+     
+  Benkler2:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: 
+     
+  W3C:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://www.w3.org/standards/webdesign/accessibility
+     
+  Nasser:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://nas.sr/%D9%82%D9%84%D8%A8/ 
+     
+  UNGP:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://academic.oup.com/isq/article/64/2/453/5823498
+     
+  UNHRC2016:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: 
+     
+  Kaye:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://academic.oup.com/isq/article/64/2/453/5823498
+     
+  LEAP:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://academic.oup.com/isq/article/64/2/453/5823498
+
+  Marcus:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: 
+       
+  APC3:
+     title: Lorum
+     date: 2000
+     author:
+      - ins: Wikipedia
+     target: https://academic.oup.com/isq/article/64/2/453/5823498
+     
 
 --- abstract
 
-This document discusses the relationships between the Internet architecture and the ability of people to exercise their right to freedom of assembly and association online. The Internet increasingly mediates our lives, our relationships and our ability to exercise our human rights. As a global forum, the Internet provides a public space, yet it is predominantly built on private infrastructure. Since Internet protocols play a central role in the management, development and use of the Internet, we analyse the relationship between protocols and the rights to assemble and associate in order to mitigate infringements upon those rights.
+This document discusses the relationships between the Internet architecture and the ability of people to exercise their right to freedom of assembly and association online. The Internet increasingly mediates our lives, our relationships, and our ability to exercise our human rights. As a global forum, the Internet provides a public space, yet it is predominantly built on private infrastructure. Since Internet protocols play a central role in the management, development, and use of the Internet, we analyze the relation between protocols and the rights to assemble and associate to mitigate infringements on those rights.
 
 --- middle
 
@@ -461,13 +435,16 @@ Introduction
 
    “In the digital age, the exercise of the rights of peaceful assembly and association has become largely dependent on business enterprises, whose legal obligations, policies, technical standards, financial models and algorithms can affect these freedoms”.
 
-         - Annual Report to the UN Human Rights Council by the Special Rapporteur on the rights to freedom of peaceful assembly and of association (2019).
+    - Annual Report to the UN Human Rights Council by the Special Rapporteur 
+    on the rights to freedom of peaceful assembly and of association (2019).
 
 
     We shape our tools and, thereafter, our tools shape us. 
          - John Culkin (1967)
          
-The current draft continues the work started in “Research into Human Rights Protocol Considerations” {{RFC8280}} by investigating the impact of Internet protocols on a specific set of human rights, namely the right to freedom of assembly and association. Taking into consideration the international human rights framework regarding  freedom of assembly and association, the present document seeks to deepen the relationship between this human right and Internet architecture, protocols, and standards. In that way, we continue the work of the Human Rights Protocol Consideration Research Group, as laid out in its charter, where one of the research aims is “to expose the relation between protocols and human rights, with a focus on the rights to freedom of expression and freedom of assembly” {{hrpc-charter}}. The conclusions may inform the development of new guidelines for protocol developers. 
+The current draft continues the work started in “Research into Human Rights Protocol Considerations” {{RFC8280}} by investigating the impact of Internet protocols on a specific set of human rights, namely the right to freedom of assembly and association. Taking into consideration the international human rights framework regarding the human right to freedom of assembly and association, the present document seeks to deepen the relationship between this human right and Internet architecture, protocols, and standards. In that way, we continue the work of the Human Rights Protocol Consideration Research Group, as laid out in its charter, where one of the research aims is “to expose the relation between protocols and human rights, with a focus on the rights to freedom of expression and freedom of assembly” {{HRPC-charter}}. The conclusions may inform the development of new guidelines for protocol developers in draft-irtf-hrpc-guidelines.
+
+The research question of this document is: what are the protocol development considerations for freedom of assembly and association?
 
 Vocabulary used
 ===============
@@ -476,651 +453,284 @@ Architecture
 : The design of a structure
 
 Autonomous System (AS)
-
-: Autonomous Systems are the unit of routing policy in the modern
-world of exterior routing {{RFC1930}}.
-: Within the Internet, an autonomous system (AS) is a collection of
-connected Internet Protocol (IP) routing prefixes under the control of
-one or more network operators on behalf of a single administrative
-entity or domain that presents a common, clearly defined routing
-policy to the Internet {{RFC1930}}.
-: The classic definition of an Autonomous System is a set of routers
-under a single technical administration, using an interior gateway
-protocol and common metrics to route packets within the AS, and using
-an exterior gateway protocol to route packets to other ASs
+: Autonomous Systems are the unit of routing policy in the modern world of exterior routing {{RFC1930}}.
+: Within the Internet, an autonomous system (AS) is a collection of connected Internet Protocol (IP) routing prefixes under the control of one or more network operators on behalf of a single administrative entity or domain that presents a common, clearly defined routing policy to the Internet {{RFC1930}}.
+: The classic definition of an Autonomous System is a set of routers under a single technical administration, using an interior gateway protocol and common metrics to route packets within the AS, and using an exterior gateway protocol to route packets to other ASs
 {{RFC1771}}.
 
 Border Gateway Protocol (BGP)
 : An inter-Autonomous System routing protocol {{RFC4271}}.
 
 Connectivity
-: The extent to which a device or network is able to reach other
-devices or networks to exchange data. The Internet is the tool for
-providing global connectivity {{RFC1958}}. Different types of
-connectivity are further specified in {{RFC4084}}. The combination of
-the end-to-end principle, interoperability, distributed architecture,
-resilience, reliability and robustness are the enabling factors that
-result in connectivity to and on the Internet.
+: The extent to which a device or network is able to reach other devices or networks to exchange data. The Internet is the tool for providing global connectivity {{RFC1958}}. Different types of connectivity are further specified in {{RFC4084}}. The combination of the end-to-end principle, interoperability, distributed architecture, resilience, reliability and robustness are the enabling factors that result in connectivity to and on the Internet.
 
 Decentralization
-: Implementation or deployment of standards, protocols or systems
-without one single point of control.
+: Implementation or deployment of standards, protocols or systems without one single point of control.
 
 Distributed system
-: A system with multiple components that have their behavior
-co-ordinated via message passing. These components are usually
-spatially separated and communicate using a network, and may be
-managed by a single root of trust or authority. {{Troncosoetal}}
+: A system with multiple components that have their behavior co-ordinated via message passing. These components are usually
+spatially separated and communicate using a network, and may be managed by a single root of trust or authority. {{Troncosoetal}}
 
 Infrastructure
-: Underlying basis or structure for a functioning society,
-organization or community. Because infrastructure is a precondition
-for other activities it has a procedural, rather than static, nature
-due to its social and cultural embeddedness {{PipekWulf}}
-{{Bloketal}}. This means that infrastructure is always relational:
-infrastructure always develops in relation to something or someone
-{{Bowker}}.
+: Underlying basis or structure for a functioning society, organization or community. Because infrastructure is a precondition
+for other activities it has a procedural, rather than static, nature due to its social and cultural embeddedness {{PipekWulf}}
+{{Bloketal}}. This means that infrastructure is always relational: infrastructure always develops in relation to something or someone {{Bowker}}.
 
 Internet
-
-: The Network of networks, that consists of Autonomous Systems that
-are connected through the Internet Protocol (IP).
-: A persistent socio-technical system over which services are
-delivered {{Mainwaringetal}},
-: A techno-social assemblage of devices, users, sensors, networks,
-routers, governance, administrators, operators and protocols
-: An emergent-process-driven thing that is born from the collections
-of the ASes that happen to be gathered together at any given time. The
-fact that they tend to interact at any given time means it is an
-emergent property that happens because they use the protocols defined
-at IETF.
+: The Network of networks, that consists of Autonomous Systems that are connected through the Internet Protocol (IP).
+: A persistent socio-technical system over which services are delivered {{Mainwaringetal}},
+: A techno-social assemblage of devices, users, sensors, networks, routers, governance, administrators, operators and protocols
+: An emergent-process-driven thing that is born from the collections of the ASes that happen to be gathered together at any given time. The fact that they tend to interact at any given time means it is an emergent property that happens because they use the protocols defined at IETF.
 
 Research question
 =================
 
-The research question of this document is: what are the considerations of the right to freedom of assembly and association for protocol development?
+The research question of this document is: what are the protocol development considerations for freedom of assembly and association?
 
 Methodology
 ============
 
-The point of departure of the present work {{RFC8280}} is an initial effort to expose the relationship between human rights and the Internet architecture, specifically protocols and standards. As such, {{RFC8280}} was inductive and exploratory in nature. The methodology in this previous work was based on discourse analysis of RFCs, interviews with Members of the IETF community and participant observation in IETF working groups, with the goal of identifying technical concepts related to human rights. This work resulted in the proposal of guidelines to describe a relationship between the right to freedom of assembly and association, and connectivity, security, censorship resistance, anonymity, pseudonymity, accessibility, decentralization, adaptability, and outcome transparency.
+The point of departure of the present work {{RFC8280}} is an initial effort to expose the relationship between human rights and the Internet architecture, specifically protocols and standards. As such, {{RFC8280}} was inductive and explorative in nature. The methodology in this previous work was based on the discourse analysis of RFCs, interviews with members of the IETF community, and participant observation in IETF working groups, with the goal to identify technical concepts that relate to human rights. This work resulted in the proposal of guidelines to describe a relationship between the right to freedom of assembly and association and connectivity, security, censorship resistance, anonymity, pseudonymity, accessibility, decentralization, adaptability, and outcome transparency.
 
-In this document we deepen our exploration of human rights and protocols by assessing one specific set of human rights: freedom of association and assembly, abbreviated as FAA. Our methodology for doing so is the following: first we provide a brief twofold literature review addressing the philosophical and legal definitions of FAA and how this right has already been interpreted or analysed in relation to the digital. This literature review is not exhaustive nor systematic but aims at providing some lines of questioning that could later be used for protocol development. The second part of our methodology looks at some cases of Internet protocols that are relevant to the sub-questions highlighted in the literature review, and analyses how these protocols facilitate and inhibit the right to assembly and association.
+In this document, we deepen our exploration of human rights and protocols by assessing one specific set of human rights: freedom of association and assembly, abbreviated here as FAA. Our methodology for doing so is the following: first, we provide a brief twofold literature review addressing the philosophical and legal definitions of FAA and how this right has already been interpreted or analyzed concerning the digital. This literature review is not exhaustive nor systematic but aims at providing some lines of questioning that could later be used for protocol development. The second part of our methodology looks at some cases of Internet protocols that are relevant to the sub-questions highlighted in the literature review, and analyze how these protocols facilitate and inhibit the right to assembly and association.
+
 
 Literature Review
 =================
 
 ## FAA definition and core treaties
 
-The rights to freedom of association and assembly are defined and guaranteed by many national laws and international treaties. Article 20 of the Universal Declaration of Human Rights {{UDHR}} states for instance that “Everyone has the right to freedom of peaceful assembly and association” and that “No one may be compelled to belong to an association”. Article 23 further guarantees that “Everyone has the right to form and to join trade unions for the protection of his interests”. In the International Covenant on Civil and Political Rights [ICCPR], article 21 stipulates that “The right of peaceful assembly shall be recognised” and that “No restrictions may be placed on the exercise of this right other than those imposed in conformity with the law and which are necessary in a democratic society in the interests of national security or public safety, public order (ordre public), the protection of public health or morals or the protection of the rights and freedoms of others” while article 22 states that “Everyone shall have the right to freedom of association with others, including the right to form and join trade unions”. Other treaties are sometimes cited as the source and framework to the right to freedom of association and assembly. The Australian government {{Australia}} refers for instance to Article 5 of the Convention on the Elimination of All Forms of Racial Discrimination {{CERD}} which stipulates that freedom of peaceful assembly and association should be guaranteed “without discrimination as to race, colour, national or ethnic origin”; Article 15 of the Convention on the Rights of the Child {{CRC}} which recognises the right to child pending the restrictions cited above; and Article 21 of the Convention on the Rights of Persons with Disabilities {{CRPD}} which insists on usable and accessible formats and technologies appropriate for persons with different kinds of disabilities.
+The rights to freedom of association and assembly are defined and guaranteed in national law and international treaties. Article 20 of the Universal Declaration of Human Rights {{UDHR}} states for instance that “Everyone has the right to freedom of peaceful assembly and association” and that “No one may be compelled to belong to an association”. Article 23 further guarantees that “Everyone has the right to form and to join trade unions for the protection of his interests”. In the International Covenant on Civil and Political Rights, article 21 stipulates that “The right of peaceful assembly shall be recognized” and that “No restrictions may be placed on the exercise of this right other than those imposed in conformity with the law and which are necessary in a democratic society in the interests of national security or public safety, public order (ordre public), the protection of public health or morals or the protection of the rights and freedoms of others” while article 22 states that “Everyone shall have the right to freedom of association with others, including the right to form and join trade unions”. Other treaties are sometimes cited as the source and framework to the right to freedom of association and assembly. The Australian government {{Australia}} for instance refers to Article 5 of the Convention on the Elimination of All Forms of Racial Discrimination {{CERD}} which stipulates freedom of peaceful assembly and association should be guaranteed “without discrimination as to race, colour, national or ethnic origin”; Article 15 of the Convention on the Rights of the Child {{CRC}} which recognises to child pending the restrictions cited above; and Article 21 of the Convention on the Rights of Persons with Disabilities {{CRPD}} which insist on usable and accessible formats and technologies appropriate for persons with different kinds of disabilities.
 
-In a more philosophical perspective, Brownlee and Jenkins make some interesting distinctions in regard to the concepts of association, assembly and interaction. On one hand, “interaction” refers to any kind of interpersonal and often incidental engagements in daily life, like encountering strangers on a bus. Interaction is seen as a “prerequisite” for association. “Assembly”, on the other hand, has a more political connotation and is often used to refer to activists, protesters, or members of a group in a deliberating event. In between the two, “association” refers to more “persistent connections” that are not necessarily political in nature. The authors thus distinguish between intimate associations, like friendship, love or family, and collective associations like trade union, commercial business, or “expressive associations” like civil rights organizations or lgbtqia associations. For Brownlee and Jenkins, the right to association is linked to different relative freedoms: permission (to association or dissociate), claim-right (to oppose others interfering with our conduct), power (to alter the status of our association), and immunity (from other people interfering in our right). Freedom of association and assembly thus refers both to the individual right to join or leave a group and to the collective right to form or dissolve a group and to organize itself.
+From a more philosophical perspective, Brownlee and Jenkins {{Stanford}} make some interesting distinctions in particular regarding the concepts of association, assembly and interaction. On one end, “interaction” refers to any kind of interpersonal and often incidental engagements in daily life, like encountering strangers on a bus. Interaction is seen as a “prerequisite” for association. Assembly on the other end, has a more political connotation and is often used to refer to activists, protesters, or members of a group in a deliberating event. In between the two, association refers to more “persistent connections” that are not necessarily political in nature. The authors thus distinguish between intimate associations, like friendship, love, or family, and collective association like trade unions, commercial business, or “expressive associations” like civil rights organizations or LGBTQIA associations. For Brownlee and Jenkins {{Stanford}}, the right to association is linked to different relative freedoms: permission (to associate or dissociate), claim-right (to oppose others interfering with our conduct), power (to alter the status of our association), immunity (from other people interfering in our right). Freedom of association and assembly thus refers both to the individual right to join or leave a group and to the collective right to form or dissolve a group and to organize itself.  These rights, however, are relative and not absolute. Parents, for instance, have limited rights to exclude their underage child from family households. Excluding someone from an association based on its sex, race or other individual characteristic is also often contentious if not illegal. Restrictions on freedom of association can be imposed by states, but only if this is lawful and proportionate. States must document how these limitations are necessary in the interests of national security or public safety, public order, the protection of public health or morals, or the protection of the rights and freedoms of others. Finally, states must also protect participants against possible abuses by non-State actors.
 
-In international law, the right to freedom of assembly and association protects any collective, gathered either permanently or temporarily for “peaceful” purposes. It is important to highlight the dimension of “freedom” because the right to freedom of association and assembly is voluntary and uncoerced: anyone can join or leave a group by choice, which in turn means one should not be forced to either join, stay or leave. The difference between freedom of assembly and freedom of association is merely one of degree: the former tends to have an informal and ephemeral nature, whereas the latter refers to established and permanent bodies with specific objectives. Nonetheless, both are protected in the same way. Where an assembly is an intentional and temporary gathering of a collective in a private or public space for a specific purpose: demonstrations, indoor meetings, strikes, processions, rallies or even sits-in [UNHRC]; association has a more formal and established nature. It refers to a group of individuals or legal entities brought together in order to collectively act, express, pursue or defend a field of common interests {{UNGA}}. Think of civil society organizations, clubs, cooperatives, NGOs, religious associations, political parties, trade unions or foundations.
+In international law, the right to freedom of assembly and association protects any collective, gathered either permanently or temporarily for “peaceful” purposes. It is important to underline the property of “freedom” because the right to freedom of association and assembly is voluntary and uncoerced: anyone can join or leave a group of choice, which in turn means one should not be forced to either join, stay or leave. The difference between freedom of assembly and freedom of association is merely a gradual one: the former tends to have an informal and ephemeral nature, whereas the latter refers to established and permanent bodies with specific objectives. Nonetheless, both are protected to the same degree. Where an assembly is an intentional and temporary gathering of a collective in a private or public space for a specific purpose: demonstrations, indoor meetings, strikes, processions, rallies, or even sits-in {{UNHRC}}; association has a more formal and established nature. It refers to a group of individuals or legal entities brought together in order to collectively act, express, pursue, or defend a field of common interests {{UNGA}}. Think about civil society organizations, clubs, cooperatives, NGOs, religious associations, political parties, trade unions, or foundations.
 
-Brownlee and Jenkins also more explicitly address the right to exclude someone from an association, and the right to leave an association. In all this, they insist that freedom of association and assembly is never absolute. Parents, for instance, have limited rights to exclude their underage children from the family household. Excluding someone from an association based on their sex, race or other individual characteristic is also often contentious if not illegal. (Might go on to discuss other legitimate limits of FAA).
+When talking about the human right of freedom of association and assembly, one should always take into account that ‘all human rights are indivisible, interrelated, unalienable, universal, and mutually reinforcing’ {{ViennaDeclaration}}. This means that in the analysis of the impact of a certain variable on freedom of association and assembly one should take other human rights into account too. When devising an approach to mitigate a possible negative influence on this right, one should also always take into account the possible impact this might have on other rights. For example, the following rights are often impacted in conjunction with freedom of association and assembly: the right to political participation, the right to (group) privacy, the right to freedom of expression, and access to information. For instance, when the right to political participation is hampered, this often happens in conjunction with a limitation of the freedom of association and assembly because political participation is often done collectively. When the right to privacy is hampered, this privacy of particular groups is also impacted (so-called ‘group privacy’ {{Loi}}, which potentially has consequences for the right to association and assembly. Where the freedom of expression of a group is hampered, such as in protests or through Internet shutdowns, this both hampers other people’s ability to receive the information of the group, and impact the right to assembly of the people who seek to express themselves as a group {{Mburu}}.
+
+Finally, if the right to association and assembly is limited by national law, this does not mean it is consistent with international human rights law. In such a case, the national law would therefore not be legitimate {{Glasius}}. 
 
 ## FAA in the digital era
 
-The right to freedom of assembly and association is the subject of increasing discussions and analysis. In 2016, the Council of Europe published a report, “Report by the Committee of experts on cross-border flow of Internet traffic and Internet freedom on Freedom of assembly and association on the Internet” {{MSI-INT}}, which notes that while the Internet and technologies are not explicitly mentioned in international treaties, these treaties nevertheless apply to “the online environment”. The report argues that the “Internet is the public sphere of the 21st century”, something demonstrated by the fact that informal associations can be gathered at scale in a matter of hours on the Internet, and that digital communication tools often serve to facilitate, publicize and otherwise enable presential associations or assemblies, like protests or demonstrations. The report also notes the negative ways in which the Internet can also be used to promote or facilitate terrorism, urban violence and hate speech, thus insisting on the “extremely important and urgent” need to fight online terrorist activities such as recruitment or mobilization, while at the same time respecting the right to peaceful assembly and association of other users. The report mentions the following cases that could help further our reflection: 
+Before discussion freedom of association and assembly as it pertains to digital environments, we must first recognize that the United Nations Human Rights Council adopted Resolution 20/8 2012, which was later adopted by the United Nations General Assembly {{UNHRC2016}}, which affirms "... that the same rights that people have offline must also be protected online ...". Therefore the digital environment is no exception to application of this right by any means. The questions that remain, however, are how these rights should be conceptualized and implemented in different parts and levels of digital environments.
 
- * Instances of network shutdowns in the Arab Spring, to prevent people from organising or assembling
- * California’s Bay Area Rapid Transit (BART) shutdown of mobile phone service, to avoid protester violence and disruption of service
- * The wholesale blocking of Google as a violation of freedom of expression
- * Telus, a telecom company which blocked customers’ access to websites critical of Telus during a Telecommunications Workers Union strike against it
- * The targeting of social media users who call for or organise protests though the Internet in Turkey’s Gezi Park protests
- * Mass surveillance or other interferences with privacy in the context of law enforcement and national security
- * Use of VPNs (Virtual Private Networks) to the TOR network to ensure anonymity
- * Distributed Denial of Service attacks (DDoS) as civil disobedience.
+The right to freedom of assembly and association is the subject of increasing discussions and analysis. In 2016, the Council of Europe published a report, “Report by the Committee of experts on cross-border flow of Internet traffic and Internet freedom on Freedom of assembly and association on the Internet” {{CoE}} which noted that while the Internet and technologies are not explicitly mentioned in international treaties, these treaties nevertheless apply to “the online environment”. The report argue the “Internet is the public sphere of the 21st century”, something demonstrated by the fact that informal associations can be gathered at scale in a matter of hours on the Internet, and that digital communication tools often serve to facilitate, publicize or otherwise enable presential associations or assemblies, like a protest or demonstration. They note, on the other hand, the negative ways in which the Internet can also be used to promote or facilitate terrorism, urban violence and hate speech, thus insisting on the “extremely important and urgent” need to fight online terrorist activities such as recruitment or mobilization, while at the same time respecting the right to peaceful assembly and association of other users. The report mentions the following use cases that could be help further our reflection: 
 
-More recently, the 2019 Annual Report addressed to the UN Human Rights Council by the Special Rapporteur on the rights to freedom of peaceful assembly and of association, also notes the opportunities and challenges posed by digital networks to the rights to freedom of peaceful assembly and of association. The report recommends that international human rights norms and principles should also be used as a framework “that guides digital technology companies’ design, control and governance of digital technologies”. The report states that “technical standards” in particular can affect the freedom of association and assembly, and makes some recommendations of which the following could be relevant to our discussion:
+* Instances of network shutdowns in the Arab Spring, to prevent people from organising themselves or assembling
 
- * “{{Undertake}} human rights impact assessments which incorporate the rights to freedom of peaceful assembly and of association when developing or modifying their products and services,”
- * “increase the quality of participation in and implementation of existing multi-stakeholder initiatives,”
- * “collaborate with governments and civil society to develop technology that promotes and strengthens human rights,”
- * “support the research and development of appropriate technological solutions to online harassment, disinformation and propaganda, including tools to detect and identify State-linked accounts and bots,” and
- * “adopt monitoring indicators that include specific concerns related to freedom of peaceful assembly and association.”
-(Possible gap looking at FAA and interoperability)
-In one of their “training kits”, the Association of Progressive Communications (APC) addressed different impacts of the Internet on association and assembly and raised three particular issues worthy of note:
+* California’s Bay Area Rapid Transit (BART) shutdown of mobile phone service, to avoid protester violence and disruption of service
 
- 1. Organisation of protests. Internet and social media is an enabler of protests, such as was seen in the “Arab Spring”. Some of these protests – such as online petitions and campaigns - are similar to offline association and assembly, but other forms of protest are inherent to the Internet like hacking andDDoS, and are subject to controversy within the Internet community, some people finding it legitimate, and others not.
- 2. Surveillance. While the Internet facilitates association, association in turn leaves of a lot of traces which can be used by law enforcement but also for repressing political dissent. As APC notes, even the threat of surveillance can deter association.
- 3. Anonymity and pseudonymity can be useful protection mechanisms for those who would like to attend legitimate associations without facing retribution. On the other hand, anonymity can be used to harm society, such as in online fraud or sexual predation.  [APC1]
+* The wholesale blocking of Google as a violation of freedom of expression
 
-(TBD) {{Sauter}}
+* Telus, a telecom company which blocked customers’ access to websites critical of Telus during a Telecommunications Workers Union strike against it
 
-Online association and assembly are the starting point of group mobilization in modern democracies, and even more so where physical gatherings have been impossible or dangerous {{APC2}}. Throughout the world - from the Arab Spring to Latin American student movements and the #WomensMarch - the Internet has played a crucial role by providing means for the fast dissemination of information otherwise mediated by the press, or even forbidden by the government {{Pensado}}. According to Hussain and Howard, the Internet helped to “build solidarity networks and identification of collective identities and goals, extend the range of local coverage to international broadcast networks” and served as a platform for contestation for “the future of civil society and information infrastructure” {{HussainHoward}}. The IETF itself, defined as a ‘open global community’ of network designers, operators, vendors, and researchers {{RFC3233}}, is also protected by freedom of assembly and association. Discussions, comments and consensus around RFCs are possible because of the collective expression that freedom of association and assembly allows. The very word “protocol” found its way into the language of computer networking based on the need for collective agreement among network users {{HafnerandLyon}}.
+* The targeting of social media users who call for or organise protests though the Internet in Turkey’s Gezi Park protests
 
-RFC8280 is a paper on Internet protocols and human rights and in turn discusses issues of FAA, specifically:
+* Mass surveillance or other interferences with privacy in the context of law enforcement and national security
 
- * The expansion of DNS for generic namespace as enabler of association for minorities. 
- * The difficulty to compare DDoS with offline protestation as not everyone participates willingly in DDoS.  It is in particular suggested that IETF “should try to ensure that their protocols cannot be used for DDoS attacks”
- * Freedom of association can be threatened by the denial of access of certain services, or by surveillance.
- * Connectivity can impact freedom of assembly and association (6.2.2)
- * “Open, secure, and reliable connectivity is necessary (although not sufficient) to exercise human rights such as freedom of expression and freedom of association”
+* Use of VPNs (Virtual Private Networks) to the TOR network to ensure anonymity
+
+* Distributed Denial of Service attacks (DDoS) as civil disobedience.
+
+More recently, the 2019 Annual Report addressed to the UN Human Rights Council by the Special Rapporteur on the rights to freedom of peaceful assembly and of association, also notes the opportunities and challenges posed by digital networks to the rights to freedom of peaceful assembly and of association.  The report recommends that international human rights norms and principles should also be used as a framework “that guides digital technology companies’ design, control and governance of digital technologies”. The report states that “technical standards” in particular can affect the freedom of association and assembly, and makes some recommendations on which the following could be relevant to our discussion here:
+
+* “{{Undertake}} human rights impact assessments which incorporate the rights to freedom of peaceful assembly and of association when developing or modifying their products and services,”
+* “increase the quality of participation in and implementation of existing multi-stakeholder initiatives,”
+* “collaborate with governments and civil society to develop technology that promotes and strengthens human rights,”
+* “support the research and development of appropriate technological solutions to online harassment, disinformation and propaganda, including tools to detect and identify State-linked accounts and bots,” and
+* “adopt monitoring indicators that include specific concerns related to freedom of peaceful assembly and association.”
+
+In one of their “training kits” {{APCtraining}}, the Association of Progressive Communications addressed different impacts of the internet on association and assembly and raised three particular issues worthy to note here:
+
+1. Organization of protests. Internet and social media are enablers of protests, such as it was seen in the “Arab Spring”. Some of these protests - like online petitions or campaigns - are similar to offline association and assembly, but other protest forms are inherent to the Internet capacity like hacking, DDOS and are subject to controversy within the Internet community, some people finding it legitimate, and others not.
+
+2. Surveillance. While the Internet facilitates association, the association in turn leaves a lot of traces that can be used in turn for law enforcement but also for repressing political dissents. As they note, even the threat of surveillance can have deter facilitation.
+
+3. Anonymity and pseudonymity can be useful protection mechanism for those who’d like to attend legitimate association without facing retribution. On the other hand, anonymity can be used to harm society, such as in online fraud or sexual predation.
+
+Online association and assembly are the starting point of group to mobilization in modern democracies, and even more so where physical gatherings have been impossible or dangerous {{APC}}. Throughout the world -from the Arab Spring to Latin American student movements and the #WomensMarch- the Internet has played a crucial role by providing means for the fast dissemination of information otherwise mediated by the press, or even forbidden by the government {{Pensado}}. According to Hussain and Howard the Internet helped to “build solidarity networks and identification of collective identities and goals, extend the range of local coverage to international broadcast networks” and as platform for contestation for “the future of civil society and information infrastructure” {{HussainHoward}}. The IETF itself, defined as an ‘open global community’ of network designers, operators, vendors, and researchers {{RFC3233}} is also protected by freedom of assembly and association . Discussions, comments and consensus around RFCs are possible because of the collective expression that freedom of association and assembly allow. The very word “protocol” found its way into the language of computer networking based on the need for collective agreement among a group of assembled network users {{HafnerandLyon}}.
+
+{{RFC8280}} is a paper by the Human Rights Protocol Consideration Resarch Group in the Internet Research Taskforce on internet protocols and human rights that discusses issues of FAA, specifically:
+
+* The expansion of DNS for generic namespace as an enabler of association for minorities. The paper argues that specifically the expansion of the DNS to allow for new generic Top Level Domains (gTLDs) can have negative impacts on freedom of association because of restrictive policies by some registries and registrars, on the other hand could gTLDs also enable communities to build clearly identifiable spaces for association (such as .gay).
+
+* The impact of Distributed Denial of Service attacks on freedom of association. Whereas DDoS has been used as a tool for protest, in many cases this is infringing on other parties freedom of expression. Furthermore,  often devices (such as IoT devices and routers) are inscribed in such DDoS attacks whereas the owner or user did not consent to this. Thus they do not have the possibility to exit this assembly. Therefore the draft concluded that that IETF ”should try to ensure that their protocols cannot be used for DDoS attacks”
+
+* The impact of middleboxes on the ability of users to connect to the Internet and therefore their ability to exercise their right to freedom of association and assembly. The lack of connectivity can significantly impact freedom of assembly and association of a user. Especially if this is done in a way that is not knowable for the user and if there is no possibility to for the user to have access to due process to dispute the lack of (secure or private) connectivity in general or to a specific service.
+
+In the 2020 report by the United Nations Special Rapporteur on Human Rights {{UN44-24}} it is concluded that technologies can be enablers of FAA, but technology is also significantly used to interfere with the ability of people to exercise their right to freedom association and assembly. Specifically, the report mentions network shutdowns, the usage of technology to surveil protests and users. This includes facial recognition, and the uses of other ways to violate the (group) privacy of people engaged in an assembly or association. The report makes it explicit that companies play a significant role enabling, for instance by developing, providing or selling the technology, but also by directly exercising these violations.
+
  
 ## Specific questions raised from the literature review
 
 Here are some questions raised from the literature review that can have implications for protocol design:
 
- 1. As a  general matter, what are the features of protocols that enable freedom of association and assembly? Can protocols facilitate agency of membership in associations, assemblies and interactions? Where in the stack do we care for FAA?
- 2. Does protocol development sufficiently consider the enabling of freedom of association without discrimination as to race, colour, national, ethnic origin?
- 3. Does protocol development sufficiently consider usable and accessible formats and technologies appropriate for persons with different kinds of disabilities?
- 4. Is it possible to distinguish “peaceful” and “non-peaceful” association from the perspective of protocol development? If yes, can and should protocols be designed to limit “non-peaceful” association?
- 5. In particular, should protocols be designed to enable legitimate limitations on association in the interests of “national security or public safety, public order, the protection of public health or morals or the protection of the rights and freedoms of others”, as stated in the ICCPR article 21?   
- 6. Can a protocol be designed to legitimately exclude someone from an association?
- 7. In general, what kind of human rights impact assessments should be made to incorporate the rights to freedom of peaceful assembly and of association when developing protocols? 
+1. Should protocols be designed to enable legitimate limitations on association in the interests of “national security or public safety, public order (ordre public), the protection of public health or morals or the protection of the rights and freedoms of others”, as stated in the ICCPR article 21 {{ICCPR}}? Where in the stack do we care for FAS?
+
+2. Can protocols facilitate agency of membership in associations, assemblies and interactions?
+
+3. What are the features of protocols that enable freedom of association and assembly?
+
+4. Does protocol development sufficiently consider usable and accessible formats and technologies appropriate for all persons, including those with different kinds of disabilities?
+
+5. Can a protocol be designed to legitimately exclude someone from an association?
+
+In the following sections we attempt to answer these questions with specific examples of standardized protocols in the IETF.
 
 Cases and examples
 ==================
 
-As the Internet mediates collective action and collaboration, it
-impacts on freedom of association and assembly. To answer our research
-question regarding how internet architecture enable and/or inhibits
-such human right, we researched several independent and typical cases
-related to protocols that have been either adopted by the IETF, or are
-widely used on the Internet. Our goal is to figure out whether they
-facilitate freedom of assembly and association, or whether they
-inhibit it through their design or implementation. We also indicate,
-per case, the interrelation with issues in {{RFC8280}}.
+As the Internet mediates collective action and collaboration, it impacts on freedom of association and assembly. To answer our research question regarding how internet architecture enable and/or inhibits such human right, we researched several independent and typical cases related to protocols that have been either adopted by the IETF, or are widely used on the Internet.  Our goal is to figure out whether they facilitate freedom of assembly and association, or whether they inhibit it through their design or implementation.
 
-## Conversing
+We are aware that some of the following examples go beyond the use of Internet protocols and flow over into the application layer or examples in the offline world whereas the purpose of the current document is to break down the relationship between Internet protocols and the right to freedom of assembly and association. Nonetheless, we do recognize that in some cases the line between them and applications, implementations, policies and offline realities are often blurred and hard -if not impossible- to differentiate.
 
-An interactive conversation between two or more people forms the basis
-to organize and associate. According to Anderson "the relationship
-between political conversation and engagement in the democratic
-process is strong." {{Anderson}}. A conversation is inherently of
-social nature. Therefore, by these definitions the core of the
-"political" is essentially assembly or association: a basis for the
-development of social cohesion in society.
+We use the literature review to guide our process of inquiry for each case, and to dive deeper in what can be found interesting about each case as it relates to freedom of association.
 
-### Mailing Lists
+## Got No Peace: Spam and DDoS
+    Should protocols be designed to enable legitimate limitations on 
+    association in the interests of “national security or public safety, 
+    public order (ordre public), the protection of public health or morals 
+    or the protection of the rights and freedoms of others”, as stated in 
+    the ICCPR article 21{ICCPR}}? Where in the stack do we care for FAA?
+    
+The 2020 report by the United Nations Special Rapporteur on Human Rights {{UN44-24}} described how technology is often used to limit freedom of assembly and association, such as for instance through network shutdowns and the surveillance of groups. Because access to the Internet is crucial not only for freedom of association and assembly, but also for the right to development, and the right to freedom of expression and information {{Mburu}}, the United Nation Special Rapporteur argues that:
 
-Since the beginning of the Internet mailing lists have been a key site
-of assembly and association {{RFC0155}} {{RFC1211}}. In fact, mailing
-lists were one of the Internet's first functionalities
-{{HafnerandLyon}}.
+    (b) Avoid resorting to disruptions and shutdowns of Internet or 
+    telecommunications networks at all times and particularly during 
+    assemblies, including those taking place in electoral contexts 
+    and during times of unrest;
 
-In 1971, four years after the invention of email, the first mailing
-list was created to talk about the idea of using Arpanet for
-discussion. What had initially propelled the Arpanet project forward
-as a resource sharing platform was gradually replaced by the idea of a
-network as a means of bringing people together {{Abbate}}. More than
-45 years after, mailing lists are pervasive and help communities to
-engage, have discussions, share information, ask questions, and build
-ties. Even as social media and discussion forums grow, mailing lists
-continue to be widely used {{AckermannKargerZhang}} and are still a
-crucial tool to organise groups and individuals around themes and
-causes {{APC}}.
+Whereas the states have the obligation to protect human rights, there has been an increasing call for non-state actors, such as companies, to respect human rights {{UNGP}}. This includes a chain-responsibility of actors, which means that not just the company’s own processes should not negatively impact human rights, but they should also engage in due diligence processes, such as human rights impact assessments. This includes an assessment of whether the products that are sold, or the services that are provided, can be used to engage in human rights violations, or whether human rights violations occur in any stage of the supply chain  of the company. If this is the case, measures should be taken to mitigate this.
+ 
+In the case of dual-use technologies, this means that technology could be used for legitimate purposes, but could also be used to limit freedom of association or assembly,  it might mean that producers or sellers should limit the parties they sell to, or even better, ensure that the illegitimate use of the technology is not technically possible anymore, or made more difficult. 
 
-Mailing lists' pervasive use are partly explained because they allow
-for "free" association: people subscribe (join) and unsubscribe
-(leave) as they please. Mailing lists also allow for association of
-specific groups on closed lists. Furthermore, the archival function of
-mailinglists allows for posterior accountability and analysis. The
-downsides of mailinglists are similar to the ones generally associated
-with e-mail, except that end-to-end encryption such as OpenPGP
-{{RFC4880}} and S/MIME {{RFC5751}} are not possible because the final
-recipients are not known. There have been experimental solutions to
-address this issue such as Schleuder {{Schleuder}}, but this has not
-been standardized or widely deployed.
+### Spam
 
-This case relates to the following considerations in {{RFC8280}}:
-	- Security
-	- Privacy
-	- Decentralization
-	- Censorship Resistance
-	- Open Standards
-	- Confidentiality
+In the 1990s as the internet became more and more commercial, spam came to be defined as irrelevant or unsolicited messages that were posted many times to multiple news groups or mailing lists {Marcus}}. Here the question of consent, but also harm, are crucial. In the 2000s a large part of the discussion revolved around the fact that certain corporations. protected by the right to freedom of association, considered spam to be a form of "commercial speech", thus encompassed by free expression rights {{Marcus}}. Yet spam can be not only a nuisance, but a threat to systems and users.
 
-### Multi-party video conferencing
+This leaves us with an interesting case: spam is currently handled mostly by mail providers on behalf of the user, next to that countries are increasingly adopting opt-in regimes for mailing lists and commercial e-mail, with a possibility of serious fines in case of violation. Yet many ask is spam not the equivalent of the fliers and handbills ever present in our offline world? The big difference between the proliferation of such messages offline and online is the scale.  It is not hard for a single person to message a lot of people, whereas if that person needed to go house by house the scale and impact of their actions would be much smaller.  Inversely if it were a common practice to expose people to unwanted messages online, users would be drowned in such messages, and no expression would be possible anymore.  Allowing illimited sending of unsolicited messages would be a blow against freedom of speech: when everyone talks, nobody listens.
 
-Multi-party video conferencing protocols like WebRTC {{RFC6176}}
-{{RFC7118}} allow for robust, bandwidth-adaptive, wideband and
-super-wideband video and audio discussions in groups. 'The WebRTC
-protocol was designed to enable responsive real-time communications
-over the Internet, and is instrumental in allowing streaming video and
-conferencing applications to run in the browser. In order to easily
-facilitate direct connections between computers (bypassing the need
-for a central server to act as a gatekeeper), WebRTC provides
-functionality to automatically collect the local and public IP
-addresses of Internet users (ICE or STUN). These functions do not
-require consent from the user, and can be instantiated by sites that a
-user visits without their awareness. The potential privacy
-implications of this aspect of WebRTC are well documented, and certain
-browsers have provided options to limit its behavior.'
-{{AndersonGuarnieri}}.
+Here the argument is very similar to DDoS attacks, considered next: Legitimate uses of online campaigning, or online protesting, are drowned out by a malicious use which constitutes an attack on the internet infrastructure and thus the assembly or association itself.
 
-Even though some multi-party video conferencing tools facilitate
-freedom of assembly and association, their own configuration might
-might pose concrete risks for those who use them. One the one hand
-WebRTC is providing resilient channels of communications, but on the
-other hand it also exposes information about those who are using the
-tool which might lead to increased surveillance, identification and
-the consequences that might be derived from that. This is especially
-concerning because the usage of a VPN does not protect against the
-exposure of IP addresses {{Crawford}}.
+### DDoS
 
-The risk of surveillance is also true in an offline space, but this is
-generally easy to analyze for the end-user. Security and privacy
-expectations of the end-user could be either improved or made
-explicit. This in turn would result in a more secure and/or private
-exercise of the right to freedom of assembly or association.
+Distributed Denial of Service attacks are leveled against a server or service by a controller of a host or multiple hosts by overloading the server or service’s bandwidth or resources (volume-based floods) or exploit protocol behaviours (protocol attacks). DDoS attacks can thus stifle and complicate the rights to assemble online for media and human rights organisations whose websites are the target of DDoS. At the same time there are comparisons made between DDoS attacks and sit-in protests {{Sauter}}. However the main distinction is significant: only a small fragment of “participants” (from controllers to compromised device owners) in DDoS attacks are aware or willing {{RFC8280}}. Notably DDoS attacks are increasingly used to commit crimes such as extortion, which infringe on others’ human rights.
 
-This case relates to the following considerations in {{RFC8280}}:
-	- Security
-	- Privacy
-	- Decentralization
-	- Censorship Resistance
-	- Open Standards
-	- Anonymity
-	- Confidentiality
+Because of the interrelation of technologies, it cannot be said that there is one point in the technical stack that there are characteristics of “peaceful” or “non-peaceful” association visible to protocol developers. As we can see from the cases of spam blocking and DDoS mitigation that “peaceful or non-peaceful” is not a meaningful heuristic, or even characteristic, of problematic content. If anything, their commonality is scale and volume.
 
-### Internet Relay Chat
+## Holistic Agency: Mailing Lists and Spam
 
-Internet Relay Chat (IRC) is an application layer protocol that
-enables communication in the form of text through a client/server
-networking model {{RFC2810}}. In other words, a chat service. IRC
-clients are computer programs that a user can install on their
-system. These clients communicate with chat servers to transfer
-messages to other clients.
+    Can protocols facilitate agency of membership in associations, 
+    assemblies and interactions?
 
-For order to be kept within the IRC network, special classes of users
-become "operators" and are allowed to perform general maintenance
-functions on the network: basic network tasks such as disconnecting
-(temporary or permanently) and reconnecting servers as needed
-{{RFC2812}}. One of the most controversial power of operators is the
-ability to remove a user from the connected network by 'force', i.e.,
-operators are able to close the connection between any client and
-server {{RFC2812}}.
+### Mailing lists
 
-IRC servers may deploy different policies for the ability of users to
-create their own channels or 'rooms', and for the delegation of
-'operator'-rights in such spaces. Some IRC servers support SSL/TLS
-connections for security purposes {{RFC7194}} which helps stop the use
-of packet sniffer programs to obtain the passwords of IRC users, but
-has little use beyond this scope due to the public nature of IRC
-channels. TLS connections require both client and server support (that
-may require the user to install TLS binaries and IRC client specific
-patches or modules on their computers). Some networks also use TLS for
-server to server connections, and provide a special channel flag (such
-as +S) to only allow TLS-connected users on the channel, while
-disallowing operator identification in clear text, to better utilize
-the advantages that TLS provides.
+Since the beginning of the Internet mailing lists have been a key site of assembly and association {{RFC0155}} {{RFC1211}}. In fact, mailing lists were one of the Internet’s first functionalities {{HafnerandLyon}}.
 
-This case relates to the following considerations in {{RFC8280}}:
-	- Security
-	- Privacy
-	- Censorship Resistance
+In 1971 four years after the invention of email, the first mailing list was created to talk about the idea of using Arpanet for discussion. What had initially propelled the Arpanet project forward as a resource sharing platform was gradually replaced by the idea of a network as a means of bringing people together {{Abbate}}. More than 45 years after, mailing lists are pervasive and help communities to engage, have discussions, share information, ask questions, and build ties. Even as social media and discussion forums grow, mailing lists continue to be widely used {{AckermannKargerZhang}} and are still a crucial tool to organise groups and individuals around themes and causes {{APC3}}.
 
-## Peer-to-peer networks and systems
+Mailing lists’ pervasive use are partly explained because they allow for “free” association: people subscribe (join) and unsubscribe (leave) as they please. Mailing lists also allow for association of specific groups on closed lists. This free association online enables agency of membership, a key component of freedom of association and assembly.
 
-At the organizational level, peer production is one of the most
-relevant innovations from Internet mediated social
-practices. According to {{Benkler}} these networks imply 'open
-collaborative innovation and creation, performed by diverse,
-decentralized groups organized principally by neither price signals
-nor organizational hierarchy, harnessing heterogeneous motivations,
-and governed and managed based on principles other than the residual
-authority of ownership implemented through contract.' {{Benkler}}.
+### Spam
 
-In his book The Wealth of Networks, Benkler significantly expands on
-his definition of commons-based peer production. In his view, what
-distinguishes commons-based production is that it doesn't rely upon or
-propagate proprietary knowledge: "The inputs and outputs of the
-process are shared, freely or conditionally, in an institutional form
-that leaves them equally available for all to use as they choose at
-their individual discretion." {{Benkler}} To ensure that the knowledge
-generated is available for free use, commons-based projects are often
-shared under an open license.
+As we mentioned before, there are interesting implications for freedom of association and assembly when looking at spam mitigation. Here we want to specifically note that if we consider that the rights to assembly and association also mean that "no one may be compelled to belong to an association" {{UDHR}}, spam infringes both rights if an op-out mechanism is not provided and people are obliged to receive unwanted information, or be reached by people they do not know.
 
-### Peer-to-peer system architectures
+## Civics in Cyberspace: Messaging, Conferencing, and Networking
 
-Peer-to-peer (P2P) is essentially a model of how people interact in
-real life because "we deal directly with one another whenever we wish
-to" {{Vu}}. Usually if we need something we ask our peers, who in turn
-refer us to other peers. In this sense, the ideal definition of P2P is
-that "nodes are able to directly exchange resources and services
-between themselves without the need for centralized servers" where
-each participating node typically acts both as a server and as a
-client {{Vu}}. RFC 5694 has defined it as peers or nodes that should
-be able to communicate directly between themselves without passing
-intermediaries, and that the system should be self-organizing and have
-decentralized control {{RFC5694}}. With this in mind, the ultimate
-model of P2P is a completely decentralized system, which is more
-resistant to speech regulation, immune to single points of failure and
-has a higher performance and scalability. Nonetheless, in practice
-some P2P systems are supported by centralized servers and some others
-have hybrid models where nodes are organized into two layers: the
-upper tier servers and the lower tier common nodes {{Vu}}.
+    What are the features of protocols that enable freedom of 
+    association and assembly?
 
-Since the ARPANET project, the original idea behind the Internet was
-conceived as what we would now call a peer-to-peer system
-{{RFC0001}}. Over time it has increasingly shifted towards a
-client/server model with "millions of consumer clients communicating
-with a relatively privileged set of servers" {{NelsonHedlun}}.
+Civic participation is often expressed as the freedom to associate and assemble, along with a whole other set of enabling rights such as freedom of expression and the right to privacy. UN Special Rapporteur David Kaye established a strong relationship between technology that allows anonymity and uses encryption have positive effects on freedom of expression {{Kaye}}. Here we look at messaging, such as email, mailing lists and internet relay chat; video conferencing and peer-to-peer networking protocols to investigate the common features that enable freedom of association and assembly online.
 
-Whether for resource sharing or data sharing, P2P systems are enabling
-freedom of assembly and association. Not only do they allow for
-effective dissemination of information, but they leverage computing
-resources by diminishing costs allowing for the formation of open
-collectives at the network level. At the same time, in completely
-decentralized systems the nodes are autonomous and can join or leave
-the network as they want -a characteristic that makes the system
-unpredictable: a resource might be only sometimes available, and some
-other resources might be missing or incomplete {{Vu}}. Lack of
-information might in turn makes association or assembly more
-difficult.
+### Email
 
-Additionally, when architecturally assessing the role of P2P systems
-we could say that: "the main advantage of centralized P2P systems is
-that they are able to provide a quick and reliable resource
-locating. Their limitation, however, is that the scalability of the
-systems is affected by the use of servers. While decentralized P2P
-systems are better than centralized P2P systems in this aspect, they
-require a longer time in resource locating. As a result, hybrid P2P
-systems have been introduced to take advantage of both centralized and
-decentralized architectures. Basically, to maintain the scalability,
-similar to decentralized P2P systems, there are no servers in hybrid
-P2P systems. However, peer nodes that are more powerful than others
-can be selected to act as servers to serve others. These nodes are
-often called super peers. In this way, resource locating can be done
-by both decentralized search techniques and centralized search
-techniques (asking super peers), and hence the systems benefit from
-the search techniques of centralized P2P systems." {{Vu}}
+Similarly to freedom of expression’s enabling and universal right to impart one’s ideas openly, “the right to whisper”, or confidentiality, is the ability to limit to whom one imparts one’s ideas. An encrypted email project, the LEAP Encryption Access Project, says, "like free speech, the right to whisper is a necessary precondition for a free society. Without it, civil society languishes and political freedoms are curtailed. As the importance of digital communication for civic participation increases, so too does the importance of the ability to digitally whisper." {{LEAP}}
 
-This case relates to the following considerations in {{RFC8280}}:
-	- Security
-	- Privacy
-	- Decentralization
-	- Censorship Resistance
-	- Open Standards
-	- Anonymity
-	- Heterogeneity Support
-	- Integrity
-	- Authenticity
-	- Adaptability
+### Mailing lists
 
-### Version control
+Not only are mailing lists a good example of how protocols can facilitate the necessary ingredient of agency in freedom of association, mailing lists are an example of messaging technology that has other features that enable freedom of association and assembly.
 
-Ever since developers needed to collaboratively write, maintain and
-discuss large code basis for the Internet there have been different
-approaches of doing so. The easiest approach has been discussing code
-through mailing lists even though this has proven to be hard when
-maintaining the most recent versions, which is why versión control
-systems ultimately make sense.
+The archival function of mailing lists allows for posterior accountability and analysis. The ubiquity and interoperability of email, and by extension email lists, provides a low barrier to entry to an inclusive medium.
 
-A version control system is a piece of software that enables
-developers on a software team to work together and also archive a
-complete history of their work {{Sink}}. This allows teams to be
-working simultaneously on updated versions. According to Sink, broadly
-speaking, the history of version control tools can be divided into
-three generations. In the first one, concurrent development meant that
-only one person could be working on a file at a time. The second
-generation tools permit simultaneous modifications as long as users
-merge the current revisions into their work before they are allowed to
-commit. The third generation tools allow merge and commit to be
-separated {{Sink}}.
+Association and assembly online can be undermined when right to privacy is at risk. And one of the downsides of mailing lists are similar to the privacy and security concerns generally associated with email. At least with email, end-to-end encryption such as OpenPGP {{RFC4880}} and S​/​MIME {{RFC5751}} can keep user communications authenticated and confidential. With mailing lists, this protection is not as possible because with many lists the final recipients are typically too many for . There have been experimental solutions to address this issue such as Schleuder {{Schleuder}}, but this has not been standardized or widely deployed.
 
-Interestingly no version control system has ever been standardized in
-the IETF whereas the version control systems like Subversion and Git
-are widely used within the community and working groups. There has
-been a spirited discussion on whether working groups should use
-centralized forms of the Git protocol, such as those offered by Gitlab
-or Github. Proponents argue that this simplifies the workflow and
-allows for more transparency. Opponents argue that the reliance on a
-centralized service which is not merely using the Git protocol but
-also uses non-standardized options like an Issue-Tracker, makes the
-process less transparent and reliant on a third party.
+### IRC
 
-The IETF has not made a decision on the use of centralized instances
-of Git, such as Github or Gitlab. There have been two efforts to
-standardize the workflow vis a vis these third party services, but
-these haven't come to fruition: {{Wugh}} {{GithubIETF}}.
+Internet Relay Chat (IRC) is an application layer protocol that enables communication in the form of text through a client/server networking model {{RFC2810}}. In other words, a chat service. IRC clients are computer programs that a user can install on their system. These clients communicate with chat servers to transfer messages to other clients. Features of IRC include: federated design, transport encryption, one-to-many routing, creation of topic-based “channels”, and spam or abuse moderation.
 
-This case relates to the following considerations in {{RFC8280}}:
-	- Security
-	- Decentralization
-	- Open Standards
-	- Heterogeneity Support
-	- Integrity
-	- Authenticity
-	- Adaptability
+For the purposes of civic participation and freedom of association and assembly in particular it is critical that IRC’s federated design allows many interoperable, yet customisable, instances and basic assurance of confidentiality through transport encryption. We investigate the particular aspect of agency in membership through moderation in the section 'Block Together Now: IRC and Refusals' below.
 
-## Grouping together (identities)
+### WebRTC
+Multi-party video conferencing protocols like WebRTC {{RFC6176}} {{RFC7118}} allow for robust, bandwidth-adaptive, wideband and super-wideband video and audio discussions in groups. ‘The WebRTC protocol was designed to enable responsive real-time communications over the Internet, and is instrumental in allowing streaming video and conferencing applications to run in the browser. In order to easily facilitate direct connections between computers (bypassing the need for a central server to act as a gatekeeper), WebRTC provides functionality to automatically collect the local and public IP addresses of Internet users (ICE or STUN). These functions do not require consent from the user, and can be instantiated by sites that a user visits without their awareness. The potential privacy implications of this aspect of WebRTC are well documented, and certain browsers have provided options to limit its behavior.’ {{AndersonGuarnieri}}.
 
-Collective identities are also protected by freedom of association and
-assembly. According to Melucci these are 'shared definitions produced
-by several interacting individuals who are concerned with the
-orientation of their action as well as the field of opportunities and
-constraints in which their action takes place.' {{Melucci}} In this
-sense, assemblies and associations are an important base in the
-maintenance and development of culture, as well as preservation of
-minority identities {{OSCE}}.
+Even though some multi-party video conferencing tools facilitate freedom of assembly and association, their own configuration might might pose concrete risks for those who use them. One the one hand WebRTC is providing resilient channels of communications, but on the other hand it also exposes information about those who are using the tool which might lead to increased surveillance, identification and the consequences that might be derived from that. This is especially concerning because the usage of a VPN does not protect against the exposure of IP addresses {{Crawford}}.
 
-### DNS
+The risk of surveillance is also true in an offline space, but this is generally easy to analyze for the end-user. Security and privacy expectations of the end-user could be either improved or made explicit. This in turn would result in a more secure and/or private exercise of the right to freedom of assembly or association.
 
-Domain names allow hosts to be identified by human parsable
-information. Whereas an IP address might not be the expression of an
-identity, a domain name can be and often is. The grouping of certain
-identities under specific domains or even Top Level Domains are risky:
-connecting an identity to a hierarchically structured identifier
-systems creates a central attack surface which allows for an easier
-surveillance of the services running on the domain, domain based
-censorship {{RFC7754}}, or impersonation of the domain through DNS
-cache poisoning. The use of a centralized authority always makes
-censorship through a registry or registrar possible, as well as by
-using a fake resolver or using proposed standards such as DNS Response
-Policy Zones {{RPZ}}. Several technologies have been developed in the
-IETF to mitigate these risks such as DNS over TLS {{RFC7858}}, DNSSEC
-{{RFC4033}}, DNS over HTTPS {{RFC8484}}. When these mitigations are
-implemented, censorship will not be made impossible but it will be
-made visible.
+### Peer-to-peer networking
+At the organizational level, peer production is one of the most relevant innovations from Internet mediated social practices. According to {{Benkler}} these networks imply ‘open collaborative innovation and creation, performed by diverse, decentralized groups organized principally by neither price signals nor organizational hierarchy, harnessing heterogeneous motivations, and governed and managed based on principles other than the residual authority of ownership implemented through contract.’ {{Benkler}}.
 
-The structuring of DNS as a hierarchical authority structure also
-brings about a specific characteristic, namely the possibility of
-centralized policy making vis-á-vis the management and operation of
-Top Level Domains, which is what happens partly at ICANN. The impact
-of ICANN processes on human rights will not be discussed here.
+In his book The Wealth of Networks, {{Benkler2}} significantly expands on his definition of commons-based peer production. In his view, what distinguishes commons-based production is that it doesn’t rely upon or propagate proprietary knowledge: “The inputs and outputs of the process are shared, freely or conditionally, in an institutional form that leaves them equally available for all to use as they choose at their individual discretion.” {{Benkler2}}. To ensure that the knowledge generated is available for free use, commons-based projects are often shared under an open license
 
-This case relates to the following considerations in {{RFC8280}}:
-	- Security
-	- Privacy
-	- Decentralization
-	- Censorship Resistance
-	- Anonymity
-	- Heterogeneity Support
-	- Integrity
-	- Authenticity
-	- Adaptability
-	- Outcome Transparency
+Peer-to-peer (P2P) is essentially a model of how people interact in real life because “we deal directly with one another whenever we wish to” {{Vu}}. Usually if we need something we ask our peers, who in turn refer us to other peers. In this sense, the ideal definition of P2P is that “nodes are able to directly exchange resources and services between themselves without the need for centralized servers” where each participating node typically acts both as a server and as a client {{Vu}}. {{RFC5694}} has defined it as peers or nodes that should be able to communicate directly between themselves without passing intermediaries, and that the system should be self-organizing and have decentralized control {{RFC5694}}. With this in mind, the ultimate model of P2P is a completely decentralized system, which is more resistant to speech regulation, immune to single points of failure and has a higher performance and scalability. Nonetheless, in practice some P2P systems are supported by centralized servers and some others have hybrid models where nodes are organized into two layers: the upper tier servers and the lower tier common nodes {{Vu}}.
 
-### Autonomous Systems
+Since the ARPANET project, the original idea behind the Internet was conceived as what we would now call a peer-to-peer system {{RFC0001}}. Over time it has increasingly shifted towards a client/server model with “millions of consumer clients communicating with a relatively privileged set of servers” {{NelsonHedlun}}.
 
-In order for edge-users to connect to the Internet, they need to be
-connected to an Autonomous System (AS) which, in turn, has peering or
-transit relations with other AS'es. This means that in the process of
-accessing the Internet, edge-users need to accept the policies and
-practices of the intermediary that provides them access to the other
-networks. In other words, for users to be able to join the 'network of
-networks', they always need to connect through an intermediary.
+Whether for resource sharing or data sharing, P2P systems are enabling freedom of assembly and association. Not only do they allow for effective dissemination of information, but they leverage computing resources by diminishing costs allowing for the formation of open collectives at the network level. At the same time, in completely decentralized systems the nodes are autonomous and can join or leave the network as they want -a characteristic that makes the system unpredictable: a resource might be only sometimes available, and some other resources might be missing or incomplete {{Vu}}. Lack of information might in turn makes association or assembly more difficult.
 
-While accessing the Internet through an intermediary, the user is
-forced to accept the policies, practices and principles of a
-network. This could impede the rights of the edge-user, depending on
-the implemented policies and practices on the network and how (if at
-all) they are communicated to them. For example: filtering, blocking,
-extensive logging, slowing down connection or specific services, or
-other invasive practices that are not clearly communicated to the
-user.
+Additionally, when architecturally assessing the role of P2P systems we could say that: “the main advantage of centralized P2P systems is that they are able to provide a quick and reliable resource locating. Their limitation, however, is that the scalability of the systems is affected by the use of servers. While decentralized P2P systems are better than centralized P2P systems in this aspect, they require a longer time in resource locating. As a result, hybrid P2P systems have been introduced to take advantage of both centralized and decentralized architectures. Basically, to maintain the scalability, similar to decentralized P2P systems, there are no servers in hybrid P2P systems. However, peer nodes that are more powerful than others can be selected to act as servers to serve others. These nodes are often called super peers. In this way, resource locating can be done by both decentralized search techniques and centralized search techniques (asking super peers), and hence the systems benefit from the search techniques of centralized P2P systems.” {{Vu}}.
 
-In practice, the user must accept policies of ASes he has no
-relationship with, and didn't choose. For instance, there is no way to
-direct the packets to avoid the Five Eyes, not even to know after the
-fact where the packet went. {{FiveEyes}} {{SchengenRouting}}
-(Traceroutes give you an idea but the path may change before and after
-the traceroute.) Given that it is not trivial for an edge-user to
-operate an AS and engage in peering relation with other ASes, there
-might not be another way for the edge-user to connect to the network
-of networks. In this case, users are forced into accepting the
-policies of a specific network. Such design, combined with the
-increased importance of the Internet to make use of basic services,
-forces edge-users to associate with a specific network without
-consenting -or even knowing- the policies of the network.
+## Universal Access: The Web
 
-Additionally, it can be noted that there is no standard and deployed
-way for the edge-user to choose the routes her packets will go
-through. {{RFC0791}} section 3.1 standardized "source routing" and
-"record route" but neither were deployed, mainly because of serious
-security issues.
+    Does protocol development sufficiently consider usable and accessible 
+    formats and technologies appropriate for persons with different kinds 
+    of disabilities?
+    
+The W3C has done significant work to ensure that the Web is accessible to people with diverse physical abilities {{W3C}}. The implementation of these accesibility standards for instance help people can’t have issues with seeing or rendering an images to understand what the image actually contains. 
 
-This case relates to the following considerations in {{RFC8280}}:
-	- Security
-	- Privacy
-	- Decentralization
-	- Censorship Resistance
-	- Anonymity
-	- Heterogeneity Support
-	- Integrity
-	- Authenticity
-	- Adaptability
-	- Outcome Transparency
+The IETF uses English as its primary working language, both in its documentation and in its communication. This is also the case for reference implementations. Whereas it is estimated that roughly 20% of the Earth’s population speaks English, whereas only 360 million speak English as their first language. {{RFC2277}} describes that ‘"Internationalization is for humans. This means that protocols are not subject to internationalization; text strings are.", this implies that protocol developers, as well as people that work with protocols, are not people, or that protocol developers are all in command of the English language. This means that it is significantly easier for people who have a command of the English language to become a protocol developer - and it might lead to the development of separate protocols that are developed within large language communities that are not using the English language or the Latin script. This makes it harder for people who seek to shape their own space of association and assembly on the Internet to do so. And is thus driving these communities into, often proprietary and non-interoperable services such as Facebook.
 
-Discussion: Establishing the relation
-=====================================
+When Ramsey Nasser developed the Arabic programming language قلب (transliterated Qalb, Qlb and Alb) {{Nasser}} he called it ‘engineering performance art’ instead of engineering, because he knew that his language would not work. In part this is because all modern programming tools are based on the ASCII character set, which encodes Latin Characters and was originally based on the English Language. This highlights cultural biases of computer science and engineering. Despite long significant efforts, it is still largely impossible to register an email address in a language such as Devanagari, Arabic, or Chinese. Even if it is possible - it is to be expected that there will be a significant failure rate in sending and receiving emails with other services. This makes it harder for people who do not speak English and/or don’t use the written Latin script to exercise their freedom of association and assembly. 
 
-The case studies show that the Internet infrastructure, the
-combination of architecture and protocols, facilitates freedom of
-association and assembly, by allowing groups of people to converse,
-collaborate, exchange, and build and maintain identities in both
-structural and occasional manners. The structural forms of group
-activities are more related to freedom of association, whereas freedom
-of assembly often has a more incidental nature. The difference between
-the two, as mentioned, is a gradual one. This is equally true to the
-infrastructural mediations of these rights.
+## Block Together Now: IRC and Refusals
+    
+    Can a protocol be designed to legitimately exclude someone 
+    from an association?
+    
+Previously we spoke about the privacy protecting features of IRC that enable freedom of association and assembly, including transport security. But now we turn to the ability to block users and effectively moderate discussions on IRC as a key feature of the technology that enables agency in membership, a key aspect of freedom of association and assembly.
 
-Whereas we established that the Internet infrastructure facilitates
-freedom of association and assembly, by its very technical and
-material nature, it both creates and limits the spaces for it. This is
-an interesting tension because juridically only lawful limitations to
-the rights are allowed, and even then only if they are necessary, and
-proportionate. This exposes legal implications of the characteristics
-of the Internet infrastructure.
+For order to be kept within the IRC network, special classes of users become “operators” and are allowed to perform general maintenance functions on the network: basic network tasks such as disconnecting (temporary or permanently) and reconnecting servers as needed {{RFC2812}}. One of the most controversial power of operators is the ability to remove a user from the connected network by ‘force’, i.e., operators are able to close the connection between any client and server {{RFC2812}}.
 
-These preliminary finding suggest that the properties and
-characteristic through which the Internet infrastructure enables and
-inhibits freedom of assemblies and association should also be analyzed
-from a legal lens. The case studies have pointed out several caveats
-in implementations, that might not necessarily be understood by people
-while exercising their right to association of assembly, and which
-thus should either be mitigated, or at least, be communicated to the
-rights holders.
+IRC servers may deploy different policies for the ability of users to create their own channels or ‘rooms’, and for the delegation of ‘operator’-rights in such spaces. Some IRC servers support SSL/TLS connections for security purposes {{RFC7194}} which helps stop the use of packet sniffer programs to obtain the passwords of IRC users, but has little use beyond this scope due to the public nature of IRC channels. TLS connections require both client and server support (that may require the user to install TLS binaries and IRC client specific patches or modules on their computers). Some networks also use TLS for server to server connections, and provide a special channel flag (such as +S) to only allow TLS-connected users on the channel, while disallowing operator identification in clear text, to better utilize the advantages that TLS provides.
 
-Discussion: Protocols and Platforms
-===================================
+Conclusions: Can we learn anything from the previous case studies?
+==================================================================
 
-Whereas the Internet is a network of networks, and can therefore be
-understood as an assembly, applications on top of the Internet do not
-necessarily inherit the same structure. Quite the opposite, the
-Internet increasingly becomes a vehicle for commercial, proprietary
-and non-interoperable platforms. This lack of interoperation is
-harming the ability of people to set or negotiate their own terms on
-which they would like to assemble or associate, or host their own
-interoperating services.
+Communities, collaboration and joint action lie at the heart of the Internet. Even at at a linguistic level, the words “networks” and “associations” are closely related. Both are groups and assemblies of people depend on “links” and “relationships” {{Swire}}. Taking legal definitions given in international human rights law jurisprudence, we could assert that the right to freedom of assembly and association protect collective expression. These rights protect any collective, gathered either permanently or temporarily for “peaceful” purposes. It is voluntary and uncoerced.
 
-Even though the Internet has always allowed for (partially) closed-off
-networks, the current trend shows the rise of a small number of very
-large non-interoperable platforms. Chat has moved from XMPP and IRC to
-Facebook Messenger, Whatsapp and WeChat and there has been a strong
-rise of social media networks with large numbers of users, such as
-Facebook, Twitter and Instagram. A similar trend can be found among
-e-mail providers, with the significant difference that e-mail is
-interoperable.
+Given that the Internet itself was originally designed as a medium of communication for machines that share resources with each other as equals {{RFC0903}}, the Internet is now one of the most basic infrastructures for the right to freedom of assembly and association. Since Internet protocols and the Internet architecture play a central role in the management, development and use of the Internet, we established the relation between some protocols and the right to freedom of assembly and association.
 
-Often these non-interoperable platforms are built on open-protocols
-but do not allow for inter-operability or data-portability. In the
-case of large private platforms, this in turn leads to strong network
-externalities also know as a network effect; because the users are
-there, users will be there. Even though social-media platforms have
-enabled groups to associate, they have also led to a 'tactical freeze'
-because of the inability to change the platforms {{Tufekci}}.
+After reviewing several cases representative of FAA considerations inherent in protocols standardized at the IETF, we can conclude that the way in which infrastructure is designed and implemented impacts people’s ability to exercise their freedom of assembly and association. This is because different technical designs come with different properties and characteristics. These properties and characteristics on the one hand enable people to assemble and associate, but on the other hand also adds limiting, or even potentially endangering, characteristics. More often than not, this depends on the context. A clearly identified group for open communications, where messages are sent in cleartext and where peoples persistent identities are visible, can help to facilitate an assembly and build trust, but in other contexts the same configuration could pose a significant danger. Endangering characteristics should be mitigated, or at least clearly communicated to the users of these technologies.
 
-Whereas these networks are a ready-to-hand networked public sphere,
-they do not allow their inhabitants to change or fully understand
-their workings. In a near future, this could potentially impact
-infrastructure itself and the distributed nature of the Internet
-{{RFC1287}}.
-
-Conclusions
-===========
-
-Communities, collaboration and joint action lie at the heart of the
-Internet. Even at at linguistical level, the words "networks” and
-“associations” are close synonyms. Both interconnected groups and
-assemblies of people depend on “links” and “relationships”
-{{Swire}}. Taking legal definitions given in international human
-rights law jurisprudence, we could assert that the right to freedom of
-assembly and association protect collective expression. These rights
-protect any collective, gathered either permanently or temporarily for
-"peaceful" purposes. It is voluntary and uncoerced.
-
-Given that the Internet itself was originally designed as a medium of
-communication for machines that share resources with each other as
-equals {{RFC0903}}, the Internet is now one of the most basic
-infrastructures for the right to freedom of assembly and
-association. Since Internet protocols and the Internet architecture
-play a central role in the management, development and use of the
-Internet, we established the relation between some protocols and the
-right to freedom of assembly and association.
-
-After reviewing several typical representative cases, we can conclude
-that the way in which infrastructure is designed and implemented
-impacts people's ability to exercise their freedom of assembly and
-association. This is because different technical designs come with
-different properties and characteristics. These properties and
-characteristics on the one hand enable people to assemble and
-associate, but on the other hand also adds limiting, or even
-potentially endangering, characteristics. More often than not, this
-depends on the context. A clearly identified group for open
-communications, where messages are sent in cleartext and where peoples
-persistent identities are viisble, can help to faciliate an assembly
-and build trust, but in other context the same configuration could
-pose a significant danger. Endangering characteristics should be
-mitigated, or at least clearly communicated to the users of these
-technologies.
-
-Lastly, the increasing shift towards closed and non-interoperable
-platforms in chat and social media networks have a significant impact
-on the distributed and open nature of the Internet. Often these
-non-interoperable platforms are built on open-protocols but do not
-allow for inter-operability or data-portability. The use of
-social-media platforms has enabled groups to associate, but is has
-also rendered users unable to change platforms, therefore leading to a
-sort of "forced association" that inhibits people to fully exercise
-their freedom of assembly and association.
+Lastly, the increasing shift towards closed and non-interoperable platforms in chat and social media networks have a significant impact on the distributed and open nature of the Internet. Often these non-interoperable platforms are built on open-protocols but do not allow for interoperability or data-portability. The use of social-media platforms has enabled groups to associate, but it has also rendered users unable to change platforms, therefore leading to a sort of “forced association” that inhibits people to fully exercise their freedom of assembly and association.
 
 Acknowledgements
 ================
 
-- Fred Baker, Jefsey, and Andrew Sullivan for work on Internet
-  definitions.
+- Fred Baker, Jefsey, and Andrew Sullivan for work on Internet definitions.
 
-- Stephane Bortzmeyer for several concrete text suggestions that found
-  their way in this document (such as the AS filtering example).
+- Stephane Bortzmeyer for several concrete text suggestions that found their way in this document (such as the AS filtering example).
 
 - Mark Perkins and Gurshabad for finding a lot of typos.
 
 - Gurshabad Grover and an anonymous reviewer for a full review.
 
-- The hrpc mailinglist at large for a very constructive discussion on
-  a hard topic.
+- The hrpc mailinglist at large for a very constructive discussion on a hard topic.
 
 Security Considerations
 =======================
 
-As this draft concerns a research document, there are no security
-considerations.
-
+As this draft concerns a research document, there are no security considerations.
 
 IANA Considerations
 ===================
