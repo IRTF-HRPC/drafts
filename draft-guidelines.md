@@ -22,14 +22,14 @@ pi:
   text-list-symbols: -o*+
 author:
 -
-       ins: G. Grover (editor)
+       ins: G. Grover
        name: Gurshabad Grover
        organization: Centre for Internet and Society
        email: gurshabad@cis-india.org
 -
-       ins: N. ten Oever (editor)
+       ins: N. ten Oever
        name: Niels ten Oever
-       organization: University of Amsterdam
+       organization: University of Amsterdam & Texas A&M University
        email: mail@nielstenoever.net
 
 normative:
@@ -233,6 +233,13 @@ informative:
      author:
         - ins: R. Hill 
      target: http://www.apig.ch/UNIGE%20Catalog.pdf
+     
+   Kaye:
+     title: The use of encryption and anonymity in digital communications
+     date: 2015
+     author:
+        - ins: D. Kaye
+     target: https://www.ohchr.org/EN/HRbodies/HRC/RegularSessions/Session29/Documents/A.HRC.29.32_AEV.doc
 
 --- abstract
 
@@ -665,9 +672,21 @@ Impacts:
 - Right to freedom of assembly and association
 - Right to security
 
+### Remedy and Attribution
+
+Question(s): Can your protocol facilitate a negatively impacted party's right to legal remedy without disproportionally impacting other party's human rights, especially their right to privacy?
+
+Explanation: Access to legal remedy is an inherent part of human rights. It ensures that parties whose human rights have been violated can seek remedies through a court. Attribution can be a part of this, because it would allow to identify a possible violator. However, attribution is not a human right, whereas the right to privacy is. The Special Rapporteur for Freedom of Expression has also argued that anonymity is an inherent part of freedom of expression. Therefore it would not be consistent with human rights to facilitate attribution on individual level. However, attribution to corporate entities, associations, and/or countries could fall support attribution and not directly negatively impact human rights.
+
+Impacts:
+
+- Right to legal remedy
+- Right to security
+
+
 ### Misc. considerations
 
-Question(s): Is your document
+Question(s): Have you considered potential negative consequences (individual or societal) that your protocol or document might have?
 
 Explanation: Publication of a particular RFC under a certain status has consequences. Publication as an Internet Standard as part of the Standards Track may signal to implementers that the specification has a certain level of maturity, operational experience, and consensus. Similarly, publication of a specification an experimental document as part of the non-standards track would signal to the community that the document “may be intended for eventual standardization but [may] not yet [be] ready” for wide deployment. The extent of the deployment, and consequently its overall impact on end-users, may depend on the document status presented in the RFC. See {{BCP9}} and updates to it for a fuller explanation.
 
