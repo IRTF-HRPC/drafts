@@ -266,90 +266,93 @@ informative:
      date: 2000
      author:
       - ins: Wikipedia
-     target: Sit.amet
+     target: https://www.info.dfat.gov.au/Info/Treaties/treaties.nsf/AllDocIDs/E123F4F71DCAE3E7CA256B4F007F2905 
      
-  Sauter:
-     title: Lorum
-     date: 2000
-     author:
-      - ins: Wikipedia
-     target: Sit.amet
-
   CERD:
-     title: Lorum
-     date: 2000
+     title: Convention on the Elimination of all forms of Racial Discrimination
+     date: 1966
      author:
-      - ins: Wikipedia
-     target: Sit.amet
+      - org: United Nations
+     target: https://www.info.dfat.gov.au/Info/Treaties/treaties.nsf/AllDocIDs/2F70352A0B65EB67CA256B6E0075FE13
+
+  Sauter:
+     title: The Coming Swarm
+     date: 2014
+     author:
+      - ins: M. Sauter
+     seriesinfo: Bloomsbury
+
 
   HRPC-charter:
-     title: Lorum
-     date: 2000
+     title: Charter for Research Group
+     date: 2015
      author:
-      - ins: Wikipedia
-     target: Sit.amet
-
-  Undertake:
-     title: Lorum
-     date: 2000
-     author:
-      - ins: Wikipedia
-     target: Sit.amet
+      - ins: Human Rights Protocol Consideration RG
+     target: https://datatracker.ietf.org/doc/charter-irtf-hrpc/
 
   CRPD:
-     title: Lorum
-     date: 2000
+     title: Convention on the Rights of Persons with Disabilities
+     date: 2007
      author:
-      - ins: Wikipedia
-     target: Sit.amet
+      - org: United Nations
+     target: http://www.austlii.edu.au/au/other/dfat/treaties/2008/12.html
      
-  Mburu:
-     title: Lorum
-     date: 2000
+  Nyokabi:
+     title: "The right to development and internet shutdowns: Assessing the role of information and communications technology in democratic development in Africa"
+     date: 2019
      author:
-      - ins: Wikipedia
+      - ins: D.M. Nyokabi
+      - ins: N. Diallo
+      - ins: N.W. Ntesang
+      - ins: T.K. White
+      - ins: T. Ilori
      target: https://repository.gchumanrights.org/bitstream/handle/20.500.11825/1582/3.Global%20article%20HRDA_2_2019.pdf?sequence=4&isAllowed=y
 
   Stanford:
-     title: Lorum
-     date: 2000
+     title: Freedom of Association
+     date: 2019
      author:
-      - ins: Wikipedia
+      - ins: K. Brownlee
+      - ins: D. Jenkins
      target: https://plato.stanford.edu/entries/freedom-association/
 
   ViennaDeclaration:
-     title: Lorum
-     date: 2000
+     title: Vienna Declaration and Programme of Action
+     date: 1993
      author:
-      - ins: Wikipedia
+      - org: United Nations
      target: https://www.ohchr.org/en/professionalinterest/pages/vienna.aspx 
 
   Loi:
-     title: Lorum
-     date: 2000
+     title: Two Concepts of Group Privacy
+     date: 2020
      author:
-      - ins: Wikipedia
+      - ins: M. Loi
+      - ins: M. Christen
      target: https://link.springer.com/article/10.1007/s13347-019-00351-0
 
   Glasius:
-     title: Lorum
-     date: 2000
+     title: "Illiberal Norm Diffusion: How Do Governments Learn to Restrict Nongovernmental Organizations?"
+     date: 2020
      author:
-      - ins: Wikipedia
+      - ins: M. Glasius
+      - ins: J. Schalk
+      - ins: M. De Lange
      target: https://academic.oup.com/isq/article/64/2/453/5823498
      
   CoE:
-     title: Lorum
-     date: 2000
+     title: Freedom of assembly and association on the Internet
+     date: 2015
      author:
-      - ins: Wikipedia
+      - org: Council of Europe
      target: https://mk0rofifiqa2w3u89nud.kinstacdn.com/wp-content/uploads/COE-report-on-FOAA-rights-on-the-internet-.pdf
      
   APCtraining:
-     title: Lorum
-     date: 2000
+     title: Multimedia training kit
+     date: 2013
      author:
-      - ins: Wikipedia
+      - ins: D. Sauter
+      - org: Association for Progressive Communications
      target: http://itrainonline.org/itrainonline/mmtk/APC_IRHRCurriculum_FOA_Handout.pdf
      
   UN44-24:
@@ -360,67 +363,68 @@ informative:
      target: https://www.ohchr.org/EN/HRBodies/HRC/RegularSessions/Session44/Documents/A_HRC_44_24_AEV.docx
      
   Benkler2:
-     title: Lorum
-     date: 2000
+     title: The wealth of Networks - How social production transforms markets and freedom
+     date: 2006
      author:
-      - ins: Wikipedia
-     target: 
+      - ins: Y. Benkler
+     target: http://is.gd/rxUpTQ
+     seriesinfo: New Haven and London - Yale University Press
      
   W3C:
-     title: Lorum
-     date: 2000
+     title: Accessibility
+     date: 2015
      author:
-      - ins: Wikipedia
+      - org: W3C
      target: https://www.w3.org/standards/webdesign/accessibility
      
   Nasser:
-     title: Lorum
-     date: 2000
+     title: قلب
+     date: 2013
      author:
-      - ins: Wikipedia
+      - ins: R. Nasser
      target: https://nas.sr/%D9%82%D9%84%D8%A8/ 
      
   UNGP:
-     title: Lorum
-     date: 2000
+     title: Guiding Principles on Business and Human Rights
+     date: 2011
      author:
-      - ins: Wikipedia
-     target: https://academic.oup.com/isq/article/64/2/453/5823498
-     
-  UNHRC2016:
-     title: Lorum
-     date: 2000
-     author:
-      - ins: Wikipedia
-     target: 
+      - org: United Nations
+     target: https://www.ohchr.org/documents/publications/guidingprinciplesbusinesshr_en.pdf
      
   Kaye:
-     title: Lorum
-     date: 2000
+     title: The use of encryption and anonymity in digital communications
+     date: 2015
      author:
-      - ins: Wikipedia
-     target: https://academic.oup.com/isq/article/64/2/453/5823498
+      - ins: D. Kaye
+     target: https://www.ohchr.org/EN/HRbodies/HRC/RegularSessions/Session29/Documents/A.HRC.29.32_AEV.doc
      
   LEAP:
-     title: Lorum
-     date: 2000
+     title: The Right to Whisper
+     date: 2020
      author:
-      - ins: Wikipedia
-     target: https://academic.oup.com/isq/article/64/2/453/5823498
+      - org: LEAP
+     target: https://leap.se/en/about-us/vision
 
   Marcus:
-     title: Lorum
-     date: 2000
+     title: "Commercial Speech on the Internet: Spam and the first amendment"
+     date: 1998
      author:
-      - ins: Wikipedia
-     target: 
+      - ins: J. Marcus
+     target: http://www.cardozoaelj.com/wp-content/uploads/2013/02/Marcus.pdf
        
   APC3:
-     title: Lorum
-     date: 2000
+     title: Closer than ever
+     date: 2020
      author:
-      - ins: Wikipedia
-     target: https://academic.oup.com/isq/article/64/2/453/5823498
+      - org: Association for Progressive Communications
+     target: https://www.apc.org/en/node/36145/#tools
+     
+  UNHRC2016:
+     title: "UN Human Rights Council Resolution 'The promotion, protection and enjoyment of human rights on the Internet' (A/HRC/32/L.20)"
+     date: 2016
+     author:
+      - org: United Nations Human Rights Council
+     target: https://documents-dds-ny.un.org/doc/UNDOC/LTD/G16/131/89/PDF/G1613189.pdf?OpenElement
      
 
 --- abstract
@@ -506,7 +510,7 @@ From a more philosophical perspective, Brownlee and Jenkins {{Stanford}} make so
 
 In international law, the right to freedom of assembly and association protects any collective, gathered either permanently or temporarily for “peaceful” purposes. It is important to underline the property of “freedom” because the right to freedom of association and assembly is voluntary and uncoerced: anyone can join or leave a group of choice, which in turn means one should not be forced to either join, stay or leave. The difference between freedom of assembly and freedom of association is merely a gradual one: the former tends to have an informal and ephemeral nature, whereas the latter refers to established and permanent bodies with specific objectives. Nonetheless, both are protected to the same degree. Where an assembly is an intentional and temporary gathering of a collective in a private or public space for a specific purpose: demonstrations, indoor meetings, strikes, processions, rallies, or even sits-in {{UNHRC}}; association has a more formal and established nature. It refers to a group of individuals or legal entities brought together in order to collectively act, express, pursue, or defend a field of common interests {{UNGA}}. Think about civil society organizations, clubs, cooperatives, NGOs, religious associations, political parties, trade unions, or foundations.
 
-When talking about the human right of freedom of association and assembly, one should always take into account that ‘all human rights are indivisible, interrelated, unalienable, universal, and mutually reinforcing’ {{ViennaDeclaration}}. This means that in the analysis of the impact of a certain variable on freedom of association and assembly one should take other human rights into account too. When devising an approach to mitigate a possible negative influence on this right, one should also always take into account the possible impact this might have on other rights. For example, the following rights are often impacted in conjunction with freedom of association and assembly: the right to political participation, the right to (group) privacy, the right to freedom of expression, and access to information. For instance, when the right to political participation is hampered, this often happens in conjunction with a limitation of the freedom of association and assembly because political participation is often done collectively. When the right to privacy is hampered, this privacy of particular groups is also impacted (so-called ‘group privacy’ {{Loi}}, which potentially has consequences for the right to association and assembly. Where the freedom of expression of a group is hampered, such as in protests or through Internet shutdowns, this both hampers other people’s ability to receive the information of the group, and impact the right to assembly of the people who seek to express themselves as a group {{Mburu}}.
+When talking about the human right of freedom of association and assembly, one should always take into account that ‘all human rights are indivisible, interrelated, unalienable, universal, and mutually reinforcing’ {{ViennaDeclaration}}. This means that in the analysis of the impact of a certain variable on freedom of association and assembly one should take other human rights into account too. When devising an approach to mitigate a possible negative influence on this right, one should also always take into account the possible impact this might have on other rights. For example, the following rights are often impacted in conjunction with freedom of association and assembly: the right to political participation, the right to (group) privacy, the right to freedom of expression, and access to information. For instance, when the right to political participation is hampered, this often happens in conjunction with a limitation of the freedom of association and assembly because political participation is often done collectively. When the right to privacy is hampered, this privacy of particular groups is also impacted (so-called ‘group privacy’ {{Loi}}, which potentially has consequences for the right to association and assembly. Where the freedom of expression of a group is hampered, such as in protests or through Internet shutdowns, this both hampers other people’s ability to receive the information of the group, and impact the right to assembly of the people who seek to express themselves as a group {{Nyokabi}}.
 
 Finally, if the right to association and assembly is limited by national law, this does not mean it is consistent with international human rights law. In such a case, the national law would therefore not be legitimate {{Glasius}}. 
 
@@ -534,7 +538,7 @@ The right to freedom of assembly and association is the subject of increasing di
 
 More recently, the 2019 Annual Report addressed to the UN Human Rights Council by the Special Rapporteur on the rights to freedom of peaceful assembly and of association, also notes the opportunities and challenges posed by digital networks to the rights to freedom of peaceful assembly and of association.  The report recommends that international human rights norms and principles should also be used as a framework “that guides digital technology companies’ design, control and governance of digital technologies”. The report states that “technical standards” in particular can affect the freedom of association and assembly, and makes some recommendations on which the following could be relevant to our discussion here:
 
-* “{{Undertake}} human rights impact assessments which incorporate the rights to freedom of peaceful assembly and of association when developing or modifying their products and services,”
+* "[Undertake] human rights impact assessments which incorporate the rights to freedom of peaceful assembly and of association when developing or modifying their products and services,”
 * “increase the quality of participation in and implementation of existing multi-stakeholder initiatives,”
 * “collaborate with governments and civil society to develop technology that promotes and strengthens human rights,”
 * “support the research and development of appropriate technological solutions to online harassment, disinformation and propaganda, including tools to detect and identify State-linked accounts and bots,” and
@@ -593,7 +597,7 @@ We use the literature review to guide our process of inquiry for each case, and 
     or the protection of the rights and freedoms of others”, as stated in 
     the ICCPR article 21{ICCPR}}? Where in the stack do we care for FAA?
     
-The 2020 report by the United Nations Special Rapporteur on Human Rights {{UN44-24}} described how technology is often used to limit freedom of assembly and association, such as for instance through network shutdowns and the surveillance of groups. Because access to the Internet is crucial not only for freedom of association and assembly, but also for the right to development, and the right to freedom of expression and information {{Mburu}}, the United Nation Special Rapporteur argues that:
+The 2020 report by the United Nations Special Rapporteur on Human Rights {{UN44-24}} described how technology is often used to limit freedom of assembly and association, such as for instance through network shutdowns and the surveillance of groups. Because access to the Internet is crucial not only for freedom of association and assembly, but also for the right to development, and the right to freedom of expression and information {{Nyokabi}}, the United Nation Special Rapporteur argues that:
 
     (b) Avoid resorting to disruptions and shutdowns of Internet or 
     telecommunications networks at all times and particularly during 
