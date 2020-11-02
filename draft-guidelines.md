@@ -287,7 +287,7 @@ When reviewing an Internet-Draft, specific human rights impacts might become app
 Interviews with document authors, active members of the Working Group, or experts in the field can help explore the characteristics of the protocol and their effects. There are two main advantages to this approach: one the one hand, it allows the reviewer to gain a deeper understanding of the (intended) workings of the protocol; on the other hand, it also allows for the reviewer to start a discussion with experts or even document authors about certain aspects, which might help gain the review gain traction when it is published. 
 
 ### Interviews with impacted persons and communities
-Protocols impact users of the Internet. There it might help the review to understand how it impacts the people that use the protocol, and the people whose lives are impacted by the protocol. Since human rights should always be understood from the rightsholder, this approach will improve the understanding of the real world effects of the technology. At the same time, it can be hard to attribute specific changes to a particular protocol, this is of course even harder when a protocol has not been (widely) deployed. 
+Protocols impact users of the Internet. There it might help the review to understand how it impacts the people that use the protocol, and the people whose lives are impacted by the protocol. Since human rights should always be understood from the rights-holder, this approach will improve the understanding of the real world effects of the technology. At the same time, it can be hard to attribute specific changes to a particular protocol, this is of course even harder when a protocol has not been (widely) deployed. 
 
 ### Tracing impacts of implementations
 When an Internet Draft is describing running code that has already been implemented, the code could be analyzed either in an experimental setting or on the Internet where its impact can be observed. Other than reviewing a draft, this allows the reviewer to understand how the document works in practice and potentially also what unknown or unexpected effects the technology might have. 
@@ -674,9 +674,9 @@ Impacts:
 
 ### Remedy and Attribution
 
-Question(s): Can your protocol facilitate a negatively impacted party's right to legal remedy without disproportionally impacting other parties' human rights, especially their right to privacy?
+Question(s): Can your protocol facilitate a negatively impacted party's right to legal remedy without disproportionately impacting other parties' human rights, especially their right to privacy?
 
-Explanation: Access to legal remedy is a human right that ensures that individyals whose rights have been violated can seek remedies through a judicial authority. Attribution (i.e. mechanisms in protocols or architectures that are designed to make communications or artifacts attributable to a certain computer or individual) can be a part of this, since it may allow law enforcement agencies to identify a possible violator. However, attribution mechanisms may impede the exercise of the right to privacy. The Special Rapporteur for Freedom of Expression has also argued that anonymity is an inherent part of freedom of expression. [Kaye] Considering the adverse impact of attribution on the right to privacy and freedom of expression, attribution on an individual level may not be consistent with human rights. However, attribution to corporate entities, associations, and/or countries may not directly negatively impact human rights.
+Explanation: Access to legal remedy is a human right that ensures that individuals whose rights have been violated can seek remedies through a judicial authority. Attribution (i.e. mechanisms in protocols or architectures that are designed to make communications or artifacts attributable to a certain computer or individual) can be a part of this, since it may allow law enforcement agencies to identify a possible violator. However, attribution mechanisms may impede the exercise of the right to privacy. The Special Rapporteur for Freedom of Expression has also argued that anonymity is an inherent part of freedom of expression. [Kaye] Considering the adverse impact of attribution on the right to privacy and freedom of expression, attribution on an individual level may not be consistent with human rights. However, attribution to corporate entities, associations, and/or countries may not directly negatively impact human rights.
 
 Impacts:
 
@@ -701,7 +701,7 @@ Acknowledgements
 ================
 Thanks to:
 
-- Corinne Cath for work on {{RFC8280}}. 
+- Corinne Cath-Speth for work on {{RFC8280}}. 
 - Theresa Engelhard, Joe Hall, Avri Doria and the hrpc list for reviews and suggestions.
 - Individuals who conducted human rights reviews for their work and feedback: Amelia Andersdotter, Beatrice Martini, Karan Saini and Shivan Kaul Sahib.
 
