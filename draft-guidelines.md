@@ -674,9 +674,9 @@ Impacts:
 
 ### Remedy and Attribution
 
-Question(s): Can your protocol facilitate a negatively impacted party's right to legal remedy without disproportionally impacting other party's human rights, especially their right to privacy?
+Question(s): Can your protocol facilitate a negatively impacted party's right to legal remedy without disproportionally impacting other parties' human rights, especially their right to privacy?
 
-Explanation: Access to legal remedy is an inherent part of human rights. It ensures that parties whose human rights have been violated can seek remedies through a court. Attribution can be a part of this, because it would allow to identify a possible violator. However, attribution is not a human right, whereas the right to privacy is. The Special Rapporteur for Freedom of Expression has also argued that anonymity is an inherent part of freedom of expression. Therefore it would not be consistent with human rights to facilitate attribution on individual level. However, attribution to corporate entities, associations, and/or countries could fall support attribution and not directly negatively impact human rights.
+Explanation: Access to legal remedy is a human right that ensures that individyals whose rights have been violated can seek remedies through a judicial authority. Attribution (i.e. mechanisms in protocols or architectures that are designed to make communications or artifacts attributable to a certain computer or individual) can be a part of this, since it may allow law enforcement agencies to identify a possible violator. However, attribution mechanisms may impede the exercise of the right to privacy. The Special Rapporteur for Freedom of Expression has also argued that anonymity is an inherent part of freedom of expression. [Kaye] Considering the adverse impact of attribution on the right to privacy and freedom of expression, attribution on an individual level may not be consistent with human rights. However, attribution to corporate entities, associations, and/or countries may not directly negatively impact human rights.
 
 Impacts:
 
