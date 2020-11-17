@@ -232,7 +232,6 @@ Sandra Braman has foregrounded these political considerations in historical RFCs
 
 This documents builds on that research and seeks to increase understanding about what this means in the context of Internet protocols and the entities that design, develop, and standardize them.
 
-
 Vocabulary Used
 ===============
 
@@ -251,12 +250,10 @@ Standards
 Internet Standards
 : 'An Internet Standard is a specification that is stable and well-understood, is technically competent, has multiple, independent, and interoperable implementations with substantial operational experience, enjoys significant public support, and is recognizably useful in some or all parts of the Internet.' {{RFC2026}}
 
-
 Research Question
 =================
 
 To bring about a better understanding on the political nature of standards and protocols, this documents asks the questions: If, and if so how, are protocols, standards, and politics interrelated? Exploring this question aims to inform discussions in the IETF, IRTF, and the wider Internet infrastructure and architecture community.
-
 
 Technology and Politics: a review of literature and community positions
 =======================================================================
@@ -333,7 +330,6 @@ IANA Considerations
 ===================
 
 This document has no actions for IANA.
-
 
 Acknowledgments
 ================
