@@ -176,10 +176,10 @@ informative:
      seriesinfo: "London: Routeledge & Kegan Paul"
 
    Sisson:
-     title: Standards and Protocols 
-     date: 2000 
-     author: 
-        - ins: D. Sisson 
+     title: Standards and Protocols
+     date: 2000
+     author:
+        - ins: D. Sisson
      target: https://philosophe.com/design/standards/
 
    Barney:
