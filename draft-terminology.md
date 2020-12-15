@@ -262,12 +262,12 @@ As with master-slave, we save our technical argument for last, referencing and p
 
 There are alternatives to this terminology set that vastly improve clarity because they are not even metaphors, they're descriptions. The alternatives proposed here say exactly what they mean.
 
- * Accept-list and Drop-list for threat signaling. See for examle {{RFC8612}}, {{RFC8782}}, and {{RFC8783}}).
+ * Accept-list and Drop-list for threat signaling. See for example {{RFC8612}}, {{RFC8782}}, and {{RFC8783}}).
  * Blocklist-allowlist, deny-allow or block-permit for permissions.
 
 ## Other Considerations
 
-As described in the preceding sections, the language used in technical documentation, like all written text, creates and reinforces expectations and stereotypes. We propose nothing more than additional care in the choice of language just as care is taken in defining standards and protocols themselves. The two examples provided above are not the only cases of exclusionary language to be avoided, and many more can be collected. We use this section to broaden the context of other offensive and exclusionary terminologies to encompass additional concerns, why spotting and eradicating problematic terminologies is a valid endeavour for authors and editors of technical documentaion and how this might be systematised.
+As described in the preceding sections, the language used in technical documentation, like all written text, creates and reinforces expectations and stereotypes. We propose nothing more than additional care in the choice of language just as care is taken in defining standards and protocols themselves. The two examples provided above are not the only cases of exclusionary language to be avoided, and many more can be collected. We use this section to broaden the context of other offensive and exclusionary terminologies to encompass additional concerns, why spotting and eradicating problematic terminologies is a valid endeavour for authors and editors of technical documentation and how this might be systematised.
 
 There are many other metaphors present in technical documentation that are "terms of art" but that have no technical basis whatsoever. If any of these metaphors is offensive there is no excuse for its continued use. A term like "man-in-the-middle" is not technically useful. It is not a standard term, not as clear as its alternative "on-path attacker", and should therefore be avoided. When presented with the opportunity to employ the use of metaphors or to unthinkingly repeat terms of art that connote gender or race, Authors should simply find a better way to explain themselves. A fun read on the politics of colloquial speech by George Orwell should dissuade any clever Author from using tired explanatory metaphors {{Orwell}}.
 
@@ -275,7 +275,7 @@ Gendered pronouns and sexism are common place but easy to spot and replace. Up u
 
 Besides race and gender, our world is full of metaphors rooted in oppression, ableism, and colonialism. Militarised metaphors are also a pervasive problem in language, perhaps even more so in technical communities because of the historical and actual relationship between technology and war.
 
-While it is not our intention to be exhaustive we hope to have made a persuasive case for authors and editors to pay attention to the finer details of metaphor, and the ways power is replicated in technical documentation unless detailed attention is paid. The example terms above "master-slave" and "blacklist-whitelist" are already less common. If the IETF community has learned anything from the deabte over the use of these terms, and this document, it is that language matters to us deeply as members of society and as engineers. And because language, and society, change over time, we must approach future concerns with some degree of dispassion when the arguments presented in the first section can be clearly applied.
+While it is not our intention to be exhaustive we hope to have made a persuasive case for authors and editors to pay attention to the finer details of metaphor, and the ways power is replicated in technical documentation unless detailed attention is paid. The example terms above "master-slave" and "blacklist-whitelist" are already less common. If the IETF community has learned anything from the debate over the use of these terms, and this document, it is that language matters to us deeply as members of society and as engineers. And because language, and society, change over time, we must approach future concerns with some degree of dispassion when the arguments presented in the first section can be clearly applied.
 
 There is harm in protracted discussion about the validity IETF participants and their experiences with exclusionary terminology. The racism in the community that has been surfaced as a result of this larger debate among technologists pushed away participants and observers. This illustrates the need to, as Graves is cited above as saying, continue to raise awareness within our community for eventual, lasting change on the continued front of struggle against the racists amongst us. Yet we recommend a living stylesheet, rather than repeated RFCs, be used as a mechanism for monitoring exclusionary language in IETF documents {{{terminology}}}.
 
@@ -294,7 +294,7 @@ Authors SHOULD:
 
 RFC Editor MUST:
  * Offer alternatives for exclusionary terminology as an important act of correcting larger editorial issues and clarifying technical concepts and
- * Maintain the IETF repository that collects all terms that have been considered and indicate wheter they are deemed acceptable, and if not what terms Authors should consider instead.
+ * Maintain the IETF repository that collects all terms that have been considered and indicate whether they are deemed acceptable, and if not what terms Authors should consider instead.
  * Suggest to Authors that even when referencing other specifications that have not replaced offensive terminology, the Authors could use another term in their document and include a note to say that they have used the new term as a replacement for the term used in the referenced document.
 
 # Further reading
