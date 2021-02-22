@@ -1,9 +1,9 @@
 ---
 title: Terminology, Power, and Inclusive Language in Internet-Drafts and RFCs
 abbrev: Terminology
-docname: draft-knodel-terminology-04
-date: 2020-08-24
-category: bcp
+docname: draft-knodel-terminology-05
+date: 2021-02-22
+category: info
 
 ipr: trust200902
 area: IETF
@@ -31,7 +31,7 @@ author:
 -
        ins: N. ten Oever
        name: Niels ten Oever
-       organization: Texas A&M University
+       organization: University of Amsterdam
        email: mail@nielstenoever.net
 
 normative:
@@ -191,7 +191,7 @@ informative:
          - org: Politico
       target: https://www.politico.com/news/2020/06/25/agency-ends-use-technology-terms-racist-associations-339880
    
-   terminology:
+   inclusiveterminology:
       title: "Inclusive terminology in IETF Documents"
       date: August 2020
       author:
@@ -262,8 +262,8 @@ As with master-slave, we save our technical argument for last, referencing and p
 
 There are alternatives to this terminology set that vastly improve clarity because they are not even metaphors, they're descriptions. The alternatives proposed here say exactly what they mean.
 
- * Accept-list and Drop-list for threat signaling. See for examle {{RFC8612}}, {{RFC8782}}, and {{RFC8783}}).
- * Blocklist-allowlist, deny-allow or block-permit for permissions.
+ * Accept-list and Drop-list for threat signaling. See for example {{RFC8612}}, {{RFC8782}}, and {{RFC8783}}).
+ * Blocklist-allowlist, deny-allow, exempt-allowlist or block-permit for permissions.
 
 ## Other Considerations
 
@@ -277,7 +277,7 @@ Besides race and gender, our world is full of metaphors rooted in oppression, ab
 
 While it is not our intention to be exhaustive we hope to have made a persuasive case for authors and editors to pay attention to the finer details of metaphor, and the ways power is replicated in technical documentation unless detailed attention is paid. The example terms above "master-slave" and "blacklist-whitelist" are already less common. If the IETF community has learned anything from the deabte over the use of these terms, and this document, it is that language matters to us deeply as members of society and as engineers. And because language, and society, change over time, we must approach future concerns with some degree of dispassion when the arguments presented in the first section can be clearly applied.
 
-There is harm in protracted discussion about the validity IETF participants and their experiences with exclusionary terminology. The racism in the community that has been surfaced as a result of this larger debate among technologists pushed away participants and observers. This illustrates the need to, as Graves is cited above as saying, continue to raise awareness within our community for eventual, lasting change on the continued front of struggle against the racists amongst us. Yet we recommend a living stylesheet, rather than repeated RFCs, be used as a mechanism for monitoring exclusionary language in IETF documents {{{terminology}}}.
+There is harm in protracted discussion about the validity IETF participants and their experiences with exclusionary terminology. The racism in the community that has been surfaced as a result of this larger debate among technologists pushed away participants and observers. This illustrates the need to, as Graves is cited above as saying, continue to raise awareness within our community for eventual, lasting change on the continued front of struggle against the racists amongst us. Yet we recommend a living stylesheet, rather than repeated RFCs, be used as a mechanism for monitoring exclusionary language in IETF documents {{inclusiveterminology}}.
 
 It is there that we welcome additional examples of terminology that might be avoided through more awareness and thoughtfulness.
 
@@ -287,7 +287,7 @@ To summarise, we have bulleted some very concrete action points that can be take
 
 Authors SHOULD:
  * Replace the exclusionary terms "master-slave" and "blacklist-whitelist" with more accurate alternatives.
- * Read and reflect upon the repository of exclusionary terminology {{{terminology}}}.
+ * Read and reflect upon the repository of exclusionary terminology {{inclusiveterminology}}.
  * Reflect on their use of metaphors generally.
  * Consider changing existing exclusionary language in current (reference) implementations {{socketwench}}.
  * Consult the RFC style sheet maintained by the RFC editor and the community that can be found at https://github.com/ietf/terminology .
@@ -299,11 +299,12 @@ RFC Editor MUST:
 
 # Further reading
 
-'‘Anyone can edit’, not everyone does: Wikipedia and the gender gap' by Ford, Heather and Wajcman, Judy (2017) Social Studies of Science. ISSN 0306-3127
+Ford, Heather., Wajcman, Judy. 2017. "‘Anyone can edit’, not everyone does: Wikipedia and the gender gap" Social Studies of Science. ISSN 0306-3127
 
-Grant, Barbara M. "Master—slave dialogues in humanities supervision...https://doi.org/10.1177/1474022207084880
+Grant, Barbara M. 2008. "Master—slave dialogues in humanities supervision" 
+Arts and Humanities in Higher Education, Volume: 7 issue: 1, page(s): 9-27 https://doi.org/10.1177/1474022207084880
 
-Miller, Carolyn. "A Humanistic Rationale for Technical Writing"
+Miller, Carolyn, R. 1979. "A Humanistic Rationale for Technical Writing" College English, Vol. 40, No. 6, pp. 610-617 
 
 # Security Considerations
 
