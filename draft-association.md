@@ -36,8 +36,8 @@ author:
        
 -
        ins: S. Couture
-       name: Stéphane Couture
-       organization: University de Montreal
+       name: Stéphane Couture 
+       organization: Université de Montréal
        email: stephane.couture@umontreal.ca
 
 -
