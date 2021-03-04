@@ -66,9 +66,9 @@ For when we can't meet in person, when there's interim work to be done, or just 
 
 Meeting online introduces new and novel challenges to in-person meetings. Getting people online in a synchronous meeting is generally difficult and demanding on everyone. High costs include logistics and  The difficulty grows exponentially with the number and diversity of desired participants. If the meeting participants cut accross different timezones, participation to such a meeting requires a real committment and sacrifice from many participants. Although the synchronous voice/video meetings imitate face-to-face meetings, they fall short in terms of productivity in serious ways. Particularly when meetings are large, synchronous discussion at scale is usually questionable, and the real outputs rarely justify the investment needed from everyone in orser to participate.
 
-By contrast, well-structured asynchronous meetings have pacing and mixed-methods that gives participants an opportunity to participate in the ways which work for them, and when they can. Especially during a global crisis, but really whenever one is expected to participate in remote work, asynchronous meetings are more compatible with individuals' limitations because they can adapt their participation to their realities - removing the liklihood of the clashes, which are seemingly ever present in synchronous meetings.
+By contrast, well-structured asynchronous meetings have pacing and mixed-methods that gives participants an opportunity to participate in the ways which work for them, and when they can. Especially during a global crisis, but really whenever one is expected to participate in remote work, asynchronous meetings are more compatible with individuals' limitations because they can adapt their participation to their realities - removing the liklihood of time clashes, which are seemingly ever present in synchronous meetings.
 
-Since email is ubiquitous, mailing list software can be the centerpiece of an asynchronous meeting toolchain. This is particularly smooth for IETF participants given the established and discplined use of mailing lists for IETF work. Throughout the 2020 pandemic arrangements for virtual IETF meetings there has been a noticable persistence in "taking it to the list" when co-chairs seek to build consensus, even though in theory there are a reduced number of barriers for an engaged IETF participant to join an online meeting. This indicates that even during synchronous, online IETF meetings that activity on mailing lists is still important.
+Since email is ubiquitous, mailing list software can be the centerpiece of an asynchronous meeting toolchain. This is particularly smooth for IETF participants given the established and discplined use of mailing lists for IETF work. Throughout the 2020 pandemic arrangements for virtual IETF meetings there has been a noticable persistence in "taking it to the list" when co-chairs seek to build consensus, even though in theory there are a reduced number of barriers for an engaged IETF participant to join an online meeting. This indicates that even during synchronous, online IETF meeting activity on mailing lists is still important.
 
 # How
 
@@ -78,7 +78,7 @@ This document outlines how to, over a time-bound period, cultivate productive ma
 
 Preparation for any meeting is key. However there are particular opportunities with an asynchronous meeting in which chairs can take extra care to ensure productivity for the group, but also efficiency for their work as facilitators during the meeting itself.
 
-First, set up an organising space. Perhaps the datatracker is enough for IETF meetings, but perhaps with the addition of a wiki space, or creative use of Meeting Materials. Participants will be switching their attention radars on and off in different moments -- that's the point! But they won't be present when you ask them to, or when you email key information. The ongoing flow of participants and presenters asking for clarifying details need to be gently directed to one place with all of the meeting instructions and resources to all these details somewhere visible (header or footer of all messages during the meeting, etc).
+First, set up an organising space. Perhaps the datatracker is enough for IETF meetings, but with the addition of a wiki space, or creative use of Meeting Materials. Participants will be switching their attention radars on and off in different moments -- that's the point! But they won't be present when you ask them to, or when you email key information. The ongoing flow of participants and presenters asking for clarifying details need to be gently directed to one place with all of the meeting instructions and resources to all these details somewhere visible (header or footer of all messages during the meeting, etc).
 
 Next, determine distinct discussion topics. It will not be enough to have each presenter or document author write to the mailing list to start a discussion about their work. Chairs will need to create a structured agenda, with threads for each topic (see next section) opened with a clear message detailing the topic's purpose, objective and process. This implies that "agenda review" needs to happen well in advance of the beginning of the asynchronous meeting.
 
@@ -148,7 +148,7 @@ Text-based communications present opportunities for increased accessibility of d
 
 ## Netiquette and participant instructions
 
-While most IETFers are well versed in proper mailing list netiquette, perhaps reminders of how the chairs would prefer the meeting flow in its discussion could be 
+While most IETFers are well versed in proper mailing list netiquette, perhaps reminders of how the chairs would prefer the meeting flow in its discussion could be useful.
 
 ## Compliance
 
