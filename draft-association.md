@@ -435,7 +435,7 @@ informative:
       - org: United Nations
      target: http://freeassembly.net/wp-content/uploads/2013/10/A-HRC-20-27_en-annual-report-May-2012.pdf
      
-  FoAdef
+  FoAdef:
      title: Freedom of association
      date: 2021
      author:
@@ -786,7 +786,7 @@ Acknowledgements
 
 - Mark Perkins and Gurshabad for finding a lot of typos.
 
-- Gurshabad Grover, an anonymous reviewer, ICNL, Lisa Vermeer, and Sandra Braman for full review.
+- Gurshabad Grover, an anonymous reviewer, ICNL, Lisa Vermeer, and Sandra Braman for full reviews.
 
 - The hrpc mailinglist at large for a very constructive discussion on a hard topic.
 
