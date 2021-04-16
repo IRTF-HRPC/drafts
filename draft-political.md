@@ -193,7 +193,7 @@ informative:
 
 --- abstract
 
-The IETF cannot ordain what standards or protocols are to be used on networks, but the standards development process in the IETF does have an impact on society through its normative standards setting process. This document aims to bring about a better understanding on the political nature of standards and protocols. Among other things, the IETF's work affects what is perceived as technologically possible and useful where networking technologies are being deployed, and its standards reflect what is considered by the technical community to be feasible and good practice. Whereas there might not be agreement among the Internet protocol community on the specific political nature of the technological development process and its outputs, it is generally agreed that standards and protocols are both products of a political process, and they can also be used for political means.
+The IETF cannot ordain which standards or protocols are to be used on network, but the standards-developing process in the IETF has a normative effect. The standardization work at the IETF has implications on what is perceived as technically feasible and good practice. As protocols mediate many aspects of modern life, and therefore contribute to the ordering of societies and communities, the consideration of the politics and (potential) impact of protocols should be part of the standardization and development process.
 
 --- middle
 
@@ -236,7 +236,7 @@ Vocabulary Used
 ===============
 
 Politics
-: (from Greek: Politiká: Politika, definition "affairs of the commons") is the process of making decisions applying to all members of a diverse group with conflicting interests. More narrowly, it refers to achieving and exercising positions of governance or organized control over a community. Furthermore, politics is the study or practice of the distribution of power and resources within a given community as well as the interrelationship(s) between communities. (adapted from {{HagueHarrop}})
+: (from Greek: Politiká: Politika, definition "affairs of the commons") is the process of making decisions that apply to all members of a diverse group with conflicting interests. More narrowly, it refers to achieving and exercising positions of governance or organized control over a community. Furthermore, politics is the study or practice of the distribution of power and resources within a given community as well as the inter-relationship(s) between communities. (adapted from {{HagueHarrop}}).
 
 Affordances
 : The possibilities that are provided to an actor through the ordering of an environment by a technology. This means that a technology does not determine what is possible, but that it invites specific kinds of behavior, and in that process shapes the behavior of users, without absolutely determining it.
@@ -260,7 +260,7 @@ Technology and Politics: a review of literature and community positions
 
 In 1993 the Computer Professionals for Social Responsibility stated that 'the Internet should meet public interest objectives'. Similarly, {{RFC3935}} states that 'The Internet isn't value-neutral, and neither is the IETF.'. Ethics and the Internet was already a topic of an RFC by the IAB in 1989 {{RFC1087}}, when the Internet was still looking entirely different. Nonetheless there has been a recent uptick in discussions within the IETF and IRTF about the impact of Internet protocols on human rights {{RFC8280}}, and more generally in public debate about the impact of technology on society.
 
-This document aims to provide an overview of the spectrum of different positions that have been observed in the IETF and IRTF community, and have been observed during interviews, mailinglist exchanges, and during research group sessions. These positions were observed during participatory observation, through 39 interviews with members of the community, the Human Rights Protocol Considerations Research Group mailing list, and during and after the Technical Plenary on Protocols and Human Rights during IETF98.
+This document aims to provide an overview of the different positions that have been observed in the IETF and IRTF community, and have been observed during interviews, mailinglist exchanges, and during research group sessions. These positions were observed during participatory observation, through 39 interviews with members of the community, the Human Rights Protocol Considerations Research Group mailing list, and during and after the Technical Plenary on Protocols and Human Rights during IETF98.
 
 Without judging them on their internal or external consistency they are represented here. Where possible we also sought to engage with the academic literature on this topic.
 
