@@ -433,7 +433,14 @@ informative:
      author:
       - ins: Maina Kiai
       - org: United Nations
-     target: ttp://freeassembly.net/wp-content/uploads/2013/10/A-HRC-20-27_en-annual-report-May-2012.pdf
+     target: http://freeassembly.net/wp-content/uploads/2013/10/A-HRC-20-27_en-annual-report-May-2012.pdf
+     
+  FoAdef
+     title: Freedom of association
+     date: 2021
+     author:
+       - org: Wikipedia
+     target: https://en.wikipedia.org/wiki/Freedom_of_association
      
   RutzenZenn:
      title: Association and Assembly in the Digital Age
@@ -455,7 +462,7 @@ informative:
      
 --- abstract
 
-This document discusses the relationships between the Internet architecture and the ability of people to exercise their right to freedom of assembly and the right to association online. The Internet increasingly mediates our lives, our relationships, and our ability to exercise our human rights. As a global forum, the Internet provides a public space, yet it is predominantly built on private infrastructure. Since Internet protocols play a central role in the management, development, and use of the Internet, we analyze the relation between protocols and the rights to assemble and associate to mitigate infringements on those rights.
+This document discusses the relationships between the Internet architecture and the ability of people to exercise their right to peaceful assembly and the right to association online. The Internet increasingly mediates our lives, our relationships, and our ability to exercise our human rights. As a global assemblage, the Internet provides a public space, yet it is predominantly built on private infrastructure. Since Internet protocols and architecture play a central role in the management, development, and use of the Internet, we analyze the relation between protocols, architecture, and the rights to assemble and associate to mitigate infringements on those rights.
 
 --- middle
 
@@ -480,9 +487,9 @@ Introduction
          Rapporteur on the rights to freedom of peaceful assembly and 
          of association (2019).
          
-The current draft continues the work started in “Research into Human Rights Protocol Considerations” {{RFC8280}} by investigating the impact of Internet protocols on a specific set of human rights, namely the right to freedom of assembly and association. Taking into consideration the international human rights framework regarding the human right to freedom of assembly and association, the present document seeks to deepen the relationship between this human right and Internet architecture, protocols, and standards. In that way, we continue the work of the Human Rights Protocol Consideration Research Group, as laid out in its charter, where one of the research aims is “to expose the relation between protocols and human rights, with a focus on the rights to freedom of expression and freedom of assembly” {{HRPC-charter}}. The conclusions may inform the development of new guidelines for protocol developers in draft-irtf-hrpc-guidelines.
+The current draft continues the work started in “Research into Human Rights Protocol Considerations” {{RFC8280}} by investigating the impact of Internet protocols on a specific set of human rights, namely the right to peaceful assembly and the right to association. Taking into consideration the international human rights framework regarding the human right to peaceful assembly and the right to association, the present document seeks to deepen the relationship between this human right and Internet architecture, protocols, and standards. In that way, we continue the work of the Human Rights Protocol Consideration Research Group, as laid out in its charter, where one of the research aims is “to expose the relation between protocols and human rights, with a focus on the rights to freedom of expression and freedom of assembly” {{HRPC-charter}}. The conclusions may inform the development of new guidelines for protocol developers in draft-irtf-hrpc-guidelines.
 
-The research question of this document is: what are the protocol development considerations for freedom of assembly and association?
+The research question of this document is: what are the protocol development considerations for the right to peaceful assembly and the right to association?
 
 Vocabulary used
 ===============
@@ -520,6 +527,13 @@ Internet
 : A techno-social assemblage of devices, users, sensors, networks, routers, governance, administrators, operators and protocols
 : An emergent-process-driven thing that is born from the collections of the ASes that happen to be gathered together at any given time. The fact that they tend to interact at any given time means it is an emergent property that happens because they use the protocols defined at IETF.
 
+: Right to peaceful assembly
+'The right of peaceful assembly protects the non-violent gathering by persons for specific purposes, principally expressive ones.1 It constitutes an individual right that is exercised collectively.2 Inherent to the right is thus an associative element.' {{UNGC37}}
+
+: Right to association
+'The right and freedom of association encompasses both an individual's right to join or leave groups voluntarily, the right of the group to take collective action to pursue the interests of its members, and the right of an association to accept or decline membership based on certain criteria.' {{FoAdef}}
+
+
 Research question
 =================
 
@@ -528,9 +542,9 @@ The research question of this document is: what are the protocol development con
 Methodology
 ============
 
-The point of departure of the present work {{RFC8280}} is an initial effort to expose the relationship between human rights and the Internet architecture, specifically protocols and standards. As such, {{RFC8280}} was inductive and explorative in nature. The methodology in this previous work was based on the discourse analysis of RFCs, interviews with members of the IETF community, and participant observation in IETF working groups, with the goal to identify technical concepts that relate to human rights. This work resulted in the proposal of guidelines to describe a relationship between the right to freedom of assembly and association and connectivity, security, censorship resistance, anonymity, pseudonymity, accessibility, decentralization, adaptability, and outcome transparency.
+The point of departure of the present work {{RFC8280}} is an initial effort to expose the relationship between human rights and the Internet architecture, specifically protocols and standards. As such, {{RFC8280}} was inductive and explorative in nature. The methodology in this previous work was based on the discourse analysis of RFCs, interviews with members of the IETF community, and participant observation in IETF working groups, with the goal to identify technical concepts that relate to human rights. This work resulted in the proposal of guidelines to describe a relationship between the right to peaceful assembly and association and connectivity, security, censorship resistance, anonymity, pseudonymity, accessibility, decentralization, adaptability, and outcome transparency.
 
-In this document, we deepen our exploration of human rights and protocols by assessing one specific set of human rights: freedom of association and assembly, abbreviated here as FAA. Our methodology for doing so is the following: first, we provide a brief twofold literature review addressing the philosophical and legal definitions of FAA and how this right has already been interpreted or analyzed concerning the digital. This literature review is not exhaustive nor systematic but aims at providing some lines of questioning that could later be used for protocol development. The second part of our methodology looks at some cases of Internet protocols that are relevant to the sub-questions highlighted in the literature review, and analyze how these protocols facilitate and inhibit the right to assembly and association.
+In this document, we deepen our exploration of human rights and protocols by assessing one specific set of human rights: freedom of association and assembly, abbreviated here as FAA. Our methodology for doing so is the following: first, we provide a brief twofold literature review addressing the philosophical and legal definitions of FAA and how this right has already been interpreted or analyzed concerning the digital. This literature review is not exhaustive nor systematic but aims at providing some lines of questioning that could later be used for protocol development. The second part of our methodology looks at some cases of Internet protocols that are relevant to the sub-questions highlighted in the literature review, and analyze how these protocols facilitate and inhibit the right to peaceful assembly and association.
 
 
 Literature Review
@@ -538,7 +552,7 @@ Literature Review
 
 ## FAA definition and core treaties
 
-The rights to freedom of association and assembly are defined and guaranteed in national law and international treaties. Article 20 of the Universal Declaration of Human Rights {{UDHR}} states for instance that “Everyone has the right to freedom of peaceful assembly and association” and that “No one may be compelled to belong to an association”. Article 23 further guarantees that “Everyone has the right to form and to join trade unions for the protection of his interests”. In the International Covenant on Civil and Political Rights {{ICCPR}}, article 21 stipulates that “The right of peaceful assembly shall be recognized” and that “No restrictions may be placed on the exercise of this right other than those imposed in conformity with the law and which are necessary in a democratic society in the interests of national security or public safety, public order (ordre public), the protection of public health or morals or the protection of the rights and freedoms of others” while article 22 states that “Everyone shall have the right to freedom of association with others, including the right to form and join trade unions”. 
+The rights to peaceful assembly and the freedom of association are defined and guaranteed in national law and international treaties. Article 20 of the Universal Declaration of Human Rights {{UDHR}} states for instance that “Everyone has the right to freedom of peaceful assembly and association” and that “No one may be compelled to belong to an association”. Article 23 further guarantees that “Everyone has the right to form and to join trade unions for the protection of his interests”. In the International Covenant on Civil and Political Rights {{ICCPR}}, article 21 stipulates that “The right of peaceful assembly shall be recognized” and that “No restrictions may be placed on the exercise of this right other than those imposed in conformity with the law and which are necessary in a democratic society in the interests of national security or public safety, public order (ordre public), the protection of public health or morals or the protection of the rights and freedoms of others” while article 22 states that “Everyone shall have the right to freedom of association with others, including the right to form and join trade unions”. 
 
 General Comment No. 37 on the right of peaceful assembly by the United Nations Human Rights Committee affirms that the right of  peaceful assembly protects non-violent online gatherings: “associated activities that happen online or otherwise rely upon digital services […] are also protected” {{UNGC37}}. Interference with emerging communications technologies that offer the opportunity to assemble either wholly or partly online or play an integral role in organizing, participating in and monitoring physical gatherings are assumed to impede assemblies which are protected by this right. Moreover, any restriction on the ‘operation of information dissemination systems’ must conform with the tests for restrictions on freedom of expression (see below).
 
