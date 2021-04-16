@@ -1,7 +1,7 @@
 ---
 title: Freedom of Association on the Internet
 abbrev: FoA
-docname: draft-irtf-hrpc-association-07
+docname: draft-irtf-hrpc-association-08
 category: info
 
 ipr: trust200902
@@ -25,7 +25,7 @@ author:
 -
        ins: N. ten Oever
        name: Niels ten Oever
-       organization: Univeristy of Amsterdam
+       organization: University of Amsterdam
        email: mail@nielstenoever.net
 
 -
@@ -94,7 +94,7 @@ informative:
     target: https://doi.org/10.1111/misr.12020
     seriesinfo: "Int Stud Rev (2013) 15 (1): 48-66."
 
-  UNRSFAA2012:
+  UNSRFAA2012:
     title: Report of the Special Rapporteur on the rights to freedom of peaceful assembly and of association
     date: 2012
     author:
@@ -803,11 +803,8 @@ This document has no actions for IANA.
 Research Group Information
 ==========================
 
-The discussion list for the IRTF Human Rights Protocol Considerations
-Research Group is located at the e-mail address
-<hrpc@ietf.org>. Information on the group and information on how to
-subscribe to the list is at
-<https://www.irtf.org/mailman/listinfo/hrpc>
+The discussion list for the IRTF Human Rights Protocol Considerations Research Group is located at the e-mail address <hrpc@ietf.org>. Information on the group and information on how to
+subscribe to the list is at <https://www.irtf.org/mailman/listinfo/hrpc>
 
 Archives of the list can be found at:
 <https://www.irtf.org/mail-archive/web/hrpc/current/index.html>
