@@ -334,7 +334,7 @@ This document has no actions for IANA.
 Acknowledgments
 ================
 
-Thanks to Michael Rogers, Joe Hall, Andrew Sullivan, Brian Carpenter, Mark Perkins, S Moonesamy, Stephen Farrell, Amelia Andersdotter, Stephane Couture, and all contributors and reviewers on the hrpc mailinglist. Special thanks to Gisela Perez de Acha for some thorough editing rounds.
+Thanks to Shivan Sahib, Michael Rogers, Joe Hall, Andrew Sullivan, Brian Carpenter, Mark Perkins, S Moonesamy, Stephen Farrell, Amelia Andersdotter, Stephane Couture, and all contributors and reviewers on the hrpc mailinglist. Special thanks to Gisela Perez de Acha for some thorough editing rounds.
 
 Research Group Information
 ==========================
