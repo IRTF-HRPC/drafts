@@ -1,7 +1,7 @@
 	--- 
 title: Meeting asynchronously with mailing lists
-abbrev: maml
-docname: draft-knodel-maml
+abbrev: async
+docname: draft-knodel-async-01
 category: info
 
 ipr: trust200902
