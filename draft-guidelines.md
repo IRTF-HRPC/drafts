@@ -1,7 +1,7 @@
 ---
 title: Guidelines for Human Rights Protocol and Architecture Considerations
 abbrev: Guidelines for HRPC
-docname: draft-irtf-hrpc-guidelines-06
+docname: draft-irtf-hrpc-guidelines-07
 category: info
 updates: 8280
 
@@ -258,6 +258,13 @@ informative:
      author:
         - ins: D. Kaye
      target: https://www.ohchr.org/EN/HRbodies/HRC/RegularSessions/Session29/Documents/A.HRC.29.32_AEV.doc
+     
+   UNGP:
+     title: United Nations Guiding Principles on Business and Human Rights
+     date: 2011
+     author:
+        - org: United Nations
+     target: https://www.ohchr.org/documents/publications/guidingprinciplesbusinesshr_en.pdf
 
 --- abstract
 
@@ -272,14 +279,11 @@ This document outlines a set of human rights protocol considerations for protoco
 
 The questions are based on the research performed by the Human Rights Protocol Considerations (hrpc) research group which has been documented before these considerations. The research establishes that human rights relate to standards and protocols, and offers a common vocabulary of technical concepts that influence human rights and how these technical concepts can be combined to ensure that the Internet remains an enabling environment for human rights. With this, the contours of a model for developing human rights protocol considerations has taken shape.
 
-This document is a further iteration of the guidelines that can be found in {{RFC8280}}. The methods for conducting human rights reviews (Section 3.2), and guidelines for human rights considerations (Section 3.3) in this document are being tested for relevance, accuracy and validity.
-
-Vocabulary used
-===============
+This document is an iteration of the guidelines that can be found in {{RFC8280}}. The methods for conducting human rights reviews (Section 3.2), and guidelines for human rights considerations (Section 3.3) in this document are being tested for relevance, accuracy and validity.
 
 
 Guidelines for developing human rights protocol considerations
-=========================================================
+==============================================================
 
 ## Human rights threats
 Threats to the exercise of human rights on the Internet come in many forms. Protocols and standards may harm or enable the right to freedom of expression, right to freedom of information, right to non-discrimination, right to equal protection, right to participate in cultural life, arts and science, right to freedom of assembly and association, right to privacy, and the right to security. An end-user who is denied access to certain services or content may be unable to disclose vital information about the malpractices of a government or other authority. A person whose communications are monitored may be prevented or dissuaded from exercising their right to freedom of association or participate in political processes {{Penney}}. In a worst-case scenario, protocols that leak information can lead to physical danger. A realistic example to consider is when individuals perceived as threats to the state are subjected to torture, extra-judicial killing or detention on the basis of information gathered by state agencies through the monitoring of network traffic. 
@@ -308,7 +312,7 @@ Interviews with document authors, active members of the Working Group, or expert
 Protocols impact users of the Internet. Interviews can help the reviewer understand how protocols affect the people that use the protocols. Since human rights are best understood from the perspective of the rights-holder, this approach will improve the understanding of the real world effects of the technology. At the same time, it can be hard to attribute specific changes to a particular protocol, this is of course even harder when a protocol has not been (widely) deployed. 
 
 ### Tracing impacts of implementations
-The reality of deployed protocols can be at odds with the expectations kept in mind during the protocol design and development. {{RFC8980}}  When a specification already has associated running code, the code can be analyzed either in an experimental setting or on the Internet where its impact can be observed. In contrast to reviewing the draft text, this approach can allow the reviewer to understand how the specifications works in practice, and potentially what unknown or unexpected effects the technology has. 
+The reality of deployed protocols can be at odds with the expectations during the protocol design and development phase {{RFC8980}}. When a specification already has associated running code, the code can be analyzed either in an experimental setting or on the Internet where its impact can be observed. In contrast to reviewing the draft text, this approach can allow the reviewer to understand how the specifications works in practice, and potentially what unknown or unexpected effects the technology has. 
 
 ## Guidelines for human rights considerations
 This section provides guidance for document authors in the form of a questionnaire about protocols and how technical decisions can shape the exercise of human rights. The questionnaire may be useful at any point in the design process, particularly after document authors have developed a high-level protocol model as described in {{RFC4101}}. These guidelines do not seek to replace any existing referenced specifications, but rather contribute to them and look at the design process from a human rights perspective.
@@ -705,16 +709,17 @@ Impacts:
 - Access to information 
 
 
-### Remedy and Attribution
+### Remedy
 
-Question(s): Can your protocol facilitate a negatively impacted party's right to the appropriate remedy without disproportionately impacting other parties' human rights, especially their right to privacy?
+Question(s): Can your protocol facilitate a negatively impacted party's right to remedy without disproportionately impacting other parties' human rights, especially their right to privacy?
 
-Explanation: Attribution (i.e. mechanisms in protocols or architectures that are designed to make communications or artifacts attributable to a certain computer or individual) may help victims of crimes in seeking appropriate remedy, or allow law enforcement agencies to identify a possible violator. However, attribution mechanisms may impede the exercise of the right to privacy. The Special Rapporteur for Freedom of Expression has also argued that anonymity is an inherent part of freedom of expression. [Kaye] Considering the adverse impact of attribution on the right to privacy and freedom of expression, enabling attribution on an individual level is probably not consistent with human rights.
+Explanation: Access to remedy may help victims of human rights violation in seeking justice, or allow law enforcement agencies to identify a possible violator. However, such mechanisms may impede the exercise of the right to privacy. The Special Rapporteur for Freedom of Expression has also argued that anonymity is an inherent part of freedom of expression [Kaye]. Considering the adverse impact of attribution on the right to privacy and freedom of expression, enabling attribution on an individual level is most likely not consistent with human rights. However, providing access to remedy by states and corporations is an inherent part of the UN Guiding Principles on Business and Human Rights {{UNGP}}.
 
 Impacts:
 
 - Right to remedy
 - Right to security
+- Right to privacy
 
 
 ### Misc. considerations
