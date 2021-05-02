@@ -1,7 +1,7 @@
 ---
 title: Guidelines for Human Rights Protocol and Architecture Considerations
 abbrev: Guidelines for HRPC
-docname: draft-irtf-hrpc-guidelines-07
+docname: draft-irtf-hrpc-guidelines-08
 category: info
 updates: 8280
 
@@ -279,7 +279,9 @@ This document outlines a set of human rights protocol considerations for protoco
 
 The questions are based on the research performed by the Human Rights Protocol Considerations (hrpc) research group which has been documented before these considerations. The research establishes that human rights relate to standards and protocols, and offers a common vocabulary of technical concepts that influence human rights and how these technical concepts can be combined to ensure that the Internet remains an enabling environment for human rights. With this, the contours of a model for developing human rights protocol considerations has taken shape.
 
-This document is an iteration of the guidelines that can be found in {{RFC8280}}. The methods for conducting human rights reviews (Section 3.2), and guidelines for human rights considerations (Section 3.3) in this document are being tested for relevance, accuracy and validity.
+This document is an iteration of the guidelines that can be found in {{RFC8280}}. The methods for conducting human rights reviews (Section 3.2), and guidelines for human rights considerations (Section 3.3) in this document are being tested for relevance, accuracy and validity. The understanding of what human rights are is based on the Universal Declaration of Human Rights and subsequent treaties that jointly form the body of international human rights law.
+
+This document does not provide a detailed taxonomy of the nature of human rights violation, whether direct or indirect, long-term or short-term, certain protocol choices might present. In part because this is highly context dependent, and in part because this document aims to provide a practical set of guidelines. However, further research in this field would defintely benefit developers and implementers.
 
 
 Guidelines for developing human rights protocol considerations
@@ -713,7 +715,7 @@ Impacts:
 
 Question(s): Can your protocol facilitate a negatively impacted party's right to remedy without disproportionately impacting other parties' human rights, especially their right to privacy?
 
-Explanation: Access to remedy may help victims of human rights violation in seeking justice, or allow law enforcement agencies to identify a possible violator. However, such mechanisms may impede the exercise of the right to privacy. The Special Rapporteur for Freedom of Expression has also argued that anonymity is an inherent part of freedom of expression [Kaye]. Considering the adverse impact of attribution on the right to privacy and freedom of expression, enabling attribution on an individual level is most likely not consistent with human rights. However, providing access to remedy by states and corporations is an inherent part of the UN Guiding Principles on Business and Human Rights {{UNGP}}.
+Explanation: Access to remedy may help victims of human rights violation in seeking justice, or allow law enforcement agencies to identify a possible violator. However, such mechanisms may impede the exercise of the right to privacy. The former Special Rapporteur for Freedom of Expression has also argued that anonymity is an inherent part of freedom of expression [Kaye]. Considering the adverse impact of attribution on the right to privacy and freedom of expression, enabling attribution on an individual level is most likely not consistent with human rights. However, providing access to remedy by states and corporations is an inherent part of the UN Guiding Principles on Business and Human Rights {{UNGP}}.
 
 Impacts:
 
