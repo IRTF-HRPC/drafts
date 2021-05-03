@@ -1,7 +1,7 @@
 ---
 title: Guidelines for Human Rights Protocol and Architecture Considerations
 abbrev: Guidelines for HRPC
-docname: draft-irtf-hrpc-guidelines-08
+docname: draft-irtf-hrpc-guidelines-09
 category: info
 updates: 8280
 
@@ -715,7 +715,7 @@ Impacts:
 
 Question(s): Can your protocol facilitate a negatively impacted party's right to remedy without disproportionately impacting other parties' human rights, especially their right to privacy?
 
-Explanation: Access to remedy may help victims of human rights violations in seeking justice, or allow law enforcement agencies to identify a possible violator. However, such mechanisms may impede the exercise of the right to privacy. The former Special Rapporteur for Freedom of Expression has also argued that anonymity is an inherent part of freedom of expression [Kaye]. Considering the adverse impact of attribution on the right to privacy and freedom of expression, enabling attribution on an individual level is most likely not consistent with human rights. However, providing access to remedy by states and corporations is an inherent part of the UN Guiding Principles on Business and Human Rights {{UNGP}}.
+Explanation: Access to remedy may help victims of human rights violations in seeking justice, or allow law enforcement agencies to identify a possible violator. However, such mechanisms may impede the exercise of the right to privacy. The former Special Rapporteur for Freedom of Expression has also argued that anonymity is an inherent part of freedom of expression {{Kaye}}. Considering the potential adverse impact of attribution on the right to privacy and freedom of expression, enabling attribution on an individual level is most likely not consistent with human rights. However, providing access to remedy by states and corporations is an inherent part of the UN Guiding Principles on Business and Human Rights {{UNGP}}.
 
 Impacts:
 
