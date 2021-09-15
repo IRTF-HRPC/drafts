@@ -1,7 +1,7 @@
 ---
 title: Guidelines for Human Rights Protocol and Architecture Considerations
 abbrev: Guidelines for HRPC
-docname: draft-irtf-hrpc-guidelines-09
+docname: draft-irtf-hrpc-guidelines-10
 category: info
 updates: 8280
 
@@ -269,6 +269,10 @@ informative:
 --- abstract
 
 This document sets guidelines for human rights considerations for developers working on network protocols and architectures, similar to the work done on the guidelines for privacy considerations {{RFC6973}}. This is an updated version of the guidelines for human rights considerations in {{RFC8280}}. 
+
+This document is not an Internet Standards Track specification; it is published for informational purposes.
+
+This informational document has consensus for publication from the Internet Research Task Force (IRTF) Human Right Protocol Considerations Research Group. It has been reviewed, tried, and tested by both by the research group as well as by researchers and practitioners from outside the research group. The research group acknowledges that the understanding of the impact of internet protocols and architecture on society is a developing practice and is a body of research that is still in development.
 
 --- middle
 
@@ -747,7 +751,8 @@ Thanks to:
 
 Security Considerations
 =======================
-As this document concerns a research document, there are no security considerations.
+
+Article three of the Universal Declaration of Human Rights reads: "Everyone has the right to life, liberty and security of person.". This article underlines the importance of security and its interrelation with human life and liberty, but since human rights are indivisible, interrelated and interdependent, security is also closely linked to other human rights and freedoms. This document seeks to strengthen human rights, freedoms, and security by relating and translating these concepts to concepts and practices as they are used in Internet protocol and architecture development. The aim of this is to secure human right and thereby improve the susainability, usability, and effectiveness of the network. The document seeks to achieve this by providing guidelines as done in section three of this document.
 
 IANA Considerations
 ===================
