@@ -284,7 +284,7 @@ Ultimately master-slave is a poor choice since:
 
  1. it is being used less frequently already in a variety of applications,
  2. it has perceived exclusionary effects, 
- 3. oncerned members of the technical community have requested that its use be ceased.
+ 3. concerned members of the technical community have requested that its use be ceased.
 
 Eglash's research calls into question the accuracy of the master-slave metaphor.  To find alternatives to master-slave, one can look to myriad existing implementations.  There are also many other relationships that can be used as metaphors. An alternative should be chosen based on the pairing that is most clear in context:
 
