@@ -336,7 +336,8 @@ The authors think that document authors should:
  * Consult the RFC Editor Style Guide.
 
 The authors think that the RFC editor should:
- * Offer alternatives for exclusionary terminology as an important act of correcting larger editorial issues and clarifying technical concepts and
+ * Offer alternatives for exclusionary terminology as an important act of correcting larger editorial issues and clarifying technical concepts.
+ * Consult the IETF community and other sources to build and maintain a style sheet that collects reconsidered terminology relevant to the IETF.
  * Suggest to Authors that even when referencing other specifications that have not replaced offensive terminology, the Authors could use another term in their document and include a note to say that they have used the new term as a replacement for the term used in the referenced document.
 
 # Further Reading
