@@ -251,7 +251,7 @@ Given the importance of communication between people developing RFCs, Internet-D
 
 The point of the piece is to lift up the voices of those who choose not to engage because of harmful dynamics such as exclusionary language.
 
-This document presents arguments for why exclusionary terms should be avoided in Internet-Drafts and RFCs and, as an exercise, describes the problems introduced by some specific terms and why their proposed alternatives improve technical documentation. The example terms discussed in this document include "master-slave" and "whitelist-blacklist". There is a final section on additional considerations and general action points to address future RFCs and I-Ds. Lastly, a summary of recommendations is presented.
+This document presents arguments for why exclusionary terms should be avoided in Internet-Drafts and RFCs and, as an exercise, describes the problems introduced by some specific terms and why their proposed alternatives improve technical documentation. The example terms discussed in this document are "master-slave" and "whitelist-blacklist". There is a final section on additional considerations and general action points to address future RFCs and I-Ds. Lastly, a summary of recommendations is presented.
 
 # Terminology and Power in Internet-Drafts and RFCs
 
