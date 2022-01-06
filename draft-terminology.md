@@ -232,7 +232,9 @@ This document represents the opinion of the authors and does not have IETF conse
 According to {{RFC7322}}, "The ultimate goal of the RFC publication process is to produce documents that are readable, clear, consistent, and reasonably uniform," and one function of the RFC Editor is to "[c]orrect larger content/clarity issues; flag any unclear passages for author review." Documents that are published as RFCs are first worked on as Internet-Drafts.
  
 Given the importance of communication between people developing RFCs, Internet-Drafts (I-D's), and related documents, it is worth considering the effects of terminology that has been identified as exclusionary. This document argues that certain obviously exclusionary terms should be avoided and replaced with alternatives. We propose nothing more than additional care in the choice of language just as care is taken in defining standards and protocols themselves.
- 
+
+The point of the piece is to lift up the voices of those who choose not to engage because of harmful dynamics such as exclusionary language.
+
 This document presents arguments for why exclusionary terms should be avoided in Internet-Drafts and RFCs and as an exercise describes the problems introduced by some specific terms and why their proposed alternatives improve technical documentation. The example terms discussed in this document include "master-slave" and "whitelist-blacklist". There is a final section on additional considerations and general action points to address future RFCs and I-D's. Lastly, a summary of recommendations is presented.
 
 # Terminology and Power in Internet-Drafts and RFCs
