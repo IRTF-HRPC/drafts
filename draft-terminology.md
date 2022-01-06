@@ -326,7 +326,7 @@ It is there that we welcome additional examples of terminology that might be avo
 
 # Summary of Recommendations
 
-To summarise, we have listed some very concrete action points that can be taken by Editors, reviewers and Authors, both present and future as they develop and publish Internet-Drafts and new RFCs.
+To summarise, we have listed some concrete action points that can be taken by Editors, reviewers and Authors, both present and future as they develop and publish Internet-Drafts and new RFCs.
 
 The authors think that document authors should:
 
@@ -338,6 +338,7 @@ The authors think that document authors should:
  * Consult the RFC Editor Style Guide.
 
 The authors think that the RFC editor should:
+
  * Offer alternatives for exclusionary terminology as an important act of correcting larger editorial issues and clarifying technical concepts.
  * Consult the IETF community and other sources to build and maintain a style sheet that collects reconsidered terminology relevant to the IETF.
  * Suggest to Authors that even when referencing other specifications that have not replaced offensive terminology, the Authors could use another term in their document and include a note to say that they have used the new term as a replacement for the term used in the referenced document.
@@ -356,7 +357,6 @@ Miller, Carolyn, R. 1979. "A Humanistic Rationale for Technical Writing" College
 # Security Considerations
 
 Security is dependent on a wide range of actors that are implementing technical documentation. Therefore it is crucial that language is clear, and understood by all that need to implement this documentation. Correct and inclusive language is therefore conducive for secure implementations of technical documentation. 
-
 
 # IANA Considerations
 
