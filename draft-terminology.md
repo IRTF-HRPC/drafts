@@ -219,6 +219,22 @@ informative:
          - org: New York Times
       target: https://www.nytimes.com/2021/04/13/technology/racist-computer-engineering-terms-ietf.html
       
+   IESG:
+      title: IESG Statement on Inclusive Language
+      date: 2021
+      author:
+         - ins: 
+         - org: Internet Engineering Steering Group
+      target: https://www.ietf.org/about/groups/iesg/statements/on-inclusive-language/
+
+   NIST0:
+      title: Guidance for NIST Staff on Using Inclusive Language in Documentary Standards
+      date: 2021
+      author:
+         - ins: 
+         - org: National Institute of Standards and Technology
+      target: https://doi.org/10.6028/NIST.IR.8366
+
 --- abstract
 
 This document argues for more inclusive language conventions sometimes used by RFC authors and the RFC Production Centre in Internet-Drafts that are work in progress, and in new RFCs that may be published in any of the RFC series, in order to foster greater knowledge transfer and improve diversity of participation in the IETF.
@@ -314,6 +330,7 @@ The authors think that document authors should:
 
  * Replace and avoid the exclusionary terms "master-slave" and "blacklist-whitelist" with more accurate alternatives.
  * Read and reflect upon the repository of exclusionary terminology maintained by the community {{inclusiveterminology}}.
+ * As the IESG has recommended {{IESG}}, follow the NIST guidance on the use of inclusive language in standards {{NIST0}}.
  * Reflect on their use of metaphors generally.
  * Consider changing existing exclusionary language in current (reference) implementations {{socketwench}}.
  * Consult the RFC style sheet maintained by the RFC editor 
