@@ -312,7 +312,7 @@ To summarise, we have listed some very concrete action points that can be taken 
 
 The authors think that document authors should:
 
- * Replace the exclusionary terms "master-slave" and "blacklist-whitelist" with more accurate alternatives.
+ * Replace and avoid the exclusionary terms "master-slave" and "blacklist-whitelist" with more accurate alternatives.
  * Read and reflect upon the repository of exclusionary terminology maintained by the community {{inclusiveterminology}}.
  * Reflect on their use of metaphors generally.
  * Consider changing existing exclusionary language in current (reference) implementations {{socketwench}}.
