@@ -333,7 +333,7 @@ The authors think that document authors should:
  * As the IESG has recommended {{IESG}}, follow the NIST guidance on the use of inclusive language in standards {{NIST0}}.
  * Reflect on their use of metaphors generally.
  * Consider changing existing exclusionary language in current (reference) implementations {{socketwench}}.
- * Consult the RFC style sheet maintained by the RFC editor 
+ * Consult the RFC Editor Style Guide.
 
 The authors think that the RFC editor should:
  * Offer alternatives for exclusionary terminology as an important act of correcting larger editorial issues and clarifying technical concepts and
