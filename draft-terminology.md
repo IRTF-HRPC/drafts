@@ -270,7 +270,7 @@ Like Graves, this document recognises the monumental challenge of addressing lin
  3. At the time of writing, the digital technology community has a problem with monoculture {{RFC7704}} {{Cath}}. And because the lack of diversity of the technical community is a problem, a key strategy to breaking monoculture is to ensure that technical documentation is addressed to a wider audience and more readers.
  4. The technical community already includes members who take offense to these terms. Eradicating the use of exclusionary terminology in technology recognises the presence of and acknowledges the requests from black and brown engineers and from women and gender-non-conforming engineers to avoid the use of exclusionary terminology {{Wired}} {{Seele}}.  RFCs and I-Ds are some of the primary technical specifications in the Internet and should follow this principle.
 
-This document does not try to prescribe terminology shifts for any and all language that could be deemed exclusionary. Instead what follow are two examples of specific alternative suggestions to "master-slave" and "white-blacklist" and the rationale for the use of the alternatives. Suggested actions for handling additional considerations are presented in a subsequent section.
+This document does not try to prescribe terminology shifts for any and all language that could be deemed exclusionary. Instead we illustrate an overall approach through the following two most eggregious examples of specific term pairs "master-slave" and "white-blacklist" and the rationale for the use of suggested alternatives. Suggested actions for handling additional considerations are presented in a subsequent section.
 
 ## Master-Slave
 
