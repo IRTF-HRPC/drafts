@@ -40,7 +40,7 @@ informative:
    RFC7322:
    RFC7704:
    RFC8499:
-   RFC8782:
+   RFC9132:
    RFC8783:
    RFC8612:
 
@@ -301,11 +301,11 @@ Indeed, there is an entire book on the subject, written by renowned authority on
 
 In the case of blacklist-whitelist in the technical documentation of I-Ds and RFCs, it is entirely a term of art and an arbitrary metaphorical construct with no technical merit. There are scientific uses of black that are related to light - black holes are black because light cannot escape them. Blacklist-whitelist is not a metaphor for lightness or darkness, it is a good-evil metaphor and therefore this trope has significant impact on how people are seen and treated. As we've seen with metaphors, its use is pervasive and, though not necessarily conscious, perceptions do get promulgated through culture and repetition.
 
-As with master-slave, we save our technical argument for last, referencing and presenting first the reasons for the use of non-offensive, alternative terminology for the sake of our humanity. Indeed, our technical argument is incredibly succinct: Why use a metaphor when a direct description is both succinct and clear? There can be absolutely no ambiguity if one uses the terms, as suggested below, allow-block rather than white-black.
+As with master-slave, we save our technical argument for last, referencing and presenting first the reasons for the use of non-offensive, alternative terminology for the sake of our humanity. Indeed, our technical argument is succinct: Why use a metaphor when a direct description is both succinct and clear? There can be absolutely no ambiguity if one uses the terms, as suggested below, allow-block rather than white-black.
 
 There are alternatives to this terminology set that vastly improve clarity because they are not even metaphors, they're descriptions. The alternatives proposed here say exactly what they mean.
 
- * Accept-list and Drop-list for threat signaling. See for example {{RFC8612}}, {{RFC8782}}, and {{RFC8783}}).
+ * Accept-list and Drop-list for threat signaling. See for example {{RFC8612}}, {{RFC9132}}, and {{RFC8783}}).
  * Blocklist-allowlist, deny-allow, exempt-allowlist or block-permit for permissions.
 
 ## Other Considerations
