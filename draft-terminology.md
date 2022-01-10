@@ -58,7 +58,7 @@ informative:
          - ins: Ron Eglash
       date: 2007
       seriesinfo: "Technology and Culture, vol. 48 no. 2, 2007, pp. 360-369."
-      target: https://doi.org/10.1353/tech.2007.0066
+      target: https://doi.org/10.1353/tech.2007.0066 https://www.researchgate.net/publication/236752849_Broken_Metaphor_The_Master-Slave_Analogy_in_Technical_Literature
 
    BrodieGravesGraves:
       title: "Masters, slaves, and infant mortality: Language challenges for technical editing"
