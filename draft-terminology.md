@@ -75,6 +75,7 @@ informative:
           - ins: Sally Wyatt
        date: 2004
        seriesinfo: "Science, Technology, and Human Values, Volume: 29 issue: 2, page(s): 242-261"
+       target: https://journals.sagepub.com/doi/10.1177/0162243903261947 https://www.exeter.ac.uk/media/universityofexeter/internationalexeter/documents/iss/Wyatt_danger-metaphors_(3).pdf
 
    Lakoff:
        title: Metaphors We Live By
