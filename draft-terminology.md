@@ -370,6 +370,8 @@ Miller, Carolyn, R. 1979. "A Humanistic Rationale for Technical Writing" College
 
 Security is dependent on a wide range of actors that are implementing technical documentation. Therefore it is crucial that language is clear, and understood by all that need to implement this documentation. Correct and inclusive language is therefore conducive for secure implementations of technical documentation. 
 
+Changing terminology that is common in use can be leveraged as security risk because it may lead people to misunderstand what is being talked about. It is therefore recommended that when language is changed because of the reasons described in this document, it should be documented as such. 
+
 # IANA Considerations
 
 This document has no actions for IANA.
