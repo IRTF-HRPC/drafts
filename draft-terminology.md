@@ -89,6 +89,7 @@ informative:
       author:
          - ins: George Orwell
       date: 1946
+      target: https://www.orwell.ru/library/essays/politics/english/e_polit/
 
    McClelland:
       title: We need better metaphors
