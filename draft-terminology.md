@@ -214,7 +214,7 @@ informative:
       target: https://www.bu.edu/articles/2020/striking-out-racist-terminology-in-engineering/
 
    Conger:
-      title: 'Master,' 'Slave' and the Fight Over Offensive Terms in Computing
+      title: "'Master,' 'Slave' and the Fight Over Offensive Terms in Computing"
       date: 2021
       author:
          - ins: Kate Conger
