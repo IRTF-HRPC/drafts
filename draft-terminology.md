@@ -1,8 +1,8 @@
 ---
 title: Terminology, Power, and Exclusionary Language in Internet-Drafts and RFCs
 abbrev: Terminology
-docname: draft-knodel-terminology-05
-date: 2021-02-22
+docname: draft-knodel-terminology-08
+date: 2022-01-12
 category: info
 
 ipr: trust200902
@@ -233,20 +233,23 @@ informative:
       title: Guidance for NIST Staff on Using Inclusive Language in Documentary Standards
       date: 2021
       author:
-         - ins: 
          - org: National Institute of Standards and Technology
       target: https://doi.org/10.6028/NIST.IR.8366
       
-   draft-les-white1:
-       title: TLS Preferred Pronouns
-       date: 2021
-       target: https://datatracker.ietf.org/doc/html/draft-les-white-tls-preferred-pronouns-00
-       
-   draft-les-white2:
-       title: Intersectional Dots
-       date: 2021
-       target: https://datatracker.ietf.org/doc/html/draft-les-white-intersectional-dots-00
+   White1:
+      title: TLS Preferred Pronouns
+      date: 2021
+      author:
+         - ins: Les White
+      target: https://datatracker.ietf.org/doc/html/draft-les-white-tls-preferred-pronouns-00
 
+   White2:
+      title: Intersectional Dots
+      date: 2021
+      author:
+         - ins: Les White
+      target: https://datatracker.ietf.org/doc/html/draft-les-white-intersectional-dots-00
+      
 --- abstract
 
 This document argues for more inclusive language conventions sometimes used by RFC authors and the RFC Production Centre in Internet-Drafts that are work in progress, and in new RFCs that may be published in any of the RFC series, in order to foster greater knowledge transfer and improve diversity of participation in the IETF.
@@ -334,7 +337,7 @@ Besides race and gender, our world is full of metaphors rooted in oppression, ab
 
 While it is not our intention to be exhaustive we hope to have made a persuasive case for authors and editors to pay attention to the finer details of metaphor, and the ways power is replicated in technical documentation unless detailed attention is paid. The example terms above "master-slave" and "blacklist-whitelist" are already less common. If the IETF community has learned anything from the debate over the use of these terms, and this document, it is that language matters to us deeply as members of society and as engineers. And because language, and society, change over time, we must approach future concerns with some degree of dispassion when the arguments presented in the first section can be clearly applied.
 
-There is harm in protracted discussion about the validity of the experience of IETF participants with exclusionary terminology because it invalidates this people's experiences. Behavior that, some of which labeled IESG as racist and disrepectful and therefore removed {{draft-les-white1}} {{draft-les-white2}}, surfaced in the community as a result of this larger debate among technologists pushed away participants and observers {{Conger}}. This illustrates the need to, as Graves is cited above as saying, continue to raise awareness within our community for eventual, lasting change on the continued front of struggle against the racists amongst us. Yet we recommend a living stylesheet, rather than repeated RFCs, be used as a mechanism for monitoring exclusionary language in IETF documents {{inclusiveterminology}}.
+There is harm in protracted discussion about the validity of the experience of IETF participants with exclusionary terminology because it invalidates this people's experiences. Behavior that, some of which labeled IESG as racist and disrepectful and therefore removed {{White1}}{{White2}} surfaced in the community as a result of this larger debate among technologists pushed away participants and observers {{Conger}}. This illustrates the need to, as Graves is cited above as saying, continue to raise awareness within our community for eventual, lasting change on the continued front of struggle against the racists amongst us. Yet we recommend a living stylesheet, rather than repeated RFCs, be used as a mechanism for monitoring exclusionary language in IETF documents {{inclusiveterminology}}.
 
 It is there that we welcome additional examples of terminology that might be avoided through more awareness and thoughtfulness.
 
