@@ -45,11 +45,11 @@ informative:
    RFC8612:
 
    Burgest:
-      title: “Racism in Everyday Speech and Social Work Jargon.”
+      title: "Racism in Everyday Speech and Social Work Jargon."
       author:
          - ins: David R. Burgest
       date: 1973
-      seriesinfo: "Social Work, vol. 18, no. 4, 1973, pp. 20–25"
+      seriesinfo: "Social Work, vol. 18, no. 4, 1973, pp. 20-25"
       target: www.jstor.org/stable/23711113.
 
    Eglash:
@@ -199,7 +199,7 @@ informative:
       seriesinfo: "Telecommunications Policy 45, no. 6 (July 1, 2021): 102144."
    
    Wired:
-      title: "Tech Confronts Its Use of the Labels ‘Master’ and ‘Slave’"
+      title: "Tech Confronts Its Use of the Labels 'Master' and 'Slave'"
       date: 2020
       author:
          - ins: Elizabeth Landau
@@ -214,7 +214,7 @@ informative:
       target: https://www.bu.edu/articles/2020/striking-out-racist-terminology-in-engineering/
 
    Conger:
-      title: ‘Master,’ ‘Slave’ and the Fight Over Offensive Terms in Computing
+      title: 'Master,' 'Slave' and the Fight Over Offensive Terms in Computing
       date: 2021
       author:
          - ins: Kate Conger
@@ -271,7 +271,7 @@ This document presents arguments for why exclusionary terms should be avoided in
 
 This analysis is presented as the authors' commentary on the IETF process and does not represent the opinion of the IETF.
    
-According to the work of Heather Brodie Graves from 1993, "One goal of the application of rhetorical theory in the technical communication classroom is to assess the appropriateness of particular terms and to evaluate whether these terms will facilitate or hinder the readers’ understanding of the technical material" {{BrodieGravesGraves}}. This implies that in order to effectively communicate the content of I-Ds and RFCs to all readers, it is important for Authors to consider the kinds of terms or language conventions that may inadvertently get in the way of effective communication. She continues, "Complex and subtle configurations of sexist, racist, or ethnocentric language use in technical documents can derail or interfere with readers’ ability and desire to comprehend and follow important information."
+According to the work of Heather Brodie Graves from 1993, "One goal of the application of rhetorical theory in the technical communication classroom is to assess the appropriateness of particular terms and to evaluate whether these terms will facilitate or hinder the readers' understanding of the technical material" {{BrodieGravesGraves}}. This implies that in order to effectively communicate the content of I-Ds and RFCs to all readers, it is important for Authors to consider the kinds of terms or language conventions that may inadvertently get in the way of effective communication. She continues, "Complex and subtle configurations of sexist, racist, or ethnocentric language use in technical documents can derail or interfere with readers' ability and desire to comprehend and follow important information."
 
 Indeed, problems of language are problems of everyday speech. Racist and sexist language is rampant and similarly counter-productive in other sectors, notably social work {{Burgest}}. The terms "master-slave" (treated in detail below) are present in other realms of technology, notably, "Automotive clutch and brake systems, clocks, flip-flop circuits, computer drives, and radio transmitters" {{Eglash}}.
 
@@ -363,9 +363,9 @@ The authors think that the RFC editor should:
 
 For more information on this topic we suggest reading:
 
-Ford, Heather., Wajcman, Judy. 2017. "‘Anyone can edit’, not everyone does: Wikipedia and the gender gap" Social Studies of Science. ISSN 0306-3127
+Ford, Heather., Wajcman, Judy. 2017. "'Anyone can edit', not everyone does: Wikipedia and the gender gap" Social Studies of Science. ISSN 0306-3127
 
-Grant, Barbara M. 2008. "Master—slave dialogues in humanities supervision" 
+Grant, Barbara M. 2008. "Master-slave dialogues in humanities supervision" 
 Arts and Humanities in Higher Education, Volume: 7 issue: 1, page(s): 9-27 https://doi.org/10.1177/1474022207084880
 
 Miller, Carolyn, R. 1979. "A Humanistic Rationale for Technical Writing" College English, Vol. 40, No. 6, pp. 610-617 
