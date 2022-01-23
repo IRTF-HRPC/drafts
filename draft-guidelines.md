@@ -66,6 +66,7 @@ informative:
    RFC8484:
    RFC8980:
    RFC3935:
+   RFC7754:
 
    UDHR:
      title: The Universal Declaration of Human Rights
@@ -194,6 +195,17 @@ informative:
         - ins: B. Jones
         - ins: N. Feamster
      target: https://tools.ietf.org/html/draft-irtf-pearg-censorship
+
+   draft-pauly-dprive-oblivious-doh:
+     title: Oblivious DNS Over HTTPS
+     date: 2022
+     author:
+        - ins: E. Kinnear
+        - ins: P. McManus
+        - ins: T. Pauly
+        - ins: T. Verma
+        - ins: C.A. Wood
+     target: https://tools.ietf.org/html/draft-pauly-dprive-oblivious-doh
 
    draft-zuniga-mac-address-randomization:
      title: MAC address randomization
@@ -502,11 +514,11 @@ Integrity refers to the maintenance and assurance of the accuracy and consistenc
 Example:
 Integrity verification of data is important to prevent vulnerabilities and attacks from on-path attackers. These attacks happen when a third party (often for malicious reasons) intercepts a communication between two parties, inserting themselves in the middle changing the content of the data. In practice this looks as follows:
 
-Alice wants to communicate with Bob.  
-Corinne forges and sends a message to Bob, impersonating Alice.  
-Bob cannot see the data from Alice was altered by Corinne.  
-Corinne intercepts and alters the communication as it is sent between Alice and Bob.  
-Corinne is able to control the communication content.  
+Alice wants to communicate with Bob. 
+Corinne forges and sends a message to Bob, impersonating Alice. 
+Bob cannot see the data from Alice was altered by Corinne. 
+Corinne intercepts and alters the communication as it is sent between Alice and Bob. 
+Corinne is able to control the communication content. 
 
 Impacts:
 
@@ -526,20 +538,20 @@ At the same time, authentication should not be used as a way to prevent heteroge
 Example:
 Authentication of data is important to prevent vulnerabilities, and attacks from on-path attackers. These attacks happen when a third party (often for malicious reasons) intercepts a communication between two parties, inserting themselves in the middle and posing as both parties. In practice this looks as follows:
 
-Alice wants to communicate with Bob.  
-Alice sends data to Bob.  
-Corinne intercepts the data sent to Bob.  
-Corinne reads (and potentially alters) the message to Bob.  
-Bob cannot see the data did not come from Alice but from Corinne.  
+Alice wants to communicate with Bob. 
+Alice sends data to Bob. 
+Corinne intercepts the data sent to Bob. 
+Corinne reads (and potentially alters) the message to Bob. 
+Bob cannot see the data did not come from Alice but from Corinne. 
 
 
 When there is proper authentication the scenario would be as follows:
 
-Alice wants to communicate with Bob.  
-Alice sends data to Bob.  
-Corinne intercepts the data sent to Bob.  
-Corinne reads and alters the message to Bob.  
-Bob can see the data did not come from Alice.  
+Alice wants to communicate with Bob. 
+Alice sends data to Bob. 
+Corinne intercepts the data sent to Bob. 
+Corinne reads and alters the message to Bob. 
+Bob can see the data did not come from Alice. 
 
 Impacts:
 
