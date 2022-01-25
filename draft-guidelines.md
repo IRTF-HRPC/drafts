@@ -285,6 +285,19 @@ informative:
      author:
         - org: United Nations
      target: https://www.ohchr.org/en/professionalinterest/pages/coreinstruments.aspx
+     
+   arkkoetal:
+     title: Considerations on Internet Consolidation and the Internet Architecture
+     date: 2019
+     author:
+        - ins: J. Arkko
+        - ins: B. Trammell
+        - ins: M. Notthingham
+        - ins: C. Huitema
+        - ins: M. Thomson
+        - ins: J. Tantsure
+        - ins: N. ten Oever
+     target: https://datatracker.ietf.org/doc/html/draft-arkko-iab-internet-consolidation-02
 
 
 --- abstract
@@ -745,10 +758,10 @@ Impacts:
 ## Decentralization
 
 Question(s):
-Can your protocol be implemented without a single point of control? If applicable, can your protocol be deployed in a federated manner? What is the potential for discrimination against users of your protocol? How can your protocol be used to implicate users? Does your protocol create additional centralized points of control?
+Can your protocol be implemented without a single point of control? If applicable, can your protocol be deployed in a federated manner? Does your protocol create additional centralized points of control?
 
 Explanation:
-Decentralization is one of the central technical concepts of the architecture of the networks, and is embraced as such by the IETF {{RFC3935}}. It refers to the absence or minimization of centralized points of control, a feature that is assumed to make it easy for new users to join and new uses to unfold {{Brown}}. It also reduces issues surrounding single points of failure, and distributes the network such that it continues to function even if one or several nodes are disabled. With the commercialization of the Internet in the early 1990s, there has been a slow move away from decentralization, to the detriment of the technical benefits of having a decentralized Internet.
+Decentralization is one of the central technical concepts of the architecture of the Internet, and is embraced as such by the IETF {{RFC3935}}. It refers to the absence or minimization of centralized points of control, a feature that is assumed to make it easy for new users to join and new uses to unfold {{Brown}}. It also reduces issues surrounding single points of failure, and distributes the network such that it continues to function even if one or several nodes are disabled. With the commercialization of the Internet in the early 1990s, there has been a slow move away from decentralization, to the detriment of the technical benefits of having a decentralized Internet. For a more detailed discussion of this topic, please see {{arkkoetal}}.
 
 Example:
 The bits traveling the Internet are increasingly susceptible to monitoring and censorship, from both governments and Internet service providers, as well as third (malicious) parties. The ability to monitor and censor is further enabled by the increased centralization of the network that creates central infrastructure points that can be tapped into. The creation of peer-to-peer networks and the development of voice-over-IP protocols using peer-to-peer technology in combination with distributed hash table (DHT) for scalability are examples of how protocols can preserve decentralization {{Pouwelse}}.
