@@ -1,7 +1,7 @@
 ---
 title: Guidelines for Human Rights Protocol and Architecture Considerations
 abbrev: Guidelines for HRPC
-docname: draft-irtf-hrpc-guidelines-11
+docname: draft-irtf-hrpc-guidelines-12
 category: info
 updates: 8280
 
@@ -750,7 +750,7 @@ Sometimes in the design of protocols, websites, web technologies, or web tools, 
 Example:
 The HTML protocol as defined in {{HTML5}} specifically requires that every image must have an alt attribute (with a few exceptions) to ensure images are accessible for people that cannot themselves decipher non-text content in web pages.
 
-Another example is the works that is done in the AVT and AVTCORE working groups in the IETF that enable text conversation in multimedia, text telephony, wireless multimedia and video communications for sign language and lip-reading (ie. {{9071}}).
+Another example is the works that is done in the AVT and AVTCORE working groups in the IETF that enable text conversation in multimedia, text telephony, wireless multimedia and video communications for sign language and lip-reading (ie. {{RFC9071}}).
 
 Impacts:
 
@@ -815,7 +815,7 @@ Security Considerations
 Article three of the Universal Declaration of Human Rights reads: "Everyone has the right to life, liberty and security of person.". This article underlines the importance of security and its interrelation with human life and liberty, but since human rights are indivisible, interrelated and interdependent, security is also closely linked to other human rights and freedoms. This document seeks to strengthen human rights, freedoms, and security by relating and translating these concepts to concepts and practices as they are used in Internet protocol and architecture development. The aim of this is to secure human right and thereby improve the susainability, usability, and effectiveness of the network. The document seeks to achieve this by providing guidelines as done in section three of this document.
 
 IANA Considerations
-===================
+================https://github.com/IRTF-HRPC/drafts/commit/5500acb24a3ddcd1bad2c474cea81f0b298e83e1===
 This document has no actions for IANA.
 
 Research Group Information
