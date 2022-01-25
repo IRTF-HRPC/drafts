@@ -67,6 +67,7 @@ informative:
    RFC8980:
    RFC3935:
    RFC7754:
+   RFC9071:
 
    UDHR:
      title: The Universal Declaration of Human Rights
@@ -731,6 +732,8 @@ Sometimes in the design of protocols, websites, web technologies, or web tools, 
 
 Example:
 The HTML protocol as defined in {{HTML5}} specifically requires that every image must have an alt attribute (with a few exceptions) to ensure images are accessible for people that cannot themselves decipher non-text content in web pages.
+
+Another example is the works that is done in the AVT and AVTCORE working groups in the IETF that enable text conversation in multimedia, text telephony, wireless multimedia and video communications for sign language and lip-reading (ie. {{9071}}).
 
 Impacts:
 
