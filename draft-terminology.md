@@ -1,8 +1,8 @@
 ---
 title: Terminology, Power, and Exclusionary Language in Internet-Drafts and RFCs
 abbrev: Terminology
-docname: draft-knodel-terminology-08
-date: 2022-01-12
+docname: draft-knodel-terminology-09
+date: 2022-02-09
 category: info
 
 ipr: trust200902
